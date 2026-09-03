@@ -1,0 +1,7 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 2
+#SAY
+不和双手沾满血腥的人交流...\
+#ELSESAY
+欢迎使用寄售行\

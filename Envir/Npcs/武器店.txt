@@ -1,0 +1,16 @@
+%120
++5
+
+[@MAIN]
+#INCLUDE [Npcs/BASE/BuySell.txt] @MAIN
+
+[Goods]
+木剑
+乌木剑
+鹤嘴锄
+匕首
+青铜剑
+铁剑
+入门暗杀匕首
+初级暗杀匕首
+中级暗杀匕首

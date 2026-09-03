@@ -1,0 +1,65 @@
+﻿[
+  {
+    "WorkflowName": "奖金池玩法-领取奖金",
+    "GlobalParams": [
+      {
+        "Name": "当前服务器人数",
+        "Expression": "SEnvir.Connections.Count"
+      },
+      {
+        "Name": "人品爆发额外比例",
+        "Expression": "0.1"
+      },
+      {
+        "Name": "人品爆发几率",
+        "Expression": "1"
+      },
+      { // 80就是玩家杀怪 只有80%的机会 获得奖励 改成100就是原来的样子
+        "Name": "获取几率",
+        "Expression": "(input2.玩家.Class != MirClass.Assassin) ? 50 : 80"
+      }
+    ],
+    "Rules": [
+      {
+        "RuleName": "计算最终奖励",
+        "ErrorMessage": "计算最终奖励失败",
+        "Enabled": true,
+        "ErrorType": 0,
+        "RuleExpressionType": 0,
+        "LocalParams": [ // 各种加成可以写在这
+          {
+            "Name": "活动期间加成",
+            "Expression": "0"
+          },
+          {
+            "Name": "人品爆发加成",
+            "Expression": "SEnvir.Random.Next(100) < 人品爆发几率 ? 人品爆发额外比例 : 0"
+          },
+          {
+            "Name": "组队调整",
+            "Expression": "input2.组队人数 < 1 ? 0 : -0.05"
+          },
+          {
+            "Name": "职业调整",
+            "Expression": "(input2.玩家.Class != MirClass.Assassin && input2.组队人数 < 1) ? 0.5 : 1"
+          },
+          { // 这里取个随机数 如果能获取 本变量是1 否则是0
+            "Name": "本次是否获取奖励",
+            "Expression": "SEnvir.Random.Next(100) < 获取几率 ? 1 : 0"
+          }
+        ],
+        // 最终奖励算法
+        // y=\log_{2}\left(x+1\right)
+        "Expression": "true",
+        "Actions": {
+          "OnSuccess": {
+            "Name": "OutputExpression",
+            "Context": {
+              "Expression": "本次是否获取奖励 * 2 * (0.000000162 * Convert.ToDecimal(职业调整) * input1.当前奖金池余额 * Convert.ToDecimal(0.1+活动期间加成+人品爆发加成+组队调整)  * input2.怪物.MonsterInfo.Level / 25 / Math.Max(1, input2.组队人数))"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[@MAIN]
+#SAY
+{欢/red}{迎/orange}{来/yellow}{到/green}{红/red}{色/cyan}{传/blue}{奇/purple}3\
+{FCOLOR/1}欢{FCOLOR/2}迎{FCOLOR/3}来{FCOLOR/4}到{FCOLOR/5}红{FCOLOR/6}色{FCOLOR/7}传{FCOLOR/8}奇{FCOLOR/12}3\\\
+(加入群聊：361852683/https://jq.qq.com/?_wv=1027&k=LpaDe8VQ)\
+(红色传奇三官方网站/http://www.lomcn.cn)

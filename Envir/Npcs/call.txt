@@ -1,0 +1,23 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 2
+#SAY
+不和双手沾满血腥的人交流...
+ 
+ 
+<Close/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+CALL调用成功
+
+<买卖/@BuySell> 商品
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+CALL中，您想买或卖哪一种商品？
+<返回/@Main-1>
+<首页/@main>

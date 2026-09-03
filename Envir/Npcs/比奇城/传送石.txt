@@ -1,0 +1,15 @@
+[@MAIN]
+#INCLUDE [Npcs/Base/Check.txt] @MAIN
+#ELSESAY
+<潘夜村落/@port1> 500金币\
+
+[@port1]
+#IF
+CHECKGOLD > 500
+#ACT
+TAKEGOLD 500
+MOVE 2 193 158
+#ELSESAY
+路费不够\\
+
+<返回/@MAIN>

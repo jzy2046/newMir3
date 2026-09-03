@@ -1,0 +1,14 @@
+%120
++0
+
+[@MAIN]
+#INCLUDE [Npcs/BASE/BuySell.txt] @MAIN
+
+[Goods]
+金创药(小)
+金创药(中)
+金创药(大)
+金创药(特)
+魔法药(小)
+魔法药(中)
+魔法药(大)

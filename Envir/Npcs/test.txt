@@ -1,0 +1,52 @@
+[@MAIN]
+#SAY
+{欢/red}{迎/orange}{来/yellow}{到/green}{红/red}{色/cyan}{传/blue}{奇/purple}3\
+{FCOLOR/1}欢{FCOLOR/12}{FCOLOR/2}迎{FCOLOR/12}{FCOLOR/3}来{FCOLOR/12}{FCOLOR/4}到{FCOLOR/12}{FCOLOR/5}红{FCOLOR/12}{FCOLOR/6}色{FCOLOR/12}{FCOLOR/7}传{FCOLOR/12}{FCOLOR/8}奇{FCOLOR/12}3\
+{FCOLOR/6}┏────────────────────────┓\
+│{FCOLOR/12}  欢迎来到{FCOLOR/15} 【征沙传奇三】《超V新版》 {FCOLOR/12}新区内测{FCOLOR/6}   │ \
+┣────────────────────────┫\
+│                {FCOLOR/14}〖内测特定功能〗{FCOLOR/6}                │\
+│ <【 内测攻略 】/@内测攻略S> {FCOLOR/8}内测设置 内测打RMB 打内测金钻指南{FCOLOR/6}│\
+│<【 内测调号 】/@内测攻略S> {FCOLOR/8}调到V8 1000转10000级 技能 体验内测{FCOLOR/6}│\
+│<【 内测泡点 】/@内测攻略S> {FCOLOR/8}开启内测泡积分积分卷  内测钻石   {FCOLOR/6}│\
+│                                                │\
+│     <『合内测钻石RMB』/@内测攻略S>    <『存内测钻分RMB』/@内测攻略S>     │\
+│                                                │\
+┣────────────────────────┫\
+│                {FCOLOR/14}〖内测体验装备〗{FCOLOR/6}                │\
+│<『套装类』/@内测攻略S>   <『仙阶类』/@内测攻略S>   <『英雄令』/@内测攻略S>  <『法宝类』/@内测攻略S>│\
+│<『坐骑类』/@内测攻略S>   <『首饰类』/@内测攻略S>   <『防具类』/@内测攻略S>  <『武器类』/@内测攻略S>│\
+┣────────────────────────┫\
+│                {FCOLOR/14}〖内测其他功能〗{FCOLOR/6}                │\
+│<『特殊类装备』/@内测攻略S>   <『钻石RMB 等』/@内测攻略S>   <『证明凭证类』/@内测攻略S>│\
+┗────────────────────────┛\
+__{FCOLOR/6}┏──────────────────────┓\
+__{FCOLOR/6}│ {FCOLOR/13}征沙传奇三官方网站：http://www.zsmir3.com{FCOLOR/6}  │\
+__{FCOLOR/6}┗──────────────────────┛{FCOLOR/12}\
+
+[@内测攻略S]
+#SAY
+{1红色/Red}  {2淡绿/LimeGreen}  {3土黄/Khaki}  {4淡灰/LightGray}  {5淡红/LightPink}\
+{6淡蓝/LightBlue}  {7中蓝/MediumBlue}  {8淡白/WhiteSmoke}  {9紫色/Purple}  {10绿色/Lime}\
+{11蓝色/Blue}  {12白色/White}  {13深紫/Magenta}  {14天蓝/Cyan}  {15黄色/Yellow}\
+{16黑色/Black}  {17棕色/DarkSalmon}  {18淡灰/DimGray}\\
+{FCOLOR/1}颜色测试红色{FCOLOR/12}\
+{FCOLOR/2}颜色测试淡绿{FCOLOR/12}\
+{FCOLOR/3}颜色测试土黄{FCOLOR/12}\
+{FCOLOR/4}颜色测试淡灰{FCOLOR/12}\
+{FCOLOR/5}颜色测试淡红{FCOLOR/12}\
+{FCOLOR/6}颜色测试淡蓝{FCOLOR/12}\
+{FCOLOR/7}颜色测试中蓝{FCOLOR/12}\
+{FCOLOR/8}颜色测试淡白{FCOLOR/12}\
+{FCOLOR/9}颜色测试紫色{FCOLOR/12}\
+{FCOLOR/10}颜色测试绿色{FCOLOR/12}\
+{FCOLOR/11}颜色测试蓝色{FCOLOR/12}\
+{FCOLOR/13}颜色测试深紫{FCOLOR/12}\
+{FCOLOR/14}颜色测试天蓝{FCOLOR/12}\
+{FCOLOR/15}颜色测试黄色{FCOLOR/12}\
+{FCOLOR/16}颜色测试黑色{FCOLOR/12}\
+{FCOLOR/17}颜色测试棕色{FCOLOR/12}\
+{FCOLOR/18}颜色测试淡灰{FCOLOR/12}\
+{FCOLOR/19}颜色测试淡黑{FCOLOR/12}\\
+
+<返 回/@MAIN>

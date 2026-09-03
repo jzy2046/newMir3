@@ -1,0 +1,11 @@
+[@MAIN]
+#INCLUDE [Npcs/Base/Check.txt] @MAIN
+#ELSESAY
+<比奇城/@port1> 500金币
+
+[@port1]
+#IF
+CHECKGOLD > 500
+#ACT
+TAKEGOLD 500
+MOVE 0 812 671
