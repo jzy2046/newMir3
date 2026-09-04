@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import importlib.util
 import io
 import json
@@ -16,6 +17,7 @@ from typing import Any
 
 
 KINDS = ("items", "monsters", "sets")
+SOURCES_LOGICAL_PATH = "docs/research/mir3-145-sources.md"
 REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-version"}
 _REFERENCE_VALIDATOR: Any | None = None
 
@@ -148,7 +150,14 @@ def render_markdown(snapshot: dict[str, Any], reference: dict[str, Any], sources
             f"| {kind_label(kind)} | {len(matches)} | {len(reference[kind])} | "
             f"{count['确认保留']} | {count['疑似同物异名']} | {count['确认非1.45/建议删除']} | {count['版本不确定']} |"
         )
-    lines.extend(["", "## 来源表", "", "| 来源ID | 标题 | 链接 | 级别 | 版本 | 分类 | 定位 | 说明 |", "| --- | --- | --- | ---: | --- | --- | --- | --- |"])
+    sources_sha256 = hashlib.sha256(sources_markdown.encode("utf-8")).hexdigest()
+    lines.extend([
+        "", "## 来源表", "",
+        f"- 来源文档逻辑路径：`{SOURCES_LOGICAL_PATH}`",
+        f"- 来源文档 SHA-256：`{sources_sha256}`",
+        "", "| 来源ID | 标题 | 链接 | 级别 | 版本 | 分类 | 定位 | 说明 |",
+        "| --- | --- | --- | ---: | --- | --- | --- | --- |",
+    ])
     for source in reference["sources"]:
         lines.append(
             "| " + " | ".join(escape_markdown(source[field]) for field in ("id", "title", "url", "level"))
@@ -157,7 +166,6 @@ def render_markdown(snapshot: dict[str, Any], reference: dict[str, Any], sources
             + " | " + escape_markdown(source["locator"])
             + " | " + escape_markdown(source["notes"]) + " |"
         )
-    lines.append(f"| 输入来源文档 | 已读取 | - | - | - | - | - | {escape_markdown(sources_markdown)} |")
     lines.extend(render_official_table("items", reference["items"]))
     lines.extend(render_local_table("items", all_matches["items"], index["items"]))
     lines.extend(render_official_table("monsters", reference["monsters"]))

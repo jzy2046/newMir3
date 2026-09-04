@@ -7,7 +7,6 @@ import importlib.util
 import json
 import re
 import sys
-import unicodedata
 from collections import Counter
 from itertools import zip_longest
 from pathlib import Path
@@ -153,7 +152,6 @@ REPORT_HEADINGS = (
     "## 建议删除候选",
     "## 版本不确定项",
 )
-EMPTY_DELETE_CANDIDATES_TEXT = "当前没有满足严格证据条件的建议删除候选。"
 _COMPARE_RENDERER: Any | None = None
 
 
@@ -317,65 +315,6 @@ def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
         )
 
 
-def normalized_report_name(name: str) -> str:
-    return "".join(character for character in unicodedata.normalize("NFKC", name) if not character.isspace())
-
-
-def expected_delete_candidates(snapshot: dict, reference: dict) -> Counter[tuple[str, int]]:
-    result: Counter[tuple[str, int]] = Counter()
-    for kind in ("items", "monsters", "sets"):
-        excluded_names = {
-            normalized_report_name(name)
-            for entry in reference[kind]
-            if entry["status"] == "excluded-later-version"
-            for name in (entry["name"], *entry["aliases"])
-        }
-        singular = kind[:-1]
-        for record in snapshot[kind]:
-            if normalized_report_name(record["name"]) in excluded_names:
-                result[(singular, record["index"])] += 1
-    return result
-
-
-def report_section(report: str, heading: str) -> str:
-    match = re.search(rf"(?m)^{re.escape(heading)}\s*$", report)
-    if match is None:
-        fail(f"report is missing required section {heading}")
-    following = re.search(r"(?m)^##?\s+", report[match.end():])
-    end = match.end() + following.start() if following else len(report)
-    return report[match.end():end]
-
-
-def validate_delete_candidates(report: str, snapshot: dict, reference: dict) -> None:
-    section = report_section(report, "## 建议删除候选")
-    table_lines = [line for line in section.splitlines() if line.startswith("|")]
-    if len(table_lines) < 2:
-        fail("report delete-candidate section must contain its table header")
-    candidates: Counter[tuple[str, int]] = Counter()
-    kind_names = {"物品": "item", "怪物": "monster", "套装": "set"}
-    for position, line in enumerate(table_lines[2:]):
-        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
-        if len(cells) != 5:
-            fail(f"report delete-candidate row {position} must contain five columns")
-        singular = kind_names.get(cells[0])
-        if singular is None:
-            fail(f"report delete-candidate row {position} has an invalid type")
-        try:
-            index = int(cells[1])
-        except ValueError:
-            fail(f"report delete-candidate row {position} has an invalid index")
-        candidates[(singular, index)] += 1
-
-    expected = expected_delete_candidates(snapshot, reference)
-    if candidates != expected:
-        fail("report delete candidates do not exactly match excluded-later-version records")
-    if expected:
-        if EMPTY_DELETE_CANDIDATES_TEXT in section:
-            fail("report claims there are no delete candidates when candidates exist")
-    elif EMPTY_DELETE_CANDIDATES_TEXT not in section:
-        fail("report must explicitly state that there are no delete candidates")
-
-
 def compare_renderer() -> Any:
     global _COMPARE_RENDERER
     if _COMPARE_RENDERER is None:
@@ -413,7 +352,6 @@ def validate_report(report: object, snapshot: object, reference: object, sources
     )
     if actual != expected:
         fail("report local record markers do not exactly match the snapshot")
-    validate_delete_candidates(report_text, snapshot_document, reference_document)
     try:
         canonical = compare_renderer().render_markdown(snapshot_document, reference_document, sources)
     except Exception as exception:

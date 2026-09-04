@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import importlib.util
 import json
 import subprocess
@@ -69,6 +70,15 @@ class MarkdownReportTests(unittest.TestCase):
             "官方套装表", "本服套装对比表", "建议删除候选", "版本不确定项",
         ):
             self.assertIn(text, report)
+
+    def test_sources_are_bound_by_logical_path_and_sha_without_embedding_full_markdown(self) -> None:
+        compare = load_compare()
+        sources = "# private-looking research notes\n\nfull source body"
+        report = compare.render_markdown(snapshot_document(), reference_document(), sources)
+        digest = hashlib.sha256(sources.encode("utf-8")).hexdigest()
+        self.assertIn("docs/research/mir3-145-sources.md", report)
+        self.assertIn(digest, report)
+        self.assertNotIn(sources, report)
 
     def test_report_contains_complete_sections_and_official_only_entry(self) -> None:
         compare = load_compare()
@@ -181,7 +191,8 @@ class MarkdownReportTests(unittest.TestCase):
         self.assertIn("bad\\|line\\\\name\\n&lt;script&gt;&amp;", report)
         self.assertNotIn("<script>", report)
         self.assertIn("source&lt;script&gt;&amp;", report)
-        self.assertIn("source &lt;tag&gt;&amp;", report)
+        self.assertNotIn("source &lt;tag&gt;&amp;", report)
+        self.assertIn(hashlib.sha256("source <tag>&".encode("utf-8")).hexdigest(), report)
         self.assertIn("https://example.invalid/a\\|b", report)
         link_report = compare.render_markdown(snapshot_document(item_name="[name](https://bad.invalid)"), reference_document(), "sources")
         self.assertIn("\\[name\\]\\(https://bad.invalid\\)", link_report)

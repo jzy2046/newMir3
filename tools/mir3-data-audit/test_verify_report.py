@@ -149,10 +149,27 @@ def main() -> None:
         success=False,
     )
 
+    pipe_snapshot = snapshot_document()
+    pipe_snapshot["items"][0]["name"] = "Later|Item"
+    pipe_reference = reference_document(excluded=True)
+    pipe_reference["items"][0]["name"] = "Later|Item"
+    pipe_report = canonical_report(pipe_snapshot, pipe_reference)
+    run_case("excluded-name-with-markdown-pipe", pipe_snapshot, pipe_reference, pipe_report, success=True)
+    delete_row = "| 物品 | 1 | Later\\|Item | Later\\|Item |"
+    if delete_row not in pipe_report:
+        raise AssertionError("pipe candidate row is missing")
+    run_case(
+        "tampered-pipe-delete-candidate",
+        pipe_snapshot,
+        pipe_reference,
+        pipe_report.replace(delete_row, "| 物品 | 1 | Altered | Later\\|Item |", 1),
+        success=False,
+    )
+
     mutations = {
         "database-sha": ("| Database/System.db | abc |", "| Database/System.db | tampered |"),
         "statistics": ("| 物品 | 1 | 0 |", "| 物品 | 999 | 0 |"),
-        "sources-table": ("| 输入来源文档 | 已读取 |", "| 输入来源文档 | 已篡改 |"),
+        "sources-table": ("`docs/research/mir3-145-sources.md`", "`docs/research/tampered.md`"),
         "official-row": ("## 本服物品完整对比表", "| Fake Official |  | fake | uncertain-version | — | fake | fake |\n\n## 本服物品完整对比表"),
         "local-row": ("<!-- local:item:1 -->1 | Later Item", "<!-- local:item:1 -->1 | Altered Item"),
         "set-difference": ("无官方对照", "组成一致"),
