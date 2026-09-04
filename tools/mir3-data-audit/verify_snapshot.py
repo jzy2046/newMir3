@@ -114,6 +114,105 @@ def validate_sets(sets: list) -> None:
                 require_string(item_name, f"{group_label}.items[{item_position}]")
 
 
+REFERENCE_SCOPE = {
+    "game": "传奇3",
+    "operator": "光通",
+    "version": "1.45",
+    "policy": "strict-evidence",
+}
+REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-version"}
+
+
+def validate_reference_source(source: object, position: int) -> str:
+    label = f"sources[{position}]"
+    mapping = require_mapping(source, label)
+    source_id = require_string(require_field(mapping, "id", label), f"{label}.id")
+    if not source_id:
+        fail(f"{label}.id must not be empty")
+    title = require_string(require_field(mapping, "title", label), f"{label}.title")
+    require_string(require_field(mapping, "url", label), f"{label}.url")
+    if not mapping["url"].strip():
+        fail(f"{label}.url must not be empty")
+    level = require_int(require_field(mapping, "level", label), f"{label}.level")
+    if level not in (1, 2, 3):
+        fail(f"{label}.level must be 1, 2, or 3")
+    require_string(require_field(mapping, "notes", label), f"{label}.notes")
+    return source_id
+
+
+def validate_reference_entry(entry: object, position: int, label: str, source_ids: set[str], extra_field: str) -> str:
+    mapping = require_mapping(entry, f"{label}[{position}]")
+    entry_label = f"{label}[{position}]"
+    name = require_string(require_field(mapping, "name", entry_label), f"{entry_label}.name")
+    if not name:
+        fail(f"{entry_label}.name must not be empty")
+    aliases = require_list(require_field(mapping, "aliases", entry_label), f"{entry_label}.aliases")
+    for alias_position, alias in enumerate(aliases):
+        require_string(alias, f"{entry_label}.aliases[{alias_position}]")
+    status = require_string(require_field(mapping, "status", entry_label), f"{entry_label}.status")
+    if status not in REFERENCE_STATUSES:
+        fail(f"{entry_label}.status is invalid")
+    references = require_list(require_field(mapping, "sourceIds", entry_label), f"{entry_label}.sourceIds", non_empty=True)
+    for source_position, source_id in enumerate(references):
+        source_id = require_string(source_id, f"{entry_label}.sourceIds[{source_position}]")
+        if source_id not in source_ids:
+            fail(f"{entry_label}.sourceIds[{source_position}] references unknown source {source_id!r}")
+    require_string(require_field(mapping, "notes", entry_label), f"{entry_label}.notes")
+    if status == "excluded-later-version":
+        introduced_version = require_string(
+            require_field(mapping, "introducedVersion", entry_label),
+            f"{entry_label}.introducedVersion",
+        )
+        if not introduced_version.strip():
+            fail(f"{entry_label}.introducedVersion must not be empty")
+    elif "introducedVersion" in mapping:
+        fail(f"{entry_label}.introducedVersion is only allowed for excluded-later-version")
+    if label != "sets":
+        require_string(require_field(mapping, extra_field, entry_label), f"{entry_label}.{extra_field}")
+    return name
+
+
+def validate_reference(reference: object) -> None:
+    document = require_mapping(reference, "reference")
+    for key in ("scope", "sources", "items", "monsters", "sets"):
+        require_field(document, key, "reference")
+
+    scope = require_mapping(document["scope"], "scope")
+    for key, expected in REFERENCE_SCOPE.items():
+        value = require_string(require_field(scope, key, "scope"), f"scope.{key}")
+        if value != expected:
+            fail(f"scope.{key} must be {expected}")
+
+    sources = require_list(document["sources"], "sources")
+    source_ids = set()
+    for position, source in enumerate(sources):
+        source_id = validate_reference_source(source, position)
+        if source_id in source_ids:
+            fail(f"sources contains duplicate id {source_id!r}")
+        source_ids.add(source_id)
+
+    for label, extra_field in (("items", "category"), ("monsters", "area")):
+        entries = require_list(document[label], label)
+        names = set()
+        for position, entry in enumerate(entries):
+            name = validate_reference_entry(entry, position, label, source_ids, extra_field)
+            if name in names:
+                fail(f"{label} contains duplicate name {name!r}")
+            names.add(name)
+
+    sets = require_list(document["sets"], "sets")
+    names = set()
+    for position, entry in enumerate(sets):
+        name = validate_reference_entry(entry, position, "sets", source_ids, "items")
+        entry_label = f"sets[{position}]"
+        item_names = require_list(require_mapping(entry, entry_label)["items"], f"{entry_label}.items")
+        for item_position, item_name in enumerate(item_names):
+            require_string(item_name, f"{entry_label}.items[{item_position}]")
+        if name in names:
+            fail(f"sets contains duplicate name {name!r}")
+        names.add(name)
+
+
 def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
     document = require_mapping(snapshot, "snapshot")
     for key in ("database", "items", "monsters", "sets"):
@@ -142,10 +241,29 @@ def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
 
 def main() -> None:
     parser = VerificationArgumentParser()
-    parser.add_argument("--snapshot", required=True)
-    parser.add_argument("--database", required=True)
-    parser.add_argument("--expected-sha256", required=True)
+    parser.add_argument("--reference")
+    parser.add_argument("--snapshot")
+    parser.add_argument("--database")
+    parser.add_argument("--expected-sha256")
     args = parser.parse_args()
+
+    legacy_values = (args.snapshot, args.database, args.expected_sha256)
+    if args.reference is not None:
+        if any(value is not None for value in legacy_values):
+            fail("--reference cannot be combined with snapshot validation arguments")
+        reference_path = Path(args.reference)
+        if not reference_path.is_file():
+            fail(f"reference does not exist: {reference_path}")
+        try:
+            reference = json.loads(reference_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeError, json.JSONDecodeError) as exception:
+            fail(f"cannot read reference: {exception}")
+        validate_reference(reference)
+        print("verification passed")
+        return
+
+    if not all(value is not None for value in legacy_values):
+        fail("provide --reference or all of --snapshot, --database, and --expected-sha256")
     snapshot_path = Path(args.snapshot)
     database_path = Path(args.database)
     if not snapshot_path.is_file():
@@ -154,7 +272,7 @@ def main() -> None:
         fail(f"database does not exist: {database_path}")
     try:
         snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exception:
+    except (OSError, UnicodeError, json.JSONDecodeError) as exception:
         fail(f"cannot read snapshot: {exception}")
     validate(snapshot, database_path, args.expected_sha256)
     print("verification passed")

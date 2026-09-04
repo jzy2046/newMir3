@@ -1,0 +1,12 @@
+{
+  "scope": {
+    "game": "传奇3",
+    "operator": "光通",
+    "version": "1.45",
+    "policy": "strict-evidence"
+  },
+  "sources": [],
+  "items": [],
+  "monsters": [],
+  "sets": []
+}
