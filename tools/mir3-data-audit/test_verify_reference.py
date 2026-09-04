@@ -207,7 +207,10 @@ def main() -> None:
     run_reference("excluded-without-version-history", excluded_without_history, success=False)
     run_reference("excluded-at-1.45", one_excluded("1.45"), success=False)
     run_reference("excluded-at-1.4", one_excluded("1.4"), success=False)
+    run_reference("excluded-at-1.45.0", one_excluded("1.45.0"), success=False)
+    run_reference("excluded-at-1.45.0.0", one_excluded("1.45.0.0"), success=False)
     run_reference("excluded-illegal-version", one_excluded("v1.46"), success=False)
+    run_reference("excluded-at-1.45.1", one_excluded("1.45.1"), success=True)
     run_reference("excluded-at-1.46", one_excluded("1.46"), success=True)
     run_reference("excluded-at-2.0", one_excluded("2.0"), success=True)
 

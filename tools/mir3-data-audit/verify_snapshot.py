@@ -134,6 +134,15 @@ REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-vers
 REFERENCE_CATEGORIES = {"items", "monsters", "sets", "version-history"}
 
 
+def normalized_numeric_version(version: str) -> tuple[int, ...] | None:
+    if re.fullmatch(r"\d+(?:\.\d+)*", version) is None:
+        return None
+    parts = [int(part) for part in version.split(".")]
+    while len(parts) > 1 and parts[-1] == 0:
+        parts.pop()
+    return tuple(parts)
+
+
 def validate_reference_source(source: object, position: int) -> dict:
     label = f"sources[{position}]"
     mapping = require_mapping(source, label)
@@ -181,10 +190,10 @@ def validate_reference_entry(entry: object, position: int, label: str, sources: 
             require_field(mapping, "introducedVersion", entry_label),
             f"{entry_label}.introducedVersion",
         )
-        version_parts = re.fullmatch(r"\d+(?:\.\d+)*", introduced_version)
-        if version_parts is None:
+        normalized_version = normalized_numeric_version(introduced_version)
+        if normalized_version is None:
             fail(f"{entry_label}.introducedVersion must be a numeric dotted version")
-        if tuple(int(part) for part in introduced_version.split(".")) <= (1, 45):
+        if normalized_version <= (1, 45):
             fail(f"{entry_label}.introducedVersion must be later than 1.45")
         if not any(
             source["level"] in (1, 2)
