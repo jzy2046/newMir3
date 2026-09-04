@@ -6,6 +6,8 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
+from collections import Counter
 from pathlib import Path
 
 
@@ -132,6 +134,23 @@ REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-vers
 
 
 REFERENCE_CATEGORIES = {"items", "monsters", "sets", "version-history"}
+
+REPORT_HEADINGS = (
+    "# 传奇3 光通 1.45 数据完整对比报告",
+    "## 口径与安全说明",
+    "## 快照绑定信息",
+    "## 数量汇总",
+    "## 来源表",
+    "## 官方物品完整表",
+    "## 本服物品完整对比表",
+    "## 官方怪物完整表",
+    "## 本服怪物完整对比表",
+    "## 官方套装表",
+    "## 本服套装对比表",
+    "## 建议删除候选",
+    "## 版本不确定项",
+)
+EMPTY_DELETE_CANDIDATES_TEXT = "当前没有满足严格证据条件的建议删除候选。"
 
 
 def normalized_numeric_version(version: str) -> tuple[int, ...] | None:
@@ -263,7 +282,7 @@ def validate_reference(reference: object) -> None:
         names.add(name)
 
 
-def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
+def validate_snapshot_document(snapshot: object) -> tuple[dict, str]:
     document = require_mapping(snapshot, "snapshot")
     for key in ("database", "items", "monsters", "sets"):
         require_field(document, key, "snapshot")
@@ -280,6 +299,11 @@ def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
     validate_items(items)
     validate_monsters(monsters)
     validate_sets(sets)
+    return document, snapshot_sha
+
+
+def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
+    _, snapshot_sha = validate_snapshot_document(snapshot)
 
     actual_sha = sha256(database_path)
     if not (snapshot_sha.lower() == actual_sha == expected_sha.lower()):
@@ -289,42 +313,145 @@ def validate(snapshot: object, database_path: Path, expected_sha: str) -> None:
         )
 
 
+def normalized_report_name(name: str) -> str:
+    return "".join(character for character in unicodedata.normalize("NFKC", name) if not character.isspace())
+
+
+def expected_delete_candidates(snapshot: dict, reference: dict) -> Counter[tuple[str, int]]:
+    result: Counter[tuple[str, int]] = Counter()
+    for kind in ("items", "monsters", "sets"):
+        excluded_names = {
+            normalized_report_name(name)
+            for entry in reference[kind]
+            if entry["status"] == "excluded-later-version"
+            for name in (entry["name"], *entry["aliases"])
+        }
+        singular = kind[:-1]
+        for record in snapshot[kind]:
+            if normalized_report_name(record["name"]) in excluded_names:
+                result[(singular, record["index"])] += 1
+    return result
+
+
+def report_section(report: str, heading: str) -> str:
+    match = re.search(rf"(?m)^{re.escape(heading)}\s*$", report)
+    if match is None:
+        fail(f"report is missing required section {heading}")
+    following = re.search(r"(?m)^##?\s+", report[match.end():])
+    end = match.end() + following.start() if following else len(report)
+    return report[match.end():end]
+
+
+def validate_delete_candidates(report: str, snapshot: dict, reference: dict) -> None:
+    section = report_section(report, "## 建议删除候选")
+    table_lines = [line for line in section.splitlines() if line.startswith("|")]
+    if len(table_lines) < 2:
+        fail("report delete-candidate section must contain its table header")
+    candidates: Counter[tuple[str, int]] = Counter()
+    kind_names = {"物品": "item", "怪物": "monster", "套装": "set"}
+    for position, line in enumerate(table_lines[2:]):
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) != 5:
+            fail(f"report delete-candidate row {position} must contain five columns")
+        singular = kind_names.get(cells[0])
+        if singular is None:
+            fail(f"report delete-candidate row {position} has an invalid type")
+        try:
+            index = int(cells[1])
+        except ValueError:
+            fail(f"report delete-candidate row {position} has an invalid index")
+        candidates[(singular, index)] += 1
+
+    expected = expected_delete_candidates(snapshot, reference)
+    if candidates != expected:
+        fail("report delete candidates do not exactly match excluded-later-version records")
+    if expected:
+        if EMPTY_DELETE_CANDIDATES_TEXT in section:
+            fail("report claims there are no delete candidates when candidates exist")
+    elif EMPTY_DELETE_CANDIDATES_TEXT not in section:
+        fail("report must explicitly state that there are no delete candidates")
+
+
+def validate_report(report: object, snapshot: object, reference: object) -> None:
+    report_text = require_non_empty_string(report, "report")
+    snapshot_document, _ = validate_snapshot_document(snapshot)
+    reference_document = require_mapping(reference, "reference")
+    validate_reference(reference_document)
+    report_lines = report_text.splitlines()
+    for heading in REPORT_HEADINGS:
+        if report_lines.count(heading) != 1:
+            fail(f"report must contain required heading exactly once: {heading}")
+
+    marker_pattern = re.compile(r"<!-- local:(item|monster|set):(-?\d+) -->")
+    broad_markers = re.findall(r"<!--\s*local:[^>]*-->", report_text)
+    exact_markers = marker_pattern.findall(report_text)
+    if len(broad_markers) != len(exact_markers):
+        fail("report contains a malformed local record marker")
+    actual = Counter((kind, int(index)) for kind, index in exact_markers)
+    expected = Counter(
+        (kind[:-1], require_int(record["index"], f"{kind} index"))
+        for kind in ("items", "monsters", "sets")
+        for record in snapshot_document[kind]
+    )
+    if actual != expected:
+        fail("report local record markers do not exactly match the snapshot")
+    validate_delete_candidates(report_text, snapshot_document, reference_document)
+
+
+def load_json_document(path_value: str, label: str) -> object:
+    path = Path(path_value)
+    if not path.is_file():
+        fail(f"{label} does not exist: {path}")
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exception:
+        fail(f"cannot read {label}: {exception}")
+
+
+def load_report(path_value: str) -> str:
+    path = Path(path_value)
+    if not path.is_file():
+        fail(f"report does not exist: {path}")
+    try:
+        return path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exception:
+        fail(f"cannot read report: {exception}")
+
+
 def main() -> None:
     parser = VerificationArgumentParser()
     parser.add_argument("--reference")
     parser.add_argument("--snapshot")
     parser.add_argument("--database")
     parser.add_argument("--expected-sha256")
+    parser.add_argument("--report")
     args = parser.parse_args()
 
-    legacy_values = (args.snapshot, args.database, args.expected_sha256)
-    if args.reference is not None:
-        if any(value is not None for value in legacy_values):
-            fail("--reference cannot be combined with snapshot validation arguments")
-        reference_path = Path(args.reference)
-        if not reference_path.is_file():
-            fail(f"reference does not exist: {reference_path}")
-        try:
-            reference = json.loads(reference_path.read_text(encoding="utf-8"))
-        except (OSError, UnicodeError, json.JSONDecodeError) as exception:
-            fail(f"cannot read reference: {exception}")
-        validate_reference(reference)
-        print("verification passed")
-        return
+    snapshot_validation_values = (args.database, args.expected_sha256)
+    if any(value is not None for value in snapshot_validation_values) and not all(
+        value is not None for value in (args.snapshot, *snapshot_validation_values)
+    ):
+        fail("snapshot validation requires --snapshot, --database, and --expected-sha256")
+    if args.report is not None and (args.snapshot is None or args.reference is None):
+        fail("report validation requires --snapshot, --reference, and --report")
+    if args.snapshot is not None and args.report is None and not all(
+        value is not None for value in snapshot_validation_values
+    ):
+        fail("snapshot validation requires --snapshot, --database, and --expected-sha256")
+    if all(value is None for value in (args.snapshot, args.reference, args.report)):
+        fail("provide snapshot validation, --reference, or report validation arguments")
 
-    if not all(value is not None for value in legacy_values):
-        fail("provide --reference or all of --snapshot, --database, and --expected-sha256")
-    snapshot_path = Path(args.snapshot)
-    database_path = Path(args.database)
-    if not snapshot_path.is_file():
-        fail(f"snapshot does not exist: {snapshot_path}")
-    if not database_path.is_file():
-        fail(f"database does not exist: {database_path}")
-    try:
-        snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
-    except (OSError, UnicodeError, json.JSONDecodeError) as exception:
-        fail(f"cannot read snapshot: {exception}")
-    validate(snapshot, database_path, args.expected_sha256)
+    snapshot = load_json_document(args.snapshot, "snapshot") if args.snapshot is not None else None
+    reference = load_json_document(args.reference, "reference") if args.reference is not None else None
+    if args.database is not None:
+        database_path = Path(args.database)
+        if not database_path.is_file():
+            fail(f"database does not exist: {database_path}")
+        validate(snapshot, database_path, args.expected_sha256)
+    if reference is not None:
+        validate_reference(reference)
+    if args.report is not None:
+        validate_report(load_report(args.report), snapshot, reference)
     print("verification passed")
 
 

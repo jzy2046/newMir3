@@ -221,13 +221,17 @@ def render_local_table(kind: str, records: list[tuple[dict[str, Any], dict[str, 
 
 def render_summary_table(heading: str, matches: dict[str, list[tuple[dict[str, Any], dict[str, Any]]]], predicate: Any) -> list[str]:
     rows = ["", f"## {heading}", "", "| 类型 | 快照索引 | 数据库原名 | 官方名称 | 判断依据 |", "| --- | ---: | --- | --- | --- |"]
+    result_count = 0
     for kind in KINDS:
         for record, match in matches[kind]:
             if predicate(match):
+                result_count += 1
                 official_name = match["entry"]["name"] if match["entry"] else "-"
                 rows.append("| " + " | ".join(escape_markdown(value) for value in (
                     kind_label(kind), record["index"], record["name"], official_name, match["basis"],
                 )) + " |")
+    if heading == "建议删除候选" and result_count == 0:
+        rows.extend(["", "当前没有满足严格证据条件的建议删除候选。"])
     return rows
 
 

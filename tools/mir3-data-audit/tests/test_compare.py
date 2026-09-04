@@ -90,6 +90,21 @@ class MarkdownReportTests(unittest.TestCase):
         for marker in ("<!-- local:item:7 -->", "<!-- local:monster:8 -->", "<!-- local:set:9 -->"):
             self.assertEqual(1, report.count(marker), marker)
 
+    def test_empty_delete_candidates_are_stated_explicitly(self) -> None:
+        compare = load_compare()
+        report = compare.render_markdown(snapshot_document(), reference_document(), "sources")
+        self.assertIn("当前没有满足严格证据条件的建议删除候选。", report)
+
+    def test_nonempty_delete_candidates_do_not_claim_the_section_is_empty(self) -> None:
+        compare = load_compare()
+        snapshot = snapshot_document(item_name="Later Item")
+        reference = reference_document(
+            items=[entry("Later Item", status="excluded-later-version")],
+            sources=[evidence_source()],
+        )
+        report = compare.render_markdown(snapshot, reference, "sources")
+        self.assertNotIn("当前没有满足严格证据条件的建议删除候选。", report)
+
     def test_local_match_status_uses_business_judgment_and_exclusion_version(self) -> None:
         compare = load_compare()
         snapshot = snapshot_document()
