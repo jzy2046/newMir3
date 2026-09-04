@@ -32,6 +32,17 @@ def run_reference(name: str, reference: object, success: bool) -> subprocess.Com
         return result
 
 
+def run_cli_failure(name: str, arguments: list[str]) -> None:
+    result = subprocess.run(
+        [sys.executable, str(VERIFY), *arguments],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode != 1 or not result.stderr.startswith("verification failed:") or "Traceback" in result.stderr:
+        raise AssertionError(f"{name} did not fail cleanly: rc={result.returncode}, stderr={result.stderr!r}")
+
+
 def empty_reference() -> dict:
     return {
         "scope": {"game": "传奇3", "operator": "光通", "version": "1.45", "policy": "strict-evidence"},
@@ -86,6 +97,13 @@ def run_snapshot_regression() -> None:
 
 
 def main() -> None:
+    run_cli_failure("partial-snapshot-mode", ["--snapshot", "snapshot.json"])
+    run_cli_failure(
+        "mixed-reference-and-snapshot-mode",
+        ["--reference", str(ROOT / "audit" / "mir3-145" / "official-reference.json"), "--snapshot", "snapshot.json"],
+    )
+    run_cli_failure("no-arguments", [])
+
     run_reference("valid-empty", empty_reference(), success=True)
     run_reference("scope-wrong", {**empty_reference(), "scope": {"game": "传奇2", "operator": "光通", "version": "1.45", "policy": "strict-evidence"}}, success=False)
 
