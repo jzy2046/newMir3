@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Library">
+      <HintPath>../../Library.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <PackageReference Include="Quartz" Version="3.2.4" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
