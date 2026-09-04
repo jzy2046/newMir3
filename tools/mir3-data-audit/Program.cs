@@ -50,14 +50,37 @@ static ExportOptions ParseArguments(string[] args)
     if (database is null || output is null)
         throw new ArgumentException("both --database and --output are required");
 
-    var databasePath = new FileInfo(database);
-    if (!databasePath.FullName.EndsWith("System.db", StringComparison.OrdinalIgnoreCase))
-        throw new ArgumentException("--database must point to System.db");
+    if (!Path.IsPathFullyQualified(database))
+        throw new ArgumentException("--database must be an absolute path");
+
+    var databasePath = new FileInfo(Path.GetFullPath(database));
+    if (!string.Equals(databasePath.Name, "System.db", StringComparison.Ordinal))
+        throw new ArgumentException("--database filename must be exactly System.db");
     if (!databasePath.Exists)
         throw new FileNotFoundException("database does not exist", databasePath.FullName);
 
-    return new ExportOptions(databasePath, new FileInfo(output));
+    var outputPath = new FileInfo(Path.GetFullPath(output));
+    if (PointsToSameFile(databasePath, outputPath))
+        throw new ArgumentException("--output must not refer to the input database");
+
+    return new ExportOptions(databasePath, outputPath);
 }
+
+static bool PointsToSameFile(FileInfo databasePath, FileInfo outputPath)
+{
+    if (string.Equals(databasePath.FullName, outputPath.FullName, GetPathComparison()))
+        return true;
+    if (!outputPath.Exists)
+        return false;
+
+    var databaseTarget = databasePath.ResolveLinkTarget(returnFinalTarget: true)?.FullName ?? databasePath.FullName;
+    var outputTarget = outputPath.ResolveLinkTarget(returnFinalTarget: true)?.FullName ?? outputPath.FullName;
+    return string.Equals(databaseTarget, outputTarget, GetPathComparison());
+}
+
+static StringComparison GetPathComparison() => OperatingSystem.IsWindows()
+    ? StringComparison.OrdinalIgnoreCase
+    : StringComparison.Ordinal;
 
 static void Export(FileInfo databasePath, FileInfo outputPath)
 {
