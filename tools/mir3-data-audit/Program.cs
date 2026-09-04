@@ -58,6 +58,7 @@ static ExportOptions ParseArguments(string[] args)
     var databasePath = new FileInfo(Path.GetFullPath(database));
     if (!string.Equals(databasePath.Name, "System.db", StringComparison.Ordinal))
         throw new ArgumentException("--database filename must be exactly System.db");
+    RejectLinkedDatabasePath(databasePath);
     if (!databasePath.Exists)
         throw new FileNotFoundException("database does not exist", databasePath.FullName);
 
@@ -66,6 +67,27 @@ static ExportOptions ParseArguments(string[] args)
         throw new ArgumentException("--output must name a file that does not already exist");
 
     return new ExportOptions(databasePath, outputPath);
+}
+
+static void RejectLinkedDatabasePath(FileInfo databasePath)
+{
+    if (IsLinkOrReparsePoint(databasePath))
+        throw new ArgumentException("--database must not be a symbolic link or reparse point");
+    if (!databasePath.Exists)
+        return;
+
+    for (var directory = databasePath.Directory; directory is not null; directory = directory.Parent)
+    {
+        if (IsLinkOrReparsePoint(directory))
+            throw new ArgumentException("--database must not have a symbolic-link or reparse-point ancestor");
+    }
+}
+
+static bool IsLinkOrReparsePoint(FileSystemInfo path)
+{
+    path.Refresh();
+    return path.LinkTarget is not null
+        || path.Exists && (path.Attributes & FileAttributes.ReparsePoint) != 0;
 }
 
 static void Export(FileInfo databasePath, FileInfo outputPath)

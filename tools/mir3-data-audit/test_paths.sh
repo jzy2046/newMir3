@@ -10,7 +10,7 @@ if [[ -z "$dotnet_command" ]]; then
     echo "DOTNET_COMMAND is not set and dotnet is not on PATH" >&2
     exit 1
 fi
-temporary_root="$(mktemp -d "${TMPDIR:-/tmp}/mir3-data-audit-paths.XXXXXX")"
+temporary_root="$(mktemp -d "$repository_root/.mir3-data-audit-paths.XXXXXX")"
 trap 'rm -rf "$temporary_root"' EXIT
 
 failures=0
@@ -22,14 +22,16 @@ expect_rejected_without_database_change() {
     local database_argument="$2"
     local output_argument="$3"
     local copied_database="$4"
-    local before_sha after_sha exit_code
+    local output_must_be_absent="${5:-false}"
+    local before_sha after_sha exit_code command_output
 
     before_sha="$(shasum -a 256 "$copied_database" | awk '{print $1}')"
     set +e
-    "$dotnet_command" run --project "$repository_root/tools/mir3-data-audit/Mir3DataAudit.csproj" -- \
-        export --database "$database_argument" --output "$output_argument"
+    command_output="$("$dotnet_command" run --project "$repository_root/tools/mir3-data-audit/Mir3DataAudit.csproj" -- \
+        export --database "$database_argument" --output "$output_argument" 2>&1)"
     exit_code=$?
     set -e
+    printf '%s\n' "$command_output"
     after_sha="$(shasum -a 256 "$copied_database" | awk '{print $1}')"
 
     if [[ "$exit_code" -eq 0 ]]; then
@@ -38,6 +40,14 @@ expect_rejected_without_database_change() {
     fi
     if [[ "$before_sha" != "$after_sha" ]]; then
         echo "FAIL: $label changed the copied database" >&2
+        failures=$((failures + 1))
+    fi
+    if [[ "$command_output" != export\ failed:* || "$command_output" == *"Unhandled exception"* ]]; then
+        echo "FAIL: $label did not fail cleanly" >&2
+        failures=$((failures + 1))
+    fi
+    if [[ "$output_must_be_absent" == "true" && -e "$output_argument" ]]; then
+        echo "FAIL: $label created its output" >&2
         failures=$((failures + 1))
     fi
 }
@@ -75,6 +85,26 @@ expect_rejected_without_database_change \
     "$temporary_root/parent-target/System.db" \
     "$temporary_root/parent-link/System.db" \
     "$temporary_root/parent-target/System.db"
+
+mkdir "$temporary_root/linked-database"
+cp "$repository_root/Database/System.db" "$temporary_root/linked-database/Users.db"
+ln -s "$temporary_root/linked-database/Users.db" "$temporary_root/linked-database/System.db"
+expect_rejected_without_database_change \
+    "database file symlink targeting a safe Users.db-named copy" \
+    "$temporary_root/linked-database/System.db" \
+    "$temporary_root/linked-database-output.json" \
+    "$temporary_root/linked-database/Users.db" \
+    true
+
+mkdir "$temporary_root/linked-parent-target"
+cp "$repository_root/Database/System.db" "$temporary_root/linked-parent-target/System.db"
+ln -s "$temporary_root/linked-parent-target" "$temporary_root/linked-parent"
+expect_rejected_without_database_change \
+    "database accessed through a symlink parent directory" \
+    "$temporary_root/linked-parent/System.db" \
+    "$temporary_root/linked-parent-output.json" \
+    "$temporary_root/linked-parent-target/System.db" \
+    true
 
 mkdir "$temporary_root/ordinary-existing"
 cp "$repository_root/Database/System.db" "$temporary_root/ordinary-existing/System.db"
