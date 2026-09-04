@@ -218,6 +218,42 @@ class CompareCliTests(unittest.TestCase):
             self.assertEqual(1, result.returncode)
             self.assertFalse(output.exists())
 
+    def test_cli_rejects_surrogate_before_creating_output(self) -> None:
+        with tempfile.TemporaryDirectory(prefix="mir3-compare-test-") as directory:
+            root = Path(directory)
+            snapshot = root / "snapshot.json"
+            reference = root / "reference.json"
+            sources = root / "sources.md"
+            output = root / "report.md"
+            snapshot.write_text(json.dumps(snapshot_document(item_name="\ud800")), encoding="utf-8")
+            reference.write_text(json.dumps(reference_document()), encoding="utf-8")
+            sources.write_text("sources", encoding="utf-8")
+            result = run_cli(snapshot, reference, sources, output)
+            self.assertEqual(1, result.returncode)
+            self.assertTrue(result.stderr.startswith("compare failed:"))
+            self.assertNotIn("Traceback", result.stderr)
+            self.assertFalse(output.exists())
+
+    def test_cli_reference_validation_matches_verify_validator(self) -> None:
+        with tempfile.TemporaryDirectory(prefix="mir3-compare-test-") as directory:
+            root = Path(directory)
+            snapshot = root / "snapshot.json"
+            reference = root / "reference.json"
+            sources = root / "sources.md"
+            snapshot.write_text(json.dumps(snapshot_document()), encoding="utf-8")
+            sources.write_text("sources", encoding="utf-8")
+            for label, document, expected in (
+                ("empty-versions", mutate_source_versions(reference_document(), []), 1),
+                ("empty-set-item", reference_document(sets=[entry("Set", items=[""])]), 1),
+                ("valid", reference_document(), 0),
+            ):
+                reference.write_text(json.dumps(document), encoding="utf-8")
+                output = root / f"{label}.md"
+                compare_result = run_cli(snapshot, reference, sources, output)
+                verify_result = run_verify(reference)
+                self.assertEqual(expected, compare_result.returncode, label)
+                self.assertEqual(expected, verify_result.returncode, label)
+                self.assertEqual(expected == 0, output.exists(), label)
 
 def entry(name: str, *, aliases: list[str] | None = None, status: str = "confirmed-145",
           category: str = "Weapon", items: list[str] | None = None) -> dict:
@@ -275,10 +311,22 @@ def synthetic_snapshot(item_count: int, monster_count: int, set_count: int) -> d
     }
 
 
+def mutate_source_versions(reference: dict, versions: list[str]) -> dict:
+    reference["sources"][0]["versions"] = versions
+    return reference
+
+
 def run_cli(snapshot: Path, reference: Path, sources: Path, output: Path) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(COMPARE), "--snapshot", str(snapshot), "--reference", str(reference),
          "--sources", str(sources), "--output", str(output)],
+        capture_output=True, text=True, check=False,
+    )
+
+
+def run_verify(reference: Path) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "mir3-data-audit" / "verify_snapshot.py"), "--reference", str(reference)],
         capture_output=True, text=True, check=False,
     )
 

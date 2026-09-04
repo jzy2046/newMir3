@@ -4,18 +4,20 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
+import io
 import json
 import sys
 import unicodedata
 from collections import Counter
+from contextlib import redirect_stderr
 from pathlib import Path
 from typing import Any
 
 
 KINDS = ("items", "monsters", "sets")
 REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-version"}
-REFERENCE_SCOPE = {"game": "传奇3", "operator": "光通", "version": "1.45", "policy": "strict-evidence"}
-REFERENCE_CATEGORIES = {"items", "monsters", "sets", "version-history"}
+_REFERENCE_VALIDATOR: Any | None = None
 
 
 class CompareError(ValueError):
@@ -288,16 +290,6 @@ def require_int(value: object, label: str) -> int:
     return value
 
 
-def normalized_numeric_version(version: str) -> tuple[int, ...] | None:
-    pieces = version.split(".")
-    if not pieces or any(not piece.isdecimal() for piece in pieces):
-        return None
-    result = [int(piece) for piece in pieces]
-    while len(result) > 1 and result[-1] == 0:
-        result.pop()
-    return tuple(result)
-
-
 def validate_snapshot(snapshot: object) -> None:
     if not isinstance(snapshot, dict):
         raise CompareError("snapshot must be a JSON object")
@@ -348,78 +340,30 @@ def validate_set_groups(groups: list[Any], label: str) -> None:
 
 
 def validate_reference_document(reference: object) -> None:
-    if not isinstance(reference, dict):
-        raise CompareError("reference must be a JSON object")
-    for field in ("scope", "sources", *KINDS):
-        if field not in reference:
-            raise CompareError(f"reference.{field} is required")
-    if not isinstance(reference["scope"], dict):
-        raise CompareError("reference.scope must be an object")
-    for field, expected in REFERENCE_SCOPE.items():
-        if reference["scope"].get(field) != expected:
-            raise CompareError(f"reference.scope.{field} must be {expected}")
-    if not isinstance(reference["sources"], list):
-        raise CompareError("reference.sources must be an array")
-    source_ids = set()
-    for position, source in enumerate(reference["sources"]):
-        label = f"reference.sources[{position}]"
-        if not isinstance(source, dict):
-            raise CompareError(f"{label} must be an object")
-        for field in ("id", "title", "url", "locator", "notes"):
-            require_non_empty_string(source.get(field), f"{label}.{field}")
-        level = require_int(source.get("level"), f"{label}.level")
-        if level not in (1, 2, 3):
-            raise CompareError(f"{label}.level must be 1, 2, or 3")
-        for field in ("versions", "categories"):
-            values = source.get(field)
-            if not isinstance(values, list) or not all(isinstance(value, str) and value.strip() for value in values):
-                raise CompareError(f"{label}.{field} must be an array of non-empty strings")
-        if any(category not in REFERENCE_CATEGORIES for category in source["categories"]):
-            raise CompareError(f"{label}.categories contains an invalid category")
-        if source["id"] in source_ids:
-            raise CompareError(f"reference.sources contains duplicate id {source['id']!r}")
-        source_ids.add(source["id"])
-    build_reference_index(reference)
-    for kind in KINDS:
-        for position, entry in enumerate(reference[kind]):
-            label = f"reference.{kind}[{position}]"
-            references = entry.get("sourceIds")
-            if not isinstance(references, list) or not references or not all(isinstance(value, str) for value in references):
-                raise CompareError(f"{label}.sourceIds must be a non-empty array of strings")
-            if any(value not in source_ids for value in references):
-                raise CompareError(f"{label}.sourceIds references an unknown source")
-            referenced_sources = [source for source in reference["sources"] if source["id"] in references]
-            if not any(kind in source["categories"] for source in referenced_sources):
-                raise CompareError(f"{label} has no source categorized for {kind}")
-            require_non_empty_string(entry.get("notes"), f"{label}.notes")
-            field = {"items": "category", "monsters": "area", "sets": "items"}[kind]
-            if kind == "sets":
-                values = entry.get(field)
-                if not isinstance(values, list) or not all(isinstance(value, str) for value in values):
-                    raise CompareError(f"{label}.items must be an array of strings")
-            else:
-                require_non_empty_string(entry.get(field), f"{label}.{field}")
-            status = entry["status"]
-            if status == "confirmed-145" and not any(
-                source["level"] in (1, 2) and "1.45" in source["versions"] and kind in source["categories"]
-                for source in referenced_sources
-            ):
-                raise CompareError(f"{label} lacks level 1/2 evidence for 1.45")
-            if status == "excluded-later-version":
-                introduced = require_non_empty_string(entry.get("introducedVersion"), f"{label}.introducedVersion")
-                normalized = normalized_numeric_version(introduced)
-                if normalized is None or normalized <= (1, 45):
-                    raise CompareError(f"{label}.introducedVersion must be later than 1.45")
-                if not any(
-                    source["level"] in (1, 2) and kind in source["categories"] and introduced in source["versions"]
-                    for source in referenced_sources
-                ) or not any(
-                    source["level"] in (1, 2) and "version-history" in source["categories"] and introduced in source["versions"]
-                    for source in referenced_sources
-                ):
-                    raise CompareError(f"{label} lacks level 1/2 evidence for {introduced}")
-            elif "introducedVersion" in entry:
-                raise CompareError(f"{label}.introducedVersion is only allowed for excluded-later-version")
+    validator = reference_validator()
+    errors = io.StringIO()
+    try:
+        with redirect_stderr(errors):
+            validator.validate_reference(reference)
+    except SystemExit as exception:
+        detail = errors.getvalue().removeprefix("verification failed:").strip()
+        raise CompareError(f"invalid reference: {detail or exception}") from exception
+    except Exception as exception:
+        raise CompareError(f"cannot validate reference: {exception}") from exception
+
+
+def reference_validator() -> Any:
+    """Load the reference schema validator beside this standalone CLI exactly once."""
+    global _REFERENCE_VALIDATOR
+    if _REFERENCE_VALIDATOR is None:
+        validator_path = Path(__file__).with_name("verify_snapshot.py")
+        specification = importlib.util.spec_from_file_location("mir3_reference_validator", validator_path)
+        if specification is None or specification.loader is None:
+            raise CompareError("cannot load reference validator")
+        module = importlib.util.module_from_spec(specification)
+        specification.loader.exec_module(module)
+        _REFERENCE_VALIDATOR = module
+    return _REFERENCE_VALIDATOR
 
 
 def load_json(path: Path, label: str) -> dict[str, Any]:
@@ -455,9 +399,13 @@ def main(argv: list[str] | None = None) -> int:
         except (OSError, UnicodeError) as exception:
             raise CompareError(f"cannot read sources: {exception}") from exception
         report = render_markdown(snapshot, reference, sources_markdown)
-        with output_path.open("x", encoding="utf-8", newline="\n") as output:
-            output.write(report)
-    except (CompareError, OSError) as exception:
+        try:
+            report_bytes = report.encode("utf-8", errors="strict")
+        except UnicodeError as exception:
+            raise CompareError("report contains text that cannot be encoded as UTF-8") from exception
+        with output_path.open("xb") as output:
+            output.write(report_bytes)
+    except (CompareError, OSError, UnicodeError) as exception:
         print(f"compare failed: {exception}", file=sys.stderr)
         return 1
     return 0
