@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
     <Reference Include="Library">
       <HintPath>../../Library.dll</HintPath>
       <Private>false</Private>

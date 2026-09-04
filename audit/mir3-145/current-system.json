@@ -1,8 +1,8 @@
 {
   "database": {
-    "path": "/Users/huzhenya/.config/superpowers/worktrees/newMir3/mir3-145-data-audit/Database/System.db",
+    "path": "Database/System.db",
     "sha256": "46fe189e57842d408efc5fa974e1de66a5eb36f0aae62a5d49109064fe1e8c90",
-    "exportedAt": "2026-09-04T03:24:59.106668+00:00"
+    "exportedAt": "2026-09-04T07:01:47.474631+00:00"
   },
   "items": [
     {

@@ -4,6 +4,7 @@ using System.Reflection;
 using System.Runtime.Loader;
 using System.Security.Cryptography;
 using System.Text.Json;
+using Mir3DataAudit;
 
 return Run(args);
 
@@ -21,6 +22,7 @@ static int Run(string[] args)
             ? exception.InnerException
             : exception;
         Console.Error.WriteLine($"export failed: {cause.Message}");
+        ReportCleanupFailure(exception, cause);
         return 1;
     }
 }
@@ -74,10 +76,16 @@ static void Export(FileInfo databasePath, FileInfo outputPath)
     var databaseRoot = Path.Combine(Path.GetTempPath(), $"mir3-data-audit-{Guid.NewGuid():N}");
     var backupRoot = Path.Combine(Path.GetTempPath(), $"mir3-data-audit-backup-{Guid.NewGuid():N}");
     object? session = null;
+    Exception? exportFailure = null;
     try
     {
         Directory.CreateDirectory(databaseRoot);
-        File.Copy(databasePath.FullName, Path.Combine(databaseRoot, "System.db"));
+        var copiedDatabasePath = Path.Combine(databaseRoot, "System.db");
+        var sourceHashBeforeCopy = ComputeSha256(databasePath.FullName);
+        File.Copy(databasePath.FullName, copiedDatabasePath);
+        var copiedDatabaseHash = ComputeSha256(copiedDatabasePath);
+        var sourceHashAfterCopy = ComputeSha256(databasePath.FullName);
+        DatabaseHashBinding.RequireMatch(sourceHashBeforeCopy, sourceHashAfterCopy, copiedDatabaseHash);
 
         var libraryAssembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(
             Path.Combine(repositoryRoot, "Library.dll"));
@@ -146,7 +154,7 @@ static void Export(FileInfo databasePath, FileInfo outputPath)
             .ToList();
 
         var document = new ExportDocument(
-            new DatabaseSnapshot(databasePath.FullName, ComputeSha256(databasePath.FullName), DateTimeOffset.UtcNow),
+            new DatabaseSnapshot("Database/System.db", copiedDatabaseHash, DateTimeOffset.UtcNow),
             items,
             monsters,
             sets);
@@ -159,12 +167,26 @@ static void Export(FileInfo databasePath, FileInfo outputPath)
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         });
     }
+    catch (Exception exception)
+    {
+        exportFailure = exception;
+        throw;
+    }
     finally
     {
-        (session as IDisposable)?.Dispose();
-        DeleteTemporaryDirectory(databaseRoot);
-        DeleteTemporaryDirectory(backupRoot);
+        ExportCleanup.Run(exportFailure,
+            () => (session as IDisposable)?.Dispose(),
+            () => DeleteTemporaryDirectory(databaseRoot),
+            () => DeleteTemporaryDirectory(backupRoot));
     }
+}
+
+static void ReportCleanupFailure(Exception exception, Exception cause)
+{
+    var cleanupFailure = exception.Data[ExportCleanup.FailureDataKey]
+        ?? cause.Data[ExportCleanup.FailureDataKey];
+    if (cleanupFailure is Exception cleanupException)
+        Console.Error.WriteLine($"export cleanup failed: {cleanupException.Message}");
 }
 
 static string FindRepositoryRoot()

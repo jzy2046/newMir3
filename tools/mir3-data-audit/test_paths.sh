@@ -2,7 +2,14 @@
 set -euo pipefail
 
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-dotnet_command="/Users/huzhenya/.dotnet/dotnet"
+dotnet_command="${DOTNET_COMMAND:-}"
+if [[ -z "$dotnet_command" ]]; then
+    dotnet_command="$(command -v dotnet || true)"
+fi
+if [[ -z "$dotnet_command" ]]; then
+    echo "DOTNET_COMMAND is not set and dotnet is not on PATH" >&2
+    exit 1
+fi
 temporary_root="$(mktemp -d "${TMPDIR:-/tmp}/mir3-data-audit-paths.XXXXXX")"
 trap 'rm -rf "$temporary_root"' EXIT
 
@@ -103,6 +110,15 @@ before_sha="$(shasum -a 256 "$temporary_root/new-output/System.db" | awk '{print
 after_sha="$(shasum -a 256 "$temporary_root/new-output/System.db" | awk '{print $1}')"
 if [[ "$before_sha" != "$after_sha" || ! -f "$temporary_root/new-output/current-system.json" ]]; then
     echo "FAIL: new output export did not preserve the copied database" >&2
+    failures=$((failures + 1))
+fi
+if [[ "$(python3 -c 'import json, sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["database"]["path"])' "$temporary_root/new-output/current-system.json")" != "Database/System.db" ]]; then
+    echo "FAIL: snapshot database.path is not stable" >&2
+    failures=$((failures + 1))
+fi
+snapshot_sha="$(python3 -c 'import json, sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["database"]["sha256"])' "$temporary_root/new-output/current-system.json")"
+if [[ "$snapshot_sha" != "$before_sha" ]]; then
+    echo "FAIL: snapshot SHA-256 is not bound to the verified database copy" >&2
     failures=$((failures + 1))
 fi
 
