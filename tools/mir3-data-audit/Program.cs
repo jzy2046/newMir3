@@ -60,27 +60,11 @@ static ExportOptions ParseArguments(string[] args)
         throw new FileNotFoundException("database does not exist", databasePath.FullName);
 
     var outputPath = new FileInfo(Path.GetFullPath(output));
-    if (PointsToSameFile(databasePath, outputPath))
-        throw new ArgumentException("--output must not refer to the input database");
+    if (outputPath.Exists || Directory.Exists(outputPath.FullName) || outputPath.LinkTarget is not null)
+        throw new ArgumentException("--output must name a file that does not already exist");
 
     return new ExportOptions(databasePath, outputPath);
 }
-
-static bool PointsToSameFile(FileInfo databasePath, FileInfo outputPath)
-{
-    if (string.Equals(databasePath.FullName, outputPath.FullName, GetPathComparison()))
-        return true;
-    if (!outputPath.Exists)
-        return false;
-
-    var databaseTarget = databasePath.ResolveLinkTarget(returnFinalTarget: true)?.FullName ?? databasePath.FullName;
-    var outputTarget = outputPath.ResolveLinkTarget(returnFinalTarget: true)?.FullName ?? outputPath.FullName;
-    return string.Equals(databaseTarget, outputTarget, GetPathComparison());
-}
-
-static StringComparison GetPathComparison() => OperatingSystem.IsWindows()
-    ? StringComparison.OrdinalIgnoreCase
-    : StringComparison.Ordinal;
 
 static void Export(FileInfo databasePath, FileInfo outputPath)
 {
@@ -168,11 +152,12 @@ static void Export(FileInfo databasePath, FileInfo outputPath)
             sets);
         if (outputPath.DirectoryName is { Length: > 0 })
             Directory.CreateDirectory(outputPath.DirectoryName);
-        File.WriteAllText(outputPath.FullName, JsonSerializer.Serialize(document, new JsonSerializerOptions
+        using var outputStream = new FileStream(outputPath.FullName, FileMode.CreateNew, FileAccess.Write, FileShare.None);
+        JsonSerializer.Serialize(outputStream, document, new JsonSerializerOptions
         {
             WriteIndented = true,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        }));
+        });
     }
     finally
     {

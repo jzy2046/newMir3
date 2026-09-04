@@ -51,6 +51,33 @@ expect_rejected_without_database_change \
     "$temporary_root/system-link.json" \
     "$temporary_root/symlink/System.db"
 
+mkdir "$temporary_root/hardlink"
+cp "$repository_root/Database/System.db" "$temporary_root/hardlink/System.db"
+ln "$temporary_root/hardlink/System.db" "$temporary_root/hardlink-output.json"
+expect_rejected_without_database_change \
+    "output hard link resolving to the input database" \
+    "$temporary_root/hardlink/System.db" \
+    "$temporary_root/hardlink-output.json" \
+    "$temporary_root/hardlink/System.db"
+
+mkdir "$temporary_root/parent-target"
+cp "$repository_root/Database/System.db" "$temporary_root/parent-target/System.db"
+ln -s "$temporary_root/parent-target" "$temporary_root/parent-link"
+expect_rejected_without_database_change \
+    "output through a parent-directory symlink" \
+    "$temporary_root/parent-target/System.db" \
+    "$temporary_root/parent-link/System.db" \
+    "$temporary_root/parent-target/System.db"
+
+mkdir "$temporary_root/ordinary-existing"
+cp "$repository_root/Database/System.db" "$temporary_root/ordinary-existing/System.db"
+printf 'already exists\n' > "$temporary_root/ordinary-existing-output.json"
+expect_rejected_without_database_change \
+    "ordinary existing output file" \
+    "$temporary_root/ordinary-existing/System.db" \
+    "$temporary_root/ordinary-existing-output.json" \
+    "$temporary_root/ordinary-existing/System.db"
+
 mkdir "$temporary_root/relative"
 cp "$repository_root/Database/System.db" "$temporary_root/relative/System.db"
 pushd "$temporary_root/relative" >/dev/null
@@ -67,6 +94,17 @@ expect_rejected_without_database_change \
     "$temporary_root/NotSystem.db" \
     "$temporary_root/not-system-output.json" \
     "$temporary_root/NotSystem.db"
+
+mkdir "$temporary_root/new-output"
+cp "$repository_root/Database/System.db" "$temporary_root/new-output/System.db"
+before_sha="$(shasum -a 256 "$temporary_root/new-output/System.db" | awk '{print $1}')"
+"$dotnet_command" run --project "$repository_root/tools/mir3-data-audit/Mir3DataAudit.csproj" -- \
+    export --database "$temporary_root/new-output/System.db" --output "$temporary_root/new-output/current-system.json"
+after_sha="$(shasum -a 256 "$temporary_root/new-output/System.db" | awk '{print $1}')"
+if [[ "$before_sha" != "$after_sha" || ! -f "$temporary_root/new-output/current-system.json" ]]; then
+    echo "FAIL: new output export did not preserve the copied database" >&2
+    failures=$((failures + 1))
+fi
 
 if [[ "$failures" -ne 0 ]]; then
     exit 1
