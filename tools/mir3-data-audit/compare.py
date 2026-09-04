@@ -92,6 +92,8 @@ def match_record(record: str | dict[str, Any], kind: str,
         "exact": "与官方正式名称精确匹配",
         "alias": "与官方显式别名精确匹配",
     }[match_kind] + f"；官方条目状态：{status}"
+    if status == "excluded-later-version":
+        basis += f"；引入版本：{entry['introducedVersion']}"
     return {
         "entry": entry, "match_kind": match_kind, "judgment": judgment, "basis": basis,
         "delete_candidate": status == "excluded-later-version",
@@ -168,12 +170,12 @@ def render_markdown(snapshot: dict[str, Any], reference: dict[str, Any], sources
 def render_official_table(kind: str, entries: list[dict[str, Any]]) -> list[str]:
     heading = {"items": "官方物品完整表", "monsters": "官方怪物完整表", "sets": "官方套装表"}[kind]
     field = {"items": "category", "monsters": "area", "sets": "items"}[kind]
-    rows = ["", f"## {heading}", "", "| 正式名 | 别名 | 类别/区域/组成 | 状态 | 来源ID | 说明 |", "| --- | --- | --- | --- | --- | --- |"]
+    rows = ["", f"## {heading}", "", "| 正式名 | 别名 | 类别/区域/组成 | 状态 | 引入版本 | 来源ID | 说明 |", "| --- | --- | --- | --- | --- | --- | --- |"]
     for entry in entries:
         detail = entry[field] if kind != "sets" else ", ".join(entry[field])
         rows.append("| " + " | ".join((
             escape_markdown(entry["name"]), escape_markdown(", ".join(entry["aliases"])),
-            escape_markdown(detail), escape_markdown(entry["status"]),
+            escape_markdown(detail), escape_markdown(entry["status"]), escape_markdown(entry.get("introducedVersion", "—")),
             escape_markdown(", ".join(entry["sourceIds"])), escape_markdown(entry["notes"]),
         )) + " |")
     return rows
@@ -187,7 +189,8 @@ def render_local_table(kind: str, records: list[tuple[dict[str, Any], dict[str, 
         "monsters": "本地字段（等级/AI/图像/Boss）",
         "sets": "数据库组成 | 官方组成 | 差异/缺失部件",
     }[kind]
-    rows = ["", f"## {heading}", "", f"| 快照索引 | 数据库原名 | 官方1.45名称 | 匹配状态 | 判断依据 | 证据来源 | 处理建议 | {extras} |", f"| ---: | --- | --- | --- | --- | --- | --- | {'--- | --- | ---' if kind == 'sets' else '---'}"]
+    separator = " | ".join(["---:"] + ["---"] * (10 if kind == "sets" else 8))
+    rows = ["", f"## {heading}", "", f"| 快照索引 | 数据库原名 | 官方1.45名称 | 匹配状态 | 匹配方式 | 判断依据 | 证据来源 | 处理建议 | {extras} |", f"| {separator} |"]
     for record, match in records:
         entry = match["entry"]
         official_name = entry["name"] if entry else "-"
@@ -195,7 +198,7 @@ def render_local_table(kind: str, records: list[tuple[dict[str, Any], dict[str, 
         action = match["judgment"]
         marker = f"<!-- local:{kind[:-1]}:{record['index']} -->"
         common = [
-            f"{marker}{record['index']}", record["name"], official_name, match["match_kind"],
+            f"{marker}{record['index']}", record["name"], official_name, action, match["match_kind"],
             match["basis"], source_ids, action,
         ]
         if kind == "items":

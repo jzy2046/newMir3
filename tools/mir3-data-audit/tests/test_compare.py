@@ -59,6 +59,17 @@ class CompareApiTests(unittest.TestCase):
 
 
 class MarkdownReportTests(unittest.TestCase):
+    def test_report_includes_required_audit_context_and_sections(self) -> None:
+        compare = load_compare()
+        report = compare.render_markdown(snapshot_document(), reference_document(), "# source notes")
+        for text in (
+            "# 传奇3 光通 1.45 数据完整对比报告", "口径与安全说明", "不做繁简转换", "不得仅因缺少资料建议删除",
+            "System.db逻辑路径", "Database/System.db", "abc", "2026-09-04T00:00:00Z", "数量汇总", "来源表",
+            "官方物品完整表", "本服物品完整对比表", "官方怪物完整表", "本服怪物完整对比表",
+            "官方套装表", "本服套装对比表", "建议删除候选", "版本不确定项",
+        ):
+            self.assertIn(text, report)
+
     def test_report_contains_complete_sections_and_official_only_entry(self) -> None:
         compare = load_compare()
         report = compare.render_markdown(snapshot_document(), reference_document(
@@ -78,6 +89,47 @@ class MarkdownReportTests(unittest.TestCase):
         report = compare.render_markdown(snapshot_document(), reference_document(), "sources")
         for marker in ("<!-- local:item:7 -->", "<!-- local:monster:8 -->", "<!-- local:set:9 -->"):
             self.assertEqual(1, report.count(marker), marker)
+
+    def test_local_match_status_uses_business_judgment_and_exclusion_version(self) -> None:
+        compare = load_compare()
+        snapshot = snapshot_document()
+        snapshot["items"] = [
+            item_snapshot(1, "Exact"), item_snapshot(2, "Alias"), item_snapshot(3, "Uncertain"), item_snapshot(4, "Later"),
+        ]
+        report = compare.render_markdown(snapshot, reference_document(
+            items=[
+                entry("Exact"), entry("Alias official", aliases=["Alias"]),
+                entry("Uncertain", status="uncertain-version"), entry("Later", status="excluded-later-version"),
+            ], sources=[evidence_source()],
+        ), "sources")
+        self.assertIn("| <!-- local:item:1 -->1 | Exact | Exact | 确认保留 | exact |", report)
+        self.assertIn("| <!-- local:item:2 -->2 | Alias | Alias official | 疑似同物异名 | alias |", report)
+        self.assertIn("| <!-- local:item:3 -->3 | Uncertain | Uncertain | 版本不确定 | exact |", report)
+        self.assertIn("| <!-- local:item:4 -->4 | Later | Later | 确认非1.45/建议删除 | exact |", report)
+        self.assertIn("引入版本：1.50", report)
+
+    def test_official_tables_render_introduced_version_for_all_three_types(self) -> None:
+        compare = load_compare()
+        report = compare.render_markdown(snapshot_document(), reference_document(
+            items=[entry("Later Item", status="excluded-later-version")],
+            monsters=[entry("Later Monster", status="excluded-later-version", category="North")],
+            sets=[entry("Later Set", status="excluded-later-version", items=["Later Item"])],
+            sources=[evidence_source()],
+        ), "sources")
+        self.assertEqual(3, report.count("| 正式名 | 别名 | 类别/区域/组成 | 状态 | 引入版本 | 来源ID | 说明 |"))
+        self.assertIn("| Later Item |  | Weapon | excluded-later-version | 1.50 |", report)
+        self.assertIn("| Later Monster |  | North | excluded-later-version | 1.50 |", report)
+        self.assertIn("| Later Set |  | Later Item | excluded-later-version | 1.50 |", report)
+
+    def test_empty_reference_covers_all_generated_local_records_once(self) -> None:
+        compare = load_compare()
+        snapshot = synthetic_snapshot(3903, 611, 97)
+        report = compare.render_markdown(snapshot, reference_document(), "sources")
+        for kind, expected in (("item", 3903), ("monster", 611), ("set", 97)):
+            markers = [f"<!-- local:{kind}:{index} -->" for index in range(1, expected + 1)]
+            self.assertEqual(expected, sum(marker in report for marker in markers))
+            self.assertEqual(expected, report.count(f"<!-- local:{kind}:"))
+        self.assertEqual((3903 + 611 + 97) * 2 + 1, report.count("| 版本不确定 |"))
 
     def test_set_report_shows_component_difference(self) -> None:
         compare = load_compare()
@@ -199,6 +251,27 @@ def snapshot_document(item_name: str = "Iron Sword") -> dict:
         "items": [{"index": 7, "name": item_name, "itemType": "Weapon", "requiredClass": "All", "requiredAmount": 1, "image": 2}],
         "monsters": [{"index": 8, "name": "Wolf", "level": 4, "ai": 3, "image": 4, "isBoss": False}],
         "sets": [{"index": 9, "name": "Starter Set", "groups": [{"name": "main", "requiredNumItems": 1, "items": ["Iron Sword"]}]}],
+    }
+
+
+def item_snapshot(index: int, name: str) -> dict:
+    return {"index": index, "name": name, "itemType": "Weapon", "requiredClass": "All", "requiredAmount": 1, "image": 2}
+
+
+def evidence_source() -> dict:
+    return {
+        "id": "src-1", "title": "Official source", "url": "https://example.invalid", "level": 1,
+        "versions": ["1.45", "1.50"], "categories": ["items", "monsters", "sets", "version-history"],
+        "locator": "p. 1", "notes": "evidence",
+    }
+
+
+def synthetic_snapshot(item_count: int, monster_count: int, set_count: int) -> dict:
+    return {
+        "database": {"path": "Database/System.db", "sha256": "synthetic", "exportedAt": "2026-09-04T00:00:00Z"},
+        "items": [item_snapshot(index, f"item-{index}") for index in range(1, item_count + 1)],
+        "monsters": [{"index": index, "name": f"monster-{index}", "level": 1, "ai": 1, "image": 1, "isBoss": False} for index in range(1, monster_count + 1)],
+        "sets": [{"index": index, "name": f"set-{index}", "groups": [{"name": "", "requiredNumItems": 1, "items": [f"item-{index}"]}]} for index in range(1, set_count + 1)],
     }
 
 
