@@ -5,8 +5,1123 @@
     "version": "1.45",
     "policy": "strict-evidence"
   },
-  "sources": [],
-  "items": [],
-  "monsters": [],
-  "sets": []
+  "sources": [
+    {
+      "id": "official-145-release",
+      "title": "光通《传奇3》官方网站 V1.45 上线页（2004-04-16 存档）",
+      "url": "https://web.archive.org/web/20040416063846id_/http://www.mir3.com.cn/",
+      "level": 1,
+      "notes": "光通官网存档正文写明 4 月 15 日上线 V1.45；只用于版本边界，不为未列名的物品、怪物或套装背书。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "version-history"
+      ],
+      "locator": "首页“我的《传奇3》我做主 V1.45版真情奉献”区块，含“4月15日上线的V1.45版”及更新摘要。"
+    },
+    {
+      "id": "official-145-skill-activity",
+      "title": "光通《闯诺玛・巧拼字・夺技能》活动攻略（2004-04-29 存档）",
+      "url": "https://web.archive.org/web/20040429013452id_/http://www.mir3.com.cn/column/v1.4/act_book2.htm",
+      "level": 1,
+      "notes": "光通官网 V1.45 活动正文直接列出诺玛遗址出现的任务道具、兑换书名和奖励物品。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "items",
+        "version-history"
+      ],
+      "locator": "“第一步闯诺玛”“第二步巧拼字”“第三步夺技能”三段；末段明确写“V1.45版中”。"
+    },
+    {
+      "id": "official-145-items-ring",
+      "title": "光通 V1.45 专区戒指物品表（2004-06-03 存档）",
+      "url": "https://web.archive.org/web/20040603222737id_/http://www.mir3.com.cn/column/v1.4/item_ring.htm",
+      "level": 1,
+      "notes": "光通官网 V1.45 专区的上线后存档；表格直接列出战士、法师、道士戒指及元素括号名称。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "items"
+      ],
+      "locator": "页面“战士戒指”“法师戒指”“道士戒指”三个表格；顶部为该官方专区的 top145 标识。"
+    },
+    {
+      "id": "official-145-items-bracelet",
+      "title": "光通 V1.45 专区手镯物品表（2004-06-05 存档）",
+      "url": "https://web.archive.org/web/20040605012353id_/http://www.mir3.com.cn/column/v1.4/item_bracelet.htm",
+      "level": 1,
+      "notes": "光通官网 V1.45 专区的上线后存档；表格直接列出战士、法师、道士和共用手镯。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "items"
+      ],
+      "locator": "页面“战士手镯”“法师手镯”“道士手镯”“共用手镯”表格；顶部为该官方专区的 top145 标识。"
+    },
+    {
+      "id": "official-145-items-amulet",
+      "title": "光通 V1.45 专区项链物品表（2004-06-05 存档）",
+      "url": "https://web.archive.org/web/20040605013351id_/http://www.mir3.com.cn/column/v1.4/item_amulet.htm",
+      "level": 1,
+      "notes": "光通官网 V1.45 专区的上线后存档；表格直接列出战士、法师、道士和共用项链。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "items"
+      ],
+      "locator": "页面“战士项链”“法师项链”“道士项链”“共用项链”表格；顶部为该官方专区的 top145 标识。"
+    },
+    {
+      "id": "official-145-monsters-nooma",
+      "title": "光通 V1.45 专区诺玛怪物资料（2004-06-03 存档）",
+      "url": "https://web.archive.org/web/20040603224208id_/http://www.mir3.com.cn/column/v1.4/mon.htm",
+      "level": 1,
+      "notes": "光通官网 V1.45 专区的上线后怪物目录；正文按“诺玛遗址怪物”和“诺玛平民”分组。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "monsters"
+      ],
+      "locator": "“一、诺玛遗址怪物”与“二、诺玛平民”两段的名称和说明表；顶部为该官方专区的 top145 标识。"
+    },
+    {
+      "id": "s17173-20040415-v145-release",
+      "title": "以人为本 《传奇3》V1.45版正式上线！（17173，2004-04-15）",
+      "url": "https://news.17173.com/content/2004-4-15/n479_395577.html",
+      "level": 2,
+      "notes": "同期大型游戏站新闻正文带时间戳，记载光通于 2004-04-15 上线 V1.45、并在 4 月 15 日至 23 日分批升级；仅作版本时间线交叉核验。",
+      "versions": [
+        "1.45"
+      ],
+      "categories": [
+        "version-history"
+      ],
+      "locator": "正文第 1 段的“4月15日…V1.45版隆重上线”及末段“4月15日至4月23日…升级维护”。"
+    },
+    {
+      "id": "s17173-kr-20040316-update-plan",
+      "title": "韩服 3月16日 更新计划介绍（17173 同期译整）",
+      "url": "https://mir3.17173.com/up/2004316up.htm",
+      "level": 2,
+      "notes": "正文明确是“韩服”更新计划，不证明中国光通 1.45 已部署；只为 uncertain-version 套装和部件保留其逐项正文证据。",
+      "versions": [
+        "韩国3月16日更新计划"
+      ],
+      "categories": [
+        "items",
+        "sets"
+      ],
+      "locator": "“3.新套装”“金刚套装”“祈祷套装”表格，逐项列出五件组成和套装说明。"
+    },
+    {
+      "id": "s17173-20030820-moxue-set",
+      "title": "全面理性剖析魔血套装（17173，2003-08-20）",
+      "url": "https://mir3.17173.com/content/2003-8-20/n751_667503.html?_platform=PC",
+      "level": 2,
+      "notes": "同期正文有日期并逐项写出魔血戒指、手镯、项链；它早于 1.45 且没有证明持续适用，故只能支持 uncertain-version。",
+      "versions": [
+        "2003-08-20（版本未明）"
+      ],
+      "categories": [
+        "items",
+        "sets"
+      ],
+      "locator": "正文第 1 节 a、b、c 三项与“3个全部佩带”说明。"
+    }
+  ],
+  "items": [
+    {
+      "name": "师承戒指",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方专区“战士戒指”表中的基础名称。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "师承戒指（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士戒指"
+    },
+    {
+      "name": "龙马戒指",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方专区“法师戒指”表中的基础名称。",
+      "category": "首饰-法师戒指"
+    },
+    {
+      "name": "龙马戒指（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师戒指"
+    },
+    {
+      "name": "龙马戒指（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师戒指"
+    },
+    {
+      "name": "龙马戒指（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师戒指"
+    },
+    {
+      "name": "龙马戒指（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师戒指"
+    },
+    {
+      "name": "青云戒指",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方专区“道士戒指”表中的基础名称。",
+      "category": "首饰-道士戒指"
+    },
+    {
+      "name": "青云戒指（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士戒指"
+    },
+    {
+      "name": "青云戒指（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士戒指"
+    },
+    {
+      "name": "青云戒指（幻影）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-ring"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士戒指"
+    },
+    {
+      "name": "金棱手镯",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方专区“战士手镯”表中的基础名称。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "金棱手镯（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士手镯"
+    },
+    {
+      "name": "思过手镯",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方专区“法师手镯”表中的基础名称。",
+      "category": "首饰-法师手镯"
+    },
+    {
+      "name": "思过手镯（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师手镯"
+    },
+    {
+      "name": "思过手镯（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师手镯"
+    },
+    {
+      "name": "思过手镯（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师手镯"
+    },
+    {
+      "name": "思过手镯（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师手镯"
+    },
+    {
+      "name": "世尊手镯",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方专区“道士手镯”表中的基础名称。",
+      "category": "首饰-道士手镯"
+    },
+    {
+      "name": "世尊手镯（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士手镯"
+    },
+    {
+      "name": "世尊手镯（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士手镯"
+    },
+    {
+      "name": "世尊手镯（幻影）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士手镯"
+    },
+    {
+      "name": "心念手镯",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-bracelet"
+      ],
+      "notes": "官方专区“共用手镯”表中单列的名称。",
+      "category": "首饰-共用手镯"
+    },
+    {
+      "name": "破荒项链",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方专区“战士项链”表中的基础名称。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "破荒项链（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-战士项链"
+    },
+    {
+      "name": "魔云项链",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方专区“法师项链”表中的基础名称。",
+      "category": "首饰-法师项链"
+    },
+    {
+      "name": "魔云项链（火）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师项链"
+    },
+    {
+      "name": "魔云项链（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师项链"
+    },
+    {
+      "name": "魔云项链（风）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师项链"
+    },
+    {
+      "name": "魔云项链（雷）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-法师项链"
+    },
+    {
+      "name": "定心项链",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方专区“道士项链”表中的基础名称。",
+      "category": "首饰-道士项链"
+    },
+    {
+      "name": "定心项链（神圣）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士项链"
+    },
+    {
+      "name": "定心项链（暗黑）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士项链"
+    },
+    {
+      "name": "定心项链（幻影）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方表格的独立元素行；括号元素为名称的一部分。",
+      "category": "首饰-道士项链"
+    },
+    {
+      "name": "圣山项链",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-items-amulet"
+      ],
+      "notes": "官方专区“共用项链”表中单列的名称。",
+      "category": "首饰-共用项链"
+    },
+    {
+      "name": "旧娃娃",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文称诺玛遗址出现刻有不同名字的“旧娃娃”道具；未据此扩展未展示的刻名。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（十）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（方）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（斩）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（魄）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（冰）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "秘籍书（刺）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为可凑齐的刻名旧娃娃。",
+      "category": "任务物品"
+    },
+    {
+      "name": "十方斩（秘籍）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文明确写三枚对应旧娃娃可兑换此书。",
+      "category": "技能书"
+    },
+    {
+      "name": "魄冰刺（秘籍）",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文明确写三枚对应旧娃娃可兑换此书。",
+      "category": "技能书"
+    },
+    {
+      "name": "祝福油",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为诺玛遗址活动路上的奖励物品。",
+      "category": "消耗品"
+    },
+    {
+      "name": "回生神水",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为活动奖励物品。",
+      "category": "消耗品"
+    },
+    {
+      "name": "亡灵之药水",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文列为活动奖励物品。",
+      "category": "消耗品"
+    },
+    {
+      "name": "高级技能书",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-skill-activity"
+      ],
+      "notes": "官方活动正文以该名称称呼活动可得的新技能书；未把它扩展为未逐一列出的书名。",
+      "category": "技能书"
+    },
+    {
+      "name": "诺马勇气",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的诺马勇士套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件（原文未明示栏位类型）"
+    },
+    {
+      "name": "诺马智慧手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的诺马勇士套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "诺马正义手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的诺马勇士套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "诺马防御手套",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的诺马勇士套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "诺马魔法手套",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的诺马勇士套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "金刚铃铛",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的金刚套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "金刚防御手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的金刚套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "金刚魔法手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的金刚套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "金刚魔法戒指",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的金刚套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "金刚精神戒指",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的金刚套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "祈祷之刃",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的祈祷套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "祈祷头盔",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的祈祷套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "祈祷项链",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的祈祷套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "祈祷手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的祈祷套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "祈祷戒指",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "正文表格列为韩服计划中的祈祷套装部件；未证明光通中国 1.45 已部署。",
+      "category": "套装部件"
+    },
+    {
+      "name": "魔血戒指",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-20030820-moxue-set"
+      ],
+      "notes": "2003 同期正文列为魔血套装部件；没有光通中国 1.45 持续适用证据。",
+      "category": "首饰-戒指"
+    },
+    {
+      "name": "魔血手镯",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-20030820-moxue-set"
+      ],
+      "notes": "2003 同期正文列为魔血套装部件；没有光通中国 1.45 持续适用证据。",
+      "category": "首饰-手镯"
+    },
+    {
+      "name": "魔血项链",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-20030820-moxue-set"
+      ],
+      "notes": "2003 同期正文列为魔血套装部件；没有光通中国 1.45 持续适用证据。",
+      "category": "首饰-项链"
+    }
+  ],
+  "monsters": [
+    {
+      "name": "诺玛骑兵",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "诺玛装甲兵",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "诺玛抛石兵",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "诺玛司令",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "诺玛斧兵",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "诺玛教主",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛遗址怪物”表的独立条目。",
+      "area": "诺玛遗址"
+    },
+    {
+      "name": "男性诺玛",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛平民”表的独立条目；页面没有给出具体地图，故不补写地点。",
+      "area": "未明示（页面分组：诺玛平民）"
+    },
+    {
+      "name": "女性诺玛",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛平民”表的独立条目；页面没有给出具体地图，故不补写地点。",
+      "area": "未明示（页面分组：诺玛平民）"
+    },
+    {
+      "name": "小诺玛",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛平民”表的独立条目；页面没有给出具体地图，故不补写地点。",
+      "area": "未明示（页面分组：诺玛平民）"
+    },
+    {
+      "name": "独臂诺玛",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛平民”表的独立条目；页面没有给出具体地图，故不补写地点。",
+      "area": "未明示（页面分组：诺玛平民）"
+    },
+    {
+      "name": "单腿诺玛",
+      "aliases": [],
+      "status": "confirmed-145",
+      "sourceIds": [
+        "official-145-monsters-nooma"
+      ],
+      "notes": "官方目录“诺玛平民”表的独立条目；页面没有给出具体地图，故不补写地点。",
+      "area": "未明示（页面分组：诺玛平民）"
+    }
+  ],
+  "sets": [
+    {
+      "name": "诺马勇士套装",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "组成在韩服 3 月 16 日更新计划正文中逐项列出；该来源没有证明光通中国 1.45 部署，不能作为确认或删除依据。",
+      "items": [
+        "诺马勇气",
+        "诺马智慧手镯",
+        "诺马正义手镯",
+        "诺马防御手套",
+        "诺马魔法手套"
+      ]
+    },
+    {
+      "name": "金刚套装",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "组成在韩服 3 月 16 日更新计划正文中逐项列出；该来源没有证明光通中国 1.45 部署，不能作为确认或删除依据。",
+      "items": [
+        "金刚铃铛",
+        "金刚防御手镯",
+        "金刚魔法手镯",
+        "金刚魔法戒指",
+        "金刚精神戒指"
+      ]
+    },
+    {
+      "name": "祈祷套装",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-kr-20040316-update-plan"
+      ],
+      "notes": "组成在韩服 3 月 16 日更新计划正文中逐项列出；该来源没有证明光通中国 1.45 部署，不能作为确认或删除依据。",
+      "items": [
+        "祈祷之刃",
+        "祈祷头盔",
+        "祈祷项链",
+        "祈祷手镯",
+        "祈祷戒指"
+      ]
+    },
+    {
+      "name": "魔血套装",
+      "aliases": [],
+      "status": "uncertain-version",
+      "sourceIds": [
+        "s17173-20030820-moxue-set"
+      ],
+      "notes": "2003 同期正文逐项列出三件组成，但早于 1.45 且未证明持续适用；不能作为确认或删除依据。",
+      "items": [
+        "魔血戒指",
+        "魔血手镯",
+        "魔血项链"
+      ]
+    }
+  ]
 }
