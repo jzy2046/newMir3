@@ -3,12 +3,15 @@
 
 import argparse
 import hashlib
+import importlib.util
 import json
 import re
 import sys
 import unicodedata
 from collections import Counter
+from itertools import zip_longest
 from pathlib import Path
+from typing import Any
 
 
 class VerificationArgumentParser(argparse.ArgumentParser):
@@ -151,6 +154,7 @@ REPORT_HEADINGS = (
     "## 版本不确定项",
 )
 EMPTY_DELETE_CANDIDATES_TEXT = "当前没有满足严格证据条件的建议删除候选。"
+_COMPARE_RENDERER: Any | None = None
 
 
 def normalized_numeric_version(version: str) -> tuple[int, ...] | None:
@@ -372,8 +376,22 @@ def validate_delete_candidates(report: str, snapshot: dict, reference: dict) -> 
         fail("report must explicitly state that there are no delete candidates")
 
 
-def validate_report(report: object, snapshot: object, reference: object) -> None:
+def compare_renderer() -> Any:
+    global _COMPARE_RENDERER
+    if _COMPARE_RENDERER is None:
+        compare_path = Path(__file__).with_name("compare.py")
+        specification = importlib.util.spec_from_file_location("mir3_report_canonical_compare", compare_path)
+        if specification is None or specification.loader is None:
+            fail("cannot load canonical report renderer")
+        module = importlib.util.module_from_spec(specification)
+        specification.loader.exec_module(module)
+        _COMPARE_RENDERER = module
+    return _COMPARE_RENDERER
+
+
+def validate_report(report: object, snapshot: object, reference: object, sources_text: object) -> None:
     report_text = require_non_empty_string(report, "report")
+    sources = require_string(sources_text, "sources")
     snapshot_document, _ = validate_snapshot_document(snapshot)
     reference_document = require_mapping(reference, "reference")
     validate_reference(reference_document)
@@ -396,6 +414,18 @@ def validate_report(report: object, snapshot: object, reference: object) -> None
     if actual != expected:
         fail("report local record markers do not exactly match the snapshot")
     validate_delete_candidates(report_text, snapshot_document, reference_document)
+    try:
+        canonical = compare_renderer().render_markdown(snapshot_document, reference_document, sources)
+    except Exception as exception:
+        fail(f"cannot render canonical report: {exception}")
+    if report_text != canonical:
+        for line_number, (actual_line, canonical_line) in enumerate(
+            zip_longest(report_text.splitlines(), canonical.splitlines()),
+            start=1,
+        ):
+            if actual_line != canonical_line:
+                fail(f"report differs from canonical output at line {line_number}")
+        fail("report differs from canonical output")
 
 
 def load_json_document(path_value: str, label: str) -> object:
@@ -418,6 +448,16 @@ def load_report(path_value: str) -> str:
         fail(f"cannot read report: {exception}")
 
 
+def load_sources(path_value: str) -> str:
+    path = Path(path_value)
+    if not path.is_file():
+        fail(f"sources does not exist: {path}")
+    try:
+        return path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exception:
+        fail(f"cannot read sources: {exception}")
+
+
 def main() -> None:
     parser = VerificationArgumentParser()
     parser.add_argument("--reference")
@@ -425,6 +465,7 @@ def main() -> None:
     parser.add_argument("--database")
     parser.add_argument("--expected-sha256")
     parser.add_argument("--report")
+    parser.add_argument("--sources")
     args = parser.parse_args()
 
     snapshot_validation_values = (args.database, args.expected_sha256)
@@ -432,8 +473,10 @@ def main() -> None:
         value is not None for value in (args.snapshot, *snapshot_validation_values)
     ):
         fail("snapshot validation requires --snapshot, --database, and --expected-sha256")
-    if args.report is not None and (args.snapshot is None or args.reference is None):
-        fail("report validation requires --snapshot, --reference, and --report")
+    if args.report is not None and (args.snapshot is None or args.reference is None or args.sources is None):
+        fail("report validation requires --snapshot, --reference, --sources, and --report")
+    if args.sources is not None and args.report is None:
+        fail("--sources is only allowed with --report")
     if args.snapshot is not None and args.report is None and not all(
         value is not None for value in snapshot_validation_values
     ):
@@ -451,7 +494,7 @@ def main() -> None:
     if reference is not None:
         validate_reference(reference)
     if args.report is not None:
-        validate_report(load_report(args.report), snapshot, reference)
+        validate_report(load_report(args.report), snapshot, reference, load_sources(args.sources))
     print("verification passed")
 
 

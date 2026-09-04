@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import copy
+import importlib.util
 import json
 import subprocess
 import sys
@@ -13,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 VERIFY = ROOT / "tools" / "mir3-data-audit" / "verify_snapshot.py"
+COMPARE = ROOT / "tools" / "mir3-data-audit" / "compare.py"
 EMPTY_DELETE_TEXT = "当前没有满足严格证据条件的建议删除候选。"
 REQUIRED_HEADINGS = (
     "# 传奇3 光通 1.45 数据完整对比报告",
@@ -78,18 +80,35 @@ def report_document(snapshot: dict, *, deletion_rows: list[str] | None = None) -
     return "\n\n".join(lines) + "\n"
 
 
-def run_case(name: str, snapshot: dict, reference: dict, report: str, success: bool) -> None:
+def canonical_report(snapshot: dict, reference: dict, sources: str = "source notes") -> str:
+    specification = importlib.util.spec_from_file_location("mir3_report_test_compare", COMPARE)
+    if specification is None or specification.loader is None:
+        raise AssertionError("cannot load compare.py")
+    module = importlib.util.module_from_spec(specification)
+    specification.loader.exec_module(module)
+    return module.render_markdown(snapshot, reference, sources)
+
+
+def run_case(name: str, snapshot: dict, reference: dict, report: str, success: bool,
+             *, include_sources: bool = True) -> None:
     with tempfile.TemporaryDirectory(prefix="mir3-report-verify-") as directory:
         root = Path(directory)
         snapshot_path = root / "snapshot.json"
         reference_path = root / "reference.json"
         report_path = root / "report.md"
+        sources_path = root / "sources.md"
         snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
         reference_path.write_text(json.dumps(reference), encoding="utf-8")
         report_path.write_text(report, encoding="utf-8")
+        sources_path.write_text("source notes", encoding="utf-8")
+        arguments = [
+            sys.executable, str(VERIFY), "--snapshot", str(snapshot_path), "--reference", str(reference_path),
+            "--report", str(report_path),
+        ]
+        if include_sources:
+            arguments.extend(("--sources", str(sources_path)))
         result = subprocess.run(
-            [sys.executable, str(VERIFY), "--snapshot", str(snapshot_path), "--reference", str(reference_path),
-             "--report", str(report_path)],
+            arguments,
             capture_output=True, text=True, check=False,
         )
         if success:
@@ -102,8 +121,11 @@ def run_case(name: str, snapshot: dict, reference: dict, report: str, success: b
 def main() -> None:
     snapshot = snapshot_document()
     reference = reference_document()
-    valid = report_document(snapshot)
-    run_case("valid-minimal", snapshot, reference, valid, success=True)
+    minimal = report_document(snapshot)
+    run_case("noncanonical-minimal", snapshot, reference, minimal, success=False)
+    valid = canonical_report(snapshot, reference)
+    run_case("valid-canonical", snapshot, reference, valid, success=True)
+    run_case("missing-sources", snapshot, reference, valid, success=False, include_sources=False)
 
     run_case("missing-marker", snapshot, reference, valid.replace("<!-- local:item:1 -->", ""), success=False)
     run_case("duplicate-marker", snapshot, reference, valid + "<!-- local:item:1 -->\n", success=False)
@@ -113,20 +135,46 @@ def main() -> None:
 
     excluded_snapshot = snapshot_document(include_unknown=True)
     excluded_reference = reference_document(excluded=True)
-    excluded_report = report_document(excluded_snapshot, deletion_rows=[
-        "| 物品 | 1 | Later Item | Later Item | later evidence |",
-    ])
+    excluded_report = canonical_report(excluded_snapshot, excluded_reference)
     run_case("valid-excluded", excluded_snapshot, excluded_reference, excluded_report, success=True)
     run_case(
         "unknown-mixed-into-delete-candidates",
         excluded_snapshot,
         excluded_reference,
         excluded_report.replace(
-            "| 物品 | 1 | Later Item | Later Item | later evidence |",
-            "| 物品 | 1 | Later Item | Later Item | later evidence |\n| 物品 | 2 | Mystery | - | unknown |",
+            "## 版本不确定项",
+            "| 物品 | 2 | Mystery | - | unknown |\n\n## 版本不确定项",
+            1,
         ),
         success=False,
     )
+
+    mutations = {
+        "database-sha": ("| Database/System.db | abc |", "| Database/System.db | tampered |"),
+        "statistics": ("| 物品 | 1 | 0 |", "| 物品 | 999 | 0 |"),
+        "sources-table": ("| 输入来源文档 | 已读取 |", "| 输入来源文档 | 已篡改 |"),
+        "official-row": ("## 本服物品完整对比表", "| Fake Official |  | fake | uncertain-version | — | fake | fake |\n\n## 本服物品完整对比表"),
+        "local-row": ("<!-- local:item:1 -->1 | Later Item", "<!-- local:item:1 -->1 | Altered Item"),
+        "set-difference": ("无官方对照", "组成一致"),
+        "unknown-content": ("版本不确定", "确认保留"),
+    }
+    for name, (original, replacement) in mutations.items():
+        if original not in valid:
+            raise AssertionError(f"{name} mutation target is missing")
+        run_case(f"tampered-{name}", snapshot, reference, valid.replace(original, replacement, 1), success=False)
+
+    with tempfile.TemporaryDirectory(prefix="mir3-report-cli-") as directory:
+        root = Path(directory)
+        reference_path = root / "reference.json"
+        sources_path = root / "sources.md"
+        reference_path.write_text(json.dumps(reference), encoding="utf-8")
+        sources_path.write_text("source notes", encoding="utf-8")
+        result = subprocess.run(
+            [sys.executable, str(VERIFY), "--reference", str(reference_path), "--sources", str(sources_path)],
+            capture_output=True, text=True, check=False,
+        )
+        if result.returncode != 1 or not result.stderr.startswith("verification failed:") or "Traceback" in result.stderr:
+            raise AssertionError(f"sources without report did not fail cleanly: {result.stderr!r}")
 
     bad_snapshot = copy.deepcopy(snapshot)
     bad_snapshot["items"][0]["index"] = True
