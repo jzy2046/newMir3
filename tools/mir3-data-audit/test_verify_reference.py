@@ -53,9 +53,18 @@ def empty_reference() -> dict:
     }
 
 
-def one_source() -> dict:
+def one_source(*, level: int = 1, versions: list[str] | None = None, categories: list[str] | None = None) -> dict:
     reference = empty_reference()
-    reference["sources"] = [{"id": "s1", "title": "官方资料", "url": "https://example.test/source", "level": 1, "notes": "用于测试"}]
+    reference["sources"] = [{
+        "id": "s1",
+        "title": "官方资料",
+        "url": "https://example.test/source",
+        "level": level,
+        "notes": "用于测试",
+        "versions": ["1.45"] if versions is None else versions,
+        "categories": ["items", "monsters", "sets", "version-history"] if categories is None else categories,
+        "locator": "正文第1段",
+    }]
     return reference
 
 
@@ -68,6 +77,50 @@ def one_item() -> dict:
         "sourceIds": ["s1"],
         "notes": "可核验",
         "category": "weapon",
+    }]
+    return reference
+
+
+def one_monster() -> dict:
+    reference = one_source()
+    reference["monsters"] = [{
+        "name": "测试怪物",
+        "aliases": [],
+        "status": "confirmed-145",
+        "sourceIds": ["s1"],
+        "notes": "可核验",
+        "area": "测试地图",
+    }]
+    return reference
+
+
+def one_set() -> dict:
+    reference = one_source()
+    reference["sets"] = [{
+        "name": "测试套装",
+        "aliases": [],
+        "status": "confirmed-145",
+        "sourceIds": ["s1"],
+        "notes": "可核验",
+        "items": ["测试物品"],
+    }]
+    return reference
+
+
+def one_excluded(version: str = "1.46", *, level: int = 1) -> dict:
+    reference = one_source(
+        level=level,
+        versions=[version],
+        categories=["items", "version-history"],
+    )
+    reference["items"] = [{
+        "name": "后续物品",
+        "aliases": [],
+        "status": "excluded-later-version",
+        "sourceIds": ["s1"],
+        "notes": "明确后续版本引入",
+        "category": "weapon",
+        "introducedVersion": version,
     }]
     return reference
 
@@ -114,6 +167,74 @@ def main() -> None:
     illegal_level = one_source()
     illegal_level["sources"][0]["level"] = 4
     run_reference("illegal-level", illegal_level, success=False)
+
+    for field in ("id", "title", "url", "notes", "locator"):
+        blank_source = one_source()
+        blank_source["sources"][0][field] = "  "
+        run_reference(f"blank-source-{field}", blank_source, success=False)
+    blank_versions = one_source(versions=[])
+    run_reference("empty-source-versions", blank_versions, success=False)
+    blank_version_value = one_source(versions=["  "])
+    run_reference("blank-source-version-value", blank_version_value, success=False)
+    blank_categories = one_source(categories=[])
+    run_reference("empty-source-categories", blank_categories, success=False)
+    illegal_category = one_source(categories=["quests"])
+    run_reference("illegal-source-category", illegal_category, success=False)
+    blank_category_value = one_source(categories=["  "])
+    run_reference("blank-source-category-value", blank_category_value, success=False)
+
+    category_mismatch = one_item()
+    category_mismatch["sources"][0]["categories"] = ["monsters"]
+    run_reference("record-category-mismatch", category_mismatch, success=False)
+    for factory, collection in ((one_monster, "monsters"), (one_set, "sets")):
+        mismatched = factory()
+        mismatched["sources"][0]["categories"] = ["items"]
+        run_reference(f"{collection}-category-mismatch", mismatched, success=False)
+
+    uncertain_level3 = one_source(level=3, categories=["items"], versions=["unknown"])
+    uncertain_level3["items"] = copy.deepcopy(one_item()["items"])
+    uncertain_level3["items"][0]["status"] = "uncertain-version"
+    run_reference("uncertain-level3-only", uncertain_level3, success=True)
+
+    confirmed_level3 = one_source(level=3, categories=["items"], versions=["1.45"])
+    confirmed_level3["items"] = copy.deepcopy(one_item()["items"])
+    run_reference("confirmed-level3-only", confirmed_level3, success=False)
+
+    excluded_level3 = one_excluded(level=3)
+    run_reference("excluded-level3-only", excluded_level3, success=False)
+    excluded_without_history = one_excluded()
+    excluded_without_history["sources"][0]["categories"] = ["items"]
+    run_reference("excluded-without-version-history", excluded_without_history, success=False)
+    run_reference("excluded-at-1.45", one_excluded("1.45"), success=False)
+    run_reference("excluded-at-1.4", one_excluded("1.4"), success=False)
+    run_reference("excluded-illegal-version", one_excluded("v1.46"), success=False)
+    run_reference("excluded-at-1.46", one_excluded("1.46"), success=True)
+    run_reference("excluded-at-2.0", one_excluded("2.0"), success=True)
+
+    blank_item_name = one_item()
+    blank_item_name["items"][0]["name"] = "  "
+    run_reference("blank-item-name", blank_item_name, success=False)
+    blank_item_notes = one_item()
+    blank_item_notes["items"][0]["notes"] = "  "
+    run_reference("blank-item-notes", blank_item_notes, success=False)
+    blank_item_category = one_item()
+    blank_item_category["items"][0]["category"] = "  "
+    run_reference("blank-item-category", blank_item_category, success=False)
+    blank_alias = one_item()
+    blank_alias["items"][0]["aliases"] = ["  "]
+    run_reference("blank-item-alias", blank_alias, success=False)
+    blank_monster_area = one_monster()
+    blank_monster_area["monsters"][0]["area"] = "  "
+    run_reference("blank-monster-area", blank_monster_area, success=False)
+    blank_set_name = one_set()
+    blank_set_name["sets"][0]["name"] = "  "
+    run_reference("blank-set-name", blank_set_name, success=False)
+    blank_set_notes = one_set()
+    blank_set_notes["sets"][0]["notes"] = "  "
+    run_reference("blank-set-notes", blank_set_notes, success=False)
+    blank_set_item = one_set()
+    blank_set_item["sets"][0]["items"] = ["  "]
+    run_reference("blank-set-item-name", blank_set_item, success=False)
 
     duplicate_name = one_item()
     duplicate_name["items"].append(copy.deepcopy(duplicate_name["items"][0]))

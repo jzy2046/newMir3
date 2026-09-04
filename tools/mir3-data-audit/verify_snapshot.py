@@ -4,6 +4,7 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -50,6 +51,13 @@ def require_string(value: object, label: str) -> str:
     if not isinstance(value, str):
         fail(f"{label} must be a string")
     return value
+
+
+def require_non_empty_string(value: object, label: str) -> str:
+    result = require_string(value, label)
+    if not result.strip():
+        fail(f"{label} must not be empty")
+    return result
 
 
 def require_int(value: object, label: str) -> int:
@@ -123,52 +131,84 @@ REFERENCE_SCOPE = {
 REFERENCE_STATUSES = {"confirmed-145", "uncertain-version", "excluded-later-version"}
 
 
-def validate_reference_source(source: object, position: int) -> str:
+REFERENCE_CATEGORIES = {"items", "monsters", "sets", "version-history"}
+
+
+def validate_reference_source(source: object, position: int) -> dict:
     label = f"sources[{position}]"
     mapping = require_mapping(source, label)
-    source_id = require_string(require_field(mapping, "id", label), f"{label}.id")
-    if not source_id:
-        fail(f"{label}.id must not be empty")
-    title = require_string(require_field(mapping, "title", label), f"{label}.title")
-    require_string(require_field(mapping, "url", label), f"{label}.url")
-    if not mapping["url"].strip():
-        fail(f"{label}.url must not be empty")
+    source_id = require_non_empty_string(require_field(mapping, "id", label), f"{label}.id")
+    require_non_empty_string(require_field(mapping, "title", label), f"{label}.title")
+    require_non_empty_string(require_field(mapping, "url", label), f"{label}.url")
     level = require_int(require_field(mapping, "level", label), f"{label}.level")
     if level not in (1, 2, 3):
         fail(f"{label}.level must be 1, 2, or 3")
-    require_string(require_field(mapping, "notes", label), f"{label}.notes")
-    return source_id
+    require_non_empty_string(require_field(mapping, "notes", label), f"{label}.notes")
+    versions = require_list(require_field(mapping, "versions", label), f"{label}.versions", non_empty=True)
+    for version_position, version in enumerate(versions):
+        require_non_empty_string(version, f"{label}.versions[{version_position}]")
+    categories = require_list(require_field(mapping, "categories", label), f"{label}.categories", non_empty=True)
+    for category_position, category in enumerate(categories):
+        category = require_non_empty_string(category, f"{label}.categories[{category_position}]")
+        if category not in REFERENCE_CATEGORIES:
+            fail(f"{label}.categories[{category_position}] is invalid")
+    require_non_empty_string(require_field(mapping, "locator", label), f"{label}.locator")
+    return mapping
 
 
-def validate_reference_entry(entry: object, position: int, label: str, source_ids: set[str], extra_field: str) -> str:
+def validate_reference_entry(entry: object, position: int, label: str, sources: dict[str, dict], extra_field: str) -> str:
     mapping = require_mapping(entry, f"{label}[{position}]")
     entry_label = f"{label}[{position}]"
-    name = require_string(require_field(mapping, "name", entry_label), f"{entry_label}.name")
-    if not name:
-        fail(f"{entry_label}.name must not be empty")
+    name = require_non_empty_string(require_field(mapping, "name", entry_label), f"{entry_label}.name")
     aliases = require_list(require_field(mapping, "aliases", entry_label), f"{entry_label}.aliases")
     for alias_position, alias in enumerate(aliases):
-        require_string(alias, f"{entry_label}.aliases[{alias_position}]")
-    status = require_string(require_field(mapping, "status", entry_label), f"{entry_label}.status")
+        require_non_empty_string(alias, f"{entry_label}.aliases[{alias_position}]")
+    status = require_non_empty_string(require_field(mapping, "status", entry_label), f"{entry_label}.status")
     if status not in REFERENCE_STATUSES:
         fail(f"{entry_label}.status is invalid")
     references = require_list(require_field(mapping, "sourceIds", entry_label), f"{entry_label}.sourceIds", non_empty=True)
+    referenced_sources = []
     for source_position, source_id in enumerate(references):
-        source_id = require_string(source_id, f"{entry_label}.sourceIds[{source_position}]")
-        if source_id not in source_ids:
+        source_id = require_non_empty_string(source_id, f"{entry_label}.sourceIds[{source_position}]")
+        if source_id not in sources:
             fail(f"{entry_label}.sourceIds[{source_position}] references unknown source {source_id!r}")
-    require_string(require_field(mapping, "notes", entry_label), f"{entry_label}.notes")
+        referenced_sources.append(sources[source_id])
+    if not any(label in source["categories"] for source in referenced_sources):
+        fail(f"{entry_label} has no source categorized for {label}")
+    require_non_empty_string(require_field(mapping, "notes", entry_label), f"{entry_label}.notes")
     if status == "excluded-later-version":
-        introduced_version = require_string(
+        introduced_version = require_non_empty_string(
             require_field(mapping, "introducedVersion", entry_label),
             f"{entry_label}.introducedVersion",
         )
-        if not introduced_version.strip():
-            fail(f"{entry_label}.introducedVersion must not be empty")
+        version_parts = re.fullmatch(r"\d+(?:\.\d+)*", introduced_version)
+        if version_parts is None:
+            fail(f"{entry_label}.introducedVersion must be a numeric dotted version")
+        if tuple(int(part) for part in introduced_version.split(".")) <= (1, 45):
+            fail(f"{entry_label}.introducedVersion must be later than 1.45")
+        if not any(
+            source["level"] in (1, 2)
+            and label in source["categories"]
+            and introduced_version in source["versions"]
+            for source in referenced_sources
+        ):
+            fail(f"{entry_label} lacks level 1/2 evidence for {introduced_version}")
+        if not any(
+            source["level"] in (1, 2)
+            and "version-history" in source["categories"]
+            and introduced_version in source["versions"]
+            for source in referenced_sources
+        ):
+            fail(f"{entry_label} lacks level 1/2 version-history evidence for {introduced_version}")
     elif "introducedVersion" in mapping:
         fail(f"{entry_label}.introducedVersion is only allowed for excluded-later-version")
     if label != "sets":
-        require_string(require_field(mapping, extra_field, entry_label), f"{entry_label}.{extra_field}")
+        require_non_empty_string(require_field(mapping, extra_field, entry_label), f"{entry_label}.{extra_field}")
+    if status == "confirmed-145" and not any(
+        source["level"] in (1, 2) and "1.45" in source["versions"] and label in source["categories"]
+        for source in referenced_sources
+    ):
+        fail(f"{entry_label} lacks level 1/2 evidence for 1.45")
     return name
 
 
@@ -183,19 +223,20 @@ def validate_reference(reference: object) -> None:
         if value != expected:
             fail(f"scope.{key} must be {expected}")
 
-    sources = require_list(document["sources"], "sources")
-    source_ids = set()
-    for position, source in enumerate(sources):
-        source_id = validate_reference_source(source, position)
-        if source_id in source_ids:
+    raw_sources = require_list(document["sources"], "sources")
+    sources = {}
+    for position, source in enumerate(raw_sources):
+        source = validate_reference_source(source, position)
+        source_id = source["id"]
+        if source_id in sources:
             fail(f"sources contains duplicate id {source_id!r}")
-        source_ids.add(source_id)
+        sources[source_id] = source
 
     for label, extra_field in (("items", "category"), ("monsters", "area")):
         entries = require_list(document[label], label)
         names = set()
         for position, entry in enumerate(entries):
-            name = validate_reference_entry(entry, position, label, source_ids, extra_field)
+            name = validate_reference_entry(entry, position, label, sources, extra_field)
             if name in names:
                 fail(f"{label} contains duplicate name {name!r}")
             names.add(name)
@@ -203,11 +244,11 @@ def validate_reference(reference: object) -> None:
     sets = require_list(document["sets"], "sets")
     names = set()
     for position, entry in enumerate(sets):
-        name = validate_reference_entry(entry, position, "sets", source_ids, "items")
+        name = validate_reference_entry(entry, position, "sets", sources, "items")
         entry_label = f"sets[{position}]"
         item_names = require_list(require_mapping(entry, entry_label)["items"], f"{entry_label}.items")
         for item_position, item_name in enumerate(item_names):
-            require_string(item_name, f"{entry_label}.items[{item_position}]")
+            require_non_empty_string(item_name, f"{entry_label}.items[{item_position}]")
         if name in names:
             fail(f"sets contains duplicate name {name!r}")
         names.add(name)
