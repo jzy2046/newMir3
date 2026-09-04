@@ -1,0 +1,9 @@
+﻿mode=dry-run
+repo=D:\newMir3
+systemDb=D:\newMir3\Database\System.db
+before items=1003 monsters=230 sets=0 drops=6228
+delete items=0 keep=1003
+delete monsters=0 keep=230
+delete sets=0 (all)
+delete drops=0
+whitelist-missing-in-db items=197 monsters=0

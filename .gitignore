@@ -1,0 +1,9 @@
+﻿Backup/
+**/bin/
+**/obj/
+tools/_decompile/
+tools/_src_mirdb/
+_export_snap/
+_audit_docs/
+_whitelist/verify_export/
+_whitelist/build_verify_xlsx.py
