@@ -33,15 +33,15 @@ def OnClick(args):
 			你先要交出马牌，然后给一定费用，才会获得相应的马
 			
 			<font color=\"0xff00ff00\">『马匹属性介绍』</font>   
-			 黄骠马：舒适+5、负重+100，防魔御1-1,攻魔道：1-1
-			 的卢：舒适+10、负重+200，防魔御5-5,攻魔道：5-5
-			 绝影：舒适+20、负重+400，防魔御10-10,攻魔道：10-10
-			 赤兔马：舒适+30、负重+800，防魔御20-20,攻魔道：20-20
+			 黄骠马：舒适+5
+			 白马：舒适+5、负重+400，防魔御3-3,攻魔道：3-3
+			 绝影：舒适+5、负重+800，防魔御5-5,攻魔道：5-5
+			 赤兔马：舒适+5、负重+1600，防魔御8-8,攻魔道：8-8
 			
 			[买黄骠马:1]   （黄骠马马牌1个，50万金币，需要等级20级）
 			[买的卢马:2]   （的卢马牌1个，500万金币，需要等级40级）
-			[买名驹绝影:3] （绝影马牌1个，2000万金币，需要等级50级）
-			[买名驹赤兔:4] （赤兔马牌1个，1张钱票，需要等级55级）
+			[买名驹绝影:3] （绝影马牌1个，5000万金币，需要等级50级）
+			[买名驹赤兔:4] （赤兔马牌1个，2亿金币，需要等级55级）
 			[买绝影:] 元宝购买绝影（10000元宝，无需马牌）暂未开放
 			[买赤兔:] 元宝购买赤兔（20000元宝，无需马牌）暂未开放
 
@@ -62,7 +62,7 @@ def OnClick(args):
 	elif(Menu == 2):
 		say = """马匹购买信息：
 		
-			类型：的卢马
+			类型：白马马
 			金额：5,000,000 金币
 		
 			如果你想买这匹马，请 [在这里签字:21]
@@ -73,7 +73,7 @@ def OnClick(args):
 		say = """马匹购买信息：
 		
 			类型：绝影马
-			金额：20,000,000 金币
+			金额：50,000,000 金币
 		
 			如果你想买这匹马，请 [在这里签字:31]
 		
@@ -83,7 +83,7 @@ def OnClick(args):
 		say = """马匹购买信息：
 		
 			类型：赤兔马
-			金额：1张 钱票
+			金额：200000000 金币
 		
 			如果你想买这匹马，请 [在这里签字:41]
 		
@@ -184,7 +184,7 @@ def OnClick(args):
 		
 			[返回:99]
 			[关闭:0]"""
-		elif(Sender.Gold < 20000000):
+		elif(Sender.Gold < 50000000):
 			say = """你买不起这匹马，
 			等你有钱了再来吧。
 			
@@ -205,7 +205,7 @@ def OnClick(args):
 			[关闭:0]"""
 		else:
 			Sender.TakeItem("马牌（绝影）",1)
-			SubGold(Sender,20000000)			
+			SubGold(Sender,50000000)			
 			GiveHose(Sender,HorseType.Red)				
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
@@ -218,11 +218,10 @@ def OnClick(args):
 		
 			[返回:99]
 			[关闭:0]"""
-		elif(Sender.GetItemCount("钱票") < 1):
-			say ="""你的钱票不够。
-			请准备好足够的钱票在来。
-			
-			[返回:99]
+		elif(Sender.Gold < 200000000):
+			say ="""你的金币不够。
+			请准备好足够的金币再来。
+[返回:99]
 			[关闭:0]"""
 		elif(Sender.GetItemCount("马牌（赤兔马）") < 1):
 			say = """你没有对应的马牌，我无法为你提供服务
@@ -238,7 +237,7 @@ def OnClick(args):
 			[关闭:0]"""
 		else:
 			Sender.TakeItem("马牌（赤兔马）",1)
-			Sender.TakeItem("钱票",1)				
+			SubGold(Sender,200000000)				
 			GiveHose(Sender,HorseType.Black)				
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
@@ -294,8 +293,8 @@ def OnClick(args):
 		
 		黄骠马- 250,000 金币
 		的卢 - 2,500,000 金币
-		绝影 - 10,000,000 金币
-		赤兔马 - 50,000,000 金币
+		绝影 - 25,000,000 金币
+		赤兔马 - 100,000,000 金币
 		稀有绝影 - 5,000 元宝
 		稀有赤兔马 - 10,000 元宝
 		
@@ -324,7 +323,7 @@ def OnClick(args):
 		elif(horse == HorseType.White):
 			say = """马匹出售信息：
 			
-			类型：的卢
+			类型：白马
 			金额：2,500,000 金币
 			
 			如果你想卖这匹马，请 [在这里签字:511]
@@ -399,7 +398,7 @@ def OnClick(args):
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Red):
 			if(PlayerGetV(Sender,GV_PLAYER_REDHORSE)==0):        #判断是否金币或者元宝购买，通过变量判断 
-				GiveGold(Sender,10000000)
+				GiveGold(Sender,25000000)
 				GiveHose(Sender,HorseType.None)
 			else:
 				PlayerSetV(Sender,GV_PLAYER_REDHORSE,0)   #卖马时将变量归0
@@ -407,7 +406,7 @@ def OnClick(args):
 				GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Black):
 			if(PlayerGetV(Sender,GV_PLAYER_BLACKHORSE)==0):        #判断是否金币或者元宝购买，通过变量判断
-				GiveGold(Sender,50000000)
+				GiveGold(Sender,100000000)
 				GiveHose(Sender,HorseType.None)
 			else:
 				PlayerSetV(Sender,GV_PLAYER_BLACKHORSE,0)   #卖马时将变量归0
