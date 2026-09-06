@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 # 精炼大师：穿戴装备 + 背包地煞石/天罡石
 from Globals import *
 import clr, random
@@ -59,7 +59,9 @@ def do_refine(Sender, slot, stat, per):
 	if Sender.GetItemCount(STONE_DS) < 1:
 		Sender.Connection.ReceiveChat('需要地煞石 x1', MessageType.System)
 		return False
-	use_tg = Sender.GetItemCount(STONE_TG) >= 1
+	# 前三阶(当前0/1/2，冲1/2/3)只扣地煞；后三阶才可选扣天罡保级
+	next_try = lv + 1
+	use_tg = (next_try > 3) and (Sender.GetItemCount(STONE_TG) >= 1)
 	Sender.TakeItem(STONE_DS, 1)
 	if use_tg:
 		Sender.TakeItem(STONE_TG, 1)
@@ -70,7 +72,6 @@ def do_refine(Sender, slot, stat, per):
 		nlv = lv + 1
 		Sender.Connection.ReceiveChat('精炼成功！%s 精炼等级 (%d/%d)' % (name, nlv, MAX_LV), MessageType.System)
 		return True
-	next_try = lv + 1
 	if use_tg:
 		Sender.Connection.ReceiveChat('精炼失败（天罡石护持，等级不变）%s (%d/%d)' % (name, lv, MAX_LV), MessageType.Hint)
 		return False
@@ -93,11 +94,12 @@ def OnClick(args):
 		return
 	say = (
 		'精炼大师\n\n'
-		'穿戴装备，背包放【地煞石】，可选【天罡石】保级。成功率10%。最高6级。\n\n'
+		'穿戴装备，背包放【地煞石】。成功率10%。最高6级。\n'
+		'前三阶只扣地煞石；后三阶可放【天罡石】保级（失败不掉级）。\n\n'
 		'武器：每级+5%暴击伤害\n'
 		'首饰：每级+1%暴击几率\n'
 		'衣/盔/鞋：每级+10生命\n\n'
-		'失败：前三阶仅地煞不掉级；后三阶仅地煞失败清零；带天罡失败不掉级。\n\n'
+		'失败：前三阶不掉级；后三阶仅地煞失败清零；带天罡失败不掉级。\n\n'
 		'[精炼武器:1]\n'
 		'[精炼项链:2]  [精炼左手镯:3]  [精炼右手镯:4]\n'
 		'[精炼左戒指:5]  [精炼右戒指:6]\n'
