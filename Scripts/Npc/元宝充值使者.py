@@ -35,7 +35,7 @@ def OnClick(args):
 			
 		[关闭:0]"""
 	elif (Menu == 2):
-		say = """您好，欢迎来到 <font color=\"0xff00ff00\">逍遥传奇3</font> 很高兴为您服务
+		say = """您好，欢迎来到 <font color=\"0xff00ff00\">盛世传奇3</font> 很高兴为您服务
 		
 		①本系统支持网上银行、手机充值卡、各类游戏点卡。
 		②当前充值比例为1:10
@@ -221,7 +221,7 @@ def OnClick(args):
 
 #主菜单
 	else:	
-		say = """您好，欢迎来到 <font color=\"0xff00ff00\">逍遥传奇3</font> 
+		say = """您好，欢迎来到 <font color=\"0xff00ff00\">盛世传奇3</font> 
 		 <font color=\"0xff00ff00\">QQ群：123456789</font> 很高兴为您服务		
 
 		
@@ -240,4 +240,4 @@ def OnClick(args):
 	Dict['Say']=say                         #定义聊天框对话内容
 	return Dict
 
-NpcEvent.add_listener(212,"OnClick",OnClick)
+# NpcEvent.add_listener(212,"OnClick",OnClick)  # NPC 充值使者 deleted

@@ -30,7 +30,7 @@ def OnClick(args):
 #跳转菜单买马选择
 	elif (Menu == 110):
  		say = """欢迎来到我的马厩。
-			你先要交出马牌，然后给一定费用，才会获得相应的马
+			直接使用金币购买马匹，无需马牌，无等级限制。
 			
 			<font color=\"0xff00ff00\">『马匹属性介绍』</font>   
 			 黄骠马：舒适+5
@@ -38,12 +38,10 @@ def OnClick(args):
 			 绝影：舒适+5、负重+800，防魔御5-5,攻魔道：5-5
 			 赤兔马：舒适+5、负重+1600，防魔御8-8,攻魔道：8-8
 			
-			[买黄骠马:1]   （黄骠马马牌1个，50万金币，需要等级20级）
-			[买的卢马:2]   （的卢马牌1个，500万金币，需要等级40级）
-			[买名驹绝影:3] （绝影马牌1个，5000万金币，需要等级50级）
-			[买名驹赤兔:4] （赤兔马牌1个，2亿金币，需要等级55级）
-			[买绝影:] 元宝购买绝影（10000元宝，无需马牌）暂未开放
-			[买赤兔:] 元宝购买赤兔（20000元宝，无需马牌）暂未开放
+			[买黄骠马:1]   （50万金币）
+			[买的卢马:2]   （500万金币）
+			[买名驹绝影:3] （5000万金币）
+			[买名驹赤兔:4] （2亿金币）
 
 			[我要卖马:5]
 
@@ -89,47 +87,13 @@ def OnClick(args):
 		
 			[返回:99]
 			[关闭:0]"""
-	elif(Menu == 7):
-		say = """马匹购买信息：
-		
-			类型：绝影
-			金额：1000元宝
-		
-			如果你想买这匹马，请 [在这里签字:71]
-		
-			[返回:99]
-			[关闭:0]"""
-
-	elif(Menu == 8):
-		say = """马匹购买信息：
-		
-			类型：赤兔马
-			金额：2000元宝
-		
-			如果你想买这匹马，请 [在这里签字:81]
-		
-			[返回:99]
-			[关闭:0]"""
 	elif(Menu == 11):
-		if(Sender.Level < 20):
-			say = """我无法卖给你这匹马。
-			你还不够强大，当你20级的时候再来吧。
-		
-			[返回:99]
-			[关闭:0]"""
-		elif(Sender.Gold < 500000):
+		if(Sender.Gold < 500000):
 			say = """你买不起这匹马，
 			等你有钱了再来吧。
 			
 			[返回:99]
 			[关闭:0]"""
-		elif(Sender.GetItemCount("马牌（黄骠马）") < 1):
-			say = """你没有对应的马牌，我无法为你提供服务
-			等你有了（黄骠马）马牌再来吧。
-			
-			[返回:99]
-			[关闭:0]"""
-
 		elif(not(Sender.Character.Horse ==HorseType.None)):
 			say = """你现在已经有一匹马了。
 			如果你想买一匹新马，请卖掉你现有的马。
@@ -137,7 +101,6 @@ def OnClick(args):
 			[返回:99]
 			[关闭:0]"""
 		else:
-			Sender.TakeItem("马牌（黄骠马）",1)
 			SubGold(Sender,500000)
 			GiveHose(Sender,HorseType.Brown)
 			say = """恭喜你买了一匹新马。
@@ -145,24 +108,12 @@ def OnClick(args):
 			
 			[关闭:0]"""
 	elif(Menu == 21):
-		if(Sender.Level < 40):
-			say = """我无法卖给你这匹马。
-			你还不够强大，当你等级40级的时候再来吧。
-		
-			[返回:99]
-			[关闭:0]"""
-		elif(Sender.Gold < 5000000):
+		if(Sender.Gold < 5000000):
 			say = """你买不起这匹马，
 			等你有钱了再来吧。
 			
 			[返回:99]
 			[关闭:0]"""
-		elif(Sender.GetItemCount("马牌（的卢）") < 1):
-			say = """你没有对应的马牌，我无法为你提供服务
-			等你有了（的卢）马牌再来吧。
-			
-			[返回:99]
-			[关闭:0]"""
 		elif(not(Sender.Character.Horse ==HorseType.None)):
 			say = """你现在已经有一匹马了。
 			如果你想买一匹新马，请卖掉你现有的马。
@@ -170,33 +121,19 @@ def OnClick(args):
 			[返回:99]
 			[关闭:0]"""
 		else:
-			Sender.TakeItem("马牌（的卢）",1)
-			SubGold(Sender,5000000)			
-			GiveHose(Sender,HorseType.White)				
+			SubGold(Sender,5000000)
+			GiveHose(Sender,HorseType.White)
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
 			
 			[关闭:0]"""
-	elif(Menu == 31):	
-		if(Sender.Level < 50):
-			say = """我无法卖给你这匹马。
-			你还不够强大，当你等级50级的时候再来吧。
-		
-			[返回:99]
-			[关闭:0]"""
-		elif(Sender.Gold < 50000000):
+	elif(Menu == 31):
+		if(Sender.Gold < 50000000):
 			say = """你买不起这匹马，
 			等你有钱了再来吧。
 			
 			[返回:99]
 			[关闭:0]"""
-		elif(Sender.GetItemCount("马牌（绝影）") < 1):
-			say = """你没有对应的马牌，我无法为你提供服务
-			等你有了（绝影）马牌再来吧。
-			
-			[返回:99]
-			[关闭:0]"""
-
 		elif(not(Sender.Character.Horse ==HorseType.None)):
 			say = """你现在已经有一匹马了。
 			如果你想买一匹新马，请卖掉你现有的马。
@@ -204,74 +141,18 @@ def OnClick(args):
 			[返回:99]
 			[关闭:0]"""
 		else:
-			Sender.TakeItem("马牌（绝影）",1)
-			SubGold(Sender,50000000)			
-			GiveHose(Sender,HorseType.Red)				
-			say = """恭喜你买了一匹新马。
-			请好好照顾它。
-			
-			[关闭:0]"""
-	elif(Menu == 41):
-		if(Sender.Level < 55):
-			say = """我无法卖给你这匹马。
-			你还不够强大，当你等级55级的时候再来吧。
-		
-			[返回:99]
-			[关闭:0]"""
-		elif(Sender.Gold < 200000000):
-			say ="""你的金币不够。
-			请准备好足够的金币再来。
-[返回:99]
-			[关闭:0]"""
-		elif(Sender.GetItemCount("马牌（赤兔马）") < 1):
-			say = """你没有对应的马牌，我无法为你提供服务
-			等你有了（赤兔马）马牌再来吧。
-			
-			[返回:99]
-			[关闭:0]"""
-		elif(not(Sender.Character.Horse ==HorseType.None)):
-			say = """你现在已经有一匹马了。
-			如果你想买一匹新马，请卖掉你现有的马。
-			
-			[返回:99]
-			[关闭:0]"""
-		else:
-			Sender.TakeItem("马牌（赤兔马）",1)
-			SubGold(Sender,200000000)				
-			GiveHose(Sender,HorseType.Black)				
-			say = """恭喜你买了一匹新马。
-			请好好照顾它。
-			
-			[关闭:0]"""
-	elif(Menu == 71):	
-		if(Sender.GameGold < 10000):
-			say = """你买不起这匹马，
-			你的元宝不足10000。
-			
-			[返回:99]
-			[关闭:0]"""
-		elif(not(Sender.Character.Horse ==HorseType.None)):
-			say = """你现在已经有一匹马了。
-			如果你想买一匹新马，请卖掉你现有的马。
-			
-			[返回:99]
-			[关闭:0]"""
-		else:
-			PlayerSetV(Sender,GV_PLAYER_REDHORSE,1)  #赋值绝影定义1，代表是元宝购买的
-			SubGameGold(Sender,10000)
+			SubGold(Sender,50000000)
 			GiveHose(Sender,HorseType.Red)
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
 			
 			[关闭:0]"""
-	elif(Menu == 81):	
-		if(Sender.GameGold < 20000):
-			say = """你买不起这匹马，
-			你的元宝不足20000。
-			
-			[返回:99]
+	elif(Menu == 41):
+		if(Sender.Gold < 200000000):
+			say ="""你的金币不够。
+			请准备好足够的金币再来。
+[返回:99]
 			[关闭:0]"""
-
 		elif(not(Sender.Character.Horse ==HorseType.None)):
 			say = """你现在已经有一匹马了。
 			如果你想买一匹新马，请卖掉你现有的马。
@@ -279,8 +160,7 @@ def OnClick(args):
 			[返回:99]
 			[关闭:0]"""
 		else:
-			PlayerSetV(Sender,GV_PLAYER_BLACKHORSE,1)  #赋值赤兔马定义1，代表是元宝购买的
-			SubGameGold(Sender,20000)
+			SubGold(Sender,200000000)
 			GiveHose(Sender,HorseType.Black)
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
@@ -295,8 +175,6 @@ def OnClick(args):
 		的卢 - 2,500,000 金币
 		绝影 - 25,000,000 金币
 		赤兔马 - 100,000,000 金币
-		稀有绝影 - 5,000 元宝
-		稀有赤兔马 - 10,000 元宝
 		
 		[返回:99]
 		[卖马:51]

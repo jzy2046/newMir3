@@ -79,7 +79,7 @@ def OnClick(args):
 			[离开:99]""" 
 
 		else:
-			say = """欢迎来到 <font color=\"0xff00ff00\">逍遥传奇3</font>, <font color=\"0xff00ff00\">QQ群：123456789</font> 
+			say = """欢迎来到 <font color=\"0xff00ff00\">盛世传奇3</font>, <font color=\"0xff00ff00\">QQ群：123456789</font> 
         
   
     <font color=\"0xff00ccff\">玩家福利，每天均可领取：1000赏金、多倍经验卷</font>

@@ -802,7 +802,7 @@ def OnClick(args):
 
 #主菜单
 	else:
-		say = """           欢迎来到  <font color=\"0xff00ff00\">逍遥传奇3</font>  玛法大陆
+		say = """           欢迎来到  <font color=\"0xff00ff00\">盛世传奇3</font>  玛法大陆
 		
 		[随身任务进度查询:26]      [元宝换金币:63]      [一键出售:65]
 

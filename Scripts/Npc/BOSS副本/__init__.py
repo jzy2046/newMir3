@@ -8,7 +8,7 @@ import Npc.BOSS副本.赤月山谷管理员
 import Npc.BOSS副本.潘夜神殿管理员
 import Npc.BOSS副本.潘夜石窟管理员
 import Npc.BOSS副本.真天宫管理员
-import Npc.BOSS副本.黑度宫管理员
+# import Npc.BOSS副本.黑度宫管理员
 import Npc.BOSS副本.诺玛遗址管理员
 import Npc.BOSS副本.地下魔宫管理员
 import Npc.BOSS副本.破空石
