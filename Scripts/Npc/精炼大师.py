@@ -13,7 +13,7 @@ MAX_LV = 6
 SUCCESS = 10
 
 JOBS = {
-	1: (EquipmentSlot.Weapon, Stat.CriticalHit, 5),
+	1: (EquipmentSlot.Weapon, Stat.CriticalDamage, 5),
 	2: (EquipmentSlot.Necklace, Stat.CriticalChance, 1),
 	3: (EquipmentSlot.BraceletL, Stat.CriticalChance, 1),
 	4: (EquipmentSlot.BraceletR, Stat.CriticalChance, 1),
