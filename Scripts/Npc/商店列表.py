@@ -106,6 +106,5 @@ zahuodiangoodslist=[
 ('神圣护身符（小）',float(1)),
 ('暗黑护身符（小）',float(1)),
 ('灵魂护身符（小）',float(1)),
-('boss查询卷',float(1)),
 ]
 

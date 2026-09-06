@@ -27,7 +27,7 @@ import Npc.传送石.石阁庙传送石
 import Npc.传送石.银杏山谷传送石
 import Npc.传送石.潘夜神殿大厅回5东
 import Npc.传送石.潘夜神殿大厅回3西
-import Npc.传送石.雪原传送阵
+# DISABLED_20260906_190448: import Npc.传送石.雪原传送阵
 import Npc.传送石.去泰山秘径
 import Npc.传送石.神岛传送使者
 
