@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import Npc.BOSS副本
 import Npc.本国领土
 import Npc.比奇城
@@ -85,3 +85,4 @@ import Npc.泡点中
 import Npc.义贤
 import Npc.死亡竞技
 import Npc.古墓
+import Npc.精炼大师
