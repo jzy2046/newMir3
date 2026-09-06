@@ -216,41 +216,25 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(25,222,157)
 			return
 	elif(Menu == 21):
-		if (Sender.Gold < 50000):
-			say = """你没有足够的金币，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGold(Sender,50000)
-			Sender.TeleportByMapIndex(340,173,223)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 22):
-		if (Sender.Gold < 50000):
-			say = """你没有足够的金币，无法传送。
-			
-				[关闭:0]"""	
-		else:
-			SubGold(Sender,50000)
-			Sender.TeleportByMapIndex(356,119,109)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 23):
-		if (Sender.Gold < 50000):
-			say = """你没有足够的金币，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGold(Sender,50000)
-			Sender.TeleportByMapIndex(362,38,147)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 24):
-		if (Sender.Gold < 50000):
-			say = """你没有足够的金币，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGold(Sender,50000)
-			Sender.TeleportByMapIndex(375,283,278)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 25):
 		if (Sender.Gold < 50000):
 			say = """你没有足够的金币，无法传送。
@@ -505,41 +489,25 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(285,135,180)
 			return
 	elif(Menu == 521):
-		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGameGold(Sender,20)
-			Sender.TeleportByMapIndex(340,173,223)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 522):
-		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGameGold(Sender,20)
-			Sender.TeleportByMapIndex(356,119,109)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 523):
-		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGameGold(Sender,20)
-			Sender.TeleportByMapIndex(362,38,147)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 524):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""	
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(375,283,278)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 525):
 		if (Sender.GameGold < 10):
 			say = """你没有足够的元宝，无法传送。
@@ -553,59 +521,35 @@ def OnClick(args):
 		Sender.TeleportByMapIndex(50,349,326)
 		return
 	elif(Menu == 5231):
-		if (Sender.GameGold < 25):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,25)
-			Sender.TeleportByMapIndex(363,192,204)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5232):
-		if (Sender.GameGold < 30):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,30)
-			Sender.TeleportByMapIndex(368,195,181)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5221):
-		if (Sender.GameGold < 25):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,25)
-			Sender.TeleportByMapIndex(359,186,20)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5222):
-		if (Sender.GameGold < 30):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,30)
-			Sender.TeleportByMapIndex(360,180,28)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5211):
-		if (Sender.GameGold < 25):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,25)
-			Sender.TeleportByMapIndex(347,159,150)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5212):
-		if (Sender.GameGold < 30):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,30)
-			Sender.TeleportByMapIndex(354,180,182)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 5181):
 		if (Sender.GameGold < 15):
 			say = """你没有足够的元宝，无法传送。
@@ -742,186 +686,105 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(1,64,178)
 			return
 	elif(Menu == 532):
-		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,20)
-			Sender.TeleportByMapIndex(375,278,269)
-			return
-	elif(Menu == 533):
-		if (Sender.GameGold < 30):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,30)
-			Sender.TeleportByMapIndex(376,79,183)
-			return
-	elif(Menu == 534):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(486,141,51)
-			return
-	elif(Menu == 535):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(477,215,112)
-			return
-	elif(Menu == 536):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(886,30,257)
-			return
-	elif(Menu == 537):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(887,34,35)
-			return
-	elif(Menu == 538):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(888,46,35)
-			return
-	elif(Menu == 539):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(889,27,175)
-			return
-	elif(Menu == 540):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(476,200,376)
-			return
-	elif(Menu == 541):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(478,263,251)
-			return
-	elif(Menu == 542):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(480,152,274)
-			return
-	elif(Menu == 543):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(482,202,349)
-			return
-	elif(Menu == 544):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(500,266,244)
-			return
-	elif(Menu == 545):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(501,162,265)
-			return
-	elif(Menu == 546):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(503,213,254)
-			return
-	elif(Menu == 547):
-		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,10)
-			Sender.TeleportByMapIndex(504,185,369)
-			return
+		say = """该地图传送已关闭。
 
+			[关闭:0]"""
+		str = say
+	elif(Menu == 533):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 534):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 535):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 536):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 537):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 538):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 539):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 540):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 541):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 542):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 543):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 544):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 545):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 546):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
+	elif(Menu == 547):
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 800):
-		if (Sender.GameGold < 100):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,100)
-			Sender.TeleportByMapIndex(246,43,62)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 923):
-		if (Sender.GameGold < 100):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,100)
-			Sender.TeleportByMapIndex(177,155,153)
-			return
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 924):
-		if (Sender.GameGold < 100):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,100)
-			Sender.TeleportByMapIndex(246,40,60)
-			return   
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 925):
-		if (Sender.GameGold < 100):
-			say = """你没有足够的元宝，无法传送。
-				
-				[关闭:0]"""
-		else:
-			SubGameGold(Sender,100)
-			Sender.TeleportByMapIndex(505,31,41)
-			return              
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	elif(Menu == 50):
 		say = """<font color=\"0xffff0000\">危险传送：费用10元宝起</font>
 
@@ -935,12 +798,7 @@ def OnClick(args):
 		<font color=\"0xff00ff00\">移动至潘夜石窟:</font>[1层:519] [4层:5191]
 		<font color=\"0xff00ff00\">移动至潘夜神殿:</font>[1层:520] [小3:5201] [大3:5202] [6层:5203] [8层:5204]
 		<font color=\"0xff00ff00\">移动至祖玛神殿:</font>[1层:525] [6层:5251]
-		<font color=\"0xff00ff00\">移动至真天黑度:</font>[真1:521] [东2:5211] [北5:5212]  [黑1:522] [黑3:5221] [黑4:5222]
-		<font color=\"0xff00ff00\">移动至诺玛遗址:</font>[1层:523] [2层:5231] [4层:5232]
-		<font color=\"0xff00ff00\">南部蚂蚁洞:</font>[1层:923] 
-		<font color=\"0xff00ff00\">神舰门口:</font>[1层:924] 
-		<font color=\"0xff00ff00\">赤龙城:</font>[入口:925] 
-		<font color=\"0xff00ff00\">移动至  西沙　:</font>[西沙漠地洞:532] [沙漠地洞1层:533]"""
+"""
 
 #主菜单
 	else:
@@ -962,10 +820,6 @@ def OnClick(args):
 
 		[潘夜石窟:19]    [祖玛神殿:25]     [潘夜神殿:27]     [沙巴克:20]
 
-		<font color=\"0xffff0000\">危险地图传送：费用50000金币</font>
-
-		[黑度宫:22]      [真天宫:21]      [诺玛遗址:23]      [西沙漠:24]	
-		       
 		<font color=\"0xffff0000\">元宝地图传送</font>
 
 		[元宝传送:50]

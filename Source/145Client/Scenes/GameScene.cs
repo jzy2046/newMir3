@@ -3922,6 +3922,30 @@ namespace Client.Scenes
                 return 0;
             }
 
+            bool IsZeroAddedFormat(string added)
+            {
+                if (string.IsNullOrEmpty(added)) return true;
+                string a = added.Trim();
+                return a == "0" || a == "+0" || a == "-0";
+            }
+
+            bool IsZeroTipText(string text)
+            {
+                if (string.IsNullOrEmpty(text)) return true;
+                // TIPZERO_ATKSPD_HIDE text filter
+                if (text.IndexOf("攻击速度", StringComparison.Ordinal) >= 0)
+                {
+                    if (System.Text.RegularExpressions.Regex.IsMatch(text, @"攻击速度\s*:\s*0")) return true;
+                    if (text.Contains(": 0(") || text.EndsWith(": 0") || text.Contains(":0(") || text.EndsWith(":0")) return true;
+                }
+                if (text.IndexOf("准确", StringComparison.Ordinal) >= 0)
+                {
+                    if (System.Text.RegularExpressions.Regex.IsMatch(text, @"准确\s*:\s*0")) return true;
+                    if (text.Contains(": 0(") || text.EndsWith(": 0") || text.Contains(":0(") || text.EndsWith(":0")) return true;
+                }
+                return false;
+            }
+
             bool WouldDrawFullItemStat(FullItemStat fullItemStat, HashSet<Stat> drawn)
             {
                 if (fullItemStat.Stat == Stat.UsedGemSlot || fullItemStat.Stat == Stat.EmptyGemSlot)
@@ -3945,7 +3969,8 @@ namespace Client.Scenes
                 ItemInfoStat itemstat = displayInfo.ItemStats.FirstOrDefault(x => x.Stat == fullItemStat.Stat && x.ShowHidden);
                 if (itemstat != null) return false;
 
-                if (text == null) return false;
+                // AFTER GetDisplay: hide zero AttackSpeed/Accuracy lines (incl. 0(0))
+                if (text == null || IsZeroTipText(text)) return false;
 
                 return true;
             }
@@ -3961,7 +3986,8 @@ namespace Client.Scenes
                 ItemInfoStat itemstat = displayInfo.ItemStats.FirstOrDefault(x => x.Stat == pair.Key && x.ShowHidden);
                 if (itemstat != null) return false;
 
-                if (text == null) return false;
+                // AFTER GetDisplay: hide zero AttackSpeed/Accuracy lines
+                if (text == null || IsZeroTipText(text)) return false;
 
                 return true;
             }
@@ -3982,15 +4008,13 @@ namespace Client.Scenes
                 if (statsDrawn.Contains(fullItemStat.Stat))   //画过的属性不再画
                 {
                     return;
-                }
-
-                // Skip tip lines for AttackSpeed/Accuracy when value is 0 (incl. 0(0))
+                }                // Skip tip lines for AttackSpeed/Accuracy when value is 0 (incl. 0(0))
                 if ((fullItemStat.Stat == Stat.AttackSpeed || fullItemStat.Stat == Stat.Accuracy) && stats[fullItemStat.Stat] == 0)
                     return;
 
                 string text = stats.GetDisplay(fullItemStat.Stat);
 
-                //武器元素特殊处理
+                // weapon element special
                 if (text == null && displayInfo.ItemType == ItemType.Weapon && fullItemStat.Stat == Stat.WeaponElement)
                 {
                     text = stats.GetDisplay(weaponElementStat);
@@ -3999,9 +4023,12 @@ namespace Client.Scenes
                 ItemInfoStat itemstat = displayInfo.ItemStats.FirstOrDefault(x => x.Stat == fullItemStat.Stat && x.ShowHidden);
                 if (itemstat != null) return;
 
-                if (text == null) return;
+                // AFTER GetDisplay: never create label for zero tip text
+                if (text == null || IsZeroTipText(text)) return;
 
                 string added = MouseItem.AddedStats.GetFormat(fullItemStat.Stat, true);
+                if (IsZeroAddedFormat(added)) added = null;
+                if (added != null && IsZeroTipText(text + "(" + added + ")")) return;
 
                 bool isGem = fullItemStat.Stat == Stat.GemOrbBrake || fullItemStat.Stat == Stat.GemOrbSuccess;
                 //淬炼
@@ -4076,9 +4103,14 @@ namespace Client.Scenes
                         label.Text += $"{MouseItem.Guild2Name}";
                         break;
                     default:
-                        if (MouseItem.AddedStats[fullItemStat.Stat] == 0) break;
+                        if (MouseItem.AddedStats[fullItemStat.Stat] == 0 || IsZeroAddedFormat(added) || added == null) break;
                         label.Text += $"({added})";
-                        label.ForeColour = Color.FromArgb(100, 200, 255); // 追加属性：蓝色
+                        if (IsZeroTipText(label.Text))
+                        {
+                            label.Dispose();
+                            return;
+                        }
+                        label.ForeColour = Color.FromArgb(100, 200, 255);
                         break;
                 }
                 //如果淬炼属性覆盖原有颜色
@@ -4092,8 +4124,7 @@ namespace Client.Scenes
 
 
             void DrawPairStat(KeyValuePair<Stat, int> pair)
-            {
-                // Skip tip lines for AttackSpeed/Accuracy when value is 0 (incl. 0(0))
+            {                // Skip tip lines for AttackSpeed/Accuracy when value is 0 (incl. 0(0))
                 if ((pair.Key == Stat.AttackSpeed || pair.Key == Stat.Accuracy) && pair.Value == 0)
                     return;
 
@@ -4102,9 +4133,12 @@ namespace Client.Scenes
                 ItemInfoStat itemstat = displayInfo.ItemStats.FirstOrDefault(x => x.Stat == pair.Key && x.ShowHidden);
                 if (itemstat != null) return;
 
-                if (text == null) return;
+                // AFTER GetDisplay: never create label for zero tip text
+                if (text == null || IsZeroTipText(text)) return;
 
                 string added = MouseItem.AddedStats.GetFormat(pair.Key);
+                if (IsZeroAddedFormat(added)) added = null;
+                if (added != null && IsZeroTipText(text + "(" + added + ")")) return;
 
                 label = new DXLabel
                 {
@@ -4162,8 +4196,13 @@ namespace Client.Scenes
                         label.Text += $"{MouseItem.Guild2Name}";
                         break;
                     default:
-                        if (MouseItem.AddedStats[pair.Key] == 0) break;
+                        if (MouseItem.AddedStats[pair.Key] == 0 || IsZeroAddedFormat(added) || added == null) break;
                         label.Text += $"   ({added})";
+                        if (IsZeroTipText(label.Text))
+                        {
+                            label.Dispose();
+                            return;
+                        }
                         label.ForeColour = Color.FromArgb(148, 255, 206);
                         break;
                 }

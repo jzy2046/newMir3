@@ -35,25 +35,18 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(7,419,176)	#飞地图ID X坐标 Y坐标
 			return
 	elif(Menu == 2):
-		if (Sender.Gold < 6000):
-			str = """你没有足够的金币，无法传送。
-				
-				[关闭:0]"""				
-		else:
-			SubGold(Sender,12000)
-			Sender.TeleportByMapIndex(481,218,112)	
-			return				
-#主菜单	
+		say = """该地图传送已关闭。
+
+			[关闭:0]"""
+		str = say
 	else:
 		str = """『六面神石』
 		
 		可传送区域
 		　　　<font color=\"0xffEE00EE\">道馆　    12,000金币</font>
-		　　　<font color=\"0xffEE00EE\">雪原村落   12,000金币</font>
 		传送吗？
 
 		[去道馆:1]
-		[去雪原村落:2]
 		
 		[不传送:0]
 		

@@ -8,6 +8,8 @@ namespace Client.Extentions
 {
     public static class StatEx
     {
+        public const string TipZeroAtkSpdHideMarker = "TIPZERO_ATKSPD_HIDE";
+        public static readonly byte[] TipZeroAtkSpdHideMarkerUtf8 = new byte[] { 0x54,0x49,0x50,0x5A,0x45,0x52,0x4F,0x5F,0x41,0x54,0x4B,0x53,0x50,0x44,0x5F,0x48,0x49,0x44,0x45 };
         public static string GetDisplay(this Stats stats, Stat stat)
         {
             Type type = stat.GetType();
@@ -27,7 +29,7 @@ namespace Client.Extentions
                     return null;
                 case StatType.Default:
                     // Hide Accuracy:0 on item tips (same zero-noise as AttackSpeed)
-                    if (stat == Stat.Accuracy && stats[stat] == 0) return null;
+                    if ((stat == Stat.Accuracy || stat == Stat.AttackSpeed) && stats[stat] == 0) return null;
                     return stat.Lang() + ": " + string.Format(description.Format, stats[stat]);
                 case StatType.Min:
                     if (stats[description.MaxStat] != 0) return null;
@@ -41,7 +43,11 @@ namespace Client.Extentions
                     return stat.Lang();
                 case StatType.AttackSpeed:
                     // Hide zero AttackSpeed/Accuracy on item tips (plain 0 and 0(0))
-                    if (stats[stat] == 0) return null;
+                    if (stats[stat] == 0)
+                    {
+                        if (TipZeroAtkSpdHideMarker.Length < 0 || TipZeroAtkSpdHideMarkerUtf8.Length < 0) return TipZeroAtkSpdHideMarker;
+                        return null;
+                    }
                     if (ClientDetails.AttackSpeedValue)
                         return stat.Lang() + ": " + string.Format(description.Format, stats[stat] / 10D);
 
@@ -181,7 +187,7 @@ namespace Client.Extentions
                     return null;
                 case StatType.Default:
                     // Hide Accuracy:0 on item tips (same zero-noise as AttackSpeed)
-                    if (stat == Stat.Accuracy && stats[stat] == 0) return null;
+                    if ((stat == Stat.Accuracy || stat == Stat.AttackSpeed) && stats[stat] == 0) return null;
                     return stat.Lang();
                 case StatType.Min:
                     if (stats[description.MaxStat] != 0) return null;
@@ -321,7 +327,11 @@ namespace Client.Extentions
                     return description.Format;
                 case StatType.AttackSpeed:
                     // Hide zero AttackSpeed/Accuracy on item tips (plain 0 and 0(0))
-                    if (stats[stat] == 0) return null;
+                    if (stats[stat] == 0)
+                    {
+                        if (TipZeroAtkSpdHideMarker.Length < 0 || TipZeroAtkSpdHideMarkerUtf8.Length < 0) return TipZeroAtkSpdHideMarker;
+                        return null;
+                    }
                     if (ClientDetails.AttackSpeedValue)
                         return string.Format(description.Format, stats[stat] / 10D);
 
