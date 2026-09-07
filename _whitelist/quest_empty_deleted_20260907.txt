@@ -1,0 +1,13 @@
+quest_empty_deleted_20260907
+stamp=20260907_140554
+deleted=31 quests (empty KillMonster monDets or empty task list)
+ids=34,142,244,246,257,277,291,297,325,344,348,351,359,362,373,374,377,379,380,386,492,493,494,495,496,497,498,499,500,501,502
+includes=马牌任务1-4 (#499-502), 行政官的指派 PT11-17 (#492-498), empty random dailies
+cascade=tasks=12 rewards=48 reqsOwned=52 monDets=0 reqsPointing=0
+before_quests=472 after_quests=441
+empty_objective_before=31 empty_objective_after=0
+mapai_499_502_remain=0
+backup=Database\Backup_quest_empty_del_20260907_140554
+synced=Database\System.db + ClientSystem.db, mir3z 服务端\Database, deploy_to_Mir3service\Database
+System.db sha=DEA41E117F12111E
+NOTE=VPS pull + server restart; ClientSystem hot-update NOT needed for quest deletions.
