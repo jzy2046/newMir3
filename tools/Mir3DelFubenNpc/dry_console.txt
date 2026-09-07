@@ -1,0 +1,49 @@
+﻿mode=dry-run stamp=20260907_234249
+scope=NPCInfo with fuben in name/region/map OR known dungeon-instance admins; cascade orphan MapRegion
+backup=D:\newMir3\Database\Backup_fuben_npc_20260907_234249
+BORDERLINE idx=226 name=瀹犵墿瑁呭鍗囩骇 region=2173/鍓湰娴嬭瘯 map=鍏朵粬 reason=on_fuben_map_not_admin
+HIT idx=353 name=銆庤崚鏉戙€忓壇鏈鐞嗗憳 file= region=9198/NPC鑽掓潙 map=闆師鑽掓潙 display=False reason=name_has_fuben
+HIT idx=379 name=銆庢椿鍔ㄧ鐞嗗憳銆忛樋鐝?file= region=25157/鍓湰绠＄悊鍛?map=鏈浗棰嗗湡 display=False reason=region_map_fuben_admin
+HIT idx=384 name=铚堣殻宸㈢┐绠＄悊鍛?file= region=33410/鍓湰NPC map=涓囧勾鐙鍏?display=False reason=region_map_fuben_admin
+HIT idx=385 name=鐭抽榿搴欑鐞嗗憳 file= region=33411/閭伓閲庣尓鐜婲PC map=鐭抽榿6灞?display=False reason=known_dungeon_admin
+HIT idx=386 name=绁炶埌绠＄悊鍛?file= region=33424/绁炶埌鍓湰NPC map=绁炶埌1灞?display=False reason=region_map_fuben_admin
+HIT idx=387 name=璧ゆ湀绠＄悊鍛?file= region=33438/璧ゆ湀鍓湰NPC map=璧ゆ湀灞辫胺5灞?display=False reason=region_map_fuben_admin
+HIT idx=388 name=娼樺绁炴绠＄悊鍛?file= region=33451/娼樺绁炴鍓湰NPC map=娼樺绁炴8灞?display=False reason=region_map_fuben_admin
+HIT idx=389 name=娼樺鐭崇獰绠＄悊鍛?file= region=33467/娼樺鐭崇獰鍓湰NPC map=娼樺鐭崇獰4灞?display=False reason=region_map_fuben_admin
+HIT idx=392 name=璇虹帥鏁欎富绠＄悊鍛?file= region=33503/鍓湰NPC map=璇虹帥閬楀潃5灞?display=False reason=region_map_fuben_admin
+matched_npc_count=9
+borderline_count=1
+safety_admin30_present=1
+safety_refine_present=1
+npcRegion 9198/NPC鑽掓潙 sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 25157/鍓湰绠＄悊鍛?sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33410/鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33411/閭伓閲庣尓鐜婲PC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33424/绁炶埌鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33438/璧ゆ湀鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33451/娼樺绁炴鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33467/娼樺鐭崇獰鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33503/鍓湰NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+---- delete plan ----
+NPCInfo: 9
+MapRegion(npc): 9
+  DEL NPCInfo idx=353 name=銆庤崚鏉戙€忓壇鏈鐞嗗憳 map=闆師鑽掓潙
+  DEL NPCInfo idx=379 name=銆庢椿鍔ㄧ鐞嗗憳銆忛樋鐝?map=鏈浗棰嗗湡
+  DEL NPCInfo idx=384 name=铚堣殻宸㈢┐绠＄悊鍛?map=涓囧勾鐙鍏?
+  DEL NPCInfo idx=385 name=鐭抽榿搴欑鐞嗗憳 map=鐭抽榿6灞?
+  DEL NPCInfo idx=386 name=绁炶埌绠＄悊鍛?map=绁炶埌1灞?
+  DEL NPCInfo idx=387 name=璧ゆ湀绠＄悊鍛?map=璧ゆ湀灞辫胺5灞?
+  DEL NPCInfo idx=388 name=娼樺绁炴绠＄悊鍛?map=娼樺绁炴8灞?
+  DEL NPCInfo idx=389 name=娼樺鐭崇獰绠＄悊鍛?map=娼樺鐭崇獰4灞?
+  DEL NPCInfo idx=392 name=璇虹帥鏁欎富绠＄悊鍛?map=璇虹帥閬楀潃5灞?
+  DEL MapRegion(npc) idx=9198 NPC鑽掓潙
+  DEL MapRegion(npc) idx=25157 鍓湰绠＄悊鍛?
+  DEL MapRegion(npc) idx=33410 鍓湰NPC
+  DEL MapRegion(npc) idx=33411 閭伓閲庣尓鐜婲PC
+  DEL MapRegion(npc) idx=33424 绁炶埌鍓湰NPC
+  DEL MapRegion(npc) idx=33438 璧ゆ湀鍓湰NPC
+  DEL MapRegion(npc) idx=33451 娼樺绁炴鍓湰NPC
+  DEL MapRegion(npc) idx=33467 娼樺鐭崇獰鍓湰NPC
+  DEL MapRegion(npc) idx=33503 鍓湰NPC
+
+dry-run only; report=D:\newMir3\tools\Mir3DelFubenNpc\dry_20260907_234249.txt

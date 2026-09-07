@@ -1,0 +1,50 @@
+mode=apply stamp=20260907_234300
+scope=NPCInfo with fuben in name/region/map OR known dungeon-instance admins; cascade orphan MapRegion
+backup=D:\newMir3\Database\Backup_fuben_npc_20260907_234300
+BORDERLINE idx=226 name=宠物装备升级 region=2173/副本测试 map=其他 reason=on_fuben_map_not_admin
+HIT idx=353 name=『荒村』副本管理员 file= region=9198/NPC荒村 map=雪原荒村 display=False reason=name_has_fuben
+HIT idx=379 name=『活动管理员』阿珍 file= region=25157/副本管理员 map=本国领土 display=False reason=region_map_fuben_admin
+HIT idx=384 name=蜈蚣巢穴管理员 file= region=33410/副本NPC map=万年独孤关 display=False reason=region_map_fuben_admin
+HIT idx=385 name=石阁庙管理员 file= region=33411/邪恶野猪王NPC map=石阁6层 display=False reason=known_dungeon_admin
+HIT idx=386 name=神舰管理员 file= region=33424/神舰副本NPC map=神舰1层 display=False reason=region_map_fuben_admin
+HIT idx=387 name=赤月管理员 file= region=33438/赤月副本NPC map=赤月山谷5层 display=False reason=region_map_fuben_admin
+HIT idx=388 name=潘夜神殿管理员 file= region=33451/潘夜神殿副本NPC map=潘夜神殿8层 display=False reason=region_map_fuben_admin
+HIT idx=389 name=潘夜石窟管理员 file= region=33467/潘夜石窟副本NPC map=潘夜石窟4层 display=False reason=region_map_fuben_admin
+HIT idx=392 name=诺玛教主管理员 file= region=33503/副本NPC map=诺玛遗址5层 display=False reason=region_map_fuben_admin
+matched_npc_count=9
+borderline_count=1
+safety_admin30_present=1
+safety_refine_present=1
+npcRegion 9198/NPC荒村 sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 25157/副本管理员 sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33410/副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33411/邪恶野猪王NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33424/神舰副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33438/赤月副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33451/潘夜神殿副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33467/潘夜石窟副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+npcRegion 33503/副本NPC sharedNpc=False sharedRs=False sharedMv=False sharedSz=False
+---- delete plan ----
+NPCInfo: 9
+MapRegion(npc): 9
+  DEL NPCInfo idx=353 name=『荒村』副本管理员 map=雪原荒村
+  DEL NPCInfo idx=379 name=『活动管理员』阿珍 map=本国领土
+  DEL NPCInfo idx=384 name=蜈蚣巢穴管理员 map=万年独孤关
+  DEL NPCInfo idx=385 name=石阁庙管理员 map=石阁6层
+  DEL NPCInfo idx=386 name=神舰管理员 map=神舰1层
+  DEL NPCInfo idx=387 name=赤月管理员 map=赤月山谷5层
+  DEL NPCInfo idx=388 name=潘夜神殿管理员 map=潘夜神殿8层
+  DEL NPCInfo idx=389 name=潘夜石窟管理员 map=潘夜石窟4层
+  DEL NPCInfo idx=392 name=诺玛教主管理员 map=诺玛遗址5层
+  DEL MapRegion(npc) idx=9198 NPC荒村
+  DEL MapRegion(npc) idx=25157 副本管理员
+  DEL MapRegion(npc) idx=33410 副本NPC
+  DEL MapRegion(npc) idx=33411 邪恶野猪王NPC
+  DEL MapRegion(npc) idx=33424 神舰副本NPC
+  DEL MapRegion(npc) idx=33438 赤月副本NPC
+  DEL MapRegion(npc) idx=33451 潘夜神殿副本NPC
+  DEL MapRegion(npc) idx=33467 潘夜石窟副本NPC
+  DEL MapRegion(npc) idx=33503 副本NPC
+deleted_calls=18
+saved System.db + ClientSystem.db (+ Data if present)
+whitelist=D:\newMir3\_whitelist\npc_fuben_deleted_20260907.txt

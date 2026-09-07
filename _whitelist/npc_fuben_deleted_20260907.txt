@@ -1,0 +1,23 @@
+# Deleted dungeon/instance NPCs 20260907_234300
+# Index Name Map
+idx=353 name=『荒村』副本管理员 map=雪原荒村
+idx=379 name=『活动管理员』阿珍 map=本国领土
+idx=384 name=蜈蚣巢穴管理员 map=万年独孤关
+idx=385 name=石阁庙管理员 map=石阁6层
+idx=386 name=神舰管理员 map=神舰1层
+idx=387 name=赤月管理员 map=赤月山谷5层
+idx=388 name=潘夜神殿管理员 map=潘夜神殿8层
+idx=389 name=潘夜石窟管理员 map=潘夜石窟4层
+idx=392 name=诺玛教主管理员 map=诺玛遗址5层
+
+# Borderline kept (not deleted):
+KEEP idx=226 name=宠物装备升级 map=其他 region=副本测试 reason=on_fuben_map_not_admin
+
+deleted_npc=9
+deleted_region=9
+backup=D:\newMir3\Database\Backup_fuben_npc_20260907_234300
+
+# Scripts disabled (renamed .disabled_20260907_234340):
+# BOSS副本: 蜈蚣巢穴/石阁庙/潘夜神殿/潘夜石窟/赤月山谷/诺玛遗址/地下魔宫/幽灵船/沃玛宫殿/真天宫/祖玛宫殿/黑度宫管理员 + 破空石 + 阿兔
+# 副本: 潘夜神殿副本.py, 祖玛神殿副本.py
+# Synced: Data, deploy_to_Mir3service/Database, mir3z/服务端/Database
