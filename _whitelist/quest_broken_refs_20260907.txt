@@ -1,0 +1,26 @@
+﻿Mir3 Quest Broken Refs Scan (Item/Monster/NPC/Map/Other)
+stamp=2026-09-07 11:54:52 (machine local)
+db=D:\newMir3\Database\System.db
+scanned: quests=472 tasks=581 rewards=718 reqs=580 monDets=291
+catalog: items=1027 monsters=229 npcs=388 maps=621 regions=2944 respawns=1362
+broken_quests_all=0 broken_refs_all=0
+broken_quests_hard=0 hard_refs=0 soft_feasibility_refs=0
+unique_missing_items=0 unique_missing_monsters=0 unique_missing_npcs=0 unique_missing_maps=0 other=0
+mode=read-only (no DB writes)
+soft notes: Monster/NoRespawn, NPC/*Region without map region = feasibility, not hard-missing object
+note: prior Mir3QuestClean 20260906 deleted 23 quests with null GainItem ItemParameter; remainBrokenGainItem was 0 after that
+
+=== Counts by RefType ===
+
+=== Unique missing items ===
+=== Unique missing monsters (incl NoRespawn names) ===
+=== Unique missing/broken NPCs ===
+=== Unique missing maps/regions ===
+=== Other ===
+
+=== HARD broken (missing object / null required assoc) grouped by Quest ===
+
+=== SOFT feasibility notes grouped by Quest ===
+
+=== Flat ===
+QuestIndex	QuestName	RefType	MissingIndex	MissingName	Notes

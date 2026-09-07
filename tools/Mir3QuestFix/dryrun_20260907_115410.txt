@@ -1,0 +1,94 @@
+﻿Mir3 Quest Fix (no-respawn delete + newbie StartNPC null delete + chain cleanup)
+mode=dry-run
+stamp=2026-09-07 11:54:10 (machine local Asia/Shanghai)
+db=D:\newMir3\Database\System.db
+before quests=479 tasks=595 rewards=731 reqs=591 monDets=308
+
+=== DELETED QUESTS (planned) ===
+DEL_QUEST [5] 随机任务5 type=Daily | explicit: kill target 副本-赤月恶魔1 has no non-Event RespawnInfo
+DEL_QUEST [7] 随机任务7 type=Daily | explicit: kill target 副本-沃玛教主1 has no non-Event RespawnInfo
+DEL_QUEST [35] 随机任务35 type=Daily | explicit: kill target 副本-霸王教主1 has no non-Event RespawnInfo
+DEL_QUEST [414] 新手任务 PT1-5 type=None | newbie: StartNPC is null
+DEL_QUEST [415] 新手任务 PT1-6 type=None | newbie: StartNPC is null
+DEL_QUEST [416] 新手任务 PT1-7 type=None | newbie: StartNPC is null
+DEL_QUEST [417] 新手任务 PT1-8 type=None | newbie: StartNPC is null
+delete_quest_count=7
+cascade monDets=17 tasks=14 rewards=13 reqsOwned=11 reqsPointingAtDeleted=1
+REQ_POINTING_DELETED Req#676 ownerQ=418 '新手任务 PT1-9' HaveCompleted -> [417] 新手任务 PT1-8
+
+=== TASKS REMOVED (broken only, quest kept) ===
+(none)
+=== TASKS REPLACED (old all-broken -> new) ===
+(none)
+=== FinishNPC FIXED ===
+(none)
+=== NEWBIE LEFT UNTOUCHED (68) ===
+Q[410] 新手任务 PT1-1 StartNPC=[245]『新手指引』 士官 tasks=4 OK
+Q[411] 新手任务 PT1-2 StartNPC=[245]『新手指引』 士官 tasks=3 OK
+Q[412] 新手任务 PT1-3 StartNPC=[245]『新手指引』 士官 tasks=3 OK
+Q[413] 新手任务 PT1-4 StartNPC=[245]『新手指引』 士官 tasks=3 OK
+Q[418] 新手任务 PT1-9 StartNPC=[333]装备回购 tasks=1 OK
+Q[419] 新手任务 PT1-10 StartNPC=[333]装备回购 tasks=1 OK
+Q[420] 新手任务 PT1-11 StartNPC=[333]装备回购 tasks=3 OK
+Q[421] 新手任务 PT1-12 StartNPC=[333]装备回购 tasks=3 OK
+Q[422] 新手任务 PT1-13 StartNPC=[335]综合服务 tasks=1 OK
+Q[423] 新手任务 PT1-14 StartNPC=[335]综合服务 tasks=3 OK
+Q[424] 新手任务 PT1-15 StartNPC=[335]综合服务 tasks=1 OK
+Q[425] 新手任务 PT1-16 StartNPC=[335]综合服务 tasks=2 OK
+Q[426] 新手任务 PT1-17 StartNPC=[336]BOSS查询 tasks=2 OK
+Q[427] 新手任务 PT1-18 StartNPC=[336]BOSS查询 tasks=1 OK
+Q[428] 新手任务 PT1-19 StartNPC=[336]BOSS查询 tasks=1 OK
+Q[429] 新手任务 PT1-20 StartNPC=[336]BOSS查询 tasks=1 OK
+Q[430] 新手任务 PT1-21 StartNPC=[332]活动管理员 tasks=1 OK
+Q[431] 新手任务 PT1-22 StartNPC=[332]活动管理员 tasks=1 OK
+Q[432] 新手任务 PT1-23 StartNPC=[332]活动管理员 tasks=2 OK
+Q[433] 新手任务 PT1-24 StartNPC=[332]活动管理员 tasks=1 OK
+Q[434] 新手任务 PT1-25 StartNPC=[51]寄售商 tasks=2 OK
+Q[435] 新手任务 PT1-26 StartNPC=[51]寄售商 tasks=1 OK
+Q[436] 新手任务 PT1-27 StartNPC=[51]寄售商 tasks=1 OK
+Q[437] 新手任务 PT1-28 StartNPC=[51]寄售商 tasks=2 OK
+Q[438] 新手任务 PT1-29 StartNPC=[334]大神排行榜 tasks=2 OK
+Q[439] 新手任务 PT1-30 StartNPC=[334]大神排行榜 tasks=1 OK
+Q[440] 新手任务 PT1-31 StartNPC=[334]大神排行榜 tasks=2 OK
+Q[441] 新手任务 PT1-32 StartNPC=[334]大神排行榜 tasks=3 OK
+Q[442] 新手任务 PT1-33 StartNPC=[245]『新手指引』 士官 tasks=2 OK
+Q[443] 新手任务 PT1-34 StartNPC=[231]公告栏 tasks=2 OK
+Q[444] 新手任务 PT1-35 StartNPC=[231]公告栏 tasks=1 OK
+Q[445] 新手任务 PT1-36 StartNPC=[231]公告栏 tasks=1 OK
+Q[446] 新手任务 PT1-37 StartNPC=[231]公告栏 tasks=1 OK
+Q[447] 新手任务 PT1-38 StartNPC=[231]公告栏 tasks=1 OK
+Q[448] 新手任务 PT1-39 StartNPC=[38]秀儿 tasks=1 OK
+Q[449] 新手任务 PT1-40 StartNPC=[38]秀儿 tasks=1 OK
+Q[450] 新手任务 PT1-41 StartNPC=[38]秀儿 tasks=1 OK
+Q[451] 新手任务 PT1-42 StartNPC=[38]秀儿 tasks=1 OK
+Q[452] 新手任务 PT1-43 StartNPC=[39]药神 tasks=1 OK
+Q[453] 新手任务 PT1-44 StartNPC=[39]药神 tasks=1 OK
+Q[454] 新手任务 PT1-45 StartNPC=[39]药神 tasks=1 OK
+Q[455] 新手任务 PT1-46 StartNPC=[39]药神 tasks=1 OK
+Q[456] 新手任务 PT1-47 StartNPC=[40]药中 tasks=1 OK
+Q[457] 新手任务 PT1-48 StartNPC=[40]药中 tasks=1 OK
+Q[458] 新手任务 PT1-49 StartNPC=[40]药中 tasks=1 OK
+Q[459] 新手任务 PT1-50 StartNPC=[42]梁生 tasks=1 OK
+Q[460] 新手任务 PT1-51 StartNPC=[42]梁生 tasks=1 OK
+Q[461] 新手任务 PT1-52 StartNPC=[42]梁生 tasks=1 OK
+Q[462] 新手任务 PT1-53 StartNPC=[42]梁生 tasks=1 OK
+Q[463] 新手任务 PT1-54 StartNPC=[231]公告栏 tasks=1 OK
+Q[464] 新手任务 PT1-55 StartNPC=[231]公告栏 tasks=1 OK
+Q[465] 新手任务 PT1-56 StartNPC=[175]萧良佳 tasks=1 OK
+Q[466] 新手任务 PT1-57 StartNPC=[175]萧良佳 tasks=1 OK
+Q[467] 新手任务 PT1-58 StartNPC=[175]萧良佳 tasks=1 OK
+Q[468] 新手任务 PT1-59 StartNPC=[175]萧良佳 tasks=1 OK
+Q[469] 新手任务 PT1-60 StartNPC=[175]萧良佳 tasks=1 OK
+Q[470] 新手任务 PT1-61 StartNPC=[175]萧良佳 tasks=1 OK
+Q[471] 新手任务 PT1-62 StartNPC=[175]萧良佳 tasks=1 OK
+Q[472] 新手任务 PT1-63 StartNPC=[175]萧良佳 tasks=1 OK
+Q[473] 新手任务 PT1-64 StartNPC=[175]萧良佳 tasks=1 OK
+Q[474] 新手任务 PT1-65 StartNPC=[175]萧良佳 tasks=1 OK
+Q[475] 新手任务 PT1-66 StartNPC=[175]萧良佳 tasks=1 OK
+Q[476] 新手任务 PT1-67 StartNPC=[175]萧良佳 tasks=1 OK
+Q[477] 新手任务 PT1-68 StartNPC=[175]萧良佳 tasks=1 OK
+Q[478] 新手任务 PT1-69 StartNPC=[175]萧良佳 tasks=1 OK
+Q[479] 新手任务 PT1-70 StartNPC=[175]萧良佳 tasks=1 OK
+Q[480] 新手任务 PT1-71 StartNPC=[175]萧良佳 tasks=1 OK
+Q[481] 新手任务 PT1-72 StartNPC=[175]萧良佳 tasks=1 OK
+RETARGET Req#676 Q418 HaveCompleted 417 -> 413 (dry-run)

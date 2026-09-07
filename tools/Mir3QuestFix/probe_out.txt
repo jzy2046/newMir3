@@ -1,0 +1,528 @@
+﻿=== NEWBIE QUESTS ===
+Q[410] '新手任务 PT1-1' type=None StartNPC=[245]『新手指引』 士官 FinishNPC=[245]『新手指引』 士官
+  Task#496 kind=KillMonster amt=1 item=null
+    MonDet#421 mon=[10001]鸡 hasNonEventRespawn=True
+  Task#497 kind=KillMonster amt=1 item=null
+    MonDet#422 mon=[10004]牛 hasNonEventRespawn=True
+  Task#498 kind=KillMonster amt=1 item=null
+    MonDet#423 mon=[10006]多钩猫 hasNonEventRespawn=True
+  Task#499 kind=KillMonster amt=1 item=null
+    MonDet#425 mon=[10014]稻草人 hasNonEventRespawn=True
+  Req#418 HaveNotCompleted qp=[410]新手任务 PT1-1
+  Req#668 MinLevel qp=[410]新手任务 PT1-1
+Q[411] '新手任务 PT1-2' type=None StartNPC=[245]『新手指引』 士官 FinishNPC=[245]『新手指引』 士官
+  Task#500 kind=GainItem amt=2 item=[58]鸡肉
+    MonDet#427 mon=[10001]鸡 hasNonEventRespawn=True
+  Task#501 kind=GainItem amt=2 item=[512]猪肉
+    MonDet#429 mon=[10002]猪 hasNonEventRespawn=True
+  Task#502 kind=GainItem amt=2 item=[511]牛肉
+    MonDet#431 mon=[10004]牛 hasNonEventRespawn=True
+  Req#421 HaveNotCompleted qp=[411]新手任务 PT1-2
+  Req#666 HaveCompleted qp=[410]新手任务 PT1-1
+Q[412] '新手任务 PT1-3' type=None StartNPC=[245]『新手指引』 士官 FinishNPC=[245]『新手指引』 士官
+  Task#503 kind=KillMonster amt=2 item=null
+    MonDet#433 mon=[10008]森林雪人 hasNonEventRespawn=True
+  Task#504 kind=KillMonster amt=2 item=null
+    MonDet#435 mon=[10015]半兽人 hasNonEventRespawn=True
+  Task#505 kind=KillMonster amt=2 item=null
+    MonDet#436 mon=[10011]半兽战士 hasNonEventRespawn=True
+  Req#424 HaveNotCompleted qp=[412]新手任务 PT1-3
+  Req#667 HaveCompleted qp=[411]新手任务 PT1-2
+Q[413] '新手任务 PT1-4' type=None StartNPC=[245]『新手指引』 士官 FinishNPC=[245]『新手指引』 士官
+  Task#506 kind=GainItem amt=3 item=[41]毒蜘蛛牙齿
+    MonDet#437 mon=[10013]毒蜘蛛 hasNonEventRespawn=True
+  Task#507 kind=GainItem amt=3 item=[582]褐色栗子
+    MonDet#439 mon=[10009]栗子树 hasNonEventRespawn=True
+  Task#609 kind=KillMonster amt=3 item=null
+    MonDet#8413 mon=[10007]狼 hasNonEventRespawn=True
+  Req#426 HaveNotCompleted qp=[413]新手任务 PT1-4
+  Req#669 HaveCompleted qp=[412]新手任务 PT1-3
+Q[414] '新手任务 PT1-5' type=None StartNPC=NULL FinishNPC=NULL
+  Task#509 kind=KillMonster amt=5 item=null
+    MonDet#441 mon=[10011]半兽战士 hasNonEventRespawn=True
+  Req#428 HaveNotCompleted qp=[414]新手任务 PT1-5
+  Req#670 HaveCompleted qp=[413]新手任务 PT1-4
+Q[415] '新手任务 PT1-6' type=None StartNPC=NULL FinishNPC=NULL
+  Task#510 kind=KillMonster amt=10 item=null
+    MonDet#442 mon=[10024]骷髅 hasNonEventRespawn=True
+  Task#511 kind=KillMonster amt=10 item=null
+    MonDet#443 mon=[10021]掷斧骷髅 hasNonEventRespawn=True
+  Req#430 HaveNotCompleted qp=[415]新手任务 PT1-6
+  Req#671 HaveCompleted qp=[414]新手任务 PT1-5
+Q[416] '新手任务 PT1-7' type=None StartNPC=NULL FinishNPC=NULL
+  Task#512 kind=KillMonster amt=10 item=null
+    MonDet#444 mon=[10023]骷髅战士 hasNonEventRespawn=True
+  Task#513 kind=KillMonster amt=10 item=null
+    MonDet#445 mon=[10025]骷髅战将 hasNonEventRespawn=True
+  Req#432 HaveNotCompleted qp=[416]新手任务 PT1-7
+  Req#672 HaveCompleted qp=[415]新手任务 PT1-6
+Q[417] '新手任务 PT1-8' type=None StartNPC=NULL FinishNPC=NULL
+  Task#514 kind=KillMonster amt=10 item=null
+    MonDet#446 mon=[10022]蝎子 hasNonEventRespawn=True
+  Task#515 kind=KillMonster amt=5 item=null
+    MonDet#447 mon=[10020]山洞蝙蝠 hasNonEventRespawn=True
+  Task#516 kind=KillMonster amt=10 item=null
+    MonDet#448 mon=[10024]骷髅 hasNonEventRespawn=True
+  Task#517 kind=KillMonster amt=10 item=null
+    MonDet#449 mon=[10021]掷斧骷髅 hasNonEventRespawn=True
+  Task#518 kind=KillMonster amt=10 item=null
+    MonDet#450 mon=[10023]骷髅战士 hasNonEventRespawn=True
+  Task#519 kind=KillMonster amt=10 item=null
+    MonDet#451 mon=[10025]骷髅战将 hasNonEventRespawn=True
+  Req#434 HaveNotCompleted qp=[417]新手任务 PT1-8
+  Req#673 HaveCompleted qp=[416]新手任务 PT1-7
+Q[418] '新手任务 PT1-9' type=None StartNPC=[333]装备回购 FinishNPC=[333]装备回购
+  Task#520 kind=KillMonster amt=1 item=null
+    MonDet#452 mon=[20001]半兽勇士 hasNonEventRespawn=True
+  Req#436 HaveNotCompleted qp=[418]新手任务 PT1-9
+  Req#676 HaveCompleted qp=[417]新手任务 PT1-8
+Q[419] '新手任务 PT1-10' type=None StartNPC=[333]装备回购 FinishNPC=[333]装备回购
+  Task#521 kind=KillMonster amt=1 item=null
+    MonDet#453 mon=[20003]骷髅精灵 hasNonEventRespawn=True
+  Req#438 HaveNotCompleted qp=[419]新手任务 PT1-10
+  Req#674 HaveCompleted qp=[418]新手任务 PT1-9
+Q[420] '新手任务 PT1-11' type=None StartNPC=[333]装备回购 FinishNPC=[333]装备回购
+  Task#522 kind=KillMonster amt=10 item=null
+    MonDet#454 mon=[10030]洞蛆 hasNonEventRespawn=True
+  Task#523 kind=KillMonster amt=10 item=null
+    MonDet#455 mon=[10032]老道僵尸 hasNonEventRespawn=True
+  Task#524 kind=KillMonster amt=10 item=null
+    MonDet#456 mon=[10033]僧侣僵尸 hasNonEventRespawn=True
+  Req#441 HaveNotCompleted qp=[420]新手任务 PT1-11
+  Req#675 HaveCompleted qp=[419]新手任务 PT1-10
+Q[421] '新手任务 PT1-12' type=None StartNPC=[333]装备回购 FinishNPC=[333]装备回购
+  Task#525 kind=KillMonster amt=10 item=null
+    MonDet#457 mon=[10026]盔甲蚂蚁 hasNonEventRespawn=True
+  Task#526 kind=KillMonster amt=10 item=null
+    MonDet#458 mon=[10027]蚂蚁战士 hasNonEventRespawn=True
+  Task#527 kind=KillMonster amt=10 item=null
+    MonDet#459 mon=[10028]蚂蚁道士 hasNonEventRespawn=True
+  Req#444 HaveNotCompleted qp=[421]新手任务 PT1-12
+  Req#445 HaveCompleted qp=[420]新手任务 PT1-11
+Q[422] '新手任务 PT1-13' type=None StartNPC=[335]综合服务 FinishNPC=[335]综合服务
+  Task#528 kind=KillMonster amt=1 item=null
+    MonDet#460 mon=[20004]尸王 hasNonEventRespawn=True
+  Req#447 HaveNotCompleted qp=[422]新手任务 PT1-13
+  Req#448 HaveCompleted qp=[421]新手任务 PT1-12
+Q[423] '新手任务 PT1-14' type=None StartNPC=[335]综合服务 FinishNPC=[335]综合服务
+  Task#529 kind=KillMonster amt=10 item=null
+    MonDet#461 mon=[10037]多脚虫 hasNonEventRespawn=True
+  Task#530 kind=KillMonster amt=10 item=null
+    MonDet#462 mon=[10039]胞眼虫 hasNonEventRespawn=True
+  Task#531 kind=KillMonster amt=10 item=null
+    MonDet#463 mon=[10038]蜘蛛娃 hasNonEventRespawn=True
+  Req#450 HaveNotCompleted qp=[423]新手任务 PT1-14
+  Req#451 HaveCompleted qp=[422]新手任务 PT1-13
+Q[424] '新手任务 PT1-15' type=None StartNPC=[335]综合服务 FinishNPC=[335]综合服务
+  Task#532 kind=KillMonster amt=1 item=null
+    MonDet#464 mon=[20006]红甲虫 hasNonEventRespawn=True
+  Req#453 HaveNotCompleted qp=[424]新手任务 PT1-15
+  Req#454 HaveCompleted qp=[423]新手任务 PT1-14
+Q[425] '新手任务 PT1-16' type=None StartNPC=[335]综合服务 FinishNPC=[335]综合服务
+  Task#533 kind=KillMonster amt=10 item=null
+    MonDet#465 mon=[10027]蚂蚁战士 hasNonEventRespawn=True
+  Task#534 kind=KillMonster amt=10 item=null
+    MonDet#466 mon=[10029]爆毒蚂蚁 hasNonEventRespawn=True
+  Req#456 HaveNotCompleted qp=[425]新手任务 PT1-16
+  Req#457 HaveCompleted qp=[424]新手任务 PT1-15
+Q[426] '新手任务 PT1-17' type=None StartNPC=[336]BOSS查询 FinishNPC=[336]BOSS查询
+  Task#535 kind=KillMonster amt=10 item=null
+    MonDet#467 mon=[10026]盔甲蚂蚁 hasNonEventRespawn=True
+  Task#536 kind=KillMonster amt=10 item=null
+    MonDet#469 mon=[10028]蚂蚁道士 hasNonEventRespawn=True
+  Req#459 HaveNotCompleted qp=[426]新手任务 PT1-17
+  Req#460 HaveCompleted qp=[425]新手任务 PT1-16
+Q[427] '新手任务 PT1-18' type=None StartNPC=[336]BOSS查询 FinishNPC=[336]BOSS查询
+  Task#537 kind=KillMonster amt=1 item=null
+    MonDet#470 mon=[20005]蚂蚁将军 hasNonEventRespawn=True
+  Req#462 HaveNotCompleted qp=[427]新手任务 PT1-18
+  Req#463 HaveCompleted qp=[426]新手任务 PT1-17
+Q[428] '新手任务 PT1-19' type=None StartNPC=[336]BOSS查询 FinishNPC=[336]BOSS查询
+  Task#538 kind=KillMonster amt=30 item=null
+    MonDet#471 mon=[10054]暗黑战士 hasNonEventRespawn=True
+  Req#465 HaveNotCompleted qp=[428]新手任务 PT1-19
+  Req#466 HaveCompleted qp=[427]新手任务 PT1-18
+Q[429] '新手任务 PT1-20' type=None StartNPC=[336]BOSS查询 FinishNPC=[336]BOSS查询
+  Task#539 kind=KillMonster amt=30 item=null
+    MonDet#472 mon=[10056]沃玛战士 hasNonEventRespawn=True
+  Req#468 HaveNotCompleted qp=[429]新手任务 PT1-20
+  Req#469 HaveCompleted qp=[428]新手任务 PT1-19
+Q[430] '新手任务 PT1-21' type=None StartNPC=[332]活动管理员 FinishNPC=[332]活动管理员
+  Task#540 kind=KillMonster amt=20 item=null
+    MonDet#473 mon=[10057]火焰沃玛 hasNonEventRespawn=True
+  Req#471 HaveNotCompleted qp=[430]新手任务 PT1-21
+  Req#472 HaveCompleted qp=[429]新手任务 PT1-20
+Q[431] '新手任务 PT1-22' type=None StartNPC=[332]活动管理员 FinishNPC=[332]活动管理员
+  Task#541 kind=KillMonster amt=1 item=null
+    MonDet#474 mon=[20007]沃玛卫士 hasNonEventRespawn=True
+  Req#474 HaveNotCompleted qp=[431]新手任务 PT1-22
+  Req#475 HaveCompleted qp=[430]新手任务 PT1-21
+Q[432] '新手任务 PT1-23' type=None StartNPC=[332]活动管理员 FinishNPC=[332]活动管理员
+  Task#542 kind=KillMonster amt=30 item=null
+    MonDet#475 mon=[10041]浪子人鬼 hasNonEventRespawn=True
+  Task#543 kind=KillMonster amt=30 item=null
+    MonDet#477 mon=[10042]腐蚀人鬼 hasNonEventRespawn=True
+  Req#477 HaveNotCompleted qp=[432]新手任务 PT1-23
+  Req#478 HaveCompleted qp=[431]新手任务 PT1-22
+Q[433] '新手任务 PT1-24' type=None StartNPC=[332]活动管理员 FinishNPC=[332]活动管理员
+  Task#544 kind=KillMonster amt=30 item=null
+    MonDet#479 mon=[10060]楔蛾 hasNonEventRespawn=True
+  Req#480 HaveNotCompleted qp=[433]新手任务 PT1-24
+  Req#481 HaveCompleted qp=[432]新手任务 PT1-23
+Q[434] '新手任务 PT1-25' type=None StartNPC=[51]寄售商 FinishNPC=[51]寄售商
+  Task#545 kind=KillMonster amt=30 item=null
+    MonDet#480 mon=[10061]红野猪 hasNonEventRespawn=True
+  Task#546 kind=KillMonster amt=30 item=null
+    MonDet#483 mon=[10063]黑野猪 hasNonEventRespawn=True
+  Req#483 HaveNotCompleted qp=[434]新手任务 PT1-25
+  Req#484 HaveCompleted qp=[433]新手任务 PT1-24
+Q[435] '新手任务 PT1-26' type=None StartNPC=[51]寄售商 FinishNPC=[51]寄售商
+  Task#547 kind=KillMonster amt=30 item=null
+    MonDet#488 mon=[10062]蝎蛇 hasNonEventRespawn=True
+  Req#486 HaveNotCompleted qp=[435]新手任务 PT1-26
+  Req#487 HaveCompleted qp=[434]新手任务 PT1-25
+Q[436] '新手任务 PT1-27' type=None StartNPC=[51]寄售商 FinishNPC=[51]寄售商
+  Task#548 kind=KillMonster amt=1 item=null
+    MonDet#489 mon=[20009]白野猪 hasNonEventRespawn=True
+  Req#489 HaveNotCompleted qp=[436]新手任务 PT1-27
+  Req#490 HaveCompleted qp=[435]新手任务 PT1-26
+Q[437] '新手任务 PT1-28' type=None StartNPC=[51]寄售商 FinishNPC=[51]寄售商
+  Task#549 kind=KillMonster amt=20 item=null
+    MonDet#492 mon=[10043]骷髅弓箭手 hasNonEventRespawn=True
+  Task#550 kind=KillMonster amt=20 item=null
+    MonDet#493 mon=[10044]骷髅武士 hasNonEventRespawn=True
+  Req#492 HaveNotCompleted qp=[437]新手任务 PT1-28
+  Req#493 HaveCompleted qp=[436]新手任务 PT1-27
+Q[438] '新手任务 PT1-29' type=None StartNPC=[334]大神排行榜 FinishNPC=[334]大神排行榜
+  Task#551 kind=KillMonster amt=20 item=null
+    MonDet#494 mon=[10045]骷髅武将 hasNonEventRespawn=True
+  Task#552 kind=KillMonster amt=20 item=null
+    MonDet#495 mon=[10046]骷髅士兵 hasNonEventRespawn=True
+  Req#495 HaveNotCompleted qp=[438]新手任务 PT1-29
+  Req#496 HaveCompleted qp=[437]新手任务 PT1-28
+Q[439] '新手任务 PT1-30' type=None StartNPC=[334]大神排行榜 FinishNPC=[334]大神排行榜
+  Task#553 kind=KillMonster amt=1 item=null
+    MonDet#496 mon=[20010]骨鬼将 hasNonEventRespawn=True
+  Req#498 HaveNotCompleted qp=[439]新手任务 PT1-30
+  Req#499 HaveCompleted qp=[438]新手任务 PT1-29
+Q[440] '新手任务 PT1-31' type=None StartNPC=[334]大神排行榜 FinishNPC=[334]大神排行榜
+  Task#554 kind=KillMonster amt=10 item=null
+    MonDet#497 mon=[10611]半兽剑士 hasNonEventRespawn=True
+  Task#555 kind=KillMonster amt=10 item=null
+    MonDet#499 mon=[10612]半兽法师 hasNonEventRespawn=True
+  Req#501 HaveNotCompleted qp=[440]新手任务 PT1-31
+  Req#502 HaveCompleted qp=[439]新手任务 PT1-30
+Q[441] '新手任务 PT1-32' type=None StartNPC=[334]大神排行榜 FinishNPC=[334]大神排行榜
+  Task#556 kind=KillMonster amt=20 item=null
+    MonDet#501 mon=[10047]诺玛 hasNonEventRespawn=True
+  Task#557 kind=KillMonster amt=20 item=null
+    MonDet#502 mon=[10048]诺玛法老 hasNonEventRespawn=True
+  Task#558 kind=KillMonster amt=20 item=null
+    MonDet#503 mon=[10049]诺玛将士 hasNonEventRespawn=True
+  Req#504 HaveNotCompleted qp=[441]新手任务 PT1-32
+  Req#505 HaveCompleted qp=[440]新手任务 PT1-31
+Q[442] '新手任务 PT1-33' type=None StartNPC=[245]『新手指引』 士官 FinishNPC=[245]『新手指引』 士官
+  Task#559 kind=KillMonster amt=20 item=null
+    MonDet#504 mon=[10050]沙漠鱼魔 hasNonEventRespawn=True
+  Task#560 kind=KillMonster amt=20 item=null
+    MonDet#505 mon=[10051]沙漠石人 hasNonEventRespawn=True
+  Req#507 HaveNotCompleted qp=[442]新手任务 PT1-33
+  Req#508 HaveCompleted qp=[441]新手任务 PT1-32
+Q[443] '新手任务 PT1-34' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#561 kind=KillMonster amt=20 item=null
+    MonDet#506 mon=[10052]沙漠风魔 hasNonEventRespawn=True
+  Task#562 kind=KillMonster amt=20 item=null
+    MonDet#507 mon=[10053]沙漠树魔 hasNonEventRespawn=True
+  Req#510 HaveNotCompleted qp=[443]新手任务 PT1-34
+  Req#511 HaveCompleted qp=[442]新手任务 PT1-33
+Q[444] '新手任务 PT1-35' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#563 kind=KillMonster amt=1 item=null
+    MonDet#508 mon=[20014]大法老 hasNonEventRespawn=True
+  Req#513 HaveNotCompleted qp=[444]新手任务 PT1-35
+  Req#514 HaveCompleted qp=[443]新手任务 PT1-34
+Q[445] '新手任务 PT1-36' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#564 kind=KillMonster amt=20 item=null
+    MonDet#509 mon=[10069]月魔蜘蛛 hasNonEventRespawn=True
+  Req#516 HaveNotCompleted qp=[445]新手任务 PT1-36
+  Req#517 HaveCompleted qp=[444]新手任务 PT1-35
+Q[446] '新手任务 PT1-37' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#565 kind=KillMonster amt=20 item=null
+    MonDet#510 mon=[10070]幻影蜘蛛 hasNonEventRespawn=True
+  Req#519 HaveNotCompleted qp=[446]新手任务 PT1-37
+  Req#520 HaveCompleted qp=[445]新手任务 PT1-36
+Q[447] '新手任务 PT1-38' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#566 kind=KillMonster amt=20 item=null
+    MonDet#511 mon=[10074]花色蜘蛛 hasNonEventRespawn=True
+  Req#522 HaveNotCompleted qp=[447]新手任务 PT1-38
+  Req#523 HaveCompleted qp=[446]新手任务 PT1-37
+Q[448] '新手任务 PT1-39' type=None StartNPC=[38]秀儿 FinishNPC=[38]秀儿
+  Task#567 kind=KillMonster amt=20 item=null
+    MonDet#512 mon=[10075]黑角蜘蛛 hasNonEventRespawn=True
+  Req#525 HaveNotCompleted qp=[448]新手任务 PT1-39
+  Req#526 HaveCompleted qp=[447]新手任务 PT1-38
+Q[449] '新手任务 PT1-40' type=None StartNPC=[38]秀儿 FinishNPC=[38]秀儿
+  Task#568 kind=KillMonster amt=1 item=null
+    MonDet#513 mon=[20011]八脚首领 hasNonEventRespawn=True
+  Req#528 HaveNotCompleted qp=[449]新手任务 PT1-40
+  Req#529 HaveCompleted qp=[448]新手任务 PT1-39
+Q[450] '新手任务 PT1-41' type=None StartNPC=[38]秀儿 FinishNPC=[38]秀儿
+  Task#569 kind=KillMonster amt=20 item=null
+    MonDet#514 mon=[10072]血巨人 hasNonEventRespawn=True
+  Req#531 HaveNotCompleted qp=[450]新手任务 PT1-41
+  Req#532 HaveCompleted qp=[449]新手任务 PT1-40
+Q[451] '新手任务 PT1-42' type=None StartNPC=[38]秀儿 FinishNPC=[38]秀儿
+  Task#570 kind=KillMonster amt=20 item=null
+    MonDet#515 mon=[10073]血金刚 hasNonEventRespawn=True
+  Req#534 HaveNotCompleted qp=[451]新手任务 PT1-42
+  Req#535 HaveCompleted qp=[450]新手任务 PT1-41
+Q[452] '新手任务 PT1-43' type=None StartNPC=[39]药神 FinishNPC=[39]药神
+  Task#571 kind=KillMonster amt=1 item=null
+    MonDet#516 mon=[20015]神鬼王 hasNonEventRespawn=True
+  Req#537 HaveNotCompleted qp=[452]新手任务 PT1-43
+  Req#538 HaveCompleted qp=[451]新手任务 PT1-42
+Q[453] '新手任务 PT1-44' type=None StartNPC=[39]药神 FinishNPC=[39]药神
+  Task#572 kind=KillMonster amt=20 item=null
+    MonDet#517 mon=[10087]东魔神怪 hasNonEventRespawn=True
+  Req#540 HaveNotCompleted qp=[453]新手任务 PT1-44
+  Req#541 HaveCompleted qp=[452]新手任务 PT1-43
+Q[454] '新手任务 PT1-45' type=None StartNPC=[39]药神 FinishNPC=[39]药神
+  Task#573 kind=KillMonster amt=20 item=null
+    MonDet#518 mon=[10091]西魔神怪 hasNonEventRespawn=True
+  Req#543 HaveNotCompleted qp=[454]新手任务 PT1-45
+  Req#544 HaveCompleted qp=[453]新手任务 PT1-44
+Q[455] '新手任务 PT1-46' type=None StartNPC=[39]药神 FinishNPC=[39]药神
+  Task#574 kind=KillMonster amt=20 item=null
+    MonDet#519 mon=[10088]猿猴战士 hasNonEventRespawn=True
+  Req#546 HaveNotCompleted qp=[455]新手任务 PT1-46
+  Req#547 HaveCompleted qp=[454]新手任务 PT1-45
+Q[456] '新手任务 PT1-47' type=None StartNPC=[40]药中 FinishNPC=[39]药神
+  Task#575 kind=KillMonster amt=20 item=null
+    MonDet#520 mon=[10089]猿猴战将 hasNonEventRespawn=True
+  Req#549 HaveNotCompleted qp=[456]新手任务 PT1-47
+  Req#550 HaveCompleted qp=[455]新手任务 PT1-46
+Q[457] '新手任务 PT1-48' type=None StartNPC=[40]药中 FinishNPC=[40]药中
+  Task#576 kind=KillMonster amt=20 item=null
+    MonDet#521 mon=[10090]巨象兽 hasNonEventRespawn=True
+  Req#552 HaveNotCompleted qp=[457]新手任务 PT1-48
+  Req#553 HaveCompleted qp=[456]新手任务 PT1-47
+Q[458] '新手任务 PT1-49' type=None StartNPC=[40]药中 FinishNPC=[40]药中
+  Task#577 kind=KillMonster amt=1 item=null
+    MonDet#522 mon=[20018]疯狂魔神盗 hasNonEventRespawn=True
+  Req#555 HaveNotCompleted qp=[458]新手任务 PT1-49
+  Req#556 HaveCompleted qp=[457]新手任务 PT1-48
+Q[459] '新手任务 PT1-50' type=None StartNPC=[42]梁生 FinishNPC=[42]梁生
+  Task#578 kind=KillMonster amt=20 item=null
+    MonDet#523 mon=[10076]祖玛弓箭手 hasNonEventRespawn=True
+  Req#558 HaveNotCompleted qp=[459]新手任务 PT1-50
+  Req#559 HaveCompleted qp=[458]新手任务 PT1-49
+Q[460] '新手任务 PT1-51' type=None StartNPC=[42]梁生 FinishNPC=[42]梁生
+  Task#579 kind=KillMonster amt=20 item=null
+    MonDet#524 mon=[10077]祖玛雕像 hasNonEventRespawn=True
+  Req#561 HaveNotCompleted qp=[460]新手任务 PT1-51
+  Req#562 HaveCompleted qp=[459]新手任务 PT1-50
+Q[461] '新手任务 PT1-52' type=None StartNPC=[42]梁生 FinishNPC=[42]梁生
+  Task#580 kind=KillMonster amt=20 item=null
+    MonDet#525 mon=[10078]祖玛卫士 hasNonEventRespawn=True
+  Req#564 HaveNotCompleted qp=[461]新手任务 PT1-52
+  Req#565 HaveCompleted qp=[460]新手任务 PT1-51
+Q[462] '新手任务 PT1-53' type=None StartNPC=[42]梁生 FinishNPC=[42]梁生
+  Task#581 kind=KillMonster amt=20 item=null
+    MonDet#526 mon=[10079]大老鼠 hasNonEventRespawn=True
+  Req#567 HaveNotCompleted qp=[462]新手任务 PT1-53
+  Req#568 HaveCompleted qp=[461]新手任务 PT1-52
+Q[463] '新手任务 PT1-54' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#582 kind=KillMonster amt=1 item=null
+    MonDet#527 mon=[20016]护法天 hasNonEventRespawn=True
+  Req#570 HaveNotCompleted qp=[463]新手任务 PT1-54
+  Req#571 HaveCompleted qp=[462]新手任务 PT1-53
+Q[464] '新手任务 PT1-55' type=None StartNPC=[231]公告栏 FinishNPC=[231]公告栏
+  Task#583 kind=KillMonster amt=50 item=null
+    MonDet#528 mon=[10080]潘夜战士 hasNonEventRespawn=True
+  Req#573 HaveNotCompleted qp=[464]新手任务 PT1-55
+  Req#574 HaveCompleted qp=[463]新手任务 PT1-54
+Q[465] '新手任务 PT1-56' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#584 kind=KillMonster amt=20 item=null
+    MonDet#529 mon=[10081]潘夜冰魔 hasNonEventRespawn=True
+  Req#576 HaveNotCompleted qp=[465]新手任务 PT1-56
+  Req#577 HaveCompleted qp=[464]新手任务 PT1-55
+Q[466] '新手任务 PT1-57' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#585 kind=KillMonster amt=20 item=null
+    MonDet#530 mon=[10085]潘夜风魔 hasNonEventRespawn=True
+  Req#579 HaveNotCompleted qp=[466]新手任务 PT1-57
+  Req#580 HaveCompleted qp=[465]新手任务 PT1-56
+Q[467] '新手任务 PT1-58' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#586 kind=KillMonster amt=20 item=null
+    MonDet#531 mon=[10086]潘夜火魔 hasNonEventRespawn=True
+  Req#582 HaveNotCompleted qp=[467]新手任务 PT1-58
+  Req#583 HaveCompleted qp=[466]新手任务 PT1-57
+Q[468] '新手任务 PT1-59' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#587 kind=KillMonster amt=20 item=null
+    MonDet#532 mon=[10083]潘夜云魔 hasNonEventRespawn=True
+  Req#585 HaveNotCompleted qp=[468]新手任务 PT1-59
+  Req#586 HaveCompleted qp=[467]新手任务 PT1-58
+Q[469] '新手任务 PT1-60' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#588 kind=KillMonster amt=20 item=null
+    MonDet#533 mon=[10084]潘夜左护卫 hasNonEventRespawn=True
+  Req#588 HaveNotCompleted qp=[469]新手任务 PT1-60
+  Req#589 HaveCompleted qp=[468]新手任务 PT1-59
+Q[470] '新手任务 PT1-61' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#589 kind=KillMonster amt=20 item=null
+    MonDet#534 mon=[10082]潘夜右护卫 hasNonEventRespawn=True
+  Req#591 HaveNotCompleted qp=[470]新手任务 PT1-61
+  Req#592 HaveCompleted qp=[469]新手任务 PT1-60
+Q[471] '新手任务 PT1-62' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#590 kind=KillMonster amt=1 item=null
+    MonDet#535 mon=[20017]潘夜鬼将 hasNonEventRespawn=True
+  Req#594 HaveNotCompleted qp=[471]新手任务 PT1-62
+  Req#595 HaveCompleted qp=[470]新手任务 PT1-61
+Q[472] '新手任务 PT1-63' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#591 kind=KillMonster amt=20 item=null
+    MonDet#536 mon=[10098]黑度紫红女神 hasNonEventRespawn=True
+  Req#597 HaveNotCompleted qp=[472]新手任务 PT1-63
+  Req#598 HaveCompleted qp=[471]新手任务 PT1-62
+Q[473] '新手任务 PT1-64' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#592 kind=KillMonster amt=20 item=null
+    MonDet#537 mon=[10099]黑度绿荫女神 hasNonEventRespawn=True
+  Req#600 HaveNotCompleted qp=[473]新手任务 PT1-64
+  Req#601 HaveCompleted qp=[472]新手任务 PT1-63
+Q[474] '新手任务 PT1-65' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#593 kind=KillMonster amt=20 item=null
+    MonDet#538 mon=[10100]武力神将 hasNonEventRespawn=True
+  Req#603 HaveNotCompleted qp=[474]新手任务 PT1-65
+  Req#604 HaveCompleted qp=[473]新手任务 PT1-64
+Q[475] '新手任务 PT1-66' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#594 kind=KillMonster amt=20 item=null
+    MonDet#539 mon=[10111]石像狮子 hasNonEventRespawn=True
+  Req#606 HaveNotCompleted qp=[475]新手任务 PT1-66
+  Req#607 HaveCompleted qp=[474]新手任务 PT1-65
+Q[476] '新手任务 PT1-67' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#595 kind=KillMonster amt=20 item=null
+    MonDet#540 mon=[10113]火焰狮子 hasNonEventRespawn=True
+  Req#609 HaveNotCompleted qp=[476]新手任务 PT1-67
+  Req#610 HaveCompleted qp=[475]新手任务 PT1-66
+Q[477] '新手任务 PT1-68' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#596 kind=KillMonster amt=30 item=null
+    MonDet#541 mon=[10110]地牢紫红女神 hasNonEventRespawn=True
+  Req#612 HaveNotCompleted qp=[477]新手任务 PT1-68
+  Req#613 HaveCompleted qp=[476]新手任务 PT1-67
+Q[478] '新手任务 PT1-69' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#597 kind=KillMonster amt=30 item=null
+    MonDet#542 mon=[10100]武力神将 hasNonEventRespawn=True
+  Req#615 HaveNotCompleted qp=[478]新手任务 PT1-69
+  Req#616 HaveCompleted qp=[477]新手任务 PT1-68
+Q[479] '新手任务 PT1-70' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#598 kind=KillMonster amt=30 item=null
+    MonDet#543 mon=[10160]地牢绿荫女神 hasNonEventRespawn=True
+  Req#618 HaveNotCompleted qp=[479]新手任务 PT1-70
+  Req#619 HaveCompleted qp=[478]新手任务 PT1-69
+Q[480] '新手任务 PT1-71' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#599 kind=KillMonster amt=1 item=null
+    MonDet#544 mon=[20019]黑度首将 hasNonEventRespawn=True
+  Req#621 HaveNotCompleted qp=[480]新手任务 PT1-71
+  Req#622 HaveCompleted qp=[479]新手任务 PT1-70
+Q[481] '新手任务 PT1-72' type=None StartNPC=[175]萧良佳 FinishNPC=[175]萧良佳
+  Task#600 kind=KillMonster amt=1 item=null
+    MonDet#545 mon=[20021]震天首将 hasNonEventRespawn=True
+  Req#624 HaveNotCompleted qp=[481]新手任务 PT1-72
+  Req#625 HaveCompleted qp=[480]新手任务 PT1-71
+Q[482] '行政官的指派 PT1' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#601 kind=KillMonster amt=1 item=null
+    MonDet#546 mon=[30001]沃玛教主 hasNonEventRespawn=True
+  Req#627 HaveNotCompleted qp=[482]行政官的指派 PT1
+  Req#677 MinLevel qp=[482]行政官的指派 PT1
+Q[491] '行政官的指派 PT10' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#611 kind=KillMonster amt=1 item=null
+    MonDet#14780 mon=[30011]地天灭王 hasNonEventRespawn=True
+  Req#1730 HaveNotCompleted qp=[491]行政官的指派 PT10
+  Req#1731 MinLevel qp=[491]行政官的指派 PT10
+  Req#1732 HaveCompleted qp=[490]行政官的指派 PT9
+Q[492] '行政官的指派 PT11' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#612 kind=KillMonster amt=1 item=null
+  Req#1733 HaveNotCompleted qp=[492]行政官的指派 PT11
+  Req#1734 MinLevel qp=[492]行政官的指派 PT11
+  Req#1735 HaveCompleted qp=[491]行政官的指派 PT10
+Q[493] '行政官的指派 PT12' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#613 kind=KillMonster amt=1 item=null
+  Req#1736 HaveNotCompleted qp=[493]行政官的指派 PT12
+  Req#1737 MinLevel qp=[493]行政官的指派 PT12
+  Req#1738 HaveCompleted qp=[492]行政官的指派 PT11
+Q[494] '行政官的指派 PT13' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#614 kind=KillMonster amt=1 item=null
+  Req#1739 HaveNotCompleted qp=[494]行政官的指派 PT13
+  Req#1740 MinLevel qp=[494]行政官的指派 PT13
+  Req#1741 HaveCompleted qp=[493]行政官的指派 PT12
+Q[495] '行政官的指派 PT14' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#615 kind=KillMonster amt=1 item=null
+  Req#1742 HaveNotCompleted qp=[495]行政官的指派 PT14
+  Req#1743 MinLevel qp=[495]行政官的指派 PT14
+  Req#1744 HaveCompleted qp=[494]行政官的指派 PT13
+Q[496] '行政官的指派 PT15' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#616 kind=KillMonster amt=1 item=null
+  Req#1745 HaveCompleted qp=[495]行政官的指派 PT14
+  Req#1747 MinLevel qp=[496]行政官的指派 PT15
+  Req#1748 HaveNotCompleted qp=[496]行政官的指派 PT15
+Q[497] '行政官的指派 PT16' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#617 kind=KillMonster amt=1 item=null
+  Req#1750 HaveNotCompleted qp=[497]行政官的指派 PT16
+  Req#1751 MinLevel qp=[497]行政官的指派 PT16
+  Req#1752 HaveCompleted qp=[496]行政官的指派 PT15
+Q[498] '行政官的指派 PT17' type=None StartNPC=[88]沙巴克管理员 FinishNPC=[88]沙巴克管理员
+  Task#618 kind=KillMonster amt=1 item=null
+  Req#1753 HaveNotCompleted qp=[498]行政官的指派 PT17
+  Req#1754 MinLevel qp=[498]行政官的指派 PT17
+  Req#1755 HaveCompleted qp=[497]行政官的指派 PT16
+
+=== QUESTS 5,7,35 ===
+Q[5] '随机任务5'
+  Task#5 kind=KillMonster
+    MonDet mon=[30005]赤月恶魔 respawn=True
+    MonDet mon=[100568]副本-赤月恶魔1 respawn=False
+Q[7] '随机任务7'
+  Task#9 kind=KillMonster
+    MonDet mon=[30007]祖玛教主 respawn=True
+    MonDet mon=[100569]副本-沃玛教主1 respawn=False
+Q[35] '随机任务35'
+  Task#55 kind=KillMonster
+    MonDet mon=[30009]霸王教主 respawn=True
+    MonDet mon=[100570]副本-霸王教主1 respawn=False
+
+=== NORESPAWN-ONLY kill quests (all monDets lack non-Event respawn; no other completable task types) ===
+
+=== Task kinds enum sample ===
+  GainItem=338
+  KillMonster=257
+
+=== QuestRequirement Requirement kinds ===
+  MinLevel=408
+  HaveNotCompleted=93
+  HaveCompleted=90
+
+=== Props QuestTask ===
+  Quest:QuestInfo
+  Task:QuestTaskType
+  ItemParameter:ItemInfo
+  MobDescription:String
+  Amount:Int32
+  MonsterDetails:DBBindingList`1
+  QuertInfoIndex:Int32
+  TaskName:String
+  ItemParameterName:String
+  IndexCopy:Int32
+  Index:Int32
+  ServerOnly:Boolean
+  CreatTime:DateTime
+  IsTemporary:Boolean
+=== Props QuestTaskMonsterDetails ===
+  Task:QuestTask
+  Monster:MonsterInfo
+  Map:MapInfo
+  Chance:Int32
+  Amount:Int32
+  DropSet:Int32
+  QuerTaskIndex:Int32
+  MonsterName:String
+  MapName:String
+  Index:Int32
+  ServerOnly:Boolean
+  CreatTime:DateTime
+  IsTemporary:Boolean

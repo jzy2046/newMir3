@@ -1,0 +1,188 @@
+﻿[
+    {
+        "QuestIndex":  34,
+        "QuestName":  "随机任务34",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#54 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  492,
+        "QuestName":  "行政官的指派 PT11",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#612 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  493,
+        "QuestName":  "行政官的指派 PT12",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#613 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  494,
+        "QuestName":  "行政官的指派 PT13",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#614 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  495,
+        "QuestName":  "行政官的指派 PT14",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#615 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  496,
+        "QuestName":  "行政官的指派 PT15",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#616 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  497,
+        "QuestName":  "行政官的指派 PT16",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#617 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  498,
+        "QuestName":  "行政官的指派 PT17",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#618 KillMonster Amount=1 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  499,
+        "QuestName":  "马牌任务1",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#619 KillMonster Amount=10 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  500,
+        "QuestName":  "马牌任务2",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#620 KillMonster Amount=200 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  501,
+        "QuestName":  "马牌任务3",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#621 KillMonster Amount=500 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  502,
+        "QuestName":  "马牌任务4",
+        "Category":  "EmptyObjective/KillEmptyMonsterDetails",
+        "Detail":  "TASK#622 KillMonster Amount=2000 MonsterDetails=0 MobDescription=\u0027\u0027"
+    },
+    {
+        "QuestIndex":  142,
+        "QuestName":  "随机任务142",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  244,
+        "QuestName":  "随机任务244",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  246,
+        "QuestName":  "随机任务246",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  257,
+        "QuestName":  "随机任务257",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  277,
+        "QuestName":  "随机任务277",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  291,
+        "QuestName":  "随机任务291",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  297,
+        "QuestName":  "随机任务297",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  325,
+        "QuestName":  "随机任务325",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  344,
+        "QuestName":  "随机任务344",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  348,
+        "QuestName":  "随机任务348",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  351,
+        "QuestName":  "随机任务351",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  359,
+        "QuestName":  "随机任务359",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  362,
+        "QuestName":  "随机任务362",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  373,
+        "QuestName":  "随机任务373",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  374,
+        "QuestName":  "随机任务374",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  377,
+        "QuestName":  "随机任务377",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  379,
+        "QuestName":  "随机任务379",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  380,
+        "QuestName":  "随机任务380",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    },
+    {
+        "QuestIndex":  386,
+        "QuestName":  "随机任务386",
+        "Category":  "EmptyObjective/EmptyTaskList",
+        "Detail":  "Quest has zero QuestTask rows (active quest with no objectives)"
+    }
+]

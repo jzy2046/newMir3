@@ -1,0 +1,530 @@
+﻿OUT=D:\newMir3\tools\Mir3QuestFix\probe_out.txt
+=== NEWBIE QUESTS ===
+Q[410] '鏂版墜浠诲姟 PT1-1' type=None StartNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼 FinishNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼
+  Task#496 kind=KillMonster amt=1 item=null
+    MonDet#421 mon=[10001]楦?hasNonEventRespawn=True
+  Task#497 kind=KillMonster amt=1 item=null
+    MonDet#422 mon=[10004]鐗?hasNonEventRespawn=True
+  Task#498 kind=KillMonster amt=1 item=null
+    MonDet#423 mon=[10006]澶氶挬鐚?hasNonEventRespawn=True
+  Task#499 kind=KillMonster amt=1 item=null
+    MonDet#425 mon=[10014]绋昏崏浜?hasNonEventRespawn=True
+  Req#418 HaveNotCompleted qp=[410]鏂版墜浠诲姟 PT1-1
+  Req#668 MinLevel qp=[410]鏂版墜浠诲姟 PT1-1
+Q[411] '鏂版墜浠诲姟 PT1-2' type=None StartNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼 FinishNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼
+  Task#500 kind=GainItem amt=2 item=[58]楦¤倝
+    MonDet#427 mon=[10001]楦?hasNonEventRespawn=True
+  Task#501 kind=GainItem amt=2 item=[512]鐚倝
+    MonDet#429 mon=[10002]鐚?hasNonEventRespawn=True
+  Task#502 kind=GainItem amt=2 item=[511]鐗涜倝
+    MonDet#431 mon=[10004]鐗?hasNonEventRespawn=True
+  Req#421 HaveNotCompleted qp=[411]鏂版墜浠诲姟 PT1-2
+  Req#666 HaveCompleted qp=[410]鏂版墜浠诲姟 PT1-1
+Q[412] '鏂版墜浠诲姟 PT1-3' type=None StartNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼 FinishNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼
+  Task#503 kind=KillMonster amt=2 item=null
+    MonDet#433 mon=[10008]妫灄闆汉 hasNonEventRespawn=True
+  Task#504 kind=KillMonster amt=2 item=null
+    MonDet#435 mon=[10015]鍗婂吔浜?hasNonEventRespawn=True
+  Task#505 kind=KillMonster amt=2 item=null
+    MonDet#436 mon=[10011]鍗婂吔鎴樺＋ hasNonEventRespawn=True
+  Req#424 HaveNotCompleted qp=[412]鏂版墜浠诲姟 PT1-3
+  Req#667 HaveCompleted qp=[411]鏂版墜浠诲姟 PT1-2
+Q[413] '鏂版墜浠诲姟 PT1-4' type=None StartNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼 FinishNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼
+  Task#506 kind=GainItem amt=3 item=[41]姣掕湗铔涚墮榻?
+    MonDet#437 mon=[10013]姣掕湗铔?hasNonEventRespawn=True
+  Task#507 kind=GainItem amt=3 item=[582]瑜愯壊鏍楀瓙
+    MonDet#439 mon=[10009]鏍楀瓙鏍?hasNonEventRespawn=True
+  Task#609 kind=KillMonster amt=3 item=null
+    MonDet#8413 mon=[10007]鐙?hasNonEventRespawn=True
+  Req#426 HaveNotCompleted qp=[413]鏂版墜浠诲姟 PT1-4
+  Req#669 HaveCompleted qp=[412]鏂版墜浠诲姟 PT1-3
+Q[414] '鏂版墜浠诲姟 PT1-5' type=None StartNPC=NULL FinishNPC=NULL
+  Task#509 kind=KillMonster amt=5 item=null
+    MonDet#441 mon=[10011]鍗婂吔鎴樺＋ hasNonEventRespawn=True
+  Req#428 HaveNotCompleted qp=[414]鏂版墜浠诲姟 PT1-5
+  Req#670 HaveCompleted qp=[413]鏂版墜浠诲姟 PT1-4
+Q[415] '鏂版墜浠诲姟 PT1-6' type=None StartNPC=NULL FinishNPC=NULL
+  Task#510 kind=KillMonster amt=10 item=null
+    MonDet#442 mon=[10024]楠烽珔 hasNonEventRespawn=True
+  Task#511 kind=KillMonster amt=10 item=null
+    MonDet#443 mon=[10021]鎺锋枾楠烽珔 hasNonEventRespawn=True
+  Req#430 HaveNotCompleted qp=[415]鏂版墜浠诲姟 PT1-6
+  Req#671 HaveCompleted qp=[414]鏂版墜浠诲姟 PT1-5
+Q[416] '鏂版墜浠诲姟 PT1-7' type=None StartNPC=NULL FinishNPC=NULL
+  Task#512 kind=KillMonster amt=10 item=null
+    MonDet#444 mon=[10023]楠烽珔鎴樺＋ hasNonEventRespawn=True
+  Task#513 kind=KillMonster amt=10 item=null
+    MonDet#445 mon=[10025]楠烽珔鎴樺皢 hasNonEventRespawn=True
+  Req#432 HaveNotCompleted qp=[416]鏂版墜浠诲姟 PT1-7
+  Req#672 HaveCompleted qp=[415]鏂版墜浠诲姟 PT1-6
+Q[417] '鏂版墜浠诲姟 PT1-8' type=None StartNPC=NULL FinishNPC=NULL
+  Task#514 kind=KillMonster amt=10 item=null
+    MonDet#446 mon=[10022]铦庡瓙 hasNonEventRespawn=True
+  Task#515 kind=KillMonster amt=5 item=null
+    MonDet#447 mon=[10020]灞辨礊铦欒潬 hasNonEventRespawn=True
+  Task#516 kind=KillMonster amt=10 item=null
+    MonDet#448 mon=[10024]楠烽珔 hasNonEventRespawn=True
+  Task#517 kind=KillMonster amt=10 item=null
+    MonDet#449 mon=[10021]鎺锋枾楠烽珔 hasNonEventRespawn=True
+  Task#518 kind=KillMonster amt=10 item=null
+    MonDet#450 mon=[10023]楠烽珔鎴樺＋ hasNonEventRespawn=True
+  Task#519 kind=KillMonster amt=10 item=null
+    MonDet#451 mon=[10025]楠烽珔鎴樺皢 hasNonEventRespawn=True
+  Req#434 HaveNotCompleted qp=[417]鏂版墜浠诲姟 PT1-8
+  Req#673 HaveCompleted qp=[416]鏂版墜浠诲姟 PT1-7
+Q[418] '鏂版墜浠诲姟 PT1-9' type=None StartNPC=[333]瑁呭鍥炶喘 FinishNPC=[333]瑁呭鍥炶喘
+  Task#520 kind=KillMonster amt=1 item=null
+    MonDet#452 mon=[20001]鍗婂吔鍕囧＋ hasNonEventRespawn=True
+  Req#436 HaveNotCompleted qp=[418]鏂版墜浠诲姟 PT1-9
+  Req#676 HaveCompleted qp=[417]鏂版墜浠诲姟 PT1-8
+Q[419] '鏂版墜浠诲姟 PT1-10' type=None StartNPC=[333]瑁呭鍥炶喘 FinishNPC=[333]瑁呭鍥炶喘
+  Task#521 kind=KillMonster amt=1 item=null
+    MonDet#453 mon=[20003]楠烽珔绮剧伒 hasNonEventRespawn=True
+  Req#438 HaveNotCompleted qp=[419]鏂版墜浠诲姟 PT1-10
+  Req#674 HaveCompleted qp=[418]鏂版墜浠诲姟 PT1-9
+Q[420] '鏂版墜浠诲姟 PT1-11' type=None StartNPC=[333]瑁呭鍥炶喘 FinishNPC=[333]瑁呭鍥炶喘
+  Task#522 kind=KillMonster amt=10 item=null
+    MonDet#454 mon=[10030]娲炶泦 hasNonEventRespawn=True
+  Task#523 kind=KillMonster amt=10 item=null
+    MonDet#455 mon=[10032]鑰侀亾鍍靛案 hasNonEventRespawn=True
+  Task#524 kind=KillMonster amt=10 item=null
+    MonDet#456 mon=[10033]鍍т荆鍍靛案 hasNonEventRespawn=True
+  Req#441 HaveNotCompleted qp=[420]鏂版墜浠诲姟 PT1-11
+  Req#675 HaveCompleted qp=[419]鏂版墜浠诲姟 PT1-10
+Q[421] '鏂版墜浠诲姟 PT1-12' type=None StartNPC=[333]瑁呭鍥炶喘 FinishNPC=[333]瑁呭鍥炶喘
+  Task#525 kind=KillMonster amt=10 item=null
+    MonDet#457 mon=[10026]鐩旂敳铓傝殎 hasNonEventRespawn=True
+  Task#526 kind=KillMonster amt=10 item=null
+    MonDet#458 mon=[10027]铓傝殎鎴樺＋ hasNonEventRespawn=True
+  Task#527 kind=KillMonster amt=10 item=null
+    MonDet#459 mon=[10028]铓傝殎閬撳＋ hasNonEventRespawn=True
+  Req#444 HaveNotCompleted qp=[421]鏂版墜浠诲姟 PT1-12
+  Req#445 HaveCompleted qp=[420]鏂版墜浠诲姟 PT1-11
+Q[422] '鏂版墜浠诲姟 PT1-13' type=None StartNPC=[335]缁煎悎鏈嶅姟 FinishNPC=[335]缁煎悎鏈嶅姟
+  Task#528 kind=KillMonster amt=1 item=null
+    MonDet#460 mon=[20004]灏哥帇 hasNonEventRespawn=True
+  Req#447 HaveNotCompleted qp=[422]鏂版墜浠诲姟 PT1-13
+  Req#448 HaveCompleted qp=[421]鏂版墜浠诲姟 PT1-12
+Q[423] '鏂版墜浠诲姟 PT1-14' type=None StartNPC=[335]缁煎悎鏈嶅姟 FinishNPC=[335]缁煎悎鏈嶅姟
+  Task#529 kind=KillMonster amt=10 item=null
+    MonDet#461 mon=[10037]澶氳剼铏?hasNonEventRespawn=True
+  Task#530 kind=KillMonster amt=10 item=null
+    MonDet#462 mon=[10039]鑳炵溂铏?hasNonEventRespawn=True
+  Task#531 kind=KillMonster amt=10 item=null
+    MonDet#463 mon=[10038]铚樿洓濞?hasNonEventRespawn=True
+  Req#450 HaveNotCompleted qp=[423]鏂版墜浠诲姟 PT1-14
+  Req#451 HaveCompleted qp=[422]鏂版墜浠诲姟 PT1-13
+Q[424] '鏂版墜浠诲姟 PT1-15' type=None StartNPC=[335]缁煎悎鏈嶅姟 FinishNPC=[335]缁煎悎鏈嶅姟
+  Task#532 kind=KillMonster amt=1 item=null
+    MonDet#464 mon=[20006]绾㈢敳铏?hasNonEventRespawn=True
+  Req#453 HaveNotCompleted qp=[424]鏂版墜浠诲姟 PT1-15
+  Req#454 HaveCompleted qp=[423]鏂版墜浠诲姟 PT1-14
+Q[425] '鏂版墜浠诲姟 PT1-16' type=None StartNPC=[335]缁煎悎鏈嶅姟 FinishNPC=[335]缁煎悎鏈嶅姟
+  Task#533 kind=KillMonster amt=10 item=null
+    MonDet#465 mon=[10027]铓傝殎鎴樺＋ hasNonEventRespawn=True
+  Task#534 kind=KillMonster amt=10 item=null
+    MonDet#466 mon=[10029]鐖嗘瘨铓傝殎 hasNonEventRespawn=True
+  Req#456 HaveNotCompleted qp=[425]鏂版墜浠诲姟 PT1-16
+  Req#457 HaveCompleted qp=[424]鏂版墜浠诲姟 PT1-15
+Q[426] '鏂版墜浠诲姟 PT1-17' type=None StartNPC=[336]BOSS鏌ヨ FinishNPC=[336]BOSS鏌ヨ
+  Task#535 kind=KillMonster amt=10 item=null
+    MonDet#467 mon=[10026]鐩旂敳铓傝殎 hasNonEventRespawn=True
+  Task#536 kind=KillMonster amt=10 item=null
+    MonDet#469 mon=[10028]铓傝殎閬撳＋ hasNonEventRespawn=True
+  Req#459 HaveNotCompleted qp=[426]鏂版墜浠诲姟 PT1-17
+  Req#460 HaveCompleted qp=[425]鏂版墜浠诲姟 PT1-16
+Q[427] '鏂版墜浠诲姟 PT1-18' type=None StartNPC=[336]BOSS鏌ヨ FinishNPC=[336]BOSS鏌ヨ
+  Task#537 kind=KillMonster amt=1 item=null
+    MonDet#470 mon=[20005]铓傝殎灏嗗啗 hasNonEventRespawn=True
+  Req#462 HaveNotCompleted qp=[427]鏂版墜浠诲姟 PT1-18
+  Req#463 HaveCompleted qp=[426]鏂版墜浠诲姟 PT1-17
+Q[428] '鏂版墜浠诲姟 PT1-19' type=None StartNPC=[336]BOSS鏌ヨ FinishNPC=[336]BOSS鏌ヨ
+  Task#538 kind=KillMonster amt=30 item=null
+    MonDet#471 mon=[10054]鏆楅粦鎴樺＋ hasNonEventRespawn=True
+  Req#465 HaveNotCompleted qp=[428]鏂版墜浠诲姟 PT1-19
+  Req#466 HaveCompleted qp=[427]鏂版墜浠诲姟 PT1-18
+Q[429] '鏂版墜浠诲姟 PT1-20' type=None StartNPC=[336]BOSS鏌ヨ FinishNPC=[336]BOSS鏌ヨ
+  Task#539 kind=KillMonster amt=30 item=null
+    MonDet#472 mon=[10056]娌冪帥鎴樺＋ hasNonEventRespawn=True
+  Req#468 HaveNotCompleted qp=[429]鏂版墜浠诲姟 PT1-20
+  Req#469 HaveCompleted qp=[428]鏂版墜浠诲姟 PT1-19
+Q[430] '鏂版墜浠诲姟 PT1-21' type=None StartNPC=[332]娲诲姩绠＄悊鍛?FinishNPC=[332]娲诲姩绠＄悊鍛?
+  Task#540 kind=KillMonster amt=20 item=null
+    MonDet#473 mon=[10057]鐏劙娌冪帥 hasNonEventRespawn=True
+  Req#471 HaveNotCompleted qp=[430]鏂版墜浠诲姟 PT1-21
+  Req#472 HaveCompleted qp=[429]鏂版墜浠诲姟 PT1-20
+Q[431] '鏂版墜浠诲姟 PT1-22' type=None StartNPC=[332]娲诲姩绠＄悊鍛?FinishNPC=[332]娲诲姩绠＄悊鍛?
+  Task#541 kind=KillMonster amt=1 item=null
+    MonDet#474 mon=[20007]娌冪帥鍗＋ hasNonEventRespawn=True
+  Req#474 HaveNotCompleted qp=[431]鏂版墜浠诲姟 PT1-22
+  Req#475 HaveCompleted qp=[430]鏂版墜浠诲姟 PT1-21
+Q[432] '鏂版墜浠诲姟 PT1-23' type=None StartNPC=[332]娲诲姩绠＄悊鍛?FinishNPC=[332]娲诲姩绠＄悊鍛?
+  Task#542 kind=KillMonster amt=30 item=null
+    MonDet#475 mon=[10041]娴瓙浜洪 hasNonEventRespawn=True
+  Task#543 kind=KillMonster amt=30 item=null
+    MonDet#477 mon=[10042]鑵愯殌浜洪 hasNonEventRespawn=True
+  Req#477 HaveNotCompleted qp=[432]鏂版墜浠诲姟 PT1-23
+  Req#478 HaveCompleted qp=[431]鏂版墜浠诲姟 PT1-22
+Q[433] '鏂版墜浠诲姟 PT1-24' type=None StartNPC=[332]娲诲姩绠＄悊鍛?FinishNPC=[332]娲诲姩绠＄悊鍛?
+  Task#544 kind=KillMonster amt=30 item=null
+    MonDet#479 mon=[10060]妤旇浘 hasNonEventRespawn=True
+  Req#480 HaveNotCompleted qp=[433]鏂版墜浠诲姟 PT1-24
+  Req#481 HaveCompleted qp=[432]鏂版墜浠诲姟 PT1-23
+Q[434] '鏂版墜浠诲姟 PT1-25' type=None StartNPC=[51]瀵勫敭鍟?FinishNPC=[51]瀵勫敭鍟?
+  Task#545 kind=KillMonster amt=30 item=null
+    MonDet#480 mon=[10061]绾㈤噹鐚?hasNonEventRespawn=True
+  Task#546 kind=KillMonster amt=30 item=null
+    MonDet#483 mon=[10063]榛戦噹鐚?hasNonEventRespawn=True
+  Req#483 HaveNotCompleted qp=[434]鏂版墜浠诲姟 PT1-25
+  Req#484 HaveCompleted qp=[433]鏂版墜浠诲姟 PT1-24
+Q[435] '鏂版墜浠诲姟 PT1-26' type=None StartNPC=[51]瀵勫敭鍟?FinishNPC=[51]瀵勫敭鍟?
+  Task#547 kind=KillMonster amt=30 item=null
+    MonDet#488 mon=[10062]铦庤泧 hasNonEventRespawn=True
+  Req#486 HaveNotCompleted qp=[435]鏂版墜浠诲姟 PT1-26
+  Req#487 HaveCompleted qp=[434]鏂版墜浠诲姟 PT1-25
+Q[436] '鏂版墜浠诲姟 PT1-27' type=None StartNPC=[51]瀵勫敭鍟?FinishNPC=[51]瀵勫敭鍟?
+  Task#548 kind=KillMonster amt=1 item=null
+    MonDet#489 mon=[20009]鐧介噹鐚?hasNonEventRespawn=True
+  Req#489 HaveNotCompleted qp=[436]鏂版墜浠诲姟 PT1-27
+  Req#490 HaveCompleted qp=[435]鏂版墜浠诲姟 PT1-26
+Q[437] '鏂版墜浠诲姟 PT1-28' type=None StartNPC=[51]瀵勫敭鍟?FinishNPC=[51]瀵勫敭鍟?
+  Task#549 kind=KillMonster amt=20 item=null
+    MonDet#492 mon=[10043]楠烽珔寮撶鎵?hasNonEventRespawn=True
+  Task#550 kind=KillMonster amt=20 item=null
+    MonDet#493 mon=[10044]楠烽珔姝﹀＋ hasNonEventRespawn=True
+  Req#492 HaveNotCompleted qp=[437]鏂版墜浠诲姟 PT1-28
+  Req#493 HaveCompleted qp=[436]鏂版墜浠诲姟 PT1-27
+Q[438] '鏂版墜浠诲姟 PT1-29' type=None StartNPC=[334]澶х鎺掕姒?FinishNPC=[334]澶х鎺掕姒?
+  Task#551 kind=KillMonster amt=20 item=null
+    MonDet#494 mon=[10045]楠烽珔姝﹀皢 hasNonEventRespawn=True
+  Task#552 kind=KillMonster amt=20 item=null
+    MonDet#495 mon=[10046]楠烽珔澹叺 hasNonEventRespawn=True
+  Req#495 HaveNotCompleted qp=[438]鏂版墜浠诲姟 PT1-29
+  Req#496 HaveCompleted qp=[437]鏂版墜浠诲姟 PT1-28
+Q[439] '鏂版墜浠诲姟 PT1-30' type=None StartNPC=[334]澶х鎺掕姒?FinishNPC=[334]澶х鎺掕姒?
+  Task#553 kind=KillMonster amt=1 item=null
+    MonDet#496 mon=[20010]楠ㄩ灏?hasNonEventRespawn=True
+  Req#498 HaveNotCompleted qp=[439]鏂版墜浠诲姟 PT1-30
+  Req#499 HaveCompleted qp=[438]鏂版墜浠诲姟 PT1-29
+Q[440] '鏂版墜浠诲姟 PT1-31' type=None StartNPC=[334]澶х鎺掕姒?FinishNPC=[334]澶х鎺掕姒?
+  Task#554 kind=KillMonster amt=10 item=null
+    MonDet#497 mon=[10611]鍗婂吔鍓戝＋ hasNonEventRespawn=True
+  Task#555 kind=KillMonster amt=10 item=null
+    MonDet#499 mon=[10612]鍗婂吔娉曞笀 hasNonEventRespawn=True
+  Req#501 HaveNotCompleted qp=[440]鏂版墜浠诲姟 PT1-31
+  Req#502 HaveCompleted qp=[439]鏂版墜浠诲姟 PT1-30
+Q[441] '鏂版墜浠诲姟 PT1-32' type=None StartNPC=[334]澶х鎺掕姒?FinishNPC=[334]澶х鎺掕姒?
+  Task#556 kind=KillMonster amt=20 item=null
+    MonDet#501 mon=[10047]璇虹帥 hasNonEventRespawn=True
+  Task#557 kind=KillMonster amt=20 item=null
+    MonDet#502 mon=[10048]璇虹帥娉曡€?hasNonEventRespawn=True
+  Task#558 kind=KillMonster amt=20 item=null
+    MonDet#503 mon=[10049]璇虹帥灏嗗＋ hasNonEventRespawn=True
+  Req#504 HaveNotCompleted qp=[441]鏂版墜浠诲姟 PT1-32
+  Req#505 HaveCompleted qp=[440]鏂版墜浠诲姟 PT1-31
+Q[442] '鏂版墜浠诲姟 PT1-33' type=None StartNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼 FinishNPC=[245]銆庢柊鎵嬫寚寮曘€?澹畼
+  Task#559 kind=KillMonster amt=20 item=null
+    MonDet#504 mon=[10050]娌欐紶楸奸瓟 hasNonEventRespawn=True
+  Task#560 kind=KillMonster amt=20 item=null
+    MonDet#505 mon=[10051]娌欐紶鐭充汉 hasNonEventRespawn=True
+  Req#507 HaveNotCompleted qp=[442]鏂版墜浠诲姟 PT1-33
+  Req#508 HaveCompleted qp=[441]鏂版墜浠诲姟 PT1-32
+Q[443] '鏂版墜浠诲姟 PT1-34' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#561 kind=KillMonster amt=20 item=null
+    MonDet#506 mon=[10052]娌欐紶椋庨瓟 hasNonEventRespawn=True
+  Task#562 kind=KillMonster amt=20 item=null
+    MonDet#507 mon=[10053]娌欐紶鏍戦瓟 hasNonEventRespawn=True
+  Req#510 HaveNotCompleted qp=[443]鏂版墜浠诲姟 PT1-34
+  Req#511 HaveCompleted qp=[442]鏂版墜浠诲姟 PT1-33
+Q[444] '鏂版墜浠诲姟 PT1-35' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#563 kind=KillMonster amt=1 item=null
+    MonDet#508 mon=[20014]澶ф硶鑰?hasNonEventRespawn=True
+  Req#513 HaveNotCompleted qp=[444]鏂版墜浠诲姟 PT1-35
+  Req#514 HaveCompleted qp=[443]鏂版墜浠诲姟 PT1-34
+Q[445] '鏂版墜浠诲姟 PT1-36' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#564 kind=KillMonster amt=20 item=null
+    MonDet#509 mon=[10069]鏈堥瓟铚樿洓 hasNonEventRespawn=True
+  Req#516 HaveNotCompleted qp=[445]鏂版墜浠诲姟 PT1-36
+  Req#517 HaveCompleted qp=[444]鏂版墜浠诲姟 PT1-35
+Q[446] '鏂版墜浠诲姟 PT1-37' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#565 kind=KillMonster amt=20 item=null
+    MonDet#510 mon=[10070]骞诲奖铚樿洓 hasNonEventRespawn=True
+  Req#519 HaveNotCompleted qp=[446]鏂版墜浠诲姟 PT1-37
+  Req#520 HaveCompleted qp=[445]鏂版墜浠诲姟 PT1-36
+Q[447] '鏂版墜浠诲姟 PT1-38' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#566 kind=KillMonster amt=20 item=null
+    MonDet#511 mon=[10074]鑺辫壊铚樿洓 hasNonEventRespawn=True
+  Req#522 HaveNotCompleted qp=[447]鏂版墜浠诲姟 PT1-38
+  Req#523 HaveCompleted qp=[446]鏂版墜浠诲姟 PT1-37
+Q[448] '鏂版墜浠诲姟 PT1-39' type=None StartNPC=[38]绉€鍎?FinishNPC=[38]绉€鍎?
+  Task#567 kind=KillMonster amt=20 item=null
+    MonDet#512 mon=[10075]榛戣铚樿洓 hasNonEventRespawn=True
+  Req#525 HaveNotCompleted qp=[448]鏂版墜浠诲姟 PT1-39
+  Req#526 HaveCompleted qp=[447]鏂版墜浠诲姟 PT1-38
+Q[449] '鏂版墜浠诲姟 PT1-40' type=None StartNPC=[38]绉€鍎?FinishNPC=[38]绉€鍎?
+  Task#568 kind=KillMonster amt=1 item=null
+    MonDet#513 mon=[20011]鍏剼棣栭 hasNonEventRespawn=True
+  Req#528 HaveNotCompleted qp=[449]鏂版墜浠诲姟 PT1-40
+  Req#529 HaveCompleted qp=[448]鏂版墜浠诲姟 PT1-39
+Q[450] '鏂版墜浠诲姟 PT1-41' type=None StartNPC=[38]绉€鍎?FinishNPC=[38]绉€鍎?
+  Task#569 kind=KillMonster amt=20 item=null
+    MonDet#514 mon=[10072]琛€宸ㄤ汉 hasNonEventRespawn=True
+  Req#531 HaveNotCompleted qp=[450]鏂版墜浠诲姟 PT1-41
+  Req#532 HaveCompleted qp=[449]鏂版墜浠诲姟 PT1-40
+Q[451] '鏂版墜浠诲姟 PT1-42' type=None StartNPC=[38]绉€鍎?FinishNPC=[38]绉€鍎?
+  Task#570 kind=KillMonster amt=20 item=null
+    MonDet#515 mon=[10073]琛€閲戝垰 hasNonEventRespawn=True
+  Req#534 HaveNotCompleted qp=[451]鏂版墜浠诲姟 PT1-42
+  Req#535 HaveCompleted qp=[450]鏂版墜浠诲姟 PT1-41
+Q[452] '鏂版墜浠诲姟 PT1-43' type=None StartNPC=[39]鑽 FinishNPC=[39]鑽
+  Task#571 kind=KillMonster amt=1 item=null
+    MonDet#516 mon=[20015]绁為鐜?hasNonEventRespawn=True
+  Req#537 HaveNotCompleted qp=[452]鏂版墜浠诲姟 PT1-43
+  Req#538 HaveCompleted qp=[451]鏂版墜浠诲姟 PT1-42
+Q[453] '鏂版墜浠诲姟 PT1-44' type=None StartNPC=[39]鑽 FinishNPC=[39]鑽
+  Task#572 kind=KillMonster amt=20 item=null
+    MonDet#517 mon=[10087]涓滈瓟绁炴€?hasNonEventRespawn=True
+  Req#540 HaveNotCompleted qp=[453]鏂版墜浠诲姟 PT1-44
+  Req#541 HaveCompleted qp=[452]鏂版墜浠诲姟 PT1-43
+Q[454] '鏂版墜浠诲姟 PT1-45' type=None StartNPC=[39]鑽 FinishNPC=[39]鑽
+  Task#573 kind=KillMonster amt=20 item=null
+    MonDet#518 mon=[10091]瑗块瓟绁炴€?hasNonEventRespawn=True
+  Req#543 HaveNotCompleted qp=[454]鏂版墜浠诲姟 PT1-45
+  Req#544 HaveCompleted qp=[453]鏂版墜浠诲姟 PT1-44
+Q[455] '鏂版墜浠诲姟 PT1-46' type=None StartNPC=[39]鑽 FinishNPC=[39]鑽
+  Task#574 kind=KillMonster amt=20 item=null
+    MonDet#519 mon=[10088]鐚跨尨鎴樺＋ hasNonEventRespawn=True
+  Req#546 HaveNotCompleted qp=[455]鏂版墜浠诲姟 PT1-46
+  Req#547 HaveCompleted qp=[454]鏂版墜浠诲姟 PT1-45
+Q[456] '鏂版墜浠诲姟 PT1-47' type=None StartNPC=[40]鑽腑 FinishNPC=[39]鑽
+  Task#575 kind=KillMonster amt=20 item=null
+    MonDet#520 mon=[10089]鐚跨尨鎴樺皢 hasNonEventRespawn=True
+  Req#549 HaveNotCompleted qp=[456]鏂版墜浠诲姟 PT1-47
+  Req#550 HaveCompleted qp=[455]鏂版墜浠诲姟 PT1-46
+Q[457] '鏂版墜浠诲姟 PT1-48' type=None StartNPC=[40]鑽腑 FinishNPC=[40]鑽腑
+  Task#576 kind=KillMonster amt=20 item=null
+    MonDet#521 mon=[10090]宸ㄨ薄鍏?hasNonEventRespawn=True
+  Req#552 HaveNotCompleted qp=[457]鏂版墜浠诲姟 PT1-48
+  Req#553 HaveCompleted qp=[456]鏂版墜浠诲姟 PT1-47
+Q[458] '鏂版墜浠诲姟 PT1-49' type=None StartNPC=[40]鑽腑 FinishNPC=[40]鑽腑
+  Task#577 kind=KillMonster amt=1 item=null
+    MonDet#522 mon=[20018]鐤媯榄旂鐩?hasNonEventRespawn=True
+  Req#555 HaveNotCompleted qp=[458]鏂版墜浠诲姟 PT1-49
+  Req#556 HaveCompleted qp=[457]鏂版墜浠诲姟 PT1-48
+Q[459] '鏂版墜浠诲姟 PT1-50' type=None StartNPC=[42]姊佺敓 FinishNPC=[42]姊佺敓
+  Task#578 kind=KillMonster amt=20 item=null
+    MonDet#523 mon=[10076]绁栫帥寮撶鎵?hasNonEventRespawn=True
+  Req#558 HaveNotCompleted qp=[459]鏂版墜浠诲姟 PT1-50
+  Req#559 HaveCompleted qp=[458]鏂版墜浠诲姟 PT1-49
+Q[460] '鏂版墜浠诲姟 PT1-51' type=None StartNPC=[42]姊佺敓 FinishNPC=[42]姊佺敓
+  Task#579 kind=KillMonster amt=20 item=null
+    MonDet#524 mon=[10077]绁栫帥闆曞儚 hasNonEventRespawn=True
+  Req#561 HaveNotCompleted qp=[460]鏂版墜浠诲姟 PT1-51
+  Req#562 HaveCompleted qp=[459]鏂版墜浠诲姟 PT1-50
+Q[461] '鏂版墜浠诲姟 PT1-52' type=None StartNPC=[42]姊佺敓 FinishNPC=[42]姊佺敓
+  Task#580 kind=KillMonster amt=20 item=null
+    MonDet#525 mon=[10078]绁栫帥鍗＋ hasNonEventRespawn=True
+  Req#564 HaveNotCompleted qp=[461]鏂版墜浠诲姟 PT1-52
+  Req#565 HaveCompleted qp=[460]鏂版墜浠诲姟 PT1-51
+Q[462] '鏂版墜浠诲姟 PT1-53' type=None StartNPC=[42]姊佺敓 FinishNPC=[42]姊佺敓
+  Task#581 kind=KillMonster amt=20 item=null
+    MonDet#526 mon=[10079]澶ц€侀紶 hasNonEventRespawn=True
+  Req#567 HaveNotCompleted qp=[462]鏂版墜浠诲姟 PT1-53
+  Req#568 HaveCompleted qp=[461]鏂版墜浠诲姟 PT1-52
+Q[463] '鏂版墜浠诲姟 PT1-54' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#582 kind=KillMonster amt=1 item=null
+    MonDet#527 mon=[20016]鎶ゆ硶澶?hasNonEventRespawn=True
+  Req#570 HaveNotCompleted qp=[463]鏂版墜浠诲姟 PT1-54
+  Req#571 HaveCompleted qp=[462]鏂版墜浠诲姟 PT1-53
+Q[464] '鏂版墜浠诲姟 PT1-55' type=None StartNPC=[231]鍏憡鏍?FinishNPC=[231]鍏憡鏍?
+  Task#583 kind=KillMonster amt=50 item=null
+    MonDet#528 mon=[10080]娼樺鎴樺＋ hasNonEventRespawn=True
+  Req#573 HaveNotCompleted qp=[464]鏂版墜浠诲姟 PT1-55
+  Req#574 HaveCompleted qp=[463]鏂版墜浠诲姟 PT1-54
+Q[465] '鏂版墜浠诲姟 PT1-56' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#584 kind=KillMonster amt=20 item=null
+    MonDet#529 mon=[10081]娼樺鍐伴瓟 hasNonEventRespawn=True
+  Req#576 HaveNotCompleted qp=[465]鏂版墜浠诲姟 PT1-56
+  Req#577 HaveCompleted qp=[464]鏂版墜浠诲姟 PT1-55
+Q[466] '鏂版墜浠诲姟 PT1-57' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#585 kind=KillMonster amt=20 item=null
+    MonDet#530 mon=[10085]娼樺椋庨瓟 hasNonEventRespawn=True
+  Req#579 HaveNotCompleted qp=[466]鏂版墜浠诲姟 PT1-57
+  Req#580 HaveCompleted qp=[465]鏂版墜浠诲姟 PT1-56
+Q[467] '鏂版墜浠诲姟 PT1-58' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#586 kind=KillMonster amt=20 item=null
+    MonDet#531 mon=[10086]娼樺鐏瓟 hasNonEventRespawn=True
+  Req#582 HaveNotCompleted qp=[467]鏂版墜浠诲姟 PT1-58
+  Req#583 HaveCompleted qp=[466]鏂版墜浠诲姟 PT1-57
+Q[468] '鏂版墜浠诲姟 PT1-59' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#587 kind=KillMonster amt=20 item=null
+    MonDet#532 mon=[10083]娼樺浜戦瓟 hasNonEventRespawn=True
+  Req#585 HaveNotCompleted qp=[468]鏂版墜浠诲姟 PT1-59
+  Req#586 HaveCompleted qp=[467]鏂版墜浠诲姟 PT1-58
+Q[469] '鏂版墜浠诲姟 PT1-60' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#588 kind=KillMonster amt=20 item=null
+    MonDet#533 mon=[10084]娼樺宸︽姢鍗?hasNonEventRespawn=True
+  Req#588 HaveNotCompleted qp=[469]鏂版墜浠诲姟 PT1-60
+  Req#589 HaveCompleted qp=[468]鏂版墜浠诲姟 PT1-59
+Q[470] '鏂版墜浠诲姟 PT1-61' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#589 kind=KillMonster amt=20 item=null
+    MonDet#534 mon=[10082]娼樺鍙虫姢鍗?hasNonEventRespawn=True
+  Req#591 HaveNotCompleted qp=[470]鏂版墜浠诲姟 PT1-61
+  Req#592 HaveCompleted qp=[469]鏂版墜浠诲姟 PT1-60
+Q[471] '鏂版墜浠诲姟 PT1-62' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#590 kind=KillMonster amt=1 item=null
+    MonDet#535 mon=[20017]娼樺楝煎皢 hasNonEventRespawn=True
+  Req#594 HaveNotCompleted qp=[471]鏂版墜浠诲姟 PT1-62
+  Req#595 HaveCompleted qp=[470]鏂版墜浠诲姟 PT1-61
+Q[472] '鏂版墜浠诲姟 PT1-63' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#591 kind=KillMonster amt=20 item=null
+    MonDet#536 mon=[10098]榛戝害绱孩濂崇 hasNonEventRespawn=True
+  Req#597 HaveNotCompleted qp=[472]鏂版墜浠诲姟 PT1-63
+  Req#598 HaveCompleted qp=[471]鏂版墜浠诲姟 PT1-62
+Q[473] '鏂版墜浠诲姟 PT1-64' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#592 kind=KillMonster amt=20 item=null
+    MonDet#537 mon=[10099]榛戝害缁胯崼濂崇 hasNonEventRespawn=True
+  Req#600 HaveNotCompleted qp=[473]鏂版墜浠诲姟 PT1-64
+  Req#601 HaveCompleted qp=[472]鏂版墜浠诲姟 PT1-63
+Q[474] '鏂版墜浠诲姟 PT1-65' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#593 kind=KillMonster amt=20 item=null
+    MonDet#538 mon=[10100]姝﹀姏绁炲皢 hasNonEventRespawn=True
+  Req#603 HaveNotCompleted qp=[474]鏂版墜浠诲姟 PT1-65
+  Req#604 HaveCompleted qp=[473]鏂版墜浠诲姟 PT1-64
+Q[475] '鏂版墜浠诲姟 PT1-66' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#594 kind=KillMonster amt=20 item=null
+    MonDet#539 mon=[10111]鐭冲儚鐙瓙 hasNonEventRespawn=True
+  Req#606 HaveNotCompleted qp=[475]鏂版墜浠诲姟 PT1-66
+  Req#607 HaveCompleted qp=[474]鏂版墜浠诲姟 PT1-65
+Q[476] '鏂版墜浠诲姟 PT1-67' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#595 kind=KillMonster amt=20 item=null
+    MonDet#540 mon=[10113]鐏劙鐙瓙 hasNonEventRespawn=True
+  Req#609 HaveNotCompleted qp=[476]鏂版墜浠诲姟 PT1-67
+  Req#610 HaveCompleted qp=[475]鏂版墜浠诲姟 PT1-66
+Q[477] '鏂版墜浠诲姟 PT1-68' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#596 kind=KillMonster amt=30 item=null
+    MonDet#541 mon=[10110]鍦扮墷绱孩濂崇 hasNonEventRespawn=True
+  Req#612 HaveNotCompleted qp=[477]鏂版墜浠诲姟 PT1-68
+  Req#613 HaveCompleted qp=[476]鏂版墜浠诲姟 PT1-67
+Q[478] '鏂版墜浠诲姟 PT1-69' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#597 kind=KillMonster amt=30 item=null
+    MonDet#542 mon=[10100]姝﹀姏绁炲皢 hasNonEventRespawn=True
+  Req#615 HaveNotCompleted qp=[478]鏂版墜浠诲姟 PT1-69
+  Req#616 HaveCompleted qp=[477]鏂版墜浠诲姟 PT1-68
+Q[479] '鏂版墜浠诲姟 PT1-70' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#598 kind=KillMonster amt=30 item=null
+    MonDet#543 mon=[10160]鍦扮墷缁胯崼濂崇 hasNonEventRespawn=True
+  Req#618 HaveNotCompleted qp=[479]鏂版墜浠诲姟 PT1-70
+  Req#619 HaveCompleted qp=[478]鏂版墜浠诲姟 PT1-69
+Q[480] '鏂版墜浠诲姟 PT1-71' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#599 kind=KillMonster amt=1 item=null
+    MonDet#544 mon=[20019]榛戝害棣栧皢 hasNonEventRespawn=True
+  Req#621 HaveNotCompleted qp=[480]鏂版墜浠诲姟 PT1-71
+  Req#622 HaveCompleted qp=[479]鏂版墜浠诲姟 PT1-70
+Q[481] '鏂版墜浠诲姟 PT1-72' type=None StartNPC=[175]钀ц壇浣?FinishNPC=[175]钀ц壇浣?
+  Task#600 kind=KillMonster amt=1 item=null
+    MonDet#545 mon=[20021]闇囧ぉ棣栧皢 hasNonEventRespawn=True
+  Req#624 HaveNotCompleted qp=[481]鏂版墜浠诲姟 PT1-72
+  Req#625 HaveCompleted qp=[480]鏂版墜浠诲姟 PT1-71
+Q[482] '琛屾斂瀹樼殑鎸囨淳 PT1' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#601 kind=KillMonster amt=1 item=null
+    MonDet#546 mon=[30001]娌冪帥鏁欎富 hasNonEventRespawn=True
+  Req#627 HaveNotCompleted qp=[482]琛屾斂瀹樼殑鎸囨淳 PT1
+  Req#677 MinLevel qp=[482]琛屾斂瀹樼殑鎸囨淳 PT1
+Q[491] '琛屾斂瀹樼殑鎸囨淳 PT10' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#611 kind=KillMonster amt=1 item=null
+    MonDet#14780 mon=[30011]鍦板ぉ鐏帇 hasNonEventRespawn=True
+  Req#1730 HaveNotCompleted qp=[491]琛屾斂瀹樼殑鎸囨淳 PT10
+  Req#1731 MinLevel qp=[491]琛屾斂瀹樼殑鎸囨淳 PT10
+  Req#1732 HaveCompleted qp=[490]琛屾斂瀹樼殑鎸囨淳 PT9
+Q[492] '琛屾斂瀹樼殑鎸囨淳 PT11' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#612 kind=KillMonster amt=1 item=null
+  Req#1733 HaveNotCompleted qp=[492]琛屾斂瀹樼殑鎸囨淳 PT11
+  Req#1734 MinLevel qp=[492]琛屾斂瀹樼殑鎸囨淳 PT11
+  Req#1735 HaveCompleted qp=[491]琛屾斂瀹樼殑鎸囨淳 PT10
+Q[493] '琛屾斂瀹樼殑鎸囨淳 PT12' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#613 kind=KillMonster amt=1 item=null
+  Req#1736 HaveNotCompleted qp=[493]琛屾斂瀹樼殑鎸囨淳 PT12
+  Req#1737 MinLevel qp=[493]琛屾斂瀹樼殑鎸囨淳 PT12
+  Req#1738 HaveCompleted qp=[492]琛屾斂瀹樼殑鎸囨淳 PT11
+Q[494] '琛屾斂瀹樼殑鎸囨淳 PT13' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#614 kind=KillMonster amt=1 item=null
+  Req#1739 HaveNotCompleted qp=[494]琛屾斂瀹樼殑鎸囨淳 PT13
+  Req#1740 MinLevel qp=[494]琛屾斂瀹樼殑鎸囨淳 PT13
+  Req#1741 HaveCompleted qp=[493]琛屾斂瀹樼殑鎸囨淳 PT12
+Q[495] '琛屾斂瀹樼殑鎸囨淳 PT14' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#615 kind=KillMonster amt=1 item=null
+  Req#1742 HaveNotCompleted qp=[495]琛屾斂瀹樼殑鎸囨淳 PT14
+  Req#1743 MinLevel qp=[495]琛屾斂瀹樼殑鎸囨淳 PT14
+  Req#1744 HaveCompleted qp=[494]琛屾斂瀹樼殑鎸囨淳 PT13
+Q[496] '琛屾斂瀹樼殑鎸囨淳 PT15' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#616 kind=KillMonster amt=1 item=null
+  Req#1745 HaveCompleted qp=[495]琛屾斂瀹樼殑鎸囨淳 PT14
+  Req#1747 MinLevel qp=[496]琛屾斂瀹樼殑鎸囨淳 PT15
+  Req#1748 HaveNotCompleted qp=[496]琛屾斂瀹樼殑鎸囨淳 PT15
+Q[497] '琛屾斂瀹樼殑鎸囨淳 PT16' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#617 kind=KillMonster amt=1 item=null
+  Req#1750 HaveNotCompleted qp=[497]琛屾斂瀹樼殑鎸囨淳 PT16
+  Req#1751 MinLevel qp=[497]琛屾斂瀹樼殑鎸囨淳 PT16
+  Req#1752 HaveCompleted qp=[496]琛屾斂瀹樼殑鎸囨淳 PT15
+Q[498] '琛屾斂瀹樼殑鎸囨淳 PT17' type=None StartNPC=[88]娌欏反鍏嬬鐞嗗憳 FinishNPC=[88]娌欏反鍏嬬鐞嗗憳
+  Task#618 kind=KillMonster amt=1 item=null
+  Req#1753 HaveNotCompleted qp=[498]琛屾斂瀹樼殑鎸囨淳 PT17
+  Req#1754 MinLevel qp=[498]琛屾斂瀹樼殑鎸囨淳 PT17
+  Req#1755 HaveCompleted qp=[497]琛屾斂瀹樼殑鎸囨淳 PT16
+
+=== QUESTS 5,7,35 ===
+Q[5] '闅忔満浠诲姟5'
+  Task#5 kind=KillMonster
+    MonDet mon=[30005]璧ゆ湀鎭堕瓟 respawn=True
+    MonDet mon=[100568]鍓湰-璧ゆ湀鎭堕瓟1 respawn=False
+Q[7] '闅忔満浠诲姟7'
+  Task#9 kind=KillMonster
+    MonDet mon=[30007]绁栫帥鏁欎富 respawn=True
+    MonDet mon=[100569]鍓湰-娌冪帥鏁欎富1 respawn=False
+Q[35] '闅忔満浠诲姟35'
+  Task#55 kind=KillMonster
+    MonDet mon=[30009]闇哥帇鏁欎富 respawn=True
+    MonDet mon=[100570]鍓湰-闇哥帇鏁欎富1 respawn=False
+
+=== NORESPAWN-ONLY kill quests (all monDets lack non-Event respawn; no other completable task types) ===
+
+=== Task kinds enum sample ===
+  GainItem=338
+  KillMonster=257
+
+=== QuestRequirement Requirement kinds ===
+  MinLevel=408
+  HaveNotCompleted=93
+  HaveCompleted=90
+
+=== Props QuestTask ===
+  Quest:QuestInfo
+  Task:QuestTaskType
+  ItemParameter:ItemInfo
+  MobDescription:String
+  Amount:Int32
+  MonsterDetails:DBBindingList`1
+  QuertInfoIndex:Int32
+  TaskName:String
+  ItemParameterName:String
+  IndexCopy:Int32
+  Index:Int32
+  ServerOnly:Boolean
+  CreatTime:DateTime
+  IsTemporary:Boolean
+=== Props QuestTaskMonsterDetails ===
+  Task:QuestTask
+  Monster:MonsterInfo
+  Map:MapInfo
+  Chance:Int32
+  Amount:Int32
+  DropSet:Int32
+  QuerTaskIndex:Int32
+  MonsterName:String
+  MapName:String
+  Index:Int32
+  ServerOnly:Boolean
+  CreatTime:DateTime
+  IsTemporary:Boolean
+

@@ -1,0 +1,123 @@
+﻿=== Display=True NPCs ===
+NPC[55] 六面神石 WarDisplay=False Region=比奇城 - 六面神石
+NPC[227] 水井 WarDisplay=False Region=比奇城 - 水井
+
+=== Quests 499-502 full dump ===
+Q[499] 马牌任务1 type=None
+  StartNPC=[54] 义贤 Display=False
+  FinishNPC=[54] 义贤 Display=False
+  StartItem=null
+  AcceptText=你好[PLAYERNAME]，完成黄骠马任务，去深虎滩完成
+  ProgressText=[STARTNAME] 请在完成后回来复命。提示：在深虎滩可以发现目标
+  CompletedText=非常感谢[PLAYERNAME], 恭喜你完成了任务请领取奖励！
+  ArchiveText=马牌任务1
+  TASK#619 kind=KillMonster amt=10 item=null
+  REWARD#2387 item=[122549] 马牌（黄骠马） amt=100000 class=All
+  REQ#1756 HaveNotCompleted int1=0 qp=[499] 马牌任务1
+  REQ#1757 MinLevel int1=20 qp=null
+Q[500] 马牌任务2 type=None
+  StartNPC=[54] 义贤 Display=False
+  FinishNPC=[54] 义贤 Display=False
+  StartItem=null
+  AcceptText=你好[PLAYERNAME]，完成的卢马任务，去深虎滩完成
+  ProgressText=[STARTNAME] 请在完成后回来复命。提示：在深虎滩可以发现目标
+  CompletedText=非常感谢[PLAYERNAME], 恭喜你完成了任务请领取奖励！
+  ArchiveText=马牌任务2
+  TASK#620 kind=KillMonster amt=200 item=null
+  REWARD#2390 item=[122550] 马牌（的卢） amt=200000 class=All
+  REQ#1758 HaveCompleted int1=0 qp=[499] 马牌任务1
+  REQ#1759 MinLevel int1=40 qp=null
+  REQ#1760 HaveNotCompleted int1=0 qp=[500] 马牌任务2
+Q[501] 马牌任务3 type=None
+  StartNPC=[54] 义贤 Display=False
+  FinishNPC=[54] 义贤 Display=False
+  StartItem=null
+  AcceptText=你好[PLAYERNAME]，完成绝影马任务，去深虎滩完成
+  ProgressText=[STARTNAME] 请在完成后回来复命。提示：在深虎滩可以发现目标
+  CompletedText=非常感谢[PLAYERNAME], 恭喜你完成了任务请领取奖励！
+  ArchiveText=马牌任务3
+  TASK#621 kind=KillMonster amt=500 item=null
+  REWARD#2393 item=[122551] 马牌（绝影） amt=500000 class=All
+  REQ#1761 HaveCompleted int1=0 qp=[500] 马牌任务2
+  REQ#1762 MinLevel int1=50 qp=null
+  REQ#1763 HaveNotCompleted int1=0 qp=[501] 马牌任务3
+Q[502] 马牌任务4 type=None
+  StartNPC=[54] 义贤 Display=False
+  FinishNPC=[54] 义贤 Display=False
+  StartItem=null
+  AcceptText=你好[PLAYERNAME]，完成赤血马任务，去深虎滩完成
+  ProgressText=[STARTNAME] 请在完成后回来复命。提示：在深虎滩可以发现目标
+  CompletedText=非常感谢[PLAYERNAME], 恭喜你完成了任务请领取奖励！
+  ArchiveText=马牌任务4
+  TASK#622 kind=KillMonster amt=2000 item=null
+  REWARD#2396 item=[122552] 马牌（赤兔马） amt=10000000 class=All
+  REQ#1764 HaveCompleted int1=0 qp=[501] 马牌任务3
+  REQ#1765 MinLevel int1=55 qp=null
+  REQ#1766 HaveNotCompleted int1=0 qp=[502] 马牌任务4
+
+=== Refs to 武林宗师的马牌 / any 马牌 StartItem ===
+ITEM[122549] 马牌（黄骠马） type=Material
+ITEM[122550] 马牌（的卢） type=Material
+ITEM[122551] 马牌（绝影） type=Material
+ITEM[122552] 马牌（赤兔马） type=Material
+ITEM[122556] 武林宗师的马牌 type=Torch
+
+=== Shop quoted ItemInfo matches ===
+shop=D:\newMir3\Scripts\Npc\商店列表.py matches=91
+  暗黑护身符（小）
+  白金项链
+  白色虎齿项链
+  半月
+  匕首
+  布衣（男）
+  布衣（女）
+  草鞋
+  传统项链
+  刺杀剑术（秘籍）
+  大手镯
+  道德戒指
+  道士手镯
+  灯笼项链
+  钢手镯
+  攻杀剑术（秘籍）
+  古铜戒指
+  海魂
+  鹤嘴锄
+  黑色水晶戒指
+
+=== Unobtainable item drop verify ===
+Item[18] 蜡烛 type=Torch drops=0 inShopQuoted=True
+Item[297] 血魔心脏 type=Material drops=0 inShopQuoted=False
+Item[358] 诺玛法老珍珠 type=Material drops=0 inShopQuoted=False
+Item[372] 半兽人角笛 type=Material drops=0 inShopQuoted=False
+Item[373] 不死骨头 type=Material drops=0 inShopQuoted=False
+Item[391] 幻影蜘蛛线 type=Material drops=0 inShopQuoted=False
+Item[394] 血巨人心脏 type=Material drops=0 inShopQuoted=False
+Item[427] 祖玛卫士雕像 type=Material drops=0 inShopQuoted=False
+Item[428] 半兽利齿 type=Material drops=0 inShopQuoted=False
+Item[509] 祖玛雕像号角 type=Material drops=0 inShopQuoted=False
+Item[513] 攻杀铁剑 type=Weapon drops=0 inShopQuoted=False
+Item[603] 尸王白骨 type=Material drops=0 inShopQuoted=False
+Item[614] 诺玛药水 type=Material drops=0 inShopQuoted=False
+Item[677] 石人心核 type=Material drops=0 inShopQuoted=False
+Item[807] 无名油 type=Material drops=0 inShopQuoted=False
+Item[1060] 祖玛宝典 type=Material drops=0 inShopQuoted=False
+Item[1074] 遗失的手镯 type=Material drops=0 inShopQuoted=False
+Item[1077] 遗失的斧子 type=Material drops=0 inShopQuoted=False
+Item[1079] 火焰沃玛号角 type=Material drops=0 inShopQuoted=False
+Item[1080] 蜜袋 type=Material drops=0 inShopQuoted=False
+Item[1082] 遗失的手套 type=Material drops=0 inShopQuoted=False
+Item[1083] 震天魔镜 type=Material drops=0 inShopQuoted=False
+Item[1084] 遗失的项链 type=Material drops=0 inShopQuoted=False
+Item[1085] 祖玛护法铁锤 type=Material drops=0 inShopQuoted=False
+Item[1086] 血巨人指甲 type=Material drops=0 inShopQuoted=False
+Item[1088] 遗失的头盔 type=Material drops=0 inShopQuoted=False
+Item[1089] 魔艳项链 type=Material drops=0 inShopQuoted=False
+Item[1090] 遗失的护身符 type=Material drops=0 inShopQuoted=False
+Item[1091] 巨象兽牙齿 type=Material drops=0 inShopQuoted=False
+Item[1111] 牛角 type=Material drops=0 inShopQuoted=True
+Item[1113] 碧玉项链 type=Material drops=0 inShopQuoted=False
+Item[1114] 旧锤子 type=Material drops=0 inShopQuoted=False
+Item[1115] 诺玛将士药水 type=Material drops=0 inShopQuoted=False
+Item[1116] 咒书 type=Material drops=0 inShopQuoted=False
+Item[1117] 祖玛雕像碎片 type=Material drops=0 inShopQuoted=False
