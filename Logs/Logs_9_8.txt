@@ -1,0 +1,114 @@
+[2026年9月8日 0:02:56]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月8日 0:03:10]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:10]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:11]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:11]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:15]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:16]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:16]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:16]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:16]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:16]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:17]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:17]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:18]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:18]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:19]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:19]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:19]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:19]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:20]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:20]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:20]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:20]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:21]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:23]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:23]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:23]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:23]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:23]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:24]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:24]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:24]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:24]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:25]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:03:27]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月8日 0:13:47]: 授权位置=./授权.license
+[2026年9月8日 0:13:47]: 授权状态=无效
+[2026年9月8日 0:13:47]: 可以启动=False
+[2026年9月8日 0:13:49]: 加载数据库
+[2026年9月8日 0:13:50]: 加载地图
+[2026年9月8日 0:13:53]: 已加载3条反挂特征码
+[2026年9月8日 0:13:53]: 加载安全区
+[2026年9月8日 0:13:54]: 加载钓鱼区
+[2026年9月8日 0:13:54]: 加载地图链接
+[2026年9月8日 0:13:54]: 加载NPC
+[2026年9月8日 0:13:54]: 加载复活点
+[2026年9月8日 0:13:54]: 加载城堡税收
+[2026年9月8日 0:13:54]: 加载数据库成功
+[2026年9月8日 0:13:54]: 服务器启动成功
+[2026年9月8日 0:13:54]: 开始加载PY脚本
+[2026年9月8日 0:13:55]: 正在加载脚本...
+[2026年9月8日 0:13:59]: 加载脚本成功
+[2026年9月8日 0:13:59]: 开始注册定时脚本函数...
+[2026年9月8日 0:13:59]: 注册定时脚本函数完成
+[2026年9月8日 0:13:59]: 开始执行服务器启动触发脚本...
+[2026年9月8日 0:13:59]: 服务器启动触发脚本执行完毕
+[2026年9月8日 0:13:59]: 加载PY脚本用时:5429.4847毫秒
+[2026年9月8日 0:13:59]: 开始加载规则引擎
+[2026年9月8日 0:13:59]: 找到4条规则
+[2026年9月8日 0:14:00]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年9月8日 0:14:00]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年9月8日 0:14:00]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年9月8日 0:14:00]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年9月8日 0:14:00]: 奖金池功能已启用
+[2026年9月8日 0:14:00]: 加载完毕
+[2026年9月8日 0:26:59]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月8日 0:26:59]: [连接] IP地址:180.165.36.153
+[2026年9月8日 0:27:00]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月8日 0:33:26]: [连接] IP地址:39.163.212.232 尝试连接！！！
+[2026年9月8日 0:33:26]: [连接] IP地址:39.163.212.232
+[2026年9月8日 0:34:01]: [账号登录] 管理员: False, 账号: 715590@qq.com, IP地址: 39.163.212.232, 安全码: 8I0u7dUoswTD0XuKjA01
+[2026年9月8日 0:35:43]: [创建账号] 账号: netkongdi@163.com, IP地址: 39.163.212.232, 安全码: 8I0u7dUoswTD0XuKjA01
+[2026年9月8日 0:35:47]: [账号登录] 管理员: False, 账号: netkongdi@163.com, IP地址: 39.163.212.232, 安全码: 8I0u7dUoswTD0XuKjA01
+[2026年9月8日 0:36:08]: [创建角色] 角色名: 手搓核弹头, IP地址: 39.163.212.232, 安全码: 8I0u7dUoswTD0XuKjA01
