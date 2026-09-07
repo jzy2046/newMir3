@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-# 精炼大师：穿戴装备 + 背包地煞石/天罡石
+# 精炼大师：穿戴装备 + 背包地煞石/天罡石（消耗按冲刺等级）
 from Globals import *
 import clr, random
 clr.AddReference('Library')
@@ -47,6 +47,13 @@ def refine_level(item, stat, per):
 	v = enhance_amount(item, stat)
 	return max(0, min(MAX_LV, v // per))
 
+def stone_cost(next_try):
+	# next_try = 当前等级+1（冲 +1..+6）
+	# 地煞 = next_try；天罡 = max(0, next_try-3) → +4:1 +5:2 +6:3
+	ds = next_try
+	tg = (next_try - 3) if next_try >= 4 else 0
+	return ds, tg
+
 def do_refine(Sender, slot, stat, per):
 	eq = Sender.Equipment[int(slot)]
 	if not eq:
@@ -56,15 +63,17 @@ def do_refine(Sender, slot, stat, per):
 	if lv >= MAX_LV:
 		Sender.Connection.ReceiveChat('该装备精炼已满 (6/6)', MessageType.System)
 		return False
-	if Sender.GetItemCount(STONE_DS) < 1:
-		Sender.Connection.ReceiveChat('需要地煞石 x1', MessageType.System)
-		return False
-	# 前三阶(当前0/1/2，冲1/2/3)只扣地煞；后三阶才可选扣天罡保级
 	next_try = lv + 1
-	use_tg = (next_try > 3) and (Sender.GetItemCount(STONE_TG) >= 1)
-	Sender.TakeItem(STONE_DS, 1)
-	if use_tg:
-		Sender.TakeItem(STONE_TG, 1)
+	ds_need, tg_need = stone_cost(next_try)
+	if Sender.GetItemCount(STONE_DS) < ds_need:
+		Sender.Connection.ReceiveChat('需要地煞石 x%d（冲+%d）' % (ds_need, next_try), MessageType.System)
+		return False
+	if tg_need > 0 and Sender.GetItemCount(STONE_TG) < tg_need:
+		Sender.Connection.ReceiveChat('需要天罡石 x%d（冲+%d，必扣保级）' % (tg_need, next_try), MessageType.System)
+		return False
+	Sender.TakeItem(STONE_DS, ds_need)
+	if tg_need > 0:
+		Sender.TakeItem(STONE_TG, tg_need)
 	roll = random.randint(1, 100)
 	name = eq.Info.ItemName
 	if roll <= SUCCESS:
@@ -72,15 +81,11 @@ def do_refine(Sender, slot, stat, per):
 		nlv = lv + 1
 		Sender.Connection.ReceiveChat('精炼成功！%s 精炼等级 (%d/%d)' % (name, nlv, MAX_LV), MessageType.System)
 		return True
-	if use_tg:
+	# 失败保级：前三阶不掉；+4/+5/+6 已强制扣天罡，同样保级
+	if next_try >= 4:
 		Sender.Connection.ReceiveChat('精炼失败（天罡石护持，等级不变）%s (%d/%d)' % (name, lv, MAX_LV), MessageType.Hint)
-		return False
-	if next_try <= 3:
+	else:
 		Sender.Connection.ReceiveChat('精炼失败（前三阶不掉级）%s (%d/%d)' % (name, lv, MAX_LV), MessageType.Hint)
-		return False
-	if lv > 0:
-		Sender.ItemStatsChangeRefresh(slot, stat, -(lv * per), StatSource.Enhancement)
-	Sender.Connection.ReceiveChat('精炼失败！%s 精炼等级已清零 (0/%d)' % (name, MAX_LV), MessageType.System)
 	return False
 
 def OnClick(args):
@@ -94,12 +99,18 @@ def OnClick(args):
 		# keep dialog open: fall through to re-show menu
 	say = (
 		'精炼大师\n\n'
-		'穿戴装备，背包放【地煞石】。成功率1%。最高6级。\n'
-		'前三阶只扣地煞石；后三阶可放【天罡石】保级（失败不掉级）。\n\n'
+		'穿戴装备，背包放材料。成功率1%。最高6级。\n'
+		'消耗按「冲刺等级」强制扣除（先扣石再掷骰）：\n'
+		'冲+1：地煞1\n'
+		'冲+2：地煞2\n'
+		'冲+3：地煞3\n'
+		'冲+4：地煞4 + 天罡1（失败保级）\n'
+		'冲+5：地煞5 + 天罡2（失败保级）\n'
+		'冲+6：地煞6 + 天罡3（失败保级）\n'
+		'前三阶失败不掉级；后三阶已扣天罡，失败同样保级。\n\n'
 		'武器：每级+5%暴击伤害\n'
 		'首饰：每级+1%暴击几率\n'
 		'衣/盔/鞋：每级+10生命\n\n'
-		'失败：前三阶不掉级；后三阶仅地煞失败清零；带天罡失败不掉级。\n\n'
 		'[精炼武器:1]\n'
 		'[精炼项链:2]  [精炼左手镯:3]  [精炼右手镯:4]\n'
 		'[精炼左戒指:5]  [精炼右戒指:6]\n'
