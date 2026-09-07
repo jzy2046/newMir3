@@ -10,7 +10,7 @@ import NpcEvent
 STONE_DS = '地煞石'
 STONE_TG = '天罡石'
 MAX_LV = 6
-SUCCESS = 10
+SUCCESS = 1
 
 JOBS = {
 	1: (EquipmentSlot.Weapon, Stat.CriticalDamage, 5),
@@ -91,10 +91,10 @@ def OnClick(args):
 	if Menu in JOBS:
 		slot, stat, per = JOBS[Menu]
 		do_refine(Sender, slot, stat, per)
-		return
+		# keep dialog open: fall through to re-show menu
 	say = (
 		'精炼大师\n\n'
-		'穿戴装备，背包放【地煞石】。成功率10%。最高6级。\n'
+		'穿戴装备，背包放【地煞石】。成功率1%。最高6级。\n'
 		'前三阶只扣地煞石；后三阶可放【天罡石】保级（失败不掉级）。\n\n'
 		'武器：每级+5%暴击伤害\n'
 		'首饰：每级+1%暴击几率\n'
