@@ -1,0 +1,45 @@
+mode=apply stamp=20260908_004339
+scope=hide dungeon/fuben admin NPCs via Display=True (CreateNPCs skips)
+backup=D:\newMir3\Database\Backup_hide_fuben_20260908_004339
+HIT idx=353 name=『荒村』副本管理员 display=False map=雪原荒村 region=9198/NPC荒村 reason=known_idx
+HIT idx=379 name=『活动管理员』阿珍 display=False map=本国领土 region=25157/副本管理员 reason=known_idx
+HIT idx=384 name=蜈蚣巢穴管理员 display=False map=万年独孤关 region=33410/副本NPC reason=known_idx
+HIT idx=385 name=石阁庙管理员 display=False map=石阁6层 region=33411/邪恶野猪王NPC reason=known_idx
+HIT idx=386 name=神舰管理员 display=False map=神舰1层 region=33424/神舰副本NPC reason=known_idx
+HIT idx=387 name=赤月管理员 display=False map=赤月山谷5层 region=33438/赤月副本NPC reason=known_idx
+HIT idx=388 name=潘夜神殿管理员 display=False map=潘夜神殿8层 region=33451/潘夜神殿副本NPC reason=known_idx
+HIT idx=389 name=潘夜石窟管理员 display=False map=潘夜石窟4层 region=33467/潘夜石窟副本NPC reason=known_idx
+HIT idx=392 name=诺玛教主管理员 display=False map=诺玛遗址5层 region=33503/副本NPC reason=known_idx
+matched_npc_count=9
+safety_admin30_present=1
+safety_refine_present=1
+probe_387=PRESENT name=赤月管理员 display=False
+OTHER_ADMIN idx=30 name=管理员 display=True map=大厅 region=管理员
+OTHER_ADMIN idx=52 name=宠物管理员 display=False map=道馆 region=宠物管理员
+OTHER_ADMIN idx=88 name=沙巴克管理员 display=False map=沙巴克 region=沙巴克管理员
+OTHER_ADMIN idx=134 name=综合管理 display=False map=本国领土 region=综合管理
+OTHER_ADMIN idx=218 name=管理中心 display=False map=其他 region=管理中心
+OTHER_ADMIN idx=219 name=管理中心 display=False map=其他 region=管理中心
+OTHER_ADMIN idx=224 name=管理员 display=False map=其他 region=管理员
+OTHER_ADMIN idx=255 name=图书管理员 display=False map=比奇城 region=图书管理员
+OTHER_ADMIN idx=313 name=『宠物管理员』 display=False map=本国领土 region=宠物管理员
+OTHER_ADMIN idx=324 name=『宠物管理员』 display=False map=雪原村落 region=宠物管理员
+OTHER_ADMIN idx=332 name=活动管理员 display=False map=道馆 region=活动管理员
+OTHER_ADMIN idx=368 name=『宠物管理员』 display=False map=泰山 region=宠物管理
+OTHER_ADMIN idx=369 name=『宠物管理员』 display=False map=陆家村 region=宠物店
+OTHER_ADMIN idx=408 name=死亡竞技活动管理 display=False map=死亡竞技等待室 region=活动管理员
+OTHER_ADMIN idx=409 name=死亡竞技活动管理 display=False map=死亡竞技场 region=活动管理员
+SET idx=353 name=『荒村』副本管理员 Display False -> True
+SET idx=379 name=『活动管理员』阿珍 Display False -> True
+SET idx=384 name=蜈蚣巢穴管理员 Display False -> True
+SET idx=385 name=石阁庙管理员 Display False -> True
+SET idx=386 name=神舰管理员 Display False -> True
+SET idx=387 name=赤月管理员 Display False -> True
+SET idx=388 name=潘夜神殿管理员 Display False -> True
+SET idx=389 name=潘夜石窟管理员 Display False -> True
+SET idx=392 name=诺玛教主管理员 Display False -> True
+synced Data=D:\newMir3\Data
+synced deploy_to_Mir3service/Database=D:\newMir3\deploy_to_Mir3service\Database
+synced mir3z=D:\BaiduNetdiskDownload\传奇3z假人服务端全套(相聚端)\5.0传奇3相聚假人系统\mir3z\服务端\Database
+changed_display=9
+APPLY OK
