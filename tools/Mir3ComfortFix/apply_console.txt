@@ -1,0 +1,79 @@
+﻿mode=apply stamp=20260909_010102
+backup=D:\newMir3\Database\Backup_comfort_20260909_010102
+=== BEFORE ===
+BEFORE 鑽夐瀷 Shape=0 Wt=1 Dur=6000 Req=6 [BagWeight=0,Comfort=1,HandWeight=1,MaxAC=0,MaxMR=0,WearWeight=1]
+BEFORE 鐨澊 Shape=0 Wt=1 Dur=8000 Req=16 [BagWeight=0,Comfort=2,HandWeight=1,MaxAC=0,MaxMR=0,WearWeight=2]
+BEFORE 浜斿僵闉?Shape=0 Wt=1 Dur=8000 Req=26 [BagWeight=0,Comfort=3,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=2]
+BEFORE 璧ら闈村瓙 Shape=0 Wt=2 Dur=10000 Req=33 [BagWeight=0,Comfort=4,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=3]
+BEFORE 澶╂帉闈村瓙 Shape=0 Wt=2 Dur=10000 Req=38 [BagWeight=0,Comfort=5,HandWeight=4,MaxAC=0,MaxMR=0,WearWeight=4]
+BEFORE 榛戠毊闈村瓙 Shape=0 Wt=3 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=7,MaxAC=0,MaxMR=0,WearWeight=7]
+BEFORE 缁濆湴闈?Shape=0 Wt=1 Dur=8000 Req=0 [BagWeight=0,Comfort=7,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=14]
+BEFORE 鏈堝厜闉?Shape=0 Wt=2 Dur=8000 Req=0 [BagWeight=0,Comfort=7,HandWeight=14,MaxAC=0,MaxMR=0,WearWeight=3]
+BEFORE 浠欎簯闈?Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=0,MaxAC=0,MaxMR=0,WearWeight=20]
+BEFORE 鏃犲奖闈?Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=20,MaxAC=0,MaxMR=0,WearWeight=0]
+BEFORE 姝︾涔嬮澊 Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=11,MaxAC=0,MaxMR=0,WearWeight=11]
+=== APPLY Comfort/Wear/Hand ===
+STATOK 鑽夐瀷 Comfort=1
+STATOK 鑽夐瀷 WearWeight=1
+STATOK 鑽夐瀷 HandWeight=1
+STATOK 鑽夐瀷 BagWeight=0
+STATOK 鐨澊 Comfort=2
+STATOK 鐨澊 WearWeight=2
+STATOK 鐨澊 HandWeight=1
+STATOK 鐨澊 BagWeight=0
+STATOK 浜斿僵闉?Comfort=3
+STATOK 浜斿僵闉?WearWeight=2
+STATOK 浜斿僵闉?HandWeight=3
+STATOK 浜斿僵闉?BagWeight=0
+STATOK 璧ら闈村瓙 Comfort=4
+STATOK 璧ら闈村瓙 WearWeight=3
+STATOK 璧ら闈村瓙 HandWeight=3
+STATOK 璧ら闈村瓙 BagWeight=0
+STATOK 澶╂帉闈村瓙 Comfort=5
+STATOK 澶╂帉闈村瓙 WearWeight=4
+STATOK 澶╂帉闈村瓙 HandWeight=4
+STATOK 澶╂帉闈村瓙 BagWeight=0
+STATOK 榛戠毊闈村瓙 Comfort=7
+STATOK 榛戠毊闈村瓙 WearWeight=7
+STATOK 榛戠毊闈村瓙 HandWeight=7
+STATOK 榛戠毊闈村瓙 BagWeight=0
+STATOK 缁濆湴闈?Comfort=7
+STATOK 缁濆湴闈?WearWeight=14
+STATOK 缁濆湴闈?HandWeight=3
+STATOK 缁濆湴闈?BagWeight=0
+STATOK 鏈堝厜闉?Comfort=7
+STATOK 鏈堝厜闉?WearWeight=3
+STATOK 鏈堝厜闉?HandWeight=14
+STATOK 鏈堝厜闉?BagWeight=0
+STATOK 浠欎簯闈?Comfort=7
+STATOK 浠欎簯闈?WearWeight=20
+STATOK 浠欎簯闈?HandWeight=0
+STATOK 浠欎簯闈?BagWeight=0
+STATOK 鏃犲奖闈?Comfort=7
+STATOK 鏃犲奖闈?WearWeight=0
+STATOK 鏃犲奖闈?HandWeight=20
+STATOK 鏃犲奖闈?BagWeight=0
+STATOK 姝︾涔嬮澊 Comfort=7
+STATOK 姝︾涔嬮澊 WearWeight=11
+STATOK 姝︾涔嬮澊 HandWeight=11
+STATOK 姝︾涔嬮澊 BagWeight=0
+=== AFTER ===
+AFTER 鑽夐瀷 Comfort=1 want=1 Wear=1 Hand=1 OK
+AFTER 鐨澊 Comfort=2 want=2 Wear=2 Hand=1 OK
+AFTER 浜斿僵闉?Comfort=3 want=3 Wear=2 Hand=3 OK
+AFTER 璧ら闈村瓙 Comfort=4 want=4 Wear=3 Hand=3 OK
+AFTER 澶╂帉闈村瓙 Comfort=5 want=5 Wear=4 Hand=4 OK
+AFTER 榛戠毊闈村瓙 Comfort=7 want=7 Wear=7 Hand=7 OK
+AFTER 缁濆湴闈?Comfort=7 want=7 Wear=14 Hand=3 OK
+AFTER 鏈堝厜闉?Comfort=7 want=7 Wear=3 Hand=14 OK
+AFTER 浠欎簯闈?Comfort=7 want=7 Wear=20 Hand=0 OK
+AFTER 鏃犲奖闈?Comfort=7 want=7 Wear=0 Hand=20 OK
+AFTER 姝︾涔嬮澊 Comfort=7 want=7 Wear=11 Hand=11 OK
+changes=0
+synced Data=D:\newMir3\Data
+synced deploy_to_Mir3service/Database=D:\newMir3\deploy_to_Mir3service\Database
+mir3z/Database MISSING D:\BaiduNetdiskDownload\浼犲3z鍋囦汉鏈嶅姟绔叏濂?鐩歌仛绔?\5.0浼犲3鐩歌仛鍋囦汉绯荤粺\mir3z\Database
+synced mir3z/Data=D:\BaiduNetdiskDownload\浼犲3z鍋囦汉鏈嶅姟绔叏濂?鐩歌仛绔?\5.0浼犲3鐩歌仛鍋囦汉绯荤粺\mir3z\Data
+synced live ClientSystem=E:\Mir3_16000\Data
+log=D:\newMir3\tools\Mir3ComfortFix\log_apply_20260909_010102.txt
+DONE

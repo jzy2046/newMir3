@@ -1,0 +1,79 @@
+﻿mode=apply stamp=20260909_010102
+backup=D:\newMir3\Database\Backup_comfort_20260909_010102
+=== BEFORE ===
+BEFORE 草鞋 Shape=0 Wt=1 Dur=6000 Req=6 [BagWeight=0,Comfort=1,HandWeight=1,MaxAC=0,MaxMR=0,WearWeight=1]
+BEFORE 皮靴 Shape=0 Wt=1 Dur=8000 Req=16 [BagWeight=0,Comfort=2,HandWeight=1,MaxAC=0,MaxMR=0,WearWeight=2]
+BEFORE 五彩鞋 Shape=0 Wt=1 Dur=8000 Req=26 [BagWeight=0,Comfort=3,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=2]
+BEFORE 赤飞靴子 Shape=0 Wt=2 Dur=10000 Req=33 [BagWeight=0,Comfort=4,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=3]
+BEFORE 天掌靴子 Shape=0 Wt=2 Dur=10000 Req=38 [BagWeight=0,Comfort=5,HandWeight=4,MaxAC=0,MaxMR=0,WearWeight=4]
+BEFORE 黑皮靴子 Shape=0 Wt=3 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=7,MaxAC=0,MaxMR=0,WearWeight=7]
+BEFORE 绝地靴 Shape=0 Wt=1 Dur=8000 Req=0 [BagWeight=0,Comfort=7,HandWeight=3,MaxAC=0,MaxMR=0,WearWeight=14]
+BEFORE 月光鞋 Shape=0 Wt=2 Dur=8000 Req=0 [BagWeight=0,Comfort=7,HandWeight=14,MaxAC=0,MaxMR=0,WearWeight=3]
+BEFORE 仙云靴 Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=0,MaxAC=0,MaxMR=0,WearWeight=20]
+BEFORE 无影靴 Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=20,MaxAC=0,MaxMR=0,WearWeight=0]
+BEFORE 武神之靴 Shape=0 Wt=4 Dur=12000 Req=0 [BagWeight=0,Comfort=7,HandWeight=11,MaxAC=0,MaxMR=0,WearWeight=11]
+=== APPLY Comfort/Wear/Hand ===
+STATOK 草鞋 Comfort=1
+STATOK 草鞋 WearWeight=1
+STATOK 草鞋 HandWeight=1
+STATOK 草鞋 BagWeight=0
+STATOK 皮靴 Comfort=2
+STATOK 皮靴 WearWeight=2
+STATOK 皮靴 HandWeight=1
+STATOK 皮靴 BagWeight=0
+STATOK 五彩鞋 Comfort=3
+STATOK 五彩鞋 WearWeight=2
+STATOK 五彩鞋 HandWeight=3
+STATOK 五彩鞋 BagWeight=0
+STATOK 赤飞靴子 Comfort=4
+STATOK 赤飞靴子 WearWeight=3
+STATOK 赤飞靴子 HandWeight=3
+STATOK 赤飞靴子 BagWeight=0
+STATOK 天掌靴子 Comfort=5
+STATOK 天掌靴子 WearWeight=4
+STATOK 天掌靴子 HandWeight=4
+STATOK 天掌靴子 BagWeight=0
+STATOK 黑皮靴子 Comfort=7
+STATOK 黑皮靴子 WearWeight=7
+STATOK 黑皮靴子 HandWeight=7
+STATOK 黑皮靴子 BagWeight=0
+STATOK 绝地靴 Comfort=7
+STATOK 绝地靴 WearWeight=14
+STATOK 绝地靴 HandWeight=3
+STATOK 绝地靴 BagWeight=0
+STATOK 月光鞋 Comfort=7
+STATOK 月光鞋 WearWeight=3
+STATOK 月光鞋 HandWeight=14
+STATOK 月光鞋 BagWeight=0
+STATOK 仙云靴 Comfort=7
+STATOK 仙云靴 WearWeight=20
+STATOK 仙云靴 HandWeight=0
+STATOK 仙云靴 BagWeight=0
+STATOK 无影靴 Comfort=7
+STATOK 无影靴 WearWeight=0
+STATOK 无影靴 HandWeight=20
+STATOK 无影靴 BagWeight=0
+STATOK 武神之靴 Comfort=7
+STATOK 武神之靴 WearWeight=11
+STATOK 武神之靴 HandWeight=11
+STATOK 武神之靴 BagWeight=0
+=== AFTER ===
+AFTER 草鞋 Comfort=1 want=1 Wear=1 Hand=1 OK
+AFTER 皮靴 Comfort=2 want=2 Wear=2 Hand=1 OK
+AFTER 五彩鞋 Comfort=3 want=3 Wear=2 Hand=3 OK
+AFTER 赤飞靴子 Comfort=4 want=4 Wear=3 Hand=3 OK
+AFTER 天掌靴子 Comfort=5 want=5 Wear=4 Hand=4 OK
+AFTER 黑皮靴子 Comfort=7 want=7 Wear=7 Hand=7 OK
+AFTER 绝地靴 Comfort=7 want=7 Wear=14 Hand=3 OK
+AFTER 月光鞋 Comfort=7 want=7 Wear=3 Hand=14 OK
+AFTER 仙云靴 Comfort=7 want=7 Wear=20 Hand=0 OK
+AFTER 无影靴 Comfort=7 want=7 Wear=0 Hand=20 OK
+AFTER 武神之靴 Comfort=7 want=7 Wear=11 Hand=11 OK
+changes=0
+synced Data=D:\newMir3\Data
+synced deploy_to_Mir3service/Database=D:\newMir3\deploy_to_Mir3service\Database
+mir3z/Database MISSING D:\BaiduNetdiskDownload\传奇3z假人服务端全套(相聚端)\5.0传奇3相聚假人系统\mir3z\Database
+synced mir3z/Data=D:\BaiduNetdiskDownload\传奇3z假人服务端全套(相聚端)\5.0传奇3相聚假人系统\mir3z\Data
+synced live ClientSystem=E:\Mir3_16000\Data
+log=D:\newMir3\tools\Mir3ComfortFix\log_apply_20260909_010102.txt
+DONE
