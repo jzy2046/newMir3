@@ -1,0 +1,102 @@
+mode=dry-run stamp=20260908_173109
+backup=D:\newMir3\Database\Backup_req20260908_20260908_173109
+HIDE idx=332 name=活动管理员 Display False -> True
+HIDE idx=354 name=财叔 Display False -> True
+HIDE idx=52 name=宠物管理员 Display False -> True
+HIDE idx=49 name=宝石合成 Display False -> True
+FUBEN_VERIFY idx=384 name=蜈蚣巢穴管理员 Display=True
+FUBEN_VERIFY idx=385 name=石阁庙管理员 Display=True
+FUBEN_VERIFY idx=386 name=神舰管理员 Display=True
+FUBEN_VERIFY idx=387 name=赤月管理员 Display=True
+FUBEN_VERIFY idx=388 name=潘夜神殿管理员 Display=True
+FUBEN_VERIFY idx=389 name=潘夜石窟管理员 Display=True
+FUBEN_VERIFY idx=392 name=诺玛教主管理员 Display=True
+FUBEN_VERIFY idx=353 name=『荒村』副本管理员 Display=True
+FUBEN_VERIFY idx=379 name=『活动管理员』阿珍 Display=True
+NPC335 before map=雪原村落 pts=272,166 Image=87
+寄售商 Image ref=8
+CreateNewObject NPC=True Region=True
+MAGIC Clear name=君临步 descLen=29
+MAGIC Clear name=旋风墙 descLen=41
+MAGIC Clear name=灵魂分裂 descLen=20
+MAGIC Clear name=施毒大法 descLen=12
+MAGIC Clear name=陨冰杀 descLen=66
+MAGIC Clear name=金刚之躯 descLen=20
+MAGIC Clear name=养生术 descLen=34
+MAGIC Clear name=天雷锤 descLen=49
+MAGIC Clear name=快刀斩马 descLen=18
+MAGIC Clear name=运气术 descLen=27
+MAGIC Clear name=电闪雷鸣 descLen=39
+MAGIC Clear name=新传染 descLen=53
+MAGIC Clear name=吸星大法 descLen=28
+MAGIC Clear name=暗鬼阵 descLen=83
+MAGIC Clear name=焰魔召唤术 descLen=38
+MAGIC Clear name=魔焰强解术 descLen=42
+MAGIC Clear name=护身法盾 descLen=41
+MAGIC Clear name=挑衅 descLen=20
+MAGIC Clear name=分身术 descLen=43
+MAGIC Clear name=破空斩 descLen=8
+MAGIC Clear name=屠龙斩 descLen=29
+ITEM type 天罡石 Consumable -> Material
+ITEM type 地煞石 Consumable -> Material
+AMULET idx=105 name=护身符（小） type=Amulet price=5 dur=0 shape=8
+AMULET idx=323 name=毁灭护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=420 name=万多罗的护身符 type=Material price=0 dur=0 shape=0
+AMULET idx=421 name=万相的护身符 type=Material price=0 dur=0 shape=0
+AMULET idx=422 name=三妹的护身符 type=Material price=0 dur=0 shape=0
+AMULET idx=435 name=消魔的护身符 type=Material price=0 dur=0 shape=0
+AMULET idx=436 name=陈氏护身符 type=Material price=0 dur=0 shape=0
+AMULET idx=514 name=道力护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=794 name=威魂深怨护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=811 name=护身符（中） type=Amulet price=5 dur=0 shape=8
+AMULET idx=812 name=灵魂护身符（小） type=Amulet price=3300 dur=0 shape=0
+AMULET idx=813 name=灵魂护身符（中） type=Amulet price=60000 dur=200 shape=0
+AMULET idx=861 name=神圣护身符（小） type=Amulet price=10 dur=0 shape=5
+AMULET idx=862 name=神圣护身符（中） type=Amulet price=1500 dur=2000 shape=5
+AMULET idx=1004 name=神圣护身符（大） type=Amulet price=4500 dur=5000 shape=5
+AMULET idx=1005 name=护身符（大） type=Amulet price=4500 dur=5000 shape=8
+AMULET idx=1013 name=击退护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=1045 name=养神护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=1090 name=遗失的护身符 type=Material price=50 dur=0 shape=0
+AMULET idx=1280 name=暗黑护身符（小） type=Amulet price=10 dur=0 shape=7
+AMULET idx=1281 name=暗黑护身符（中） type=Amulet price=1500 dur=2000 shape=7
+AMULET idx=1857 name=暗黑护身符（大） type=Amulet price=4500 dur=5000 shape=7
+AMULET_MISS 大护身符
+AMULET_MISS 大神圣护身符
+AMULET_MISS 大暗黑护身符
+AMULET_SET 护身符（大） price 4500->5000 dur 5000->500
+AMULET_SET 神圣护身符（大） price 4500->5000 dur 5000->500
+AMULET_SET 暗黑护身符（大） price 4500->5000 dur 5000->500
+PRICE 金创药（特） 800 -> 550
+PRICE_MISS 金疮药（特）
+PRICE 魔法药（特） 800 -> 550
+PRICE 强效太阳水 1000 -> 1100
+STORE count=4 snow=idx=243
+STORE existing idx=536 item= Price=8000 Hunt=200
+STORE existing idx=537 item=黑铁 Price=500 Hunt=50
+STORE existing idx=540 item=钢玉石 Price=8000 Hunt=200
+STORE existing idx=545 item=boss查询卷 Price=200000 Hunt=0
+MON black=黑度首将 numa=诺玛突击队长
+DROP_DEL mon=黑度首将 item=裁决之杖 C=1000
+DROP_ADD mon=诺玛突击队长 item=裁决之杖 C=1000
+DROP_DEL mon=黑度首将 item=骨玉权杖 C=1000
+DROP_ADD mon=诺玛突击队长 item=骨玉权杖 C=1000
+DROP_DEL mon=黑度首将 item=无极棍 C=1000
+DROP_ADD mon=诺玛突击队长 item=无极棍 C=1000
+SKEL 掷斧骷髅 Image=SkeletonAxeThrower Body=33
+SKEL 骷髅战士 Image=SkeletonAxeMan Body=34
+SKEL 骷髅 Image=Skeleton Body=32
+SKEL 骷髅战将 Image=SkeletonWarrior Body=35
+SKEL 骷髅弓箭手 Image=BoneArcher Body=144
+SKEL 骷髅武士 Image=BoneBladesman Body=143
+SKEL 骷髅武将 Image=BoneCaptain Body=140
+SKEL 骷髅士兵 Image=BoneSoldier Body=142
+SKEL 骷髅精灵 Image=SkeletonLord Body=36
+SKEL 骷髅教主 Image=ArchLichTaedu Body=141
+SKEL 变异骷髅 Image=WhiteBone Body=253
+SKEL 超强骷髅 Image=DiyMonsMon Body=254
+SKEL 骷髅精灵11 Image=SkeletonLord Body=0
+SKEL 掷斧骷髅11 Image=SkeletonAxeThrower Body=0
+SKEL 骷髅战士11 Image=SkeletonAxeMan Body=0
+SKEL 骷髅战将11 Image=SkeletonWarrior Body=0
+changes=0

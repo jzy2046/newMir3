@@ -90,9 +90,9 @@ buyidiangoodslist=[
 ('魔法长袍（女）',float(1))]
 
 zahuodiangoodslist=[
-('大护身符',float(1)),
-('大神圣护身符',float(1)),
-('大暗黑护身符',float(1)),
+('护身符（大）',float(1)),
+('神圣护身符（大）',float(1)),
+('暗黑护身符（大）',float(1)),
 ('灵魂护身符（小）',float(1)),
 ]
 

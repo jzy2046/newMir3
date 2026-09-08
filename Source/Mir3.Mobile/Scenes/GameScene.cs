@@ -3316,7 +3316,8 @@ namespace Client.Scenes
             }
             #endregion
 
-            AddItemLabelDivider();
+            if (IsEquipmentItemType(displayInfo.ItemType))
+                AddItemLabelDivider();
             #region 属性
             switch (displayInfo.ItemType) //属性
             {
@@ -3390,7 +3391,8 @@ namespace Client.Scenes
 
             #endregion
 
-            AddItemLabelDivider();
+            if (IsEquipmentItemType(displayInfo.ItemType))
+                AddItemLabelDivider();
             #region 穿戴限制
             /*if (displayInfo.RequiredGender != RequiredGender.None)
             {
@@ -4826,7 +4828,27 @@ namespace Client.Scenes
         /// <summary>
         /// 道具提示分割线（深色木纹风格）
         /// </summary>
-        private void AddItemLabelDivider()
+bool IsEquipmentItemType(ItemType t)
+        {
+            switch (t)
+            {
+                case ItemType.Weapon:
+                case ItemType.Armour:
+                case ItemType.Helmet:
+                case ItemType.Necklace:
+                case ItemType.Bracelet:
+                case ItemType.Ring:
+                case ItemType.Shoes:
+                case ItemType.Shield:
+                case ItemType.Torch:
+                case ItemType.Fashion:
+                    return true;
+                default:
+                    return false;
+            }
+        }
+
+                private void AddItemLabelDivider()
         {
             if (ItemLabel == null || ItemLabel.IsDisposed) return;
 
