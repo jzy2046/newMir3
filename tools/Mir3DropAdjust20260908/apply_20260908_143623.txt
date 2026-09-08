@@ -1,0 +1,832 @@
+mode=apply stamp=20260908_143623
+backup=D:\newMir3\Database\Backup_drops_20260908_20260908_143623
+DEL Drop mon=[神鬼王] item=[如来手镯] C=800 A=1 reason=REMOVE:神鬼王->如来手镯
+DEL Drop mon=[神鬼王] item=[火玉手镯] C=800 A=1 reason=REMOVE:神鬼王->火玉手镯
+DEL Drop mon=[神鬼王] item=[毁灭手镯] C=800 A=1 reason=REMOVE:神鬼王->毁灭手镯
+DEL Drop mon=[尸王] item=[天罡石] C=1 A=1 reason=REMOVE:尸王->天罡石
+DEL Drop mon=[七点白蛇] item=[天罡石] C=1 A=1 reason=REMOVE:七点白蛇->天罡石
+DEL Drop mon=[潘夜鬼将] item=[昏暗封印（火）] C=1000 A=1 reason=REMOVE:潘夜鬼将->昏暗封印
+DEL Drop mon=[潘夜鬼将] item=[昏暗封印（风）] C=1000 A=1 reason=REMOVE:潘夜鬼将->昏暗封印
+DEL Drop mon=[潘夜鬼将] item=[昏暗封印（雷）] C=1000 A=1 reason=REMOVE:潘夜鬼将->昏暗封印
+DEL Drop mon=[潘夜鬼将] item=[昏暗封印（冰）] C=1000 A=1 reason=REMOVE:潘夜鬼将->昏暗封印
+DEL Drop mon=[潘夜鬼将] item=[怨恨项链] C=10000 A=1 reason=REMOVE:潘夜鬼将->怨恨项链
+DEL Drop mon=[潘夜鬼将] item=[怨恨项链（幻影）] C=2000 A=1 reason=REMOVE:潘夜鬼将->怨恨项链
+DEL Drop mon=[潘夜鬼将] item=[怨恨项链（暗黑）] C=2000 A=1 reason=REMOVE:潘夜鬼将->怨恨项链
+DEL Drop mon=[潘夜鬼将] item=[怨恨项链（神圣）] C=2000 A=1 reason=REMOVE:潘夜鬼将->怨恨项链
+DEL Drop mon=[潘夜鬼将] item=[无名刀] C=2000 A=1 reason=REMOVE:潘夜鬼将->无名刀
+DEL Drop mon=[潘夜鬼将] item=[黑皮靴子] C=8000 A=1 reason=REMOVE:潘夜鬼将->黑皮靴子
+DEL Drop mon=[疯狂魔神盗] item=[无名刀] C=800 A=1 reason=REMOVE:疯狂魔神盗->无名刀
+DEL Drop mon=[震天首将] item=[无极棍] C=1000 A=1 reason=REMOVE:震天首将->无极棍
+DEL Drop mon=[震天首将] item=[裁决之杖] C=1000 A=1 reason=REMOVE:震天首将->裁决之杖
+DEL Drop mon=[震天首将] item=[骨玉权杖] C=1000 A=1 reason=REMOVE:震天首将->骨玉权杖
+DEL Drop mon=[石像狮子] item=[裁决之杖] C=40000 A=1 reason=REMOVE:石像狮子->裁决之杖
+DEL Drop mon=[石像狮子] item=[骨玉权杖] C=40000 A=1 reason=REMOVE:石像狮子->骨玉权杖
+DEL Drop mon=[石像狮子] item=[无极棍] C=40000 A=1 reason=REMOVE:石像狮子->无极棍
+DEL Drop mon=[武力魔神将] item=[裁决之杖] C=35000 A=1 reason=REMOVE:武力魔神将->裁决之杖
+DEL Drop mon=[武力魔神将] item=[骨玉权杖] C=35000 A=1 reason=REMOVE:武力魔神将->骨玉权杖
+DEL Drop mon=[武力魔神将] item=[无极棍] C=35000 A=1 reason=REMOVE:武力魔神将->无极棍
+DEL Drop mon=[武力神将] item=[裁决之杖] C=35000 A=1 reason=REMOVE:武力神将->裁决之杖
+DEL Drop mon=[武力神将] item=[骨玉权杖] C=35000 A=1 reason=REMOVE:武力神将->骨玉权杖
+DEL Drop mon=[武力神将] item=[无极棍] C=35000 A=1 reason=REMOVE:武力神将->无极棍
+DEL Drop mon=[祖玛弓箭手] item=[祖玛裁决之杖] C=14100 A=1 reason=REMOVE:祖玛弓箭手->祖玛裁决之杖
+DEL Drop mon=[祖玛弓箭手] item=[祖玛骨玉权杖] C=14300 A=1 reason=REMOVE:祖玛弓箭手->祖玛骨玉权杖
+DEL Drop mon=[祖玛弓箭手] item=[祖玛无极棍] C=14200 A=1 reason=REMOVE:祖玛弓箭手->祖玛无极棍
+DEL Drop mon=[祖玛雕像] item=[祖玛裁决之杖] C=14100 A=1 reason=REMOVE:祖玛雕像->祖玛裁决之杖
+DEL Drop mon=[祖玛雕像] item=[祖玛骨玉权杖] C=14300 A=1 reason=REMOVE:祖玛雕像->祖玛骨玉权杖
+DEL Drop mon=[祖玛雕像] item=[祖玛无极棍] C=14200 A=1 reason=REMOVE:祖玛雕像->祖玛无极棍
+DEL Drop mon=[祖玛卫士] item=[祖玛裁决之杖] C=14100 A=1 reason=REMOVE:祖玛卫士->祖玛裁决之杖
+DEL Drop mon=[祖玛卫士] item=[祖玛骨玉权杖] C=14300 A=1 reason=REMOVE:祖玛卫士->祖玛骨玉权杖
+DEL Drop mon=[祖玛卫士] item=[祖玛无极棍] C=14200 A=1 reason=REMOVE:祖玛卫士->祖玛无极棍
+DEL Drop mon=[大老鼠] item=[祖玛裁决之杖] C=14100 A=1 reason=REMOVE:大老鼠->祖玛裁决之杖
+DEL Drop mon=[大老鼠] item=[祖玛骨玉权杖] C=14300 A=1 reason=REMOVE:大老鼠->祖玛骨玉权杖
+DEL Drop mon=[大老鼠] item=[祖玛无极棍] C=14200 A=1 reason=REMOVE:大老鼠->祖玛无极棍
+DEL Drop mon=[潘夜左护卫] item=[潘夜血饮] C=150000 A=1 reason=REMOVE:潘夜左护卫->潘夜血饮
+DEL Drop mon=[潘夜右护卫] item=[潘夜血饮] C=150000 A=1 reason=REMOVE:潘夜右护卫->潘夜血饮
+DEL Drop mon=[血巨人] item=[如来手镯] C=50000 A=1 reason=REMOVE:血巨人->如来手镯
+DEL Drop mon=[血巨人] item=[毁灭手镯] C=50000 A=1 reason=REMOVE:血巨人->毁灭手镯
+DEL Drop mon=[血巨人] item=[火玉手镯] C=50000 A=1 reason=REMOVE:血巨人->火玉手镯
+DEL Drop mon=[血金刚] item=[如来手镯] C=50000 A=1 reason=REMOVE:血金刚->如来手镯
+DEL Drop mon=[血金刚] item=[毁灭手镯] C=50000 A=1 reason=REMOVE:血金刚->毁灭手镯
+DEL Drop mon=[血金刚] item=[火玉手镯] C=50000 A=1 reason=REMOVE:血金刚->火玉手镯
+DEL Drop mon=[犬猴魔] item=[封魔剑] C=200000 A=1 reason=REMOVE:犬猴魔->封魔剑
+DEL Drop mon=[犬猴魔] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:犬猴魔->旋风流星刀
+DEL Drop mon=[犬猴魔] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:犬猴魔->飞魂魔刃
+DEL Drop mon=[轻甲守卫] item=[封魔剑] C=200000 A=1 reason=REMOVE:轻甲守卫->封魔剑
+DEL Drop mon=[轻甲守卫] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:轻甲守卫->旋风流星刀
+DEL Drop mon=[轻甲守卫] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:轻甲守卫->飞魂魔刃
+DEL Drop mon=[爆毒神魔] item=[封魔剑] C=200000 A=1 reason=REMOVE:爆毒神魔->封魔剑
+DEL Drop mon=[爆毒神魔] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:爆毒神魔->旋风流星刀
+DEL Drop mon=[爆毒神魔] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:爆毒神魔->飞魂魔刃
+DEL Drop mon=[神舰守卫] item=[封魔剑] C=100000 A=1 reason=REMOVE:神舰守卫->封魔剑
+DEL Drop mon=[神舰守卫] item=[旋风流星刀] C=100000 A=1 reason=REMOVE:神舰守卫->旋风流星刀
+DEL Drop mon=[神舰守卫] item=[飞魂魔刃] C=100000 A=1 reason=REMOVE:神舰守卫->飞魂魔刃
+DEL Drop mon=[触角神魔] item=[封魔剑] C=200000 A=1 reason=REMOVE:触角神魔->封魔剑
+DEL Drop mon=[触角神魔] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:触角神魔->旋风流星刀
+DEL Drop mon=[触角神魔] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:触角神魔->飞魂魔刃
+DEL Drop mon=[恶形鬼] item=[封魔剑] C=200000 A=1 reason=REMOVE:恶形鬼->封魔剑
+DEL Drop mon=[恶形鬼] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:恶形鬼->旋风流星刀
+DEL Drop mon=[恶形鬼] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:恶形鬼->飞魂魔刃
+DEL Drop mon=[海神将领] item=[封魔剑] C=200000 A=1 reason=REMOVE:海神将领->封魔剑
+DEL Drop mon=[海神将领] item=[旋风流星刀] C=200000 A=1 reason=REMOVE:海神将领->旋风流星刀
+DEL Drop mon=[海神将领] item=[飞魂魔刃] C=200000 A=1 reason=REMOVE:海神将领->飞魂魔刃
+DEL Drop mon=[红衣法师] item=[封魔剑] C=100000 A=1 reason=REMOVE:红衣法师->封魔剑
+DEL Drop mon=[红衣法师] item=[旋风流星刀] C=100000 A=1 reason=REMOVE:红衣法师->旋风流星刀
+DEL Drop mon=[红衣法师] item=[飞魂魔刃] C=100000 A=1 reason=REMOVE:红衣法师->飞魂魔刃
+DEL Drop mon=[霸王教主] item=[天赐战甲（男）] C=1000 A=1 reason=REMOVE:霸王教主->天赐战甲（男）
+DEL Drop mon=[霸王教主] item=[天赐战甲（女）] C=1000 A=1 reason=REMOVE:霸王教主->天赐战甲（女）
+DEL Drop mon=[震天魔神] item=[天赐战甲（男）] C=3000 A=1 reason=REMOVE:震天魔神->天赐战甲（男）
+DEL Drop mon=[震天魔神] item=[天赐战甲（女）] C=5000 A=1 reason=REMOVE:震天魔神->天赐战甲（女）
+DEL Drop mon=[骷髅教主] item=[龙纹剑] C=3000 A=1 reason=REMOVE:骷髅教主->龙纹剑
+DEL Drop mon=[骷髅教主] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:骷髅教主->嗜魂法杖
+DEL Drop mon=[骷髅教主] item=[霹雷] C=3000 A=1 reason=REMOVE:骷髅教主->霹雷
+DEL Drop mon=[触龙神] item=[龙纹剑] C=3000 A=1 reason=REMOVE:触龙神->龙纹剑
+DEL Drop mon=[触龙神] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:触龙神->嗜魂法杖
+DEL Drop mon=[触龙神] item=[霹雷] C=3000 A=1 reason=REMOVE:触龙神->霹雷
+DEL Drop mon=[超级黑野猪] item=[龙纹剑] C=3000 A=1 reason=REMOVE:超级黑野猪->龙纹剑
+DEL Drop mon=[超级黑野猪] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:超级黑野猪->嗜魂法杖
+DEL Drop mon=[超级黑野猪] item=[霹雷] C=3000 A=1 reason=REMOVE:超级黑野猪->霹雷
+DEL Drop mon=[赤月恶魔] item=[龙纹剑] C=3000 A=1 reason=REMOVE:赤月恶魔->龙纹剑
+DEL Drop mon=[赤月恶魔] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:赤月恶魔->嗜魂法杖
+DEL Drop mon=[赤月恶魔] item=[霹雷] C=3000 A=1 reason=REMOVE:赤月恶魔->霹雷
+DEL Drop mon=[潘夜牛魔王] item=[龙纹剑] C=3000 A=1 reason=REMOVE:潘夜牛魔王->龙纹剑
+DEL Drop mon=[潘夜牛魔王] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:潘夜牛魔王->嗜魂法杖
+DEL Drop mon=[潘夜牛魔王] item=[霹雷] C=3000 A=1 reason=REMOVE:潘夜牛魔王->霹雷
+DEL Drop mon=[祖玛教主] item=[龙纹剑] C=3000 A=1 reason=REMOVE:祖玛教主->龙纹剑
+DEL Drop mon=[祖玛教主] item=[嗜魂法杖] C=3000 A=1 reason=REMOVE:祖玛教主->嗜魂法杖
+DEL Drop mon=[祖玛教主] item=[霹雷] C=3000 A=1 reason=REMOVE:祖玛教主->霹雷
+DEL Drop mon=[震天魔神] item=[虎面头盔] C=4000 A=1 reason=REMOVE:震天魔神->虎面头盔
+DEL Drop mon=[震天魔神] item=[战神头盔] C=4000 A=1 reason=REMOVE:震天魔神->战神头盔
+DEL Drop mon=[霸王教主] item=[虎面头盔] C=2000 A=1 reason=REMOVE:霸王教主->虎面头盔
+DEL Drop mon=[霸王教主] item=[虎面头盔] C=5000 A=1 reason=REMOVE:霸王教主->虎面头盔
+DEL Drop mon=[霸王教主] item=[战神头盔] C=2000 A=1 reason=REMOVE:霸王教主->战神头盔
+DEL Drop mon=[触龙神] item=[虎面头盔] C=5000 A=1 reason=REMOVE:触龙神->虎面头盔
+DEL Drop mon=[触龙神] item=[战神头盔] C=5000 A=1 reason=REMOVE:触龙神->战神头盔
+DEL Drop mon=[赤月恶魔] item=[虎面头盔] C=5000 A=1 reason=REMOVE:赤月恶魔->虎面头盔
+DEL Drop mon=[潘夜牛魔王] item=[虎面头盔] C=5000 A=1 reason=REMOVE:潘夜牛魔王->虎面头盔
+DEL Drop mon=[祖玛教主] item=[虎面头盔] C=5000 A=1 reason=REMOVE:祖玛教主->虎面头盔
+DEL Drop mon=[黑度紫红女神] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:黑度紫红女神->黑铁头盔
+DEL Drop mon=[黑度紫红女神] item=[雷神戒指] C=48000 A=1 reason=REMOVE:黑度紫红女神->雷神戒指
+DEL Drop mon=[黑度紫红女神] item=[润神戒指] C=48000 A=1 reason=REMOVE:黑度紫红女神->润神戒指
+DEL Drop mon=[黑度紫红女神] item=[帝王戒指] C=48000 A=1 reason=REMOVE:黑度紫红女神->帝王戒指
+DEL Drop mon=[黑度绿荫女神] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:黑度绿茵女神->黑铁头盔
+DEL Drop mon=[黑度绿荫女神] item=[雷神戒指] C=48000 A=1 reason=REMOVE:黑度绿茵女神->雷神戒指
+DEL Drop mon=[黑度绿荫女神] item=[润神戒指] C=48000 A=1 reason=REMOVE:黑度绿茵女神->润神戒指
+DEL Drop mon=[黑度绿荫女神] item=[帝王戒指] C=48000 A=1 reason=REMOVE:黑度绿茵女神->帝王戒指
+DEL Drop mon=[武力神将] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:武力神将->黑铁头盔
+DEL Drop mon=[武力神将] item=[雷神戒指] C=25000 A=1 reason=REMOVE:武力神将->雷神戒指
+DEL Drop mon=[武力神将] item=[润神戒指] C=25000 A=1 reason=REMOVE:武力神将->润神戒指
+DEL Drop mon=[武力神将] item=[帝王戒指] C=25000 A=1 reason=REMOVE:武力神将->帝王戒指
+DEL Drop mon=[石像狮子] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:石像狮子->黑铁头盔
+DEL Drop mon=[石像狮子] item=[雷神戒指] C=38000 A=1 reason=REMOVE:石像狮子->雷神戒指
+DEL Drop mon=[石像狮子] item=[润神戒指] C=38000 A=1 reason=REMOVE:石像狮子->润神戒指
+DEL Drop mon=[石像狮子] item=[帝王戒指] C=38000 A=1 reason=REMOVE:石像狮子->帝王戒指
+DEL Drop mon=[武力魔神将] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:武力魔神将->黑铁头盔
+DEL Drop mon=[武力魔神将] item=[雷神戒指] C=24000 A=1 reason=REMOVE:武力魔神将->雷神戒指
+DEL Drop mon=[武力魔神将] item=[润神戒指] C=24000 A=1 reason=REMOVE:武力魔神将->润神戒指
+DEL Drop mon=[武力魔神将] item=[帝王戒指] C=24000 A=1 reason=REMOVE:武力魔神将->帝王戒指
+DEL Drop mon=[地牢绿荫女神] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:地牢绿茵女神->黑铁头盔
+DEL Drop mon=[地牢绿荫女神] item=[雷神戒指] C=48000 A=1 reason=REMOVE:地牢绿茵女神->雷神戒指
+DEL Drop mon=[地牢绿荫女神] item=[润神戒指] C=48000 A=1 reason=REMOVE:地牢绿茵女神->润神戒指
+DEL Drop mon=[地牢绿荫女神] item=[帝王戒指] C=48000 A=1 reason=REMOVE:地牢绿茵女神->帝王戒指
+DEL Drop mon=[火焰狮子] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:火焰狮子->黑铁头盔
+DEL Drop mon=[火焰狮子] item=[雷神戒指] C=35000 A=1 reason=REMOVE:火焰狮子->雷神戒指
+DEL Drop mon=[火焰狮子] item=[润神戒指] C=35000 A=1 reason=REMOVE:火焰狮子->润神戒指
+DEL Drop mon=[火焰狮子] item=[帝王戒指] C=35000 A=1 reason=REMOVE:火焰狮子->帝王戒指
+DEL Drop mon=[地牢紫红女神] item=[黑铁头盔] C=800000 A=1 reason=REMOVE:地牢紫红女神->黑铁头盔
+DEL Drop mon=[地牢紫红女神] item=[雷神戒指] C=48000 A=1 reason=REMOVE:地牢紫红女神->雷神戒指
+DEL Drop mon=[地牢紫红女神] item=[润神戒指] C=48000 A=1 reason=REMOVE:地牢紫红女神->润神戒指
+DEL Drop mon=[地牢紫红女神] item=[帝王戒指] C=48000 A=1 reason=REMOVE:地牢紫红女神->帝王戒指
+DEL Drop mon=[潘夜战士] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜战士->无名刀
+DEL Drop mon=[潘夜冰魔] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜冰魔->无名刀
+DEL Drop mon=[潘夜右护卫] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜右护卫->无名刀
+DEL Drop mon=[潘夜云魔] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜云魔->无名刀
+DEL Drop mon=[潘夜左护卫] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜左护卫->无名刀
+DEL Drop mon=[潘夜风魔] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜风魔->无名刀
+DEL Drop mon=[潘夜火魔] item=[无名刀] C=200000 A=1 reason=REMOVE:潘夜火魔->无名刀
+DEL Drop mon=[巨象兽] item=[无名刀] C=150000 A=1 reason=REMOVE:巨像兽->无名刀
+DEL Drop mon=[诺玛] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[愤怒之钟（雷）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[愤怒之钟（雷）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[愤怒之钟（雷）] C=400 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[愤怒之钟（风）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[愤怒之钟（风）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[愤怒之钟（风）] C=400 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[愤怒之钟（火）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[愤怒之钟（火）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[愤怒之钟（火）] C=400 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[愤怒之钟（冰）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[愤怒之钟（冰）] C=3000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[愤怒之钟（冰）] C=400 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[昏暗封印（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[昏暗封印（风）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[昏暗封印（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[昏暗封印（冰）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[怨恨项链（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[怨恨项链（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[怨恨项链（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[雷神戒指（雷）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[雷神戒指（雷）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[雷神戒指（雷）] C=800 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[雷神戒指（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[雷神戒指（火）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[雷神戒指（火）] C=800 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[润神戒指（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[润神戒指（神圣）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[润神戒指（神圣）] C=800 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[润神戒指（幻影）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[润神戒指（幻影）] C=1000 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[润神戒指（幻影）] C=1000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[润神戒指（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[润神戒指（暗黑）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[润神戒指（暗黑）] C=800 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[五色项链（风）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[五色项链（风）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[五色项链（风）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[五色项链（风）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[五色项链（风）] C=300 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[五色项链（雷）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[五色项链（雷）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[五色项链（雷）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[五色项链（雷）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[五色项链（雷）] C=300 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[五色项链（冰）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[五色项链（冰）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[五色项链（冰）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[五色项链（冰）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[五色项链（冰）] C=300 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[五色项链（火）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[五色项链（火）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[五色项链（火）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[五色项链（火）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[五色项链（火）] C=300 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[莲花宝镜（神圣）] C=500 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[莲花宝镜（神圣）] C=300 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[莲花宝镜（幻影）] C=300 A=1 reason=ATTR
+DEL Drop mon=[诺玛] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血巨人] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[血金刚] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[潘夜战士] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜冰魔] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜右护卫] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜云魔] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜左护卫] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜风魔] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[潘夜火魔] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[东魔神怪] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战士] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[猿猴战将] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[巨象兽] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[西魔神怪] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[僵尸鬼] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[吸血鬼] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[大法老] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[神鬼王] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[潘夜鬼将] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[疯狂魔神盗] item=[莲花宝镜（暗黑）] C=300 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[猫眼（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[猫眼（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[猫眼（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[猫眼（神圣）] C=700 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[猫眼（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[猫眼（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[猫眼（暗黑）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[猫眼（暗黑）] C=700 A=1 reason=ATTR
+DEL Drop mon=[幻影蜘蛛] item=[猫眼（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[花色蜘蛛] item=[猫眼（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑角蜘蛛] item=[猫眼（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[八脚首领] item=[猫眼（幻影）] C=700 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[如来手镯（幻影）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[如来手镯（幻影）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[如来手镯（幻影）] C=800 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[如来手镯（暗黑）] C=500000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[如来手镯（暗黑）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[如来手镯（暗黑）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[如来手镯（暗黑）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[如来手镯（神圣）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[如来手镯（神圣）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[如来手镯（神圣）] C=800 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[毁灭手镯（火）] C=100000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[毁灭手镯（火）] C=800 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[毁灭手镯（火）] C=800 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[诺玛法老] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[诺玛将士] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠鱼魔] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠石人] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠风魔] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[愤怒之钟（雷）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[愤怒之钟（风）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[愤怒之钟（火）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[愤怒之钟（冰）] C=4000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[莲花宝镜（神圣）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[莲花宝镜（幻影）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[沙漠树魔] item=[莲花宝镜（暗黑）] C=20000 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[愤怒之钟（雷）] C=750 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[愤怒之钟（风）] C=750 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[愤怒之钟（火）] C=750 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[愤怒之钟（冰）] C=750 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[莲花宝镜（神圣）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[莲花宝镜（幻影）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[邪恶毒蛇] item=[莲花宝镜（暗黑）] C=10000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[毁灭手镯（冰）] C=500000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[毁灭手镯（冰）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[毁灭手镯（冰）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[毁灭手镯（冰）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[毁灭手镯（雷）] C=500000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[毁灭手镯（雷）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[毁灭手镯（雷）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[毁灭手镯（雷）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[黑度紫红女神] item=[毁灭手镯（风）] C=500000 A=1 reason=ATTR
+DEL Drop mon=[黑度绿荫女神] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力神将] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢紫红女神] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[石像狮子] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[武力魔神将] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[火焰狮子] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[地牢绿荫女神] item=[毁灭手镯（风）] C=300000 A=1 reason=ATTR
+DEL Drop mon=[黑度首将] item=[毁灭手镯（风）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[震天首将] item=[毁灭手镯（风）] C=2000 A=1 reason=ATTR
+DEL Drop mon=[诺玛骑兵] item=[神勇之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛骑兵] item=[节制之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛骑兵] item=[决断之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛骑兵] item=[智慧之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛骑兵] item=[正义之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛突击队长] item=[神勇之物] C=2000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛突击队长] item=[节制之物] C=2000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛突击队长] item=[决断之物] C=3000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛突击队长] item=[智慧之物] C=4000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛突击队长] item=[正义之物] C=2000 A=1 reason=VIRTUE
+DEL Drop mon=[魔石守护神] item=[神勇之物] C=5000 A=1 reason=VIRTUE
+DEL Drop mon=[魔石守护神] item=[节制之物] C=6000 A=1 reason=VIRTUE
+DEL Drop mon=[魔石守护神] item=[决断之物] C=7000 A=1 reason=VIRTUE
+DEL Drop mon=[魔石守护神] item=[智慧之物] C=10000 A=1 reason=VIRTUE
+DEL Drop mon=[魔石守护神] item=[正义之物] C=8000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛司令] item=[神勇之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛司令] item=[节制之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛司令] item=[决断之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛司令] item=[智慧之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛司令] item=[正义之物] C=550000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛抛石兵] item=[神勇之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛抛石兵] item=[节制之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛抛石兵] item=[决断之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛抛石兵] item=[智慧之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛抛石兵] item=[正义之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛斧兵] item=[神勇之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛斧兵] item=[节制之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛斧兵] item=[决断之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛斧兵] item=[智慧之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛斧兵] item=[正义之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛装甲兵] item=[神勇之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛装甲兵] item=[节制之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛装甲兵] item=[决断之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛装甲兵] item=[智慧之物] C=250000 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛装甲兵] item=[正义之物] C=450000 A=1 reason=VIRTUE
+DEL Drop mon=[地天灭王] item=[正义之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[地天灭王] item=[智慧之物] C=300 A=1 reason=VIRTUE
+DEL Drop mon=[地天灭王] item=[决断之物] C=500 A=1 reason=VIRTUE
+DEL Drop mon=[地天灭王] item=[节制之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[地天灭王] item=[神勇之物] C=500 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛教主] item=[神勇之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛教主] item=[节制之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛教主] item=[决断之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛教主] item=[智慧之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[诺玛教主] item=[正义之物] C=200 A=1 reason=VIRTUE
+DEL Drop mon=[沃玛教主] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[潘夜牛魔王] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[霸王教主] item=[急救丸（特）] C=2 A=100 reason=DELITEM:急救丸
+DEL Drop mon=[震天魔神] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[邪恶毒蛇] item=[急救丸（中）] C=1000 A=1 reason=DELITEM:急救丸
+DEL Drop mon=[骷髅教主] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[触龙神] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[超级黑野猪] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[赤月恶魔] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[潘夜牛魔王] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[祖玛教主] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[霸王教主] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[震天魔神] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL Drop mon=[地天灭王] item=[急救丸（特）] C=2 A=10 reason=DELITEM:急救丸
+DEL ItemInfo #1283 [急救丸（小）]
+DEL ItemInfo #1284 [急救丸（中）]
+DEL ItemInfo #1285 [急救丸（大）]
+DEL ItemInfo #1286 [急救丸（特）]
+DEL Drop mon=[沃玛教主] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[潘夜牛魔王] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[霸王教主] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[震天魔神] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[邪恶毒蛇] item=[清心丸（中）] C=1000 A=1 reason=DELITEM:清心丸
+DEL Drop mon=[骷髅教主] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[触龙神] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[超级黑野猪] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[赤月恶魔] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[潘夜牛魔王] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[祖玛教主] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[霸王教主] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[震天魔神] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[震天魔神] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL Drop mon=[地天灭王] item=[清心丸（特）] C=2 A=2 reason=DELITEM:清心丸
+DEL ItemInfo #1287 [清心丸（小）]
+DEL ItemInfo #1288 [清心丸（中）]
+DEL ItemInfo #1289 [清心丸（大）]
+DEL ItemInfo #1290 [清心丸（特）]
+lv44ArmourCount=6
+DEL Drop mon=[震天首将] item=[麒麟宝铠（男）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[震天首将] item=[麒麟宝铠（女）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[震天首将] item=[仙风神袍（男）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[震天首将] item=[仙风神袍（女）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[震天首将] item=[阴阳圣衣（男）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[震天首将] item=[阴阳圣衣（女）] C=4500 A=1 reason=LV44:震天首将
+DEL Drop mon=[黑度首将] item=[麒麟宝铠（男）] C=5000 A=1 reason=LV44:黑度首将
+DEL Drop mon=[黑度首将] item=[麒麟宝铠（女）] C=5000 A=1 reason=LV44:黑度首将
+DEL Drop mon=[黑度首将] item=[仙风神袍（男）] C=5000 A=1 reason=LV44:黑度首将
+DEL Drop mon=[黑度首将] item=[仙风神袍（女）] C=5000 A=1 reason=LV44:黑度首将
+DEL Drop mon=[黑度首将] item=[阴阳圣衣（男）] C=5000 A=1 reason=LV44:黑度首将
+DEL Drop mon=[黑度首将] item=[阴阳圣衣（女）] C=5000 A=1 reason=LV44:黑度首将
+SET Amount mon=[尸王] item=[地煞石] 5->2
+SET Amount mon=[七点白蛇] item=[地煞石] 5->2
+SET Gold mon=[半兽勇士] C=1 A 20000->10000
+SET Gold mon=[巨型多角虫] C=1 A 22000->10000
+SET Gold mon=[骷髅精灵] C=1 A 24000->10000
+SET Gold mon=[尸王] C=10 A 10000->10000
+SET Gold mon=[蚂蚁将军] C=1 A 32000->10000
+SET Gold mon=[红甲虫] C=1 A 52000->10000
+SET Gold mon=[沃玛卫士] C=1 A 50000->10000
+SET Gold mon=[邪恶钳虫] C=1 A 64000->10000
+SET Gold mon=[白野猪] C=5 A 50000->10000
+SET Gold mon=[骨鬼将] C=1 A 50000->10000
+SET Gold mon=[八脚首领] C=1 A 60000->10000
+SET Gold mon=[僵尸鬼] C=1 A 50000->10000
+SET Gold mon=[吸血鬼] C=1 A 50000->10000
+SET Gold mon=[大法老] C=1 A 66000->10000
+SET Gold mon=[护法天] C=1 A 70000->10000
+SET Gold mon=[神鬼王] C=1 A 70000->10000
+SET Gold mon=[潘夜鬼将] C=1 A 70000->10000
+SET Gold mon=[疯狂魔神盗] C=10 A 70000->10000
+SET Gold mon=[黑度首将] C=10 A 80000->10000
+SET Gold mon=[霸王守卫] C=5 A 90000->10000
+SET Gold mon=[震天首将] C=10 A 80000->10000
+SET Gold mon=[诺玛突击队长] C=1 A 86000->10000
+SET Gold mon=[沃玛教主] C=1 A 200000->100000
+SET Gold mon=[骷髅教主] C=1 A 200000->100000
+SET Gold mon=[触龙神] C=1 A 200000->100000
+SET Gold mon=[赤月恶魔] C=1 A 140000->100000
+SET Gold mon=[潘夜牛魔王] C=1 A 150000->100000
+SET Gold mon=[祖玛教主] C=1 A 160000->100000
+SET Gold mon=[霸王教主] C=1 A 260000->100000
+SET Gold mon=[震天魔神] C=1 A 210000->100000
+SET Gold mon=[诺玛教主] C=1 A 300000->100000
+NEW Rare mon=[诺玛教主] item=[破山剑] Chance=10000
+NEW Rare mon=[诺玛教主] item=[天神法杖] Chance=10000
+NEW Rare mon=[诺玛教主] item=[泰轮拂尘] Chance=10000
+DEL Drop mon=[僵尸王] item=[地煞石] C=1 A=5 reason=DELMON_DROP:僵尸王
+DEL Drop mon=[僵尸王] item=[天罡石] C=1 A=1 reason=DELMON_DROP:僵尸王
+DEL MonsterInfo #100029 [僵尸王]
+scriptHits=12
+SCRIPT Scripts\Npc\商店列表.py: contains 急救丸
+SCRIPT Scripts\变量\任务杀怪.py: contains 急救丸
+SCRIPT Scripts\变量\任务杀怪314.py: contains 急救丸
+SCRIPT Scripts\Npc\本国领土\药店昌欢.py: contains 急救丸
+SCRIPT Scripts\Npc\神舰\花仙.py: contains 急救丸
+SCRIPT Scripts\Npc\道馆\药中.py: contains 急救丸
+SCRIPT Scripts\Npc\商店列表.py: contains 清心丸
+SCRIPT Scripts\变量\任务杀怪.py: contains 清心丸
+SCRIPT Scripts\变量\任务杀怪314.py: contains 清心丸
+SCRIPT Scripts\Npc\本国领土\药店昌欢.py: contains 清心丸
+SCRIPT Scripts\Npc\神舰\花仙.py: contains 清心丸
+SCRIPT Scripts\Npc\道馆\药中.py: contains 清心丸
+---- summary counts ----
+ATTR=425
+DEL_MON=1
+DELITEM=29
+DELMON_DROP=2
+GOLD_BIG_upd=9
+GOLD_MID_upd=22
+LV44=12
+RARE_NEW=3
+REMOVE=144
+SET_AMOUNT=2
+VIRTUE=45
+toDeleteDrops=657 amountUpdates=2 goldUpdates=31 goldCreates=0 rareCreates=3 delItems=8 delMons=1
+---- skipped ----
+---- done rules ----
+DONE REMOVE 神鬼王 hits=3
+DONE REMOVE 尸王 hits=1
+DONE REMOVE 七点白蛇 hits=1
+DONE REMOVE 潘夜鬼将 hits=10
+DONE REMOVE 疯狂魔神盗 hits=1
+DONE REMOVE 震天首将 hits=3
+DONE REMOVE 石像狮子 hits=3
+DONE REMOVE 武力魔神将 hits=3
+DONE REMOVE 武力神将 hits=3
+DONE REMOVE 祖玛弓箭手 hits=3
+DONE REMOVE 祖玛雕像 hits=3
+DONE REMOVE 祖玛卫士 hits=3
+DONE REMOVE 大老鼠 hits=3
+DONE REMOVE 潘夜左护卫 hits=1
+DONE REMOVE 潘夜右护卫 hits=1
+DONE REMOVE 血巨人 hits=3
+DONE REMOVE 血金刚 hits=3
+DONE REMOVE 犬猴魔 hits=3
+DONE REMOVE 轻甲守卫 hits=3
+DONE REMOVE 爆毒神魔 hits=3
+DONE REMOVE 神舰守卫 hits=3
+DONE REMOVE 触角神魔 hits=3
+DONE REMOVE 恶形鬼 hits=3
+DONE REMOVE 海神将领 hits=3
+DONE REMOVE 红衣法师 hits=3
+DONE REMOVE 霸王教主 hits=2
+DONE REMOVE 震天魔神 hits=2
+DONE REMOVE 骷髅教主 hits=3
+DONE REMOVE 触龙神 hits=3
+DONE REMOVE 超级黑野猪 hits=3
+DONE REMOVE 赤月恶魔 hits=3
+DONE REMOVE 潘夜牛魔王 hits=3
+DONE REMOVE 祖玛教主 hits=3
+DONE REMOVE 震天魔神 hits=2
+DONE REMOVE 霸王教主 hits=3
+DONE REMOVE 触龙神 hits=2
+DONE REMOVE 赤月恶魔 hits=1
+DONE REMOVE 潘夜牛魔王 hits=1
+DONE REMOVE 祖玛教主 hits=1
+DONE REMOVE 黑度紫红女神 hits=4
+DONE REMOVE 黑度绿荫女神 hits=4
+DONE REMOVE 武力神将 hits=4
+DONE REMOVE 石像狮子 hits=4
+DONE REMOVE 武力魔神将 hits=4
+DONE REMOVE 地牢绿荫女神 hits=4
+DONE REMOVE 火焰狮子 hits=4
+DONE REMOVE 地牢紫红女神 hits=4
+DONE REMOVE 潘夜战士 hits=1
+DONE REMOVE 潘夜冰魔 hits=1
+DONE REMOVE 潘夜右护卫 hits=1
+DONE REMOVE 潘夜云魔 hits=1
+DONE REMOVE 潘夜左护卫 hits=1
+DONE REMOVE 潘夜风魔 hits=1
+DONE REMOVE 潘夜火魔 hits=1
+DONE REMOVE 巨象兽 hits=1
+DONE ATTR candidates=432
+DONE VIRTUE hits=45
+DONE DELITEM 急救丸 items=4 drops=14
+DONE DELITEM 清心丸 items=4 drops=15
+DONE LV44 震天首将 hits=6
+DONE LV44 黑度首将 hits=6
+DONE SET_AMOUNT 尸王->地煞石 hits=1
+DONE SET_AMOUNT 七点白蛇->地煞石 hits=1
+DONE GOLD GOLD_MID 半兽勇士 -> 10000
+DONE GOLD GOLD_MID 巨型多角虫 -> 10000
+DONE GOLD GOLD_MID 骷髅精灵 -> 10000
+DONE GOLD GOLD_MID 尸王 -> 10000
+DONE GOLD GOLD_MID 蚂蚁将军 -> 10000
+DONE GOLD GOLD_MID 红甲虫 -> 10000
+DONE GOLD GOLD_MID 沃玛卫士 -> 10000
+DONE GOLD GOLD_MID 邪恶钳虫 -> 10000
+DONE GOLD GOLD_MID 白野猪 -> 10000
+DONE GOLD GOLD_MID 骨鬼将 -> 10000
+DONE GOLD GOLD_MID 八脚首领 -> 10000
+DONE GOLD GOLD_MID 僵尸鬼 -> 10000
+DONE GOLD GOLD_MID 吸血鬼 -> 10000
+DONE GOLD GOLD_MID 大法老 -> 10000
+DONE GOLD GOLD_MID 护法天 -> 10000
+DONE GOLD GOLD_MID 神鬼王 -> 10000
+DONE GOLD GOLD_MID 潘夜鬼将 -> 10000
+DONE GOLD GOLD_MID 疯狂魔神盗 -> 10000
+DONE GOLD GOLD_MID 黑度首将 -> 10000
+DONE GOLD GOLD_MID 霸王守卫 -> 10000
+DONE GOLD GOLD_MID 震天首将 -> 10000
+DONE GOLD GOLD_MID 诺玛突击队长 -> 10000
+DONE GOLD GOLD_BIG 沃玛教主 -> 100000
+DONE GOLD GOLD_BIG 骷髅教主 -> 100000
+DONE GOLD GOLD_BIG 触龙神 -> 100000
+DONE GOLD GOLD_BIG 赤月恶魔 -> 100000
+DONE GOLD GOLD_BIG 潘夜牛魔王 -> 100000
+DONE GOLD GOLD_BIG 祖玛教主 -> 100000
+DONE GOLD GOLD_BIG 霸王教主 -> 100000
+DONE GOLD GOLD_BIG 震天魔神 -> 100000
+DONE GOLD GOLD_BIG 诺玛教主 -> 100000
+DONE ADD_RARE 诺玛教主
+DONE DELETE_MON 僵尸王
+synced deploy D:\newMir3\deploy_to_Mir3service\Database
+synced mir3z D:\BaiduNetdiskDownload\传奇3z假人服务端全套(相聚端)\5.0传奇3相聚假人系统\mir3z\服务端\Database\System.db
+System.db sha16=F98F5B6545E611EB

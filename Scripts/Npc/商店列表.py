@@ -16,15 +16,9 @@ yaodiangoodslist=[
 ('金创药（小）',float(1)),
 ('金创药（中）',float(1)),
 ('金创药（大）',float(1)),
-('急救丸（小）',float(1)),
-('急救丸（中）',float(1)),
-('急救丸（大）',float(1)),
 ('魔法药（小）',float(1)),
 ('魔法药（中）',float(1)),
 ('魔法药（大）',float(1)),
-('清心丸（小）',float(1)),
-('清心丸（中）',float(1)),
-('清心丸（大）',float(1)),
 ('太阳水',float(1))]
 
 wuqidiangoodslist=[

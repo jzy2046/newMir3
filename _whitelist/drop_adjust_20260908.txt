@@ -1,0 +1,33 @@
+drop_adjust_20260908
+stamp=20260908_143623
+System.db_sha16=F98F5B6545E611EB
+ATTR=425
+DEL_MON=1
+DELITEM=29
+DELMON_DROP=2
+GOLD_BIG_upd=9
+GOLD_MID_upd=22
+LV44=12
+RARE_NEW=3
+REMOVE=144
+SET_AMOUNT=2
+VIRTUE=45
+drops_removed=657
+amount_updates=2
+gold_updates=31
+gold_creates=0
+rare_creates=3
+items_deleted=8
+monsters_deleted=1
+skipped:
+
+script_patches:
+  shop_lines_removed=12 (商店列表/药店昌欢/药中)
+  quest_reward_replacements=20 (任务杀怪/任务杀怪314 -> 金创药/魔法药)
+name_aliases:
+  巨像兽->巨象兽
+  八角首领->八脚首领
+  护发天->护法天
+  黑度绿茵女神->黑度绿荫女神
+  地牢绿茵女神->地牢绿荫女神
+lv44_armour: 麒麟宝铠/仙风神袍/阴阳圣衣 (男/女) RequiredAmount=44

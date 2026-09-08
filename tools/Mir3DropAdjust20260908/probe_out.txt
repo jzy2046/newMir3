@@ -1,0 +1,545 @@
+=== DropInfo props ===
+  Amount : System.Int32 CanWrite=True
+  AmountTemp : System.Int64 CanWrite=True
+  Chance : System.Int32 CanWrite=True
+  CreatTime : System.DateTime CanWrite=True
+  DropGroup : System.Int32 CanWrite=True
+  DropSet : System.Int32 CanWrite=True
+  EasterEvent : System.Boolean CanWrite=True
+  Index : System.Int32 CanWrite=True
+  IsTemporary : System.Boolean CanWrite=True
+  Item : Library.SystemModels.ItemInfo CanWrite=True
+  Monster : Library.SystemModels.MonsterInfo CanWrite=True
+  PartOnly : System.Boolean CanWrite=True
+  ServerOnly : System.Boolean CanWrite=True
+  StrItemName : System.String CanWrite=True
+  StrMonsterName : System.String CanWrite=True
+=== ItemInfo props ===
+  BuffIcon : System.Int32
+  CanAutoPot : System.Boolean
+  CanDeathDrop : System.Boolean
+  CanDrop : System.Boolean
+  CanRepair : System.Boolean
+  CanSell : System.Boolean
+  CanStore : System.Boolean
+  CanTrade : System.Boolean
+  CanTreasure : System.Boolean
+  CreatTime : System.DateTime
+  Description : System.String
+  Drops : MirDB.DBBindingList`1[[Library.SystemModels.DropInfo, Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+  Durability : System.Int32
+  Duration : System.Int32
+  Effect : Library.ItemEffect
+  EffectName : System.String
+  Image : System.Int32
+  Index : System.Int32
+  IsTemporary : System.Boolean
+  ItemDisplayEffects : MirDB.DBBindingList`1[[Library.SystemModels.ItemDisplayEffect, Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+  ItemName : System.String
+  ItemStats : MirDB.DBBindingList`1[[Library.SystemModels.ItemInfoStat, Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+  ItemType : Library.ItemType
+  ItemTypeName : System.String
+  NoMake : System.Boolean
+  PartCount : System.Int32
+  Price : System.Int32
+  Rarity : Library.Rarity
+  RequiredAmount : System.Int32
+  RequiredClass : Library.RequiredClass
+  RequiredClassName : System.String
+  RequiredGender : Library.RequiredGender
+  RequiredGenderName : System.String
+  RequiredType : Library.RequiredType
+  RequiredTypeName : System.String
+  SellRate : System.Decimal
+  ServerOnly : System.Boolean
+  Shape : System.Int32
+  ShouldLinkInfo : System.Boolean
+  StackSize : System.Int32
+  StartItem : System.Boolean
+  WeaponType : Library.WeaponType
+  Weight : System.Int32
+
+=== Monster name resolve ===
+NEEDLE [神鬼王] exact=1 contains=1
+  #20015 [神鬼王] Lv=80 IsBoss=True
+NEEDLE [尸王] exact=1 contains=3
+  #20004 [尸王] Lv=55 IsBoss=True
+  #100005 [尸王0] Lv=55 IsBoss=True
+  #100029 [僵尸王] Lv=73 IsBoss=True
+NEEDLE [僵尸王] exact=1 contains=1
+  #100029 [僵尸王] Lv=73 IsBoss=True
+NEEDLE [七点白蛇] exact=1 contains=1
+  #100006 [七点白蛇] Lv=60 IsBoss=True
+NEEDLE [潘夜鬼将] exact=1 contains=1
+  #20017 [潘夜鬼将] Lv=80 IsBoss=True
+NEEDLE [疯狂魔神盗] exact=1 contains=1
+  #20018 [疯狂魔神盗] Lv=80 IsBoss=True
+NEEDLE [震天首将] exact=1 contains=1
+  #20021 [震天首将] Lv=86 IsBoss=True
+NEEDLE [石像狮子] exact=1 contains=1
+  #10111 [石像狮子] Lv=48 IsBoss=False
+NEEDLE [武力魔神将] exact=1 contains=1
+  #10112 [武力魔神将] Lv=53 IsBoss=False
+NEEDLE [武力神将] exact=1 contains=1
+  #10100 [武力神将] Lv=53 IsBoss=False
+NEEDLE [祖玛弓箭手] exact=1 contains=1
+  #10076 [祖玛弓箭手] Lv=47 IsBoss=False
+NEEDLE [祖玛雕像] exact=1 contains=1
+  #10077 [祖玛雕像] Lv=48 IsBoss=False
+NEEDLE [祖玛卫士] exact=1 contains=1
+  #10078 [祖玛卫士] Lv=49 IsBoss=False
+NEEDLE [大老鼠] exact=1 contains=1
+  #10079 [大老鼠] Lv=45 IsBoss=False
+NEEDLE [潘夜左护卫] exact=1 contains=1
+  #10084 [潘夜左护卫] Lv=48 IsBoss=False
+NEEDLE [潘夜右护卫] exact=1 contains=1
+  #10082 [潘夜右护卫] Lv=48 IsBoss=False
+NEEDLE [血巨人] exact=1 contains=1
+  #10072 [血巨人] Lv=40 IsBoss=False
+NEEDLE [血金刚] exact=1 contains=1
+  #10073 [血金刚] Lv=41 IsBoss=False
+NEEDLE [犬猴魔] exact=1 contains=1
+  #10101 [犬猴魔] Lv=48 IsBoss=False
+NEEDLE [轻甲守卫] exact=1 contains=1
+  #10102 [轻甲守卫] Lv=50 IsBoss=False
+NEEDLE [爆毒神魔] exact=1 contains=1
+  #10103 [爆毒神魔] Lv=52 IsBoss=False
+NEEDLE [神舰守卫] exact=1 contains=1
+  #10104 [神舰守卫] Lv=55 IsBoss=False
+NEEDLE [触角神魔] exact=1 contains=1
+  #10105 [触角神魔] Lv=51 IsBoss=False
+NEEDLE [恶形鬼] exact=1 contains=1
+  #10106 [恶形鬼] Lv=50 IsBoss=False
+NEEDLE [海神将领] exact=1 contains=1
+  #10107 [海神将领] Lv=53 IsBoss=False
+NEEDLE [红衣法师] exact=1 contains=1
+  #10108 [红衣法师] Lv=54 IsBoss=False
+NEEDLE [霸王教主] exact=1 contains=2
+  #30009 [霸王教主] Lv=180 IsBoss=True
+  #100570 [副本-霸王教主1] Lv=170 IsBoss=True
+NEEDLE [震天魔神] exact=1 contains=2
+  #30010 [震天魔神] Lv=155 IsBoss=True
+  #100571 [副本-震天魔神1] Lv=165 IsBoss=True
+NEEDLE [黑度首将] exact=1 contains=1
+  #20019 [黑度首将] Lv=85 IsBoss=True
+NEEDLE [骷髏教主] exact=0 contains=0
+NEEDLE [触龙神] exact=1 contains=1
+  #30003 [触龙神] Lv=110 IsBoss=True
+NEEDLE [超级黑野猪] exact=1 contains=1
+  #30004 [超级黑野猪] Lv=115 IsBoss=True
+NEEDLE [赤月恶魔] exact=1 contains=2
+  #30005 [赤月恶魔] Lv=120 IsBoss=True
+  #100568 [副本-赤月恶魔1] Lv=160 IsBoss=True
+NEEDLE [潘夜牛魔王] exact=1 contains=1
+  #30006 [潘夜牛魔王] Lv=125 IsBoss=True
+NEEDLE [祖玛教主] exact=1 contains=1
+  #30007 [祖玛教主] Lv=130 IsBoss=True
+NEEDLE [黑度紫红女神] exact=1 contains=1
+  #10098 [黑度紫红女神] Lv=51 IsBoss=False
+NEEDLE [黑度绿茵女神] exact=0 contains=0
+NEEDLE [地牢绿茵女神] exact=0 contains=0
+NEEDLE [火焰狮子] exact=1 contains=1
+  #10113 [火焰狮子] Lv=50 IsBoss=False
+NEEDLE [地牢紫红女神] exact=1 contains=1
+  #10110 [地牢紫红女神] Lv=52 IsBoss=False
+NEEDLE [潘夜战士] exact=1 contains=1
+  #10080 [潘夜战士] Lv=46 IsBoss=False
+NEEDLE [潘夜冰魔] exact=1 contains=1
+  #10081 [潘夜冰魔] Lv=47 IsBoss=False
+NEEDLE [潘夜云魔] exact=1 contains=1
+  #10083 [潘夜云魔] Lv=47 IsBoss=False
+NEEDLE [潘夜风魔] exact=1 contains=1
+  #10085 [潘夜风魔] Lv=47 IsBoss=False
+NEEDLE [潘夜火魔] exact=1 contains=1
+  #10086 [潘夜火魔] Lv=47 IsBoss=False
+NEEDLE [巨像兽] exact=0 contains=0
+NEEDLE [半兽勇士] exact=1 contains=2
+  #20001 [半兽勇士] Lv=50 IsBoss=True
+  #100020 [半兽勇士11] Lv=50 IsBoss=False
+NEEDLE [巨型多角虫] exact=1 contains=1
+  #20002 [巨型多角虫] Lv=52 IsBoss=True
+NEEDLE [骷髏精灵] exact=0 contains=0
+NEEDLE [蚁蚂将军] exact=0 contains=0
+NEEDLE [红甲虫] exact=1 contains=1
+  #20006 [红甲虫] Lv=56 IsBoss=True
+NEEDLE [沃玛卫士] exact=1 contains=1
+  #20007 [沃玛卫士] Lv=60 IsBoss=True
+NEEDLE [邪恶钳虫] exact=1 contains=1
+  #20008 [邪恶钳虫] Lv=62 IsBoss=True
+NEEDLE [白野猪] exact=1 contains=1
+  #20009 [白野猪] Lv=70 IsBoss=True
+NEEDLE [骨鬼将] exact=1 contains=1
+  #20010 [骨鬼将] Lv=70 IsBoss=True
+NEEDLE [八角首领] exact=0 contains=0
+NEEDLE [僵尸鬼] exact=1 contains=1
+  #20012 [僵尸鬼] Lv=65 IsBoss=True
+NEEDLE [吸血鬼] exact=1 contains=1
+  #20013 [吸血鬼] Lv=65 IsBoss=True
+NEEDLE [大法老] exact=1 contains=1
+  #20014 [大法老] Lv=78 IsBoss=True
+NEEDLE [护发天] exact=0 contains=0
+NEEDLE [霸王守卫] exact=1 contains=1
+  #20020 [霸王守卫] Lv=90 IsBoss=True
+NEEDLE [诺玛突击队长] exact=1 contains=1
+  #20022 [诺玛突击队长] Lv=88 IsBoss=True
+NEEDLE [沃玛教主] exact=1 contains=3
+  #30001 [沃玛教主] Lv=100 IsBoss=True
+  #100036 [沃玛教主11] Lv=100 IsBoss=True
+  #100569 [副本-沃玛教主1] Lv=160 IsBoss=True
+NEEDLE [诺玛教主] exact=1 contains=1
+  #30016 [诺玛教主] Lv=200 IsBoss=True
+
+=== Item name resolve ===
+NEEDLE [如来手铳] exact=0 contains=0
+NEEDLE [火玉手铳] exact=0 contains=0
+NEEDLE [毁灭手铳] exact=0 contains=0
+NEEDLE [天缙石] exact=0 contains=0
+NEEDLE [石榴石] exact=1 contains=1
+  #822 [石榴石] Type=Ore ReqLv=0 Shape=0
+NEEDLE [地煞石] exact=1 contains=1
+  #122585 [地煞石] Type=Consumable ReqLv=0 Shape=0
+NEEDLE [昏暗封印] exact=0 contains=4
+  #856 [昏暗封印（火）] Type=Necklace ReqLv=0 Shape=0
+  #80102 [昏暗封印（风）] Type=Necklace ReqLv=0 Shape=0
+  #80103 [昏暗封印（雷）] Type=Necklace ReqLv=0 Shape=0
+  #80104 [昏暗封印（冰）] Type=Necklace ReqLv=0 Shape=0
+NEEDLE [怨恨项链] exact=1 contains=4
+  #367 [怨恨项链] Type=Necklace ReqLv=0 Shape=0
+  #859 [怨恨项链（神圣）] Type=Necklace ReqLv=0 Shape=0
+  #80105 [怨恨项链（暗黑）] Type=Necklace ReqLv=0 Shape=0
+  #80106 [怨恨项链（幻影）] Type=Necklace ReqLv=0 Shape=0
+NEEDLE [无名刀] exact=1 contains=1
+  #306 [无名刀] Type=Weapon ReqLv=0 Shape=108
+NEEDLE [黑皮靴子] exact=1 contains=1
+  #773 [黑皮靴子] Type=Shoes ReqLv=0 Shape=0
+NEEDLE [无极棍] exact=1 contains=3
+  #166 [无极棍] Type=Weapon ReqLv=0 Shape=18
+  #754 [祖玛无极棍] Type=Weapon ReqLv=0 Shape=18
+  #830 [潘夜无极棍] Type=Weapon ReqLv=0 Shape=18
+NEEDLE [裁决之杖] exact=1 contains=2
+  #168 [裁决之杖] Type=Weapon ReqLv=0 Shape=14
+  #753 [祖玛裁决之杖] Type=Weapon ReqLv=0 Shape=14
+NEEDLE [骨玉权杖] exact=1 contains=2
+  #207 [骨玉权杖] Type=Weapon ReqLv=0 Shape=16
+  #755 [祖玛骨玉权杖] Type=Weapon ReqLv=0 Shape=16
+NEEDLE [祖玛裁决之杖] exact=1 contains=1
+  #753 [祖玛裁决之杖] Type=Weapon ReqLv=0 Shape=14
+NEEDLE [祖玛骨玉权杖] exact=1 contains=1
+  #755 [祖玛骨玉权杖] Type=Weapon ReqLv=0 Shape=16
+NEEDLE [祖玛无极棍] exact=1 contains=1
+  #754 [祖玛无极棍] Type=Weapon ReqLv=0 Shape=18
+NEEDLE [潘夜血饮] exact=1 contains=1
+  #828 [潘夜血饮] Type=Weapon ReqLv=0 Shape=27
+NEEDLE [神勇之物] exact=1 contains=1
+  #1026 [神勇之物] Type=Necklace ReqLv=0 Shape=0
+NEEDLE [节制之物] exact=1 contains=1
+  #1027 [节制之物] Type=Bracelet ReqLv=0 Shape=0
+NEEDLE [决断之物] exact=1 contains=1
+  #1028 [决断之物] Type=Bracelet ReqLv=0 Shape=0
+NEEDLE [智慧之物] exact=1 contains=1
+  #1029 [智慧之物] Type=Ring ReqLv=0 Shape=0
+NEEDLE [正义之物] exact=1 contains=1
+  #1030 [正义之物] Type=Ring ReqLv=0 Shape=0
+NEEDLE [急救丸] exact=0 contains=4
+  #1283 [急救丸（小）] Type=Consumable ReqLv=0 Shape=0
+  #1284 [急救丸（中）] Type=Consumable ReqLv=0 Shape=0
+  #1285 [急救丸（大）] Type=Consumable ReqLv=0 Shape=0
+  #1286 [急救丸（特）] Type=Consumable ReqLv=0 Shape=0
+NEEDLE [清心丸] exact=0 contains=4
+  #1287 [清心丸（小）] Type=Consumable ReqLv=0 Shape=0
+  #1288 [清心丸（中）] Type=Consumable ReqLv=0 Shape=0
+  #1289 [清心丸（大）] Type=Consumable ReqLv=0 Shape=0
+  #1290 [清心丸（特）] Type=Consumable ReqLv=0 Shape=0
+NEEDLE [封魔剑] exact=1 contains=1
+  #656 [封魔剑] Type=Weapon ReqLv=0 Shape=0
+NEEDLE [旋风流星刀] exact=1 contains=1
+  #444 [旋风流星刀] Type=Weapon ReqLv=0 Shape=21
+NEEDLE [飞魂魔刃] exact=1 contains=1
+  #446 [飞魂魔刃] Type=Weapon ReqLv=0 Shape=24
+NEEDLE [天赐战甲（男）] exact=1 contains=1
+  #1062 [天赐战甲（男）] Type=Armour ReqLv=0 Shape=1
+NEEDLE [天赐战甲（女）] exact=1 contains=1
+  #1063 [天赐战甲（女）] Type=Armour ReqLv=0 Shape=1
+NEEDLE [天赐战甲(男)] exact=0 contains=0
+NEEDLE [天赐战甲(女)] exact=0 contains=0
+NEEDLE [龙纹剑] exact=1 contains=2
+  #208 [龙纹剑] Type=Weapon ReqLv=0 Shape=19
+  #336 [墨龙龙纹剑] Type=Weapon ReqLv=0 Shape=19
+NEEDLE [嗜魂法杖] exact=1 contains=2
+  #209 [嗜魂法杖] Type=Weapon ReqLv=0 Shape=2
+  #335 [墨龙嗜魂法杖] Type=Weapon ReqLv=0 Shape=2
+NEEDLE [霹雷] exact=1 contains=1
+  #354 [霹雷] Type=Weapon ReqLv=0 Shape=37
+NEEDLE [虎面头盔] exact=1 contains=1
+  #443 [虎面头盔] Type=Helmet ReqLv=0 Shape=12
+NEEDLE [战神头盔] exact=1 contains=1
+  #442 [战神头盔] Type=Helmet ReqLv=0 Shape=11
+NEEDLE [黑铁头盔] exact=1 contains=1
+  #185 [黑铁头盔] Type=Helmet ReqLv=0 Shape=6
+NEEDLE [雷神戒指] exact=1 contains=5
+  #360 [雷神戒指] Type=Ring ReqLv=0 Shape=0
+  #846 [雷神戒指（火）] Type=Ring ReqLv=0 Shape=0
+  #80107 [雷神戒指（雷）] Type=Ring ReqLv=0 Shape=0
+  #80108 [雷神戒指（风）] Type=Ring ReqLv=0 Shape=0
+  #80109 [雷神戒指（冰）] Type=Ring ReqLv=0 Shape=0
+NEEDLE [润神戒指] exact=1 contains=4
+  #364 [润神戒指] Type=Ring ReqLv=0 Shape=0
+  #699 [润神戒指（暗黑）] Type=Ring ReqLv=0 Shape=0
+  #700 [润神戒指（幻影）] Type=Ring ReqLv=0 Shape=0
+  #845 [润神戒指（神圣）] Type=Ring ReqLv=0 Shape=0
+NEEDLE [帝王戒指] exact=1 contains=1
+  #844 [帝王戒指] Type=Ring ReqLv=0 Shape=0
+NEEDLE [破山剑] exact=1 contains=1
+  #652 [破山剑] Type=Weapon ReqLv=0 Shape=7
+NEEDLE [天神法杖] exact=1 contains=1
+  #665 [天神法杖] Type=Weapon ReqLv=0 Shape=23
+NEEDLE [泰轮拂尘] exact=1 contains=1
+  #890 [泰轮拂尘] Type=Weapon ReqLv=0 Shape=42
+NEEDLE [金币] exact=1 contains=1
+  #1 [金币] Type=Nothing ReqLv=0 Shape=0
+NEEDLE [游戏币] exact=1 contains=1
+  #80010 [游戏币] Type=Nothing ReqLv=0 Shape=0
+
+=== Attr-suffix items ===
+attrItemCount=89
+  #160 [愤怒之钟（雷）]
+  #161 [愤怒之钟（风）]
+  #233 [莲花宝镜（暗黑）]
+  #234 [莲花宝镜（幻影）]
+  #235 [五色项链（火）]
+  #236 [五色项链（冰）]
+  #237 [五色项链（雷）]
+  #238 [五色项链（风）]
+  #344 [师承戒指（火）]
+  #699 [润神戒指（暗黑）]
+  #700 [润神戒指（幻影）]
+  #835 [师承戒指（冰）]
+  #836 [师承戒指（雷）]
+  #837 [师承戒指（风）]
+  #845 [润神戒指（神圣）]
+  #846 [雷神戒指（火）]
+  #849 [毁灭手镯（火）]
+  #850 [如来手镯（神圣）]
+  #855 [愤怒之钟（火）]
+  #856 [昏暗封印（火）]
+  #858 [莲花宝镜（神圣）]
+  #859 [怨恨项链（神圣）]
+  #956 [师承戒指（神圣）]
+  #957 [师承戒指（暗黑）]
+  #958 [龙马戒指（火）]
+  #959 [龙马戒指（冰）]
+  #960 [龙马戒指（雷）]
+  #961 [龙马戒指（风）]
+  #962 [青云戒指（神圣）]
+  #963 [青云戒指（暗黑）]
+  #964 [青云戒指（幻影）]
+  #965 [破荒项链（火）]
+  #966 [破荒项链（冰）]
+  #967 [破荒项链（雷）]
+  #968 [破荒项链（风）]
+  #969 [破荒项链（神圣）]
+  #970 [破荒项链（暗黑）]
+  #971 [魔云项链（火）]
+  #972 [魔云项链（冰）]
+  #973 [魔云项链（雷）]
+  #974 [魔云项链（风）]
+  #975 [定心项链（神圣）]
+  #976 [定心项链（暗黑）]
+  #977 [定心项链（幻影）]
+  #978 [金棱手镯（火）]
+  #979 [金棱手镯（冰）]
+  #980 [金棱手镯（雷）]
+  #981 [金棱手镯（风）]
+  #982 [金棱手镯（神圣）]
+  #983 [金棱手镯（暗黑）]
+
+=== RequiredLevel==44 ===
+lv44_all=0
+
+=== Gold drops sample ===
+GOLD #1 [金币]
+GOLD #80010 [游戏币]
+  mon=[多钩猫]#10006 Chance=5 Amount=300 Group=0 Set=0
+  mon=[森林雪人]#10008 Chance=5 Amount=500 Group=0 Set=0
+  mon=[半兽战士]#10011 Chance=5 Amount=500 Group=0 Set=0
+  mon=[虎蛇]#10012 Chance=5 Amount=500 Group=0 Set=0
+  mon=[稻草人]#10014 Chance=5 Amount=300 Group=0 Set=0
+  mon=[半兽人]#10015 Chance=5 Amount=300 Group=0 Set=0
+  mon=[多角虫]#10016 Chance=5 Amount=300 Group=0 Set=0
+  mon=[猎鹰]#10017 Chance=5 Amount=300 Group=0 Set=0
+  mon=[威思尔小虫]#10018 Chance=5 Amount=300 Group=0 Set=0
+  mon=[盔甲虫]#10019 Chance=5 Amount=300 Group=0 Set=0
+  mon=[山洞蝙蝠]#10020 Chance=5 Amount=500 Group=0 Set=0
+  mon=[掷斧骷髅]#10021 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅战士]#10023 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅]#10024 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅战将]#10025 Chance=5 Amount=500 Group=0 Set=0
+  mon=[盔甲蚂蚁]#10026 Chance=5 Amount=500 Group=0 Set=0
+  mon=[蚂蚁战士]#10027 Chance=5 Amount=400 Group=0 Set=0
+  mon=[蚂蚁道士]#10028 Chance=5 Amount=400 Group=0 Set=0
+  mon=[爆毒蚂蚁]#10029 Chance=5 Amount=400 Group=0 Set=0
+  mon=[老道僵尸]#10032 Chance=5 Amount=400 Group=0 Set=0
+  mon=[多脚虫]#10037 Chance=5 Amount=500 Group=0 Set=0
+  mon=[蜘蛛娃]#10038 Chance=5 Amount=500 Group=0 Set=0
+  mon=[胞眼虫]#10039 Chance=5 Amount=500 Group=0 Set=0
+  mon=[浪子人鬼]#10041 Chance=5 Amount=300 Group=0 Set=0
+  mon=[腐蚀人鬼]#10042 Chance=5 Amount=300 Group=0 Set=0
+  mon=[骷髅弓箭手]#10043 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅武士]#10044 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅武将]#10045 Chance=5 Amount=500 Group=0 Set=0
+  mon=[骷髅士兵]#10046 Chance=5 Amount=500 Group=0 Set=0
+  mon=[诺玛]#10047 Chance=5 Amount=800 Group=0 Set=0
+  mon=[暗黑战士]#10054 Chance=5 Amount=500 Group=0 Set=0
+  mon=[沃玛战士]#10056 Chance=5 Amount=500 Group=0 Set=0
+  mon=[火焰沃玛]#10057 Chance=5 Amount=500 Group=0 Set=0
+  mon=[角蝇]#10058 Chance=5 Amount=500 Group=0 Set=0
+  mon=[红野猪]#10061 Chance=5 Amount=700 Group=0 Set=0
+  mon=[蝎蛇]#10062 Chance=5 Amount=700 Group=0 Set=0
+  mon=[黑野猪]#10063 Chance=5 Amount=700 Group=0 Set=0
+  mon=[跳跳蜂]#10064 Chance=5 Amount=700 Group=0 Set=0
+  mon=[蜈蚣]#10065 Chance=5 Amount=700 Group=0 Set=0
+  mon=[钳虫]#10066 Chance=5 Amount=700 Group=0 Set=0
+
+=== Rare Chance>=1000 or named weapons ===
+  mon=[多钩猫] item=[乌木剑] Chance=2000 Amount=1
+  mon=[森林雪人] item=[乌木剑] Chance=2000 Amount=1
+  mon=[森林雪人] item=[大手镯] Chance=1000 Amount=1
+  mon=[森林雪人] item=[道士手镯] Chance=1000 Amount=1
+  mon=[森林雪人] item=[魔法手镯] Chance=1000 Amount=1
+  mon=[森林雪人] item=[黑檀手镯] Chance=1000 Amount=1
+  mon=[森林雪人] item=[黑色水晶项链] Chance=1000 Amount=1
+  mon=[森林雪人] item=[黑檀项链] Chance=1000 Amount=1
+  mon=[森林雪人] item=[黄色水晶项链] Chance=1000 Amount=1
+  mon=[森林雪人] item=[青铜头盔] Chance=1000 Amount=1
+  mon=[森林雪人] item=[轻型盔甲（男）] Chance=1000 Amount=1
+  mon=[森林雪人] item=[轻型盔甲（女）] Chance=1000 Amount=1
+  mon=[栗子树] item=[金色栗子] Chance=1000 Amount=1
+  mon=[半兽战士] item=[乌木剑] Chance=2000 Amount=1
+  mon=[半兽战士] item=[大手镯] Chance=1000 Amount=1
+  mon=[半兽战士] item=[道士手镯] Chance=1000 Amount=1
+  mon=[半兽战士] item=[魔法手镯] Chance=1000 Amount=1
+  mon=[半兽战士] item=[黑檀手镯] Chance=1000 Amount=1
+  mon=[半兽战士] item=[黑色水晶项链] Chance=1000 Amount=1
+  mon=[半兽战士] item=[黑檀项链] Chance=1000 Amount=1
+  mon=[半兽战士] item=[黄色水晶项链] Chance=1000 Amount=1
+  mon=[半兽战士] item=[青铜头盔] Chance=1000 Amount=1
+  mon=[半兽战士] item=[轻型盔甲（男）] Chance=1000 Amount=1
+  mon=[半兽战士] item=[轻型盔甲（女）] Chance=1000 Amount=1
+  mon=[虎蛇] item=[乌木剑] Chance=2000 Amount=1
+  mon=[虎蛇] item=[青铜斧] Chance=2000 Amount=1
+  mon=[虎蛇] item=[海魂] Chance=2000 Amount=1
+  mon=[虎蛇] item=[半月] Chance=2000 Amount=1
+  mon=[虎蛇] item=[皮靴] Chance=2000 Amount=1
+  mon=[虎蛇] item=[蛇眼戒指] Chance=2000 Amount=1
+  mon=[虎蛇] item=[黑色水晶戒指] Chance=2000 Amount=1
+  mon=[虎蛇] item=[珍珠戒指] Chance=2000 Amount=1
+  mon=[虎蛇] item=[魔鬼项链] Chance=2000 Amount=1
+  mon=[虎蛇] item=[灯笼项链] Chance=2000 Amount=1
+  mon=[虎蛇] item=[真善项链] Chance=2000 Amount=1
+  mon=[虎蛇] item=[琥珀项链] Chance=2000 Amount=1
+  mon=[虎蛇] item=[魔法头盔] Chance=2000 Amount=1
+  mon=[虎蛇] item=[战神油] Chance=2000 Amount=1
+  mon=[稻草人] item=[乌木剑] Chance=2000 Amount=1
+  mon=[半兽人] item=[乌木剑] Chance=2000 Amount=1
+  mon=[半兽人] item=[大手镯] Chance=1000 Amount=1
+  mon=[半兽人] item=[道士手镯] Chance=1000 Amount=1
+  mon=[半兽人] item=[魔法手镯] Chance=1000 Amount=1
+  mon=[半兽人] item=[黑檀手镯] Chance=1000 Amount=1
+  mon=[半兽人] item=[黑色水晶项链] Chance=1000 Amount=1
+  mon=[半兽人] item=[黑檀项链] Chance=1000 Amount=1
+  mon=[半兽人] item=[黄色水晶项链] Chance=1000 Amount=1
+  mon=[半兽人] item=[青铜头盔] Chance=1000 Amount=1
+  mon=[半兽人] item=[轻型盔甲（男）] Chance=1000 Amount=1
+  mon=[半兽人] item=[轻型盔甲（女）] Chance=1000 Amount=1
+
+=== Sample drops for key bosses ===
+  尸王 -> [金币] C=10 A=10000
+  尸王 -> [强效太阳水] C=2 A=1
+  尸王 -> [强效太阳水] C=2 A=1
+  尸王 -> [强效太阳水] C=2 A=1
+  尸王 -> [强效太阳水] C=2 A=1
+  尸王 -> [强效太阳水] C=2 A=1
+  尸王 -> [金创药（大）] C=80 A=1
+  尸王 -> [金创药（大）] C=80 A=1
+  尸王 -> [金创药（大）] C=80 A=1
+  尸王 -> [魔法药（大）] C=120 A=1
+  尸王 -> [魔法药（大）] C=5 A=1
+  尸王 -> [烈火剑法] C=400 A=1
+  尸王 -> [圣言术] C=200 A=1
+  尸王 -> [魔法盾] C=400 A=1
+  尸王 -> [地狱雷光] C=400 A=1
+  尸王 -> [冰咆哮] C=400 A=1
+  尸王 -> [强魔震法] C=400 A=1
+  尸王 -> [召唤神兽] C=400 A=1
+  尸王 -> [猛虎强势] C=400 A=1
+  尸王 -> [祝福油] C=400 A=1
+  尸王 -> [超强召唤骷髅] C=400 A=1
+  尸王 -> [钢玉石] C=500 A=1
+  尸王 -> [黑铁] C=500 A=1
+  尸王 -> [困魔咒] C=400 A=1
+  尸王 -> [野蛮冲撞] C=400 A=1
+  尸王 -> [空拳刀法] C=500 A=1
+  尸王 -> [群体治愈术] C=500 A=1
+  尸王 -> [爆裂火焰] C=500 A=1
+  尸王 -> [翔空剑法] C=500 A=1
+  尸王 -> [龙卷风] C=500 A=1
+  神鬼王 -> [金币] C=1 A=70000
+  神鬼王 -> [万年雪霜] C=2 A=1
+  神鬼王 -> [万年雪霜] C=2 A=1
+  神鬼王 -> [万年雪霜] C=2 A=1
+  神鬼王 -> [万年雪霜] C=2 A=1
+  神鬼王 -> [万年雪霜] C=5 A=1
+  神鬼王 -> [蓝翡翠项链] C=8 A=1
+  神鬼王 -> [放大镜] C=8 A=1
+  神鬼王 -> [竹笛] C=8 A=1
+  神鬼王 -> [沃玛头盔] C=8 A=1
+  神鬼王 -> [重盔甲（女）] C=20 A=1
+  神鬼王 -> [巨龙戒指] C=15 A=1
+  神鬼王 -> [火玉戒指] C=15 A=1
+  神鬼王 -> [天鸣戒指] C=15 A=1
+  神鬼王 -> [金手镯] C=15 A=1
+  神鬼王 -> [死神手套] C=15 A=1
+  神鬼王 -> [荣耀项链] C=15 A=1
+  神鬼王 -> [莲花宝镜] C=15 A=1
+  神鬼王 -> [愤怒之钟] C=40 A=1
+  神鬼王 -> [五彩鞋] C=15 A=1
+  神鬼王 -> [斗笠] C=15 A=1
+  神鬼王 -> [黑皮手套] C=60 A=1
+  神鬼王 -> [震天项链] C=60 A=1
+  神鬼王 -> [遗魂项链] C=60 A=1
+  神鬼王 -> [银镜项链] C=60 A=1
+  神鬼王 -> [五彩项链] C=60 A=1
+  神鬼王 -> [勇士项链] C=60 A=1
+  神鬼王 -> [天藤头盔] C=60 A=1
+  神鬼王 -> [虹魔戒指] C=5500 A=1
+  神鬼王 -> [虹魔手镯] C=1450 A=1
+  诺玛教主 -> [金币] C=1 A=300000
+  诺玛教主 -> [万年雪霜] C=2 A=2
+  诺玛教主 -> [万年雪霜] C=2 A=2
+  诺玛教主 -> [万年雪霜] C=2 A=2
+  诺玛教主 -> [万年雪霜] C=2 A=2
+  诺玛教主 -> [万年雪霜] C=5 A=2
+  诺玛教主 -> [黑皮手套] C=3 A=1
+  诺玛教主 -> [震天项链] C=3 A=1
+  诺玛教主 -> [遗魂项链] C=3 A=1
+  诺玛教主 -> [银镜项链] C=3 A=1
+  诺玛教主 -> [五彩项链] C=3 A=1
+  诺玛教主 -> [勇士项链] C=3 A=1
+  诺玛教主 -> [天藤头盔] C=3 A=1
+  诺玛教主 -> [战神盔甲（男）] C=100 A=1
+  诺玛教主 -> [幸运降妖除魔戒指] C=5 A=1
+  诺玛教主 -> [师承戒指] C=200 A=1
+  诺玛教主 -> [生锈师承戒指] C=100 A=1
+  诺玛教主 -> [生锈龙马戒指] C=100 A=1
+  诺玛教主 -> [神勇之物] C=200 A=1
+  诺玛教主 -> [节制之物] C=200 A=1
+  诺玛教主 -> [决断之物] C=200 A=1
+  诺玛教主 -> [智慧之物] C=200 A=1
+  诺玛教主 -> [正义之物] C=200 A=1
+  诺玛教主 -> [血花落照（血）] C=500 A=1
+  诺玛教主 -> [血花落照（花）] C=500 A=1
+  诺玛教主 -> [血花落照（落）] C=500 A=1
+  诺玛教主 -> [血花落照（照）] C=500 A=1
+  诺玛教主 -> [黑天暗云（黑）] C=500 A=1
+  诺玛教主 -> [黑天暗云（天）] C=500 A=1
+  诺玛教主 -> [黑天暗云（暗）] C=500 A=1

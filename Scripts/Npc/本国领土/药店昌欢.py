@@ -65,10 +65,6 @@ goodslist=[
 ('魔法药（大）',float(1)),
 ('金创药（特）',float(1)),
 ('魔法药（特）',float(1)),
-('急救丸（大）',float(1)),
-('清心丸（大）',float(1)),
-('急救丸（特）',float(2)),
-('清心丸（特）',float(2)),
 ]
 
 goods = collections.OrderedDict(goodslist)		

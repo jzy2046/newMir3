@@ -1,0 +1,91 @@
+FRAG mon 绿茵
+FRAG item 绿茵
+FRAG mon 巨像
+FRAG item 巨像
+FRAG mon 八角
+FRAG item 八角
+FRAG mon 护发
+FRAG item 护发
+FRAG mon 骷髅
+  #10021 [掷斧骷髅]
+  #10023 [骷髅战士]
+  #10024 [骷髅]
+  #10025 [骷髅战将]
+  #10043 [骷髅弓箭手]
+  #10044 [骷髅武士]
+  #10045 [骷髅武将]
+  #10046 [骷髅士兵]
+  #20003 [骷髅精灵]
+  #30002 [骷髅教主]
+  #40017 [变异骷髅]
+  #40020 [超强骷髅]
+  #100025 [骷髅精灵11]
+  #100026 [掷斧骷髅11]
+  #100027 [骷髅战士11]
+  #100028 [骷髅战将11]
+FRAG item 骷髅
+  #112 [骷髅戒指] Type=Ring ReqAmt=30 ReqType=DC
+  #115 [骷髅头盔] Type=Helmet ReqAmt=30 ReqType=DC
+  #151 [召唤骷髅] Type=Book ReqAmt=17 ReqType=Level
+  #385 [骷髅精灵骨] Type=Material ReqAmt=1 ReqType=Level
+  #484 [召唤骷髅（秘籍）] Type=Book ReqAmt=17 ReqType=Level
+  #712 [沃毒骷髅戒指] Type=Ring ReqAmt=20 ReqType=Level
+  #731 [腐烂骷髅头盔] Type=Helmet ReqAmt=35 ReqType=Level
+  #750 [骷髅骨] Type=Material ReqAmt=1 ReqType=Level
+  #778 [超强召唤骷髅] Type=Book ReqAmt=33 ReqType=Level
+  #779 [超强召唤骷髅（秘籍）] Type=Book ReqAmt=33 ReqType=Level
+  #833 [幸运骷髅头盔] Type=Helmet ReqAmt=38 ReqType=Level
+  #80086 [诅咒骷髅精灵头盔] Type=Helmet ReqAmt=21 ReqType=Level
+  #80087 [腐烂骷髅头盔] Type=Helmet ReqAmt=21 ReqType=Level
+  #80088 [幸运骷髅头盔] Type=Helmet ReqAmt=22 ReqType=Level
+FRAG mon 蚂蚁
+  #10026 [盔甲蚂蚁]
+  #10027 [蚂蚁战士]
+  #10028 [蚂蚁道士]
+  #10029 [爆毒蚂蚁]
+  #10614 [劳动蚂蚁]
+  #20005 [蚂蚁将军]
+FRAG item 蚂蚁
+  #357 [劳动蚂蚁卵] Type=Material ReqAmt=1 ReqType=Level
+  #538 [蚂蚁卵] Type=Material ReqAmt=1 ReqType=Level
+  #646 [盔甲蚂蚁卵] Type=Material ReqAmt=1 ReqType=Level
+FRAG mon 44
+FRAG item 44
+=== Armour with RequiredAmount==44 ===
+  #1100 [麒麟宝铠（男）] ReqType=Level
+  #1101 [麒麟宝铠（女）] ReqType=Level
+  #1102 [仙风神袍（男）] ReqType=Level
+  #1103 [仙风神袍（女）] ReqType=Level
+  #1104 [阴阳圣衣（男）] ReqType=Level
+  #1105 [阴阳圣衣（女）] ReqType=Level
+=== Armour RequiredAmount 40-50 ===
+  #1100 [麒麟宝铠（男）] ReqAmt=44 ReqType=Level
+  #1101 [麒麟宝铠（女）] ReqAmt=44 ReqType=Level
+  #1102 [仙风神袍（男）] ReqAmt=44 ReqType=Level
+  #1103 [仙风神袍（女）] ReqAmt=44 ReqType=Level
+  #1104 [阴阳圣衣（男）] ReqAmt=44 ReqType=Level
+  #1105 [阴阳圣衣（女）] ReqAmt=44 ReqType=Level
+  #1062 [天赐战甲（男）] ReqAmt=50 ReqType=Level
+  #1063 [天赐战甲（女）] ReqAmt=50 ReqType=Level
+=== Drops from 震天首将 that are Armour ===
+  [战神盔甲（男）]#300 ReqAmt=33 C=200
+  [龙鳞战甲（男）]#838 ReqAmt=38 C=200
+  [麒麟宝铠（男）]#1100 ReqAmt=44 C=4500
+  [战神盔甲（女）]#301 ReqAmt=33 C=200
+  [恶魔长袍（男）]#302 ReqAmt=33 C=200
+  [恶魔长袍（女）]#303 ReqAmt=33 C=200
+  [幽灵战衣（男）]#304 ReqAmt=33 C=200
+  [幽灵战衣（女）]#305 ReqAmt=33 C=200
+  [龙鳞战甲（女）]#839 ReqAmt=38 C=200
+  [袁灵法衣（男）]#840 ReqAmt=38 C=200
+  [袁灵法衣（女）]#841 ReqAmt=38 C=200
+  [天极道衣（男）]#842 ReqAmt=38 C=200
+  [天极道衣（女）]#843 ReqAmt=38 C=200
+  [麒麟宝铠（女）]#1101 ReqAmt=44 C=4500
+  [仙风神袍（男）]#1102 ReqAmt=44 C=4500
+  [仙风神袍（女）]#1103 ReqAmt=44 C=4500
+  [阴阳圣衣（男）]#1104 ReqAmt=44 C=4500
+  [阴阳圣衣（女）]#1105 ReqAmt=44 C=4500
+=== Drops 黑度绿/地牢绿 fuzzy ===
+  mon #10099 [黑度绿荫女神]
+  mon #10160 [地牢绿荫女神]
