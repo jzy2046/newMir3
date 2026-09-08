@@ -34,22 +34,14 @@ def OnClick(args):
 		
 		[结束:0]"""
 	elif (Menu == 3):
+		# EVE20260908: character consign closed
 		say = """玩家，您好。
-# EVE20260908 removed: 我这里接受角色寄售，每次寄售收取10赞助币。
-		说明：
-		购买角色后，仅转移人物面板、背包、技能、马匹、忠诚度，
-		其他金币、赞助币、仓库仍留存在原账号。
-		购买角色的账号，不能有两个角色。
-		交易完成后，赞助币直接到原售出账号，有角色的直接到背包；没有角色的，建立小号后到背包。
-		
-		
-# EVE20260908 removed: [查看所有角色寄售:31]
+		角色寄售功能已关闭。
 		
 		[结束:0]"""
 	elif (Menu == 31):
-		Dict['Types'] =types		        #定义类别
-		Dict['DialogType'] = NPCDialogType.AccountConsignment    #类型为NPCDialogType里的账号寄售行
-# EVE20260908 removed: say = """查看所有角色寄售。
+		# EVE20260908: character consign closed
+		say = """角色寄售功能已关闭。
 		
 		[结束:0]"""
 	elif (Menu == 4):
@@ -79,7 +71,6 @@ def OnClick(args):
 		[我的寄售:6]
 
 		[金币交易行:2]
-# EVE20260908 removed: [角色寄售行:3]
 		[道具拍卖行:4]"""
 
 	Dict['Say']=say                         #定义聊天框对话内容
