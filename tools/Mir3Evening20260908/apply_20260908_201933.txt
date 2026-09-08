@@ -1,0 +1,215 @@
+﻿mode=dry-run stamp=20260908_201933
+backup=D:\newMir3\Database\Backup_eve20260908_20260908_201933
+RESPAWN 祖玛神殿5层 mon=楔蛾 Count 65*3=195 idx=496
+RESPAWN 祖玛神殿5层 mon=祖玛弓箭手 Count 65*3=195 idx=688
+RESPAWN 祖玛神殿5层 mon=祖玛雕像 Count 95*3=285 idx=695
+RESPAWN 祖玛神殿5层 mon=祖玛卫士 Count 100*3=300 idx=702
+RESPAWN 潘夜神殿3层-西部 mon=潘夜战士 Count 57*3=171 idx=713
+RESPAWN 潘夜神殿3层-东部 mon=潘夜战士 Count 50*2=100 idx=714
+RESPAWN 潘夜神殿3层-西部 mon=潘夜冰魔 Count 57*3=171 idx=725
+RESPAWN 潘夜神殿3层-东部 mon=潘夜冰魔 Count 50*2=100 idx=726
+RESPAWN 潘夜神殿3层-西部 mon=潘夜云魔 Count 57*3=171 idx=744
+RESPAWN 潘夜神殿3层-东部 mon=潘夜云魔 Count 50*2=100 idx=745
+RESPAWN 潘夜神殿3层-西部 mon=潘夜风魔 Count 57*3=171 idx=763
+RESPAWN 潘夜神殿3层-东部 mon=潘夜风魔 Count 50*2=100 idx=764
+RESPAWN 潘夜神殿3层-西部 mon=潘夜火魔 Count 57*3=171 idx=775
+RESPAWN 潘夜神殿3层-东部 mon=潘夜火魔 Count 50*2=100 idx=776
+RESPAWN 黑度宫2层 mon=黑度紫红女神 Count 70*3=210 idx=797
+RESPAWN 黑度宫2层 mon=黑度绿荫女神 Count 70*3=210 idx=800
+RESPAWN 黑度宫2层 mon=石像狮子 Count 30*3=90 idx=882
+RESPAWN 黑度宫2层 mon=石像狮子 Count 30*3=90 idx=883
+RESPAWN 黑度宫2层 mon=火焰狮子 Count 100*3=300 idx=904
+RESPAWN 黑度宫2层 mon=火焰狮子 Count 100*3=300 idx=905
+RESPAWN 祖玛神殿5层 mon=护法天 Count 1*3=3 idx=1172
+RESPAWN 潘夜神殿3层-西部 mon=潘夜鬼将 Count 1*3=3 idx=1178
+RESPAWN 潘夜神殿3层-东部 mon=潘夜鬼将 Count 1*2=2 idx=1179
+RESPAWN 黑度宫2层 mon=黑度首将 Count 1*3=3 idx=1190
+RESPAWN 黑度宫2层 mon=黑度首将 Count 1*3=3 idx=1191
+NPC_BUYBACK before map=道馆 pts=418,119
+STATOK 草鞋 MinAC=0
+STATOK 草鞋 MaxAC=1
+STATOK 草鞋 MinMR=0
+STATOK 草鞋 MaxMR=1
+STATOK 草鞋 Agility=1
+STATOK 草鞋 HandWeight=2
+STATOK 草鞋 WearWeight=2
+STATOK 皮靴 MinAC=0
+STATOK 皮靴 MaxAC=2
+STATOK 皮靴 MinMR=0
+STATOK 皮靴 MaxMR=2
+STATOK 皮靴 Agility=2
+STATOK 皮靴 HandWeight=3
+STATOK 皮靴 WearWeight=3
+STATOK 五彩鞋 MinAC=0
+STATOK 五彩鞋 MaxAC=3
+STATOK 五彩鞋 MinMR=0
+STATOK 五彩鞋 MaxMR=2
+STATSET 五彩鞋 Agility 2->3
+STATOK 五彩鞋 HandWeight=4
+STATOK 五彩鞋 WearWeight=4
+STATOK 赤飞靴子 MinAC=0
+STATOK 赤飞靴子 MaxAC=4
+STATOK 赤飞靴子 MinMR=0
+STATOK 赤飞靴子 MaxMR=3
+STATSET 赤飞靴子 Agility 3->4
+STATOK 赤飞靴子 HandWeight=5
+STATOK 赤飞靴子 WearWeight=5
+STATOK 黑皮靴子 MinAC=0
+STATOK 黑皮靴子 MaxAC=7
+STATOK 黑皮靴子 MinMR=0
+STATOK 黑皮靴子 MaxMR=7
+STATOK 黑皮靴子 Agility=7
+STATOK 黑皮靴子 HandWeight=10
+STATOK 黑皮靴子 WearWeight=10
+STATOK 绝地靴 MinAC=0
+STATOK 绝地靴 MaxAC=7
+STATOK 绝地靴 MinMR=0
+STATOK 绝地靴 MaxMR=14
+STATOK 绝地靴 Agility=3
+STATOK 绝地靴 HandWeight=12
+STATOK 绝地靴 WearWeight=12
+STATOK 月光鞋 MinAC=0
+STATOK 月光鞋 MaxAC=7
+STATOK 月光鞋 MinMR=0
+STATOK 月光鞋 MaxMR=3
+STATOK 月光鞋 Agility=14
+STATOK 月光鞋 HandWeight=12
+STATOK 月光鞋 WearWeight=12
+STATOK 仙云靴 MinAC=0
+STATOK 仙云靴 MaxAC=7
+STATOK 仙云靴 MinMR=0
+STATOK 仙云靴 MaxMR=20
+STATADD 仙云靴 Agility=0
+STATOK 仙云靴 HandWeight=13
+STATOK 仙云靴 WearWeight=13
+STATOK 无影靴 MinAC=0
+STATOK 无影靴 MaxAC=7
+STATADD 无影靴 MinMR=0
+STATADD 无影靴 MaxMR=0
+STATOK 无影靴 Agility=20
+STATOK 无影靴 HandWeight=15
+STATOK 无影靴 WearWeight=15
+STATOK 武神之靴 MinAC=0
+STATOK 武神之靴 MaxAC=7
+STATOK 武神之靴 MinMR=0
+STATOK 武神之靴 MaxMR=11
+STATOK 武神之靴 Agility=11
+STATOK 武神之靴 HandWeight=15
+STATOK 武神之靴 WearWeight=15
+BOOT_SOURCES https://mir3.17173.com/item/item10.htm ; http://games.sina.com.cn/z/mir3/2003-10-17/56185.shtml
+STATADD 影魅之刃 MinSC=10
+STATADD 影魅之刃 MaxSC=20
+STATOK 影魅之刃 AttackSpeed=2
+STATDEL 天赐战甲（男） HealthPercent=8 idx=67697
+STATDEL 天赐战甲（女） HealthPercent=8 idx=67708
+CRAFT mats poshan=True tianshen=True tairun=泰轮拂尘
+CRAFTSET Item1=破山剑
+CRAFT_NOTE Item2-5 occupied; 天神法杖/泰轮拂尘 need extra craft slots -> PARTIAL
+STATSET 英雄手套 MinAC 2->0
+STATOK 英雄手套 MaxAC=5
+STATSET 英雄手套 MinMR 2->0
+STATOK 英雄手套 MaxMR=5
+STATDEL 英雄手套 HPRegenRate=1 idx=68102
+STATDEL 英雄手套 RenounceHPLost=1 idx=68099
+STATSET 铁炼腕 MinAC 1->0
+STATOK 铁炼腕 MaxAC=4
+STATSET 铁炼腕 MinMR 1->0
+STATOK 铁炼腕 MaxMR=4
+STATDEL 铁炼腕 HPRegenRate=1 idx=68101
+MSTATSET 潘夜鬼将 Health 7000->2500
+MSTATSET 潘夜牛魔王 Health 22500->15000
+MSTATSET 半兽勇士 Health 1000->500
+MSTATSET 骷髅精灵 Health 1800->500
+MSTATSET 骨鬼将 Health 5000->2500
+MSTATSET 骷髅教主 Health 12500->12000
+MSTATSET 八脚首领 Health 6000->2500
+MSTATSET 护法天 Health 7000->2500
+MSTATSET 祖玛教主 Health 25000->15000
+MSTATSET 触龙神 Health 15000->12000
+MSTATSET 邪恶钳虫 Health 3400->2500
+MSTATSET 沃玛卫士 Health 3000->2500
+MSTATSET 沃玛教主 Health 10000->12000
+MSTATSET 邪恶毒蛇 Health 4200->2500
+MSTATSET 白野猪 Health 5000->1500
+MSTATSET 超级黑野猪 Health 17500->12000
+MSTATSET 神鬼王 Health 7000->2500
+MSTATSET 赤月恶魔 Health 20000->15000
+MSTATSET 霸王守卫 Health 15000->2500
+MSTATSET 霸王教主 Health 80000->18000
+MSTATSET 震天首将 Health 8250->3000
+MSTATSET 黑度首将 Health 8000->3000
+MSTATSET 震天魔神 Health 37500->15000
+MSTATSET 疯狂魔神盗 Health 7000->2500
+MSTATSET 大法老 Health 6600->2500
+MSTATSET 诺玛突击队长 Health 10000->5000
+MSTATSET 诺玛教主 Health 60000->25000
+MSTAT_HALF 沃玛教主 MinDC 56->28
+MSTAT_HALF 沃玛教主 MaxDC 200->100
+MSTAT_HALF 沃玛教主 MinMC 56->28
+MSTAT_HALF 沃玛教主 MaxMC 200->100
+MSTAT_HALF_MISS 沃玛教主 MinSC
+MSTAT_HALF_MISS 沃玛教主 MaxSC
+MSTAT_HALF 祖玛教主 MinDC 115->57
+MSTAT_HALF 祖玛教主 MaxDC 300->150
+MSTAT_HALF 祖玛教主 MinMC 176->88
+MSTAT_HALF 祖玛教主 MaxMC 300->150
+MSTAT_HALF_MISS 祖玛教主 MinSC
+MSTAT_HALF_MISS 祖玛教主 MaxSC
+MSTAT_HALF 触龙神 MinDC 95->47
+MSTAT_HALF 触龙神 MaxDC 240->120
+MSTAT_HALF 触龙神 MinMC 95->47
+MSTAT_HALF 触龙神 MaxMC 240->120
+MSTAT_HALF_MISS 触龙神 MinSC
+MSTAT_HALF_MISS 触龙神 MaxSC
+MSTAT_HALF 超级黑野猪 MinDC 100->50
+MSTAT_HALF 超级黑野猪 MaxDC 260->130
+MSTAT_HALF 超级黑野猪 MinMC 150->75
+MSTAT_HALF 超级黑野猪 MaxMC 260->130
+MSTAT_HALF_MISS 超级黑野猪 MinSC
+MSTAT_HALF_MISS 超级黑野猪 MaxSC
+MSTAT_HALF 赤月恶魔 MinDC 105->52
+MSTAT_HALF 赤月恶魔 MaxDC 280->140
+MSTAT_HALF 赤月恶魔 MinMC 100->50
+MSTAT_HALF 赤月恶魔 MaxMC 250->125
+MSTAT_HALF_MISS 赤月恶魔 MinSC
+MSTAT_HALF_MISS 赤月恶魔 MaxSC
+MSTAT_HALF 霸王教主 MinDC 180->90
+MSTAT_HALF 霸王教主 MaxDC 480->240
+MSTAT_HALF 霸王教主 MinMC 150->75
+MSTAT_HALF 霸王教主 MaxMC 480->240
+MSTAT_HALF_MISS 霸王教主 MinSC
+MSTAT_HALF_MISS 霸王教主 MaxSC
+MSTAT_HALF 震天魔神 MinDC 150->75
+MSTAT_HALF 震天魔神 MaxDC 325->162
+MSTAT_HALF 震天魔神 MinMC 121->60
+MSTAT_HALF 震天魔神 MaxMC 325->162
+MSTAT_HALF_MISS 震天魔神 MinSC
+MSTAT_HALF_MISS 震天魔神 MaxSC
+MSTAT_HALF 诺玛教主 MinDC 180->90
+MSTAT_HALF 诺玛教主 MaxDC 500->250
+MSTAT_HALF 诺玛教主 MinMC 200->100
+MSTAT_HALF 诺玛教主 MaxMC 500->250
+MSTAT_HALF_MISS 诺玛教主 MinSC
+MSTAT_HALF_MISS 诺玛教主 MaxSC
+MSTAT_HALF 骷髅教主 MinDC 93->46
+MSTAT_HALF 骷髅教主 MaxDC 220->110
+MSTAT_HALF 骷髅教主 MinMC 121->60
+MSTAT_HALF 骷髅教主 MaxMC 220->110
+MSTAT_HALF_MISS 骷髅教主 MinSC
+MSTAT_HALF_MISS 骷髅教主 MaxSC
+STOREADD(dry) 诅咒之药水
+CREATE(dry) 全能指环
+CREATE(dry) 天掌靴子
+STATOK 祝福道士头盔 MinAC=1
+STATOK 祝福道士头盔 MaxAC=2
+STATOK 祝福道士头盔 MinMR=2
+STATOK 祝福道士头盔 MaxMR=6
+DROPADD mon=护法天 item=祝福道士头盔 Chance=100
+BRACE desc [如果匹配其他装备可以触发套装属性]
+BRACE desc [如果匹配其他装备可以触发套装属性]
+BRACE desc [如果匹配其他装备可以触发套装属性]
+DROPSET mon=诺玛骑兵 item=遗物 Chance 20->1
+DROPSET mon=诺玛司令 item=遗物 Chance 20->1
+DROPSET mon=诺玛抛石兵 item=遗物 Chance 10->1
+DROPSET mon=诺玛斧兵 item=遗物 Chance 10->1
+DROPSET mon=诺玛装甲兵 item=遗物 Chance 20->1

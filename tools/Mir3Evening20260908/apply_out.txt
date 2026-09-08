@@ -1,0 +1,247 @@
+﻿mode=apply stamp=20260908_202018
+backup=D:\newMir3\Database\Backup_eve20260908_20260908_202018
+RESPAWN 绁栫帥绁炴5灞?mon=妤旇浘 Count 65*3=195 idx=496
+RESPAWN 绁栫帥绁炴5灞?mon=绁栫帥寮撶鎵?Count 65*3=195 idx=688
+RESPAWN 绁栫帥绁炴5灞?mon=绁栫帥闆曞儚 Count 95*3=285 idx=695
+RESPAWN 绁栫帥绁炴5灞?mon=绁栫帥鍗＋ Count 100*3=300 idx=702
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺鎴樺＋ Count 57*3=171 idx=713
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺鎴樺＋ Count 50*2=100 idx=714
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺鍐伴瓟 Count 57*3=171 idx=725
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺鍐伴瓟 Count 50*2=100 idx=726
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺浜戦瓟 Count 57*3=171 idx=744
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺浜戦瓟 Count 50*2=100 idx=745
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺椋庨瓟 Count 57*3=171 idx=763
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺椋庨瓟 Count 50*2=100 idx=764
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺鐏瓟 Count 57*3=171 idx=775
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺鐏瓟 Count 50*2=100 idx=776
+RESPAWN 榛戝害瀹?灞?mon=榛戝害绱孩濂崇 Count 70*3=210 idx=797
+RESPAWN 榛戝害瀹?灞?mon=榛戝害缁胯崼濂崇 Count 70*3=210 idx=800
+RESPAWN 榛戝害瀹?灞?mon=鐭冲儚鐙瓙 Count 30*3=90 idx=882
+RESPAWN 榛戝害瀹?灞?mon=鐭冲儚鐙瓙 Count 30*3=90 idx=883
+RESPAWN 榛戝害瀹?灞?mon=鐏劙鐙瓙 Count 100*3=300 idx=904
+RESPAWN 榛戝害瀹?灞?mon=鐏劙鐙瓙 Count 100*3=300 idx=905
+RESPAWN 绁栫帥绁炴5灞?mon=鎶ゆ硶澶?Count 1*3=3 idx=1172
+RESPAWN 娼樺绁炴3灞?瑗块儴 mon=娼樺楝煎皢 Count 1*3=3 idx=1178
+RESPAWN 娼樺绁炴3灞?涓滈儴 mon=娼樺楝煎皢 Count 1*2=2 idx=1179
+RESPAWN 榛戝害瀹?灞?mon=榛戝害棣栧皢 Count 1*3=3 idx=1190
+RESPAWN 榛戝害瀹?灞?mon=榛戝害棣栧皢 Count 1*3=3 idx=1191
+NPC_BUYBACK before map=閬撻 pts=418,119
+MOVED 瑁呭鍥炶喘 -> 闆師鏉戣惤 198,115
+STATOK 鑽夐瀷 MinAC=0
+STATOK 鑽夐瀷 MaxAC=1
+STATOK 鑽夐瀷 MinMR=0
+STATOK 鑽夐瀷 MaxMR=1
+STATOK 鑽夐瀷 Agility=1
+STATOK 鑽夐瀷 HandWeight=2
+STATOK 鑽夐瀷 WearWeight=2
+STATOK 鐨澊 MinAC=0
+STATOK 鐨澊 MaxAC=2
+STATOK 鐨澊 MinMR=0
+STATOK 鐨澊 MaxMR=2
+STATOK 鐨澊 Agility=2
+STATOK 鐨澊 HandWeight=3
+STATOK 鐨澊 WearWeight=3
+STATOK 浜斿僵闉?MinAC=0
+STATOK 浜斿僵闉?MaxAC=3
+STATOK 浜斿僵闉?MinMR=0
+STATOK 浜斿僵闉?MaxMR=2
+STATSET 浜斿僵闉?Agility 2->3
+STATOK 浜斿僵闉?HandWeight=4
+STATOK 浜斿僵闉?WearWeight=4
+STATOK 璧ら闈村瓙 MinAC=0
+STATOK 璧ら闈村瓙 MaxAC=4
+STATOK 璧ら闈村瓙 MinMR=0
+STATOK 璧ら闈村瓙 MaxMR=3
+STATSET 璧ら闈村瓙 Agility 3->4
+STATOK 璧ら闈村瓙 HandWeight=5
+STATOK 璧ら闈村瓙 WearWeight=5
+STATOK 榛戠毊闈村瓙 MinAC=0
+STATOK 榛戠毊闈村瓙 MaxAC=7
+STATOK 榛戠毊闈村瓙 MinMR=0
+STATOK 榛戠毊闈村瓙 MaxMR=7
+STATOK 榛戠毊闈村瓙 Agility=7
+STATOK 榛戠毊闈村瓙 HandWeight=10
+STATOK 榛戠毊闈村瓙 WearWeight=10
+STATOK 缁濆湴闈?MinAC=0
+STATOK 缁濆湴闈?MaxAC=7
+STATOK 缁濆湴闈?MinMR=0
+STATOK 缁濆湴闈?MaxMR=14
+STATOK 缁濆湴闈?Agility=3
+STATOK 缁濆湴闈?HandWeight=12
+STATOK 缁濆湴闈?WearWeight=12
+STATOK 鏈堝厜闉?MinAC=0
+STATOK 鏈堝厜闉?MaxAC=7
+STATOK 鏈堝厜闉?MinMR=0
+STATOK 鏈堝厜闉?MaxMR=3
+STATOK 鏈堝厜闉?Agility=14
+STATOK 鏈堝厜闉?HandWeight=12
+STATOK 鏈堝厜闉?WearWeight=12
+STATOK 浠欎簯闈?MinAC=0
+STATOK 浠欎簯闈?MaxAC=7
+STATOK 浠欎簯闈?MinMR=0
+STATOK 浠欎簯闈?MaxMR=20
+STATADD 浠欎簯闈?Agility=0
+STATOK 浠欎簯闈?HandWeight=13
+STATOK 浠欎簯闈?WearWeight=13
+STATOK 鏃犲奖闈?MinAC=0
+STATOK 鏃犲奖闈?MaxAC=7
+STATADD 鏃犲奖闈?MinMR=0
+STATADD 鏃犲奖闈?MaxMR=0
+STATOK 鏃犲奖闈?Agility=20
+STATOK 鏃犲奖闈?HandWeight=15
+STATOK 鏃犲奖闈?WearWeight=15
+STATOK 姝︾涔嬮澊 MinAC=0
+STATOK 姝︾涔嬮澊 MaxAC=7
+STATOK 姝︾涔嬮澊 MinMR=0
+STATOK 姝︾涔嬮澊 MaxMR=11
+STATOK 姝︾涔嬮澊 Agility=11
+STATOK 姝︾涔嬮澊 HandWeight=15
+STATOK 姝︾涔嬮澊 WearWeight=15
+BOOT_SOURCES https://mir3.17173.com/item/item10.htm ; http://games.sina.com.cn/z/mir3/2003-10-17/56185.shtml
+STATADD 褰遍瓍涔嬪垉 MinSC=10
+STATADD 褰遍瓍涔嬪垉 MaxSC=20
+STATOK 褰遍瓍涔嬪垉 AttackSpeed=2
+STATDEL 澶╄祼鎴樼敳锛堢敺锛?HealthPercent=8 idx=67697
+STATDEL 澶╄祼鎴樼敳锛堝コ锛?HealthPercent=8 idx=67708
+CRAFT mats poshan=True tianshen=True tairun=娉拌疆鎷傚皹
+CRAFTSET Item1=鐮村北鍓?
+CRAFT_NOTE Item2-5 occupied; 澶╃娉曟潠/娉拌疆鎷傚皹 need extra craft slots -> PARTIAL
+STATSET 鑻遍泟鎵嬪 MinAC 2->0
+STATOK 鑻遍泟鎵嬪 MaxAC=5
+STATSET 鑻遍泟鎵嬪 MinMR 2->0
+STATOK 鑻遍泟鎵嬪 MaxMR=5
+STATDEL 鑻遍泟鎵嬪 HPRegenRate=1 idx=68102
+STATDEL 鑻遍泟鎵嬪 RenounceHPLost=1 idx=68099
+STATSET 閾佺偧鑵?MinAC 1->0
+STATOK 閾佺偧鑵?MaxAC=4
+STATSET 閾佺偧鑵?MinMR 1->0
+STATOK 閾佺偧鑵?MaxMR=4
+STATDEL 閾佺偧鑵?HPRegenRate=1 idx=68101
+MSTATSET 娼樺楝煎皢 Health 7000->2500
+MSTATSET 娼樺鐗涢瓟鐜?Health 22500->15000
+MSTATSET 鍗婂吔鍕囧＋ Health 1000->500
+MSTATSET 楠烽珔绮剧伒 Health 1800->500
+MSTATSET 楠ㄩ灏?Health 5000->2500
+MSTATSET 楠烽珔鏁欎富 Health 12500->12000
+MSTATSET 鍏剼棣栭 Health 6000->2500
+MSTATSET 鎶ゆ硶澶?Health 7000->2500
+MSTATSET 绁栫帥鏁欎富 Health 25000->15000
+MSTATSET 瑙﹂緳绁?Health 15000->12000
+MSTATSET 閭伓閽宠櫕 Health 3400->2500
+MSTATSET 娌冪帥鍗＋ Health 3000->2500
+MSTATSET 娌冪帥鏁欎富 Health 10000->12000
+MSTATSET 閭伓姣掕泧 Health 4200->2500
+MSTATSET 鐧介噹鐚?Health 5000->1500
+MSTATSET 瓒呯骇榛戦噹鐚?Health 17500->12000
+MSTATSET 绁為鐜?Health 7000->2500
+MSTATSET 璧ゆ湀鎭堕瓟 Health 20000->15000
+MSTATSET 闇哥帇瀹堝崼 Health 15000->2500
+MSTATSET 闇哥帇鏁欎富 Health 80000->18000
+MSTATSET 闇囧ぉ棣栧皢 Health 8250->3000
+MSTATSET 榛戝害棣栧皢 Health 8000->3000
+MSTATSET 闇囧ぉ榄旂 Health 37500->15000
+MSTATSET 鐤媯榄旂鐩?Health 7000->2500
+MSTATSET 澶ф硶鑰?Health 6600->2500
+MSTATSET 璇虹帥绐佸嚮闃熼暱 Health 10000->5000
+MSTATSET 璇虹帥鏁欎富 Health 60000->25000
+MSTAT_HALF 娌冪帥鏁欎富 MinDC 56->28
+MSTAT_HALF 娌冪帥鏁欎富 MaxDC 200->100
+MSTAT_HALF 娌冪帥鏁欎富 MinMC 56->28
+MSTAT_HALF 娌冪帥鏁欎富 MaxMC 200->100
+MSTAT_HALF_MISS 娌冪帥鏁欎富 MinSC
+MSTAT_HALF_MISS 娌冪帥鏁欎富 MaxSC
+MSTAT_HALF 绁栫帥鏁欎富 MinDC 115->57
+MSTAT_HALF 绁栫帥鏁欎富 MaxDC 300->150
+MSTAT_HALF 绁栫帥鏁欎富 MinMC 176->88
+MSTAT_HALF 绁栫帥鏁欎富 MaxMC 300->150
+MSTAT_HALF_MISS 绁栫帥鏁欎富 MinSC
+MSTAT_HALF_MISS 绁栫帥鏁欎富 MaxSC
+MSTAT_HALF 瑙﹂緳绁?MinDC 95->47
+MSTAT_HALF 瑙﹂緳绁?MaxDC 240->120
+MSTAT_HALF 瑙﹂緳绁?MinMC 95->47
+MSTAT_HALF 瑙﹂緳绁?MaxMC 240->120
+MSTAT_HALF_MISS 瑙﹂緳绁?MinSC
+MSTAT_HALF_MISS 瑙﹂緳绁?MaxSC
+MSTAT_HALF 瓒呯骇榛戦噹鐚?MinDC 100->50
+MSTAT_HALF 瓒呯骇榛戦噹鐚?MaxDC 260->130
+MSTAT_HALF 瓒呯骇榛戦噹鐚?MinMC 150->75
+MSTAT_HALF 瓒呯骇榛戦噹鐚?MaxMC 260->130
+MSTAT_HALF_MISS 瓒呯骇榛戦噹鐚?MinSC
+MSTAT_HALF_MISS 瓒呯骇榛戦噹鐚?MaxSC
+MSTAT_HALF 璧ゆ湀鎭堕瓟 MinDC 105->52
+MSTAT_HALF 璧ゆ湀鎭堕瓟 MaxDC 280->140
+MSTAT_HALF 璧ゆ湀鎭堕瓟 MinMC 100->50
+MSTAT_HALF 璧ゆ湀鎭堕瓟 MaxMC 250->125
+MSTAT_HALF_MISS 璧ゆ湀鎭堕瓟 MinSC
+MSTAT_HALF_MISS 璧ゆ湀鎭堕瓟 MaxSC
+MSTAT_HALF 闇哥帇鏁欎富 MinDC 180->90
+MSTAT_HALF 闇哥帇鏁欎富 MaxDC 480->240
+MSTAT_HALF 闇哥帇鏁欎富 MinMC 150->75
+MSTAT_HALF 闇哥帇鏁欎富 MaxMC 480->240
+MSTAT_HALF_MISS 闇哥帇鏁欎富 MinSC
+MSTAT_HALF_MISS 闇哥帇鏁欎富 MaxSC
+MSTAT_HALF 闇囧ぉ榄旂 MinDC 150->75
+MSTAT_HALF 闇囧ぉ榄旂 MaxDC 325->162
+MSTAT_HALF 闇囧ぉ榄旂 MinMC 121->60
+MSTAT_HALF 闇囧ぉ榄旂 MaxMC 325->162
+MSTAT_HALF_MISS 闇囧ぉ榄旂 MinSC
+MSTAT_HALF_MISS 闇囧ぉ榄旂 MaxSC
+MSTAT_HALF 璇虹帥鏁欎富 MinDC 180->90
+MSTAT_HALF 璇虹帥鏁欎富 MaxDC 500->250
+MSTAT_HALF 璇虹帥鏁欎富 MinMC 200->100
+MSTAT_HALF 璇虹帥鏁欎富 MaxMC 500->250
+MSTAT_HALF_MISS 璇虹帥鏁欎富 MinSC
+MSTAT_HALF_MISS 璇虹帥鏁欎富 MaxSC
+MSTAT_HALF 楠烽珔鏁欎富 MinDC 93->46
+MSTAT_HALF 楠烽珔鏁欎富 MaxDC 220->110
+MSTAT_HALF 楠烽珔鏁欎富 MinMC 121->60
+MSTAT_HALF 楠烽珔鏁欎富 MaxMC 220->110
+MSTAT_HALF_MISS 楠烽珔鏁欎富 MinSC
+MSTAT_HALF_MISS 楠烽珔鏁欎富 MaxSC
+STOREADD 璇呭拻涔嬭嵂姘?Price=10
+CREATE 鍏ㄨ兘鎸囩幆
+STATADD 鍏ㄨ兘鎸囩幆 MinMR=1
+STATADD 鍏ㄨ兘鎸囩幆 MaxMR=5
+STATADD 鍏ㄨ兘鎸囩幆 MinMC=2
+STATADD 鍏ㄨ兘鎸囩幆 MaxMC=3
+STATADD 鍏ㄨ兘鎸囩幆 MinSC=2
+STATADD 鍏ㄨ兘鎸囩幆 MaxSC=3
+STATADD 鍏ㄨ兘鎸囩幆 MinDC=2
+STATADD 鍏ㄨ兘鎸囩幆 MaxDC=3
+DROPADD mon=绁栫帥鏁欎富 item=鍏ㄨ兘鎸囩幆 Chance=1000
+DROPADD mon=璧ゆ湀鎭堕瓟 item=鍏ㄨ兘鎸囩幆 Chance=1000
+CREATE 澶╂帉闈村瓙
+STATADD 澶╂帉闈村瓙 MinAC=0
+STATADD 澶╂帉闈村瓙 MaxAC=5
+STATADD 澶╂帉闈村瓙 MinMR=0
+STATADD 澶╂帉闈村瓙 MaxMR=4
+STATADD 澶╂帉闈村瓙 Agility=5
+STATADD 澶╂帉闈村瓙 HandWeight=4
+STATADD 澶╂帉闈村瓙 WearWeight=4
+DROPADD mon=闇囧ぉ棣栧皢 item=澶╂帉闈村瓙 Chance=100
+DROPADD mon=榛戝害棣栧皢 item=澶╂帉闈村瓙 Chance=100
+CREATE 骞歌繍闇搁緳澶寸洈
+STATADD 骞歌繍闇搁緳澶寸洈 MinAC=2
+STATADD 骞歌繍闇搁緳澶寸洈 MaxAC=6
+STATADD 骞歌繍闇搁緳澶寸洈 MinMR=1
+STATADD 骞歌繍闇搁緳澶寸洈 MaxMR=2
+STATOK 绁濈閬撳＋澶寸洈 MinAC=1
+STATOK 绁濈閬撳＋澶寸洈 MaxAC=2
+STATOK 绁濈閬撳＋澶寸洈 MinMR=2
+STATOK 绁濈閬撳＋澶寸洈 MaxMR=6
+DROPADD mon=鎶ゆ硶澶?item=骞歌繍闇搁緳澶寸洈 Chance=100
+DROPADD mon=鎶ゆ硶澶?item=绁濈閬撳＋澶寸洈 Chance=100
+BRACE desc [濡傛灉鍖归厤鍏朵粬瑁呭鍙互瑙﹀彂濂楄灞炴€
+BRACE cleared 濡傛潵鎵嬮暞
+BRACE desc [濡傛灉鍖归厤鍏朵粬瑁呭鍙互瑙﹀彂濂楄灞炴€
+BRACE cleared 鐏帀鎵嬮暞
+BRACE desc [濡傛灉鍖归厤鍏朵粬瑁呭鍙互瑙﹀彂濂楄灞炴€
+BRACE cleared 姣佺伃鎵嬮暞
+DROPSET mon=璇虹帥楠戝叺 item=閬楃墿 Chance 20->1
+DROPSET mon=璇虹帥鍙镐护 item=閬楃墿 Chance 20->1
+DROPSET mon=璇虹帥鎶涚煶鍏?item=閬楃墿 Chance 10->1
+DROPSET mon=璇虹帥鏂у叺 item=閬楃墿 Chance 10->1
+DROPSET mon=璇虹帥瑁呯敳鍏?item=閬楃墿 Chance 20->1
+synced Data=D:\newMir3\Data
+synced deploy_to_Mir3service/Database=D:\newMir3\deploy_to_Mir3service\Database
+DONE changes=143
