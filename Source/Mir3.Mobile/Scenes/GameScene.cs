@@ -2999,16 +2999,9 @@ namespace Client.Scenes
                         if (Observer) continue;
                         AuctionsBox.Visible = !AuctionsBox.Visible;
                         break;
-                    case KeyBindAction.BonusPoolWindow:
-                        if (Observer) continue;
-                        BonusPoolVersionBox.Visible = !BonusPoolVersionBox.Visible;
+                    case KeyBindAction.BonusPoolWindow: // 20260908: disable BonusPool/WarWeapon J
                         break;
-                    case KeyBindAction.WarWeaponWindow:
-                        if (Observer) continue;
-                        if (Game.WarWeaponID != 0)
-                            WarWeaponBox.Visible = !WarWeaponBox.Visible;
-                        else
-                            WarWeaponBox.Visible = false;
+                    case KeyBindAction.WarWeaponWindow: // 20260908: disable BonusPool/WarWeapon U
                         break;
                     case KeyBindAction.GroupFrameWindow:
                         if (Observer) continue;
