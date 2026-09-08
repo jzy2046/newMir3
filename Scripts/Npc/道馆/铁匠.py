@@ -304,10 +304,6 @@ def OnClick(args):
 		[出售:3]武器
 		[修理:2]武器
 
-		[变废为宝:4]
-
-		<font color=0xffFF00FF>“破空石”可以破碎虚空，进入神秘空间</font>
-
 		
 		[结束:0]"""
 	Dict['Say']=say                         #定义聊天框对话内容

@@ -4572,7 +4572,7 @@ namespace Client.Scenes
                     if (refineLv > 6) refineLv = 6;
                     label = new DXLabel
                     {
-                        ForeColour = Color.MediumPurple,
+                        ForeColour = Color.FromArgb(255, 165, 0), // orange 精炼等级 tip
                         Location = new Point(4, ItemLabel.DisplayArea.Bottom),
                         Parent = ItemLabel,
                         Text = string.Format("精炼等级： ({0}/6)", refineLv),
