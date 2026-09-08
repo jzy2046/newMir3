@@ -2999,9 +2999,16 @@ namespace Client.Scenes
                         if (Observer) continue;
                         AuctionsBox.Visible = !AuctionsBox.Visible;
                         break;
-                    case KeyBindAction.BonusPoolWindow: // 20260908: disable BonusPool/WarWeapon J
+                    case KeyBindAction.BonusPoolWindow:
+                        if (Observer) continue;
+                        BonusPoolVersionBox.Visible = !BonusPoolVersionBox.Visible;
                         break;
-                    case KeyBindAction.WarWeaponWindow: // 20260908: disable BonusPool/WarWeapon U
+                    case KeyBindAction.WarWeaponWindow:
+                        if (Observer) continue;
+                        if (Game.WarWeaponID != 0)
+                            WarWeaponBox.Visible = !WarWeaponBox.Visible;
+                        else
+                            WarWeaponBox.Visible = false;
                         break;
                     case KeyBindAction.GroupFrameWindow:
                         if (Observer) continue;
@@ -3309,8 +3316,7 @@ namespace Client.Scenes
             }
             #endregion
 
-            if (IsEquipmentItemType(displayInfo.ItemType))
-                AddItemLabelDivider();
+            AddItemLabelDivider();
             #region 属性
             switch (displayInfo.ItemType) //属性
             {
@@ -3384,8 +3390,7 @@ namespace Client.Scenes
 
             #endregion
 
-            if (IsEquipmentItemType(displayInfo.ItemType))
-                AddItemLabelDivider();
+            AddItemLabelDivider();
             #region 穿戴限制
             /*if (displayInfo.RequiredGender != RequiredGender.None)
             {
@@ -4535,6 +4540,49 @@ namespace Client.Scenes
             //MemberInfo[] infos = itemType.GetMember(displayInfo.ItemType.ToString());
 
             //DescriptionAttribute description = infos[0].GetCustomAttribute<DescriptionAttribute>();
+            
+            // REFINELV_TIP_20260908 — 精炼大师 tip: 精炼等级： (n/6)
+            if (MouseItem?.FullItemStats != null)
+            {
+                Stat refineTrack = Stat.None;
+                int refinePer = 0;
+                switch (displayInfo.ItemType)
+                {
+                    case ItemType.Weapon:
+                        refineTrack = Stat.CriticalDamage; refinePer = 5; break;
+                    case ItemType.Necklace:
+                    case ItemType.Bracelet:
+                    case ItemType.Ring:
+                        refineTrack = Stat.CriticalChance; refinePer = 1; break;
+                    case ItemType.Armour:
+                    case ItemType.Helmet:
+                    case ItemType.Shoes:
+                        refineTrack = Stat.Health; refinePer = 10; break;
+                }
+                if (refinePer > 0)
+                {
+                    int refineAmount = 0;
+                    foreach (FullItemStat fis in MouseItem.FullItemStats)
+                    {
+                        if (fis.StatSource == StatSource.Enhancement && fis.Stat == refineTrack)
+                            refineAmount += fis.Amount;
+                    }
+                    int refineLv = refineAmount / refinePer;
+                    if (refineLv < 0) refineLv = 0;
+                    if (refineLv > 6) refineLv = 6;
+                    label = new DXLabel
+                    {
+                        ForeColour = Color.MediumPurple,
+                        Location = new Point(4, ItemLabel.DisplayArea.Bottom),
+                        Parent = ItemLabel,
+                        Text = string.Format("精炼等级： ({0}/6)", refineLv),
+                    };
+                    ItemLabel.Size = new Size(label.DisplayArea.Right + 4 > ItemLabel.Size.Width ? label.DisplayArea.Right + 4 : ItemLabel.Size.Width,
+                        label.DisplayArea.Bottom > ItemLabel.Size.Height ? label.DisplayArea.Bottom : ItemLabel.Size.Height);
+                    ItemLabel.Size = new Size(ItemLabel.Size.Width, ItemLabel.Size.Height + 3);
+                }
+            }
+
             switch (displayInfo.ItemType)
             {
                 case ItemType.Weapon:
@@ -4689,8 +4737,44 @@ namespace Client.Scenes
         /// <summary>
         /// 创建魔法技能标签
         /// </summary>
+
+        // SKILL_TIP_SUPPRESS_20260908
+        private static readonly System.Collections.Generic.HashSet<string> SuppressMagicTipNames = new System.Collections.Generic.HashSet<string>
+        {
+            @"天怒之火",
+            @"天之怒火",
+            @"陨冰杀",
+            @"电闪雷鸣",
+            @"旋风墙",
+            @"护身法盾",
+            @"灵魂分裂",
+            @"吸星大法",
+            @"养生术",
+            @"暗鬼阵",
+            @"新传染",
+            @"施毒大法",
+            @"分身术",
+            @"焰魔召唤术",
+            @"魔焰强解术",
+            @"君临步",
+            @"屠龙斩",
+            @"金刚之躯",
+            @"快刀斩马",
+            @"运气术",
+            @"天雷锤",
+            @"挑衅",
+            @"破空斩"
+        };
+        private static bool ShouldSuppressMagicTip(MagicInfo info)
+        {
+            if (info == null) return true;
+            string n = info.Name;
+            return !string.IsNullOrEmpty(n) && SuppressMagicTipNames.Contains(n);
+        }
+
         private void CreateMagicLabel()
         {
+            if (ShouldSuppressMagicTip(MouseMagic)) return; // SKILL_TIP_SUPPRESS_20260908
             if (MouseMagic != null)
             {
                 MagicLabel = new DXControl
@@ -4821,27 +4905,7 @@ namespace Client.Scenes
         /// <summary>
         /// 道具提示分割线（深色木纹风格）
         /// </summary>
-bool IsEquipmentItemType(ItemType t)
-        {
-            switch (t)
-            {
-                case ItemType.Weapon:
-                case ItemType.Armour:
-                case ItemType.Helmet:
-                case ItemType.Necklace:
-                case ItemType.Bracelet:
-                case ItemType.Ring:
-                case ItemType.Shoes:
-                case ItemType.Shield:
-                case ItemType.Torch:
-                case ItemType.Fashion:
-                    return true;
-                default:
-                    return false;
-            }
-        }
-
-                private void AddItemLabelDivider()
+        private void AddItemLabelDivider()
         {
             if (ItemLabel == null || ItemLabel.IsDisposed) return;
 
