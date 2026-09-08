@@ -1,0 +1,267 @@
+﻿=== StoreInfo props ===
+  Item : ItemInfo
+  Price : Int32
+  HuntGoldPrice : Int32
+  Filter : String
+  Available : Boolean
+  Duration : Int32
+  Recommend : Int32
+  Index : Int32
+  ServerOnly : Boolean
+  CreatTime : DateTime
+  IsTemporary : Boolean
+=== MagicInfo props (desc-related) ===
+  Name : String
+  Description : String
+  Index : Int32
+=== ItemType enum ===
+  Nothing
+  Consumable
+  Weapon
+  Armour
+  Torch
+  Helmet
+  Necklace
+  Bracelet
+  Ring
+  Shoes
+  Poison
+  Amulet
+  Meat
+  Ore
+  Book
+  Scroll
+  DarkStone
+  RefineSpecial
+  HorseArmour
+  Flower
+  CompanionFood
+  CompanionBag
+  CompanionHead
+  CompanionBack
+  System
+  ItemPart
+  Emblem
+  Shield
+  Hook
+  Float
+  Bait
+  Finder
+  Reel
+  Fish
+  Barter
+  FameTitle
+  Wing
+  Gem
+  Orb
+  Rune
+  Belt
+  Drill
+  Fashion
+  Material
+  DartWeapon
+  Medicament
+=== Stat enum (weight/bag) ===
+  MinAC
+  MaxAC
+  MinMR
+  MaxMR
+  Agility
+  BagWeight
+  WearWeight
+  HandWeight
+  CompanionBagWeight
+  WeightRate
+  MinBAC
+  MaxBAC
+  ACPercent
+  MRPercent
+  ACIgnoreRate
+  MRIgnoreRate
+  PetACPower
+=== MAGIC DESC ===
+MISS 澶╂€掍箣鐏?
+MAGIC idx=198 name=澶╀箣鎬掔伀 descLen=0 desc=
+MAGIC idx=127 name=闄ㄥ啺鏉€ descLen=0 desc=
+MAGIC idx=134 name=鐢甸棯闆烽福 descLen=0 desc=
+MAGIC idx=114 name=鏃嬮澧?descLen=0 desc=
+MAGIC idx=192 name=鎶よ韩娉曠浘 descLen=0 desc=
+MAGIC idx=124 name=鐏甸瓊鍒嗚 descLen=0 desc=
+MAGIC idx=136 name=鍚告槦澶ф硶 descLen=0 desc=
+MAGIC idx=129 name=鍏荤敓鏈?descLen=0 desc=
+MAGIC idx=137 name=鏆楅闃?descLen=0 desc=
+MAGIC idx=135 name=鏂颁紶鏌?descLen=0 desc=
+MAGIC idx=125 name=鏂芥瘨澶ф硶 descLen=0 desc=
+MAGIC idx=196 name=鍒嗚韩鏈?descLen=0 desc=
+MAGIC idx=153 name=鐒伴瓟鍙敜鏈?descLen=0 desc=
+MAGIC idx=154 name=榄旂劙寮鸿В鏈?descLen=0 desc=
+MAGIC idx=109 name=鍚涗复姝?descLen=0 desc=
+MAGIC idx=206 name=灞犻緳鏂?descLen=0 desc=
+MAGIC idx=128 name=閲戝垰涔嬭函 descLen=0 desc=
+MAGIC idx=131 name=蹇垁鏂╅┈ descLen=0 desc=
+MAGIC idx=132 name=杩愭皵鏈?descLen=0 desc=
+MAGIC idx=130 name=澶╅浄閿?descLen=0 desc=
+MAGIC idx=194 name=鎸戣 descLen=0 desc=
+MAGIC idx=200 name=鐮寸┖鏂?descLen=0 desc=
+=== STORE ALL ===
+STORE idx=536 item= Price=8000 Hunt=200 Avail=True Filter=鍔熻兘, 娑堣€楀搧 type=
+STORE idx=537 item=榛戦搧 Price=500 Hunt=50 Avail=True Filter=鍔熻兘, 娑堣€楀搧 type=Ore
+STORE idx=540 item=閽㈢帀鐭?Price=8000 Hunt=200 Avail=True Filter=鍔熻兘, 娑堣€楀搧 type=Ore
+STORE idx=545 item=boss鏌ヨ鍗?Price=200000 Hunt=0 Avail=True Filter=鍔熻兘, 娑堣€楀搧 type=Consumable
+STORE idx=546 item=涓囧勾闆湝 Price=100 Hunt=0 Avail=True Filter= type=Consumable
+STORE idx=547 item=璇呭拻涔嬭嵂姘?Price=10 Hunt=0 Avail=True Filter= type=Consumable
+=== BOOTS ===
+BOOT idx=770 name=鑽夐瀷 Weight=6 WearWeight? try props
+  Weight=6
+  Durability=1000
+  RequiredAmount=6
+  Shape=0
+  ItemType=Shoes
+  STAT WearWeight=2
+  STAT HandWeight=2
+  STAT Agility=1
+  STAT MaxAC=1
+  STAT MaxMR=1
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=771 name=鐨澊 Weight=8 WearWeight? try props
+  Weight=8
+  Durability=1000
+  RequiredAmount=16
+  Shape=0
+  ItemType=Shoes
+  STAT WearWeight=3
+  STAT HandWeight=3
+  STAT Agility=2
+  STAT MaxAC=2
+  STAT MaxMR=2
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=637 name=浜斿僵闉?Weight=8 WearWeight? try props
+  Weight=8
+  Durability=1000
+  RequiredAmount=26
+  Shape=0
+  ItemType=Shoes
+  STAT WearWeight=4
+  STAT HandWeight=4
+  STAT Agility=3
+  STAT MaxAC=3
+  STAT MaxMR=2
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=772 name=璧ら闈村瓙 Weight=10 WearWeight? try props
+  Weight=10
+  Durability=2000
+  RequiredAmount=33
+  Shape=0
+  ItemType=Shoes
+  STAT WearWeight=5
+  STAT HandWeight=5
+  STAT Agility=4
+  STAT MaxAC=4
+  STAT MaxMR=3
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=122589 name=澶╂帉闈村瓙 Weight=10 WearWeight? try props
+  Weight=10
+  Durability=2000
+  RequiredAmount=38
+  Shape=0
+  ItemType=Shoes
+  STAT MinAC=0
+  STAT MaxAC=5
+  STAT MinMR=0
+  STAT MaxMR=4
+  STAT Agility=5
+  STAT HandWeight=4
+  STAT WearWeight=4
+BOOT idx=773 name=榛戠毊闈村瓙 Weight=12 WearWeight? try props
+  Weight=12
+  Durability=3000
+  RequiredAmount=45
+  Shape=0
+  ItemType=Shoes
+  STAT HandWeight=10
+  STAT WearWeight=10
+  STAT Agility=7
+  STAT MaxAC=7
+  STAT MaxMR=7
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=641 name=缁濆湴闈?Weight=8 WearWeight? try props
+  Weight=8
+  Durability=1000
+  RequiredAmount=0
+  Shape=0
+  ItemType=Shoes
+  STAT HandWeight=12
+  STAT WearWeight=12
+  STAT Agility=3
+  STAT MaxAC=7
+  STAT MaxMR=14
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=634 name=鏈堝厜闉?Weight=8 WearWeight? try props
+  Weight=8
+  Durability=2000
+  RequiredAmount=0
+  Shape=0
+  ItemType=Shoes
+  STAT WearWeight=12
+  STAT HandWeight=12
+  STAT Agility=14
+  STAT MaxAC=7
+  STAT MaxMR=3
+  STAT MinAC=0
+  STAT MinMR=0
+BOOT idx=639 name=浠欎簯闈?Weight=12 WearWeight? try props
+  Weight=12
+  Durability=4000
+  RequiredAmount=0
+  Shape=0
+  ItemType=Shoes
+  STAT HandWeight=13
+  STAT WearWeight=13
+  STAT MaxAC=7
+  STAT MaxMR=20
+  STAT MinAC=0
+  STAT MinMR=0
+  STAT Agility=0
+BOOT idx=636 name=鏃犲奖闈?Weight=12 WearWeight? try props
+  Weight=12
+  Durability=4000
+  RequiredAmount=0
+  Shape=0
+  ItemType=Shoes
+  STAT HandWeight=15
+  STAT WearWeight=15
+  STAT Agility=20
+  STAT MaxAC=7
+  STAT MinAC=0
+  STAT MinMR=0
+  STAT MaxMR=0
+BOOT idx=640 name=姝︾涔嬮澊 Weight=12 WearWeight? try props
+  Weight=12
+  Durability=4000
+  RequiredAmount=0
+  Shape=0
+  ItemType=Shoes
+  STAT HandWeight=15
+  STAT WearWeight=15
+  STAT Agility=11
+  STAT MaxAC=7
+  STAT MaxMR=11
+  STAT MinAC=0
+  STAT MinMR=0
+ITEM 璇呭拻涔嬭嵂姘?idx=632 StackSize=100 Weight=2 type=Consumable
+  prop RequiredAmount=0
+  prop Durability=0
+  prop StackSize=100
+  prop PartCount=0
+ITEM 涓囧勾闆湝 idx=243 StackSize=9999 Weight=1 type=Consumable
+  prop RequiredAmount=1
+  prop Durability=1000
+  prop StackSize=9999
+  prop PartCount=0
+ITEM_MISS 涓囧勾闆湝锛堢粦瀹氾級

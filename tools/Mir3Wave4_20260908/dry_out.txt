@@ -1,0 +1,191 @@
+﻿mode=dry-run stamp=20260908_222743
+backup=D:\newMir3\Database\Backup_wave4_20260908_222743
+MAGIC_MISS 澶╂€掍箣鐏?
+MAGIC_OK 澶╀箣鎬掔伀 already clear
+MAGIC_OK 闄ㄥ啺鏉€ already clear
+MAGIC_OK 鐢甸棯闆烽福 already clear
+MAGIC_OK 鏃嬮澧?already clear
+MAGIC_OK 鎶よ韩娉曠浘 already clear
+MAGIC_OK 鐏甸瓊鍒嗚 already clear
+MAGIC_OK 鍚告槦澶ф硶 already clear
+MAGIC_OK 鍏荤敓鏈?already clear
+MAGIC_OK 鏆楅闃?already clear
+MAGIC_OK 鏂颁紶鏌?already clear
+MAGIC_OK 鏂芥瘨澶ф硶 already clear
+MAGIC_OK 鍒嗚韩鏈?already clear
+MAGIC_OK 鐒伴瓟鍙敜鏈?already clear
+MAGIC_OK 榄旂劙寮鸿В鏈?already clear
+MAGIC_OK 鍚涗复姝?already clear
+MAGIC_OK 灞犻緳鏂?already clear
+MAGIC_OK 閲戝垰涔嬭函 already clear
+MAGIC_OK 蹇垁鏂╅┈ already clear
+MAGIC_OK 杩愭皵鏈?already clear
+MAGIC_OK 澶╅浄閿?already clear
+MAGIC_OK 鎸戣 already clear
+MAGIC_OK 鐮寸┖鏂?already clear
+STORE_SET 璇呭拻涔嬭嵂姘?Price 10->100 Filter ''->'娑堣€楀搧'
+STORE_SET 涓囧勾闆湝 Price 100->100 Filter ''->'娑堣€楀搧'
+STORE_FILTER idx=536 item= '鍔熻兘, 娑堣€楀搧'->'娑堣€楀搧'
+STORE_FILTER idx=537 item=榛戦搧 '鍔熻兘, 娑堣€楀搧'->'娑堣€楀搧'
+STORE_FILTER idx=540 item=閽㈢帀鐭?'鍔熻兘, 娑堣€楀搧'->'娑堣€楀搧'
+STORE_FILTER idx=545 item=boss鏌ヨ鍗?'鍔熻兘, 娑堣€楀搧'->'娑堣€楀搧'
+STORE_FILTER idx=546 item=涓囧勾闆湝 ''->'娑堣€楀搧'
+STORE_FILTER idx=547 item=璇呭拻涔嬭嵂姘?''->'娑堣€楀搧'
+STORE_NOTE 涓囧勾闆湝 give-count脳1000 BLOCKED: StoreInfo has no Amount; MarketPlaceStoreBuy uses client Count*Price. Price=100 kept; StackSize already 9999. Prefer NPC pack workaround.
+STATOK 鑽夐瀷 MinAC=0
+STATOK 鑽夐瀷 MaxAC=1
+STATOK 鑽夐瀷 MinMR=0
+STATOK 鑽夐瀷 MaxMR=1
+STATOK 鑽夐瀷 Agility=1
+STATADD 鑽夐瀷 BagWeight=6
+STATSET 鑽夐瀷 WearWeight 2->6
+STATSET 鑽夐瀷 HandWeight 2->1
+STATOK 鐨澊 MinAC=0
+STATOK 鐨澊 MaxAC=2
+STATOK 鐨澊 MinMR=0
+STATOK 鐨澊 MaxMR=2
+STATOK 鐨澊 Agility=2
+STATADD 鐨澊 BagWeight=8
+STATSET 鐨澊 WearWeight 3->8
+STATSET 鐨澊 HandWeight 3->1
+STATOK 浜斿僵闉?MinAC=0
+STATOK 浜斿僵闉?MaxAC=3
+STATOK 浜斿僵闉?MinMR=0
+STATOK 浜斿僵闉?MaxMR=2
+STATSET 浜斿僵闉?Agility 3->2
+STATADD 浜斿僵闉?BagWeight=8
+STATSET 浜斿僵闉?WearWeight 4->8
+STATSET 浜斿僵闉?HandWeight 4->1
+STATOK 璧ら闈村瓙 MinAC=0
+STATOK 璧ら闈村瓙 MaxAC=4
+STATOK 璧ら闈村瓙 MinMR=0
+STATOK 璧ら闈村瓙 MaxMR=3
+STATSET 璧ら闈村瓙 Agility 4->3
+STATADD 璧ら闈村瓙 BagWeight=10
+STATSET 璧ら闈村瓙 WearWeight 5->10
+STATSET 璧ら闈村瓙 HandWeight 5->2
+STATOK 澶╂帉闈村瓙 MinAC=0
+STATOK 澶╂帉闈村瓙 MaxAC=5
+STATOK 澶╂帉闈村瓙 MinMR=0
+STATOK 澶╂帉闈村瓙 MaxMR=4
+STATSET 澶╂帉闈村瓙 Agility 5->4
+STATADD 澶╂帉闈村瓙 BagWeight=10
+STATSET 澶╂帉闈村瓙 WearWeight 4->10
+STATSET 澶╂帉闈村瓙 HandWeight 4->2
+STATOK 榛戠毊闈村瓙 MinAC=0
+STATOK 榛戠毊闈村瓙 MaxAC=7
+STATOK 榛戠毊闈村瓙 MinMR=0
+STATOK 榛戠毊闈村瓙 MaxMR=7
+STATOK 榛戠毊闈村瓙 Agility=7
+STATADD 榛戠毊闈村瓙 BagWeight=12
+STATSET 榛戠毊闈村瓙 WearWeight 10->12
+STATSET 榛戠毊闈村瓙 HandWeight 10->3
+STATOK 缁濆湴闈?MinAC=0
+STATOK 缁濆湴闈?MaxAC=7
+STATOK 缁濆湴闈?MinMR=0
+STATOK 缁濆湴闈?MaxMR=14
+STATOK 缁濆湴闈?Agility=3
+STATADD 缁濆湴闈?BagWeight=8
+STATSET 缁濆湴闈?WearWeight 12->8
+STATSET 缁濆湴闈?HandWeight 12->1
+STATOK 鏈堝厜闉?MinAC=0
+STATOK 鏈堝厜闉?MaxAC=7
+STATOK 鏈堝厜闉?MinMR=0
+STATOK 鏈堝厜闉?MaxMR=3
+STATOK 鏈堝厜闉?Agility=14
+STATADD 鏈堝厜闉?BagWeight=8
+STATSET 鏈堝厜闉?WearWeight 12->8
+STATSET 鏈堝厜闉?HandWeight 12->2
+STATOK 浠欎簯闈?MinAC=0
+STATOK 浠欎簯闈?MaxAC=7
+STATOK 浠欎簯闈?MinMR=0
+STATOK 浠欎簯闈?MaxMR=20
+STATOK 浠欎簯闈?Agility=0
+STATADD 浠欎簯闈?BagWeight=12
+STATSET 浠欎簯闈?WearWeight 13->12
+STATSET 浠欎簯闈?HandWeight 13->4
+STATOK 鏃犲奖闈?MinAC=0
+STATOK 鏃犲奖闈?MaxAC=7
+STATOK 鏃犲奖闈?MinMR=0
+STATOK 鏃犲奖闈?MaxMR=0
+STATOK 鏃犲奖闈?Agility=20
+STATADD 鏃犲奖闈?BagWeight=12
+STATSET 鏃犲奖闈?WearWeight 15->12
+STATSET 鏃犲奖闈?HandWeight 15->4
+STATOK 姝︾涔嬮澊 MinAC=0
+STATOK 姝︾涔嬮澊 MaxAC=7
+STATOK 姝︾涔嬮澊 MinMR=0
+STATOK 姝︾涔嬮澊 MaxMR=11
+STATOK 姝︾涔嬮澊 Agility=11
+STATADD 姝︾涔嬮澊 BagWeight=12
+STATSET 姝︾涔嬮澊 WearWeight 15->12
+STATSET 姝︾涔嬮澊 HandWeight 15->4
+BOOT_SOURCE https://games.sina.com.cn/o/z/mir3/2005-03-31/217194.shtml map 浣╂埓閲嶉噺->BagWeight/WearWeight 鍙屾墜閲嶉噺->HandWeight
+FLAG_ITEM 鍏ㄨ兘鎸囩幆 idx=122588
+  PROP CanDrop=True type=Boolean
+  PROP CanDeathDrop=False type=Boolean
+  PROP StartItem=False type=Boolean
+  PROP CanTrade=True type=Boolean
+  PROP CanStore=True type=Boolean
+  PROP CanRepair=True type=Boolean
+  PROP CanSell=True type=Boolean
+  BOOLISH StartItem=False
+  BOOLISH CanRepair=True
+  BOOLISH CanSell=True
+  BOOLISH CanStore=True
+  BOOLISH CanTreasure=False
+  BOOLISH CanTrade=True
+  BOOLISH NoMake=False
+  BOOLISH CanDrop=True
+  BOOLISH CanDeathDrop=False
+  BOOLISH CanAutoPot=False
+  BOOLISH Drops=MirDB.DBBindingList`1[Library.SystemModels.DropInfo]
+  BOOLISH ShouldLinkInfo=False
+  BOOLISH ServerOnly=False
+  BOOLISH IsTemporary=False
+FLAG_ITEM 骞歌繍闇搁緳澶寸洈 idx=122590
+  PROP CanDrop=True type=Boolean
+  PROP CanDeathDrop=False type=Boolean
+  PROP StartItem=False type=Boolean
+  PROP CanTrade=True type=Boolean
+  PROP CanStore=True type=Boolean
+  PROP CanRepair=True type=Boolean
+  PROP CanSell=True type=Boolean
+  BOOLISH StartItem=False
+  BOOLISH CanRepair=True
+  BOOLISH CanSell=True
+  BOOLISH CanStore=True
+  BOOLISH CanTreasure=False
+  BOOLISH CanTrade=True
+  BOOLISH NoMake=False
+  BOOLISH CanDrop=True
+  BOOLISH CanDeathDrop=False
+  BOOLISH CanAutoPot=False
+  BOOLISH Drops=MirDB.DBBindingList`1[Library.SystemModels.DropInfo]
+  BOOLISH ShouldLinkInfo=False
+  BOOLISH ServerOnly=False
+  BOOLISH IsTemporary=False
+FLAG_SET 鍏ㄨ兘鎸囩幆.CanDeathDrop False->True
+FLAG_SET 骞歌繍闇搁緳澶寸洈.CanDeathDrop False->True
+RING 鍏ㄨ兘鎸囩幆 Image=530 Shape=0 Effect=None
+RINGCAND 72 鐜勯搧鎸囩幆 Image=471 Shape=0
+RINGCAND 73 閲戞垝鎸?Image=473 Shape=0
+RINGCAND 488 涓冨僵閲戠幆 Image=478 Shape=0
+RINGCAND 111 閾傞噾鎴掓寚 Image=493 Shape=0
+RINGCAND 768 绁炲湥閾傞噾鎴掓寚 Image=493 Shape=0
+RINGCAND 451 绱噾鐜?Image=497 Shape=0
+RINGCAND 214 绱ⅶ铻?Image=514 Shape=0
+RINGCAND 860 鎸囩幆 Image=530 Shape=0
+RINGCAND 122588 鍏ㄨ兘鎸囩幆 Image=530 Shape=0
+RINGCAND 101 鐝婄憵鎴掓寚 Image=533 Shape=0
+RINGCAND 183 鍔涢噺鎴掓寚 Image=535 Shape=0
+RINGCAND 350 閲戝垰榄旀硶鎸囩幆 Image=594 Shape=0
+RINGCAND 351 閲戝垰绮剧鎴掓寚 Image=594 Shape=0
+MON 30011 鍦板ぉ鐏帇 IsBoss=True CanCall= CallMonster=
+  MPROP AI=0
+  MPROP IsBoss=True
+MON 100572 鍓湰-鍦板ぉ鐏帇1 IsBoss=True CanCall= CallMonster=
+  MPROP AI=0
+  MPROP IsBoss=True
+changes=0
+DONE

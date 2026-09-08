@@ -269,40 +269,40 @@ def OnClick(args):
 		
 		<font color=\"0xffff0000\">你是否需要兑换？</font>
 		
-		[1赞助币兑换50000金币:631]
+		[100赞助币兑换50000金币:631]
 			
-		[5赞助币兑换250000金币:632]
+		[500赞助币兑换250000金币:632]
 			
-		[15赞助币兑换750000金币:633]
+		[1500赞助币兑换750000金币:633]
 			
-		[20赞助币兑换1000000金币:634]
+		[2000赞助币兑换1000000金币:634]
 			
-		[25赞助币兑换1250000金币:635]
+		[2500赞助币兑换1250000金币:635]
 			
-		[30赞助币兑换1500000金币:636]
+		[3000赞助币兑换1500000金币:636]
 			
-		[50赞助币兑换2500000金币:637]
+		[5000赞助币兑换2500000金币:637]
 			
-		[100赞助币兑换5000000金币:638]"""
+		[10000赞助币兑换5000000金币:638]"""
 	elif(Menu == 631):
-		if (Sender.GameGold < 1):
+		if (Sender.GameGold < 100):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,1)
+			SubGameGold(Sender,100)
 			GiveGold(Sender,50000)
 			say = """兑换成功。
 			
 			[继续兑换:63]
 			[离开:0]"""
 	elif(Menu == 632):
-		if (Sender.GameGold < 5):
+		if (Sender.GameGold < 500):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,5)
+			SubGameGold(Sender,500)
 			GiveGold(Sender,250000)
 			say = """兑换成功。
 			
@@ -312,12 +312,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 633):
-		if (Sender.GameGold < 15):
+		if (Sender.GameGold < 1500):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,15)
+			SubGameGold(Sender,1500)
 			GiveGold(Sender,750000)
 			say = """兑换成功。
 			
@@ -327,12 +327,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 634):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,20)
+			SubGameGold(Sender,2000)
 			GiveGold(Sender,1000000)
 			say = """兑换成功。
 			
@@ -342,12 +342,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 635):
-		if (Sender.GameGold < 25):
+		if (Sender.GameGold < 2500):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,25)
+			SubGameGold(Sender,2500)
 			GiveGold(Sender,1250000)
 			say = """兑换成功。
 			
@@ -357,12 +357,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 636):
-		if (Sender.GameGold < 30):
+		if (Sender.GameGold < 3000):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,30)
+			SubGameGold(Sender,3000)
 			GiveGold(Sender,1500000)
 			say = """兑换成功。
 			
@@ -372,12 +372,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 637):
-		if (Sender.GameGold < 50):
+		if (Sender.GameGold < 5000):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,50)
+			SubGameGold(Sender,5000)
 			GiveGold(Sender,2500000)
 			say = """兑换成功。
 			
@@ -387,12 +387,12 @@ def OnClick(args):
 			
 			[离开:0]"""
 	elif(Menu == 638):
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
-			SubGameGold(Sender,100)
+			SubGameGold(Sender,10000)
 			GiveGold(Sender,5000000)
 			say = """兑换成功。
 			
@@ -551,7 +551,7 @@ def OnClick(args):
 			[关闭:0]"""
 		str = say
 	elif(Menu == 5181):
-		if (Sender.GameGold < 15):
+		if (Sender.GameGold < 1500):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -560,7 +560,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(274,153,252)
 			return
 	elif(Menu == 5251):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -596,7 +596,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(294,34,28)
 			return
 	elif(Menu == 5204):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -605,7 +605,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(297,380,382)
 			return
 	elif(Menu == 5191):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -614,7 +614,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(302,61,282)
 			return
 	elif(Menu == 5151):
-		if (Sender.GameGold < 15):
+		if (Sender.GameGold < 1500):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -623,7 +623,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(82,199,195)
 			return
 	elif(Menu == 5171):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
@@ -632,7 +632,7 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(156,150,67)
 			return
 	elif(Menu == 5161):
-		if (Sender.GameGold < 20):
+		if (Sender.GameGold < 2000):
 			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""

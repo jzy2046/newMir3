@@ -34,7 +34,8 @@ LEVEL_RANGE_7 = 200
 LEVEL_RANGE_8 = 300
 
 # 过滤名字结尾是数字的怪
-allInfo = [x for x in SEnvir.BossTrackerList if not (x.BossName)[-1].isdigit()]
+EXCLUDE_BOSS_NAMES = set(['地天灭亡','地天灭王'])
+allInfo = [x for x in SEnvir.BossTrackerList if not (x.BossName)[-1].isdigit() and x.BossName not in EXCLUDE_BOSS_NAMES]
 # 按等级升序
 sortByLevel = sorted(allInfo, cmp=None, key=lambda x: x.BossInfo.Level, reverse=False)
 
@@ -164,7 +165,7 @@ def GenereateSay(minLevel, maxLevel):
 	# 表头
 	say = '{0: <15} {1: <15} {2: <15} \n'.format('BOSS', '击杀者', '击杀时间') 
 	# 内容
-	filtered = [x for x in sortByLevel if x.BossInfo.Level >= minLevel and x.BossInfo.Level <= maxLevel and not (x.BossName)[-1].isdigit()]
+	filtered = [x for x in sortByLevel if x.BossInfo.Level >= minLevel and x.BossInfo.Level <= maxLevel and not (x.BossName)[-1].isdigit() and x.BossName not in EXCLUDE_BOSS_NAMES]
 	say += '\n'.join("[{}:{}]     {}    {}".format(
 			boss.BossName, 
 			boss.BossInfo.Index + 100,
