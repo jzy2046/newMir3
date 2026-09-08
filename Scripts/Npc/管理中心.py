@@ -216,113 +216,101 @@ def OnClick(args):
 
 	elif (Menu == 4):
 		if Sender.Class == Sender.Class.Wizard:
-			say = """<font color=\"0xffffff00\">1、</font>杀死诺玛遗址的怪物会被累积
-			<font color=\"0xffffff00\">2、</font>达到一定的数量加遗物可以兑换高级技能书籍
-			<font color=\"0xffffff00\">3、你目前累积杀死诺玛遗址的怪物数量为：</font>{NMGWJS} <font color=\"0xff00ff00\">个</font>
-			<font color=\"0xffffff00\">4、兑换书籍后会扣除对应的怪物累积数量</font>
-			<font color=\"0xffffff00\">5、您可以兑换以下高级技能书籍（秘籍）：</font>
+			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
+			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
+			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个诺玛怪物+1000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>   <font color=\"0xff00ff00\">「鹰击」</font>  
+			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
-			<font color=\"0xff00ccff\">2000个诺玛怪物+2000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「乾坤大挪移」</font><font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font><font color=\"0xff00ff00\">「风之守护」</font>
+			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个诺玛怪物+3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「 妙影无踪」</font> <font color=\"0xff00ff00\">「狂涛涌泉」</font>
+			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个诺玛怪物+2000个磨光片 兑换:</font>
+			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font> <font color=\"0xff00ff00\">「最后抵抗」</font>
+			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
 
 			[［魄冰刺］:211] [［怒神霹雳］:212] [［焰天火雨］:213] [［凝血离魂］:214]
-			
-			""".format(NMGWJS = PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT))
+			"""
 		elif Sender.Class == Sender.Class.Taoist:
-			say = """<font color=\"0xffffff00\">1、</font>杀死诺玛遗址的怪物会被累积
-			<font color=\"0xffffff00\">2、</font>达到一定的数量加遗物可以兑换高级技能书籍
-			<font color=\"0xffffff00\">3、你目前累积杀死诺玛遗址的怪物数量为：</font>{NMGWJS} <font color=\"0xff00ff00\">个</font>
-			<font color=\"0xffffff00\">4、兑换书籍后会扣除对应的怪物累积数量</font>
-			<font color=\"0xffffff00\">5、您可以兑换以下高级技能书籍（秘籍）：</font>
+			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
+			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
+			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个诺玛怪物+1000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>   <font color=\"0xff00ff00\">「鹰击」</font>  
+			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
-			<font color=\"0xff00ccff\">2000个诺玛怪物+2000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「乾坤大挪移」</font><font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font><font color=\"0xff00ff00\">「风之守护」</font>
+			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个诺玛怪物+3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「 妙影无踪」</font> <font color=\"0xff00ff00\">「狂涛涌泉」</font>
+			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个诺玛怪物+2000个磨光片 兑换:</font>
+			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font> <font color=\"0xff00ff00\">「最后抵抗」</font>
-			
+			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
+
 
 			[［灵魂分裂］:311] [［移花接玉］:312] [［妙影无踪］:314] [［阴阳法环］:313]
-			
-			""".format(NMGWJS = PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT))
+			"""
 		elif Sender.Class == Sender.Class.Assassin:
-			say = """<font color=\"0xffffff00\">1、</font>杀死诺玛遗址的怪物会被累积
-			<font color=\"0xffffff00\">2、</font>达到一定的数量加遗物可以兑换高级技能书籍
-			<font color=\"0xffffff00\">3、你目前累积杀死诺玛遗址的怪物数量为：</font>{NMGWJS} <font color=\"0xff00ff00\">个</font>
-			<font color=\"0xffffff00\">4、兑换书籍后会扣除对应的怪物累积数量</font>
-			<font color=\"0xffffff00\">5、您可以兑换以下高级技能书籍（秘籍）：</font>
+			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
+			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
+			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个诺玛怪物+1000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>   <font color=\"0xff00ff00\">「鹰击」</font>  
+			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
-			<font color=\"0xff00ccff\">2000个诺玛怪物+2000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「乾坤大挪移」</font><font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font><font color=\"0xff00ff00\">「风之守护」</font>
+			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个诺玛怪物+3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「 妙影无踪」</font> <font color=\"0xff00ff00\">「狂涛涌泉」</font>
+			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个诺玛怪物+2000个磨光片 兑换:</font>
+			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font> <font color=\"0xff00ff00\">「最后抵抗」</font>
+			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
-			
-			[［鹰击］:411] [［狂涛涌泉］:413] [［风之守护］:412] [［最后抵抗］:414]
-			
-			""".format(NMGWJS = PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT))			
+
+			[关闭:0]
+			"""
 		else:
-			say = """<font color=\"0xffffff00\">1、</font>杀死诺玛遗址的怪物会被累积
-			<font color=\"0xffffff00\">2、</font>达到一定的数量加遗物可以兑换高级技能书籍
-			<font color=\"0xffffff00\">3、你目前累积杀死诺玛遗址的怪物数量为：</font>{NMGWJS} <font color=\"0xff00ff00\">个</font>
-			<font color=\"0xffffff00\">4、兑换书籍后会扣除对应的怪物累积数量</font>
-			<font color=\"0xffffff00\">5、您可以兑换以下高级技能书籍（秘籍）：</font>
+			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
+			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
+			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个诺玛怪物+1000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>   <font color=\"0xff00ff00\">「鹰击」</font>  
+			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
-			<font color=\"0xff00ccff\">2000个诺玛怪物+2000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「乾坤大挪移」</font><font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font><font color=\"0xff00ff00\">「风之守护」</font>
+			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个诺玛怪物+3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「 妙影无踪」</font> <font color=\"0xff00ff00\">「狂涛涌泉」</font>
+			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个诺玛怪物+2000个磨光片 兑换:</font>
+			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font> <font color=\"0xff00ff00\">「最后抵抗」</font>
-			
+			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
+
 
 			[［十方斩］:111] [［乾坤大挪移］:112] [［铁布衫］:113] [［破血狂杀］:114]
-			
-			""".format(NMGWJS = PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT))
+			"""
 	elif Menu in []:
            say = handle_nuoma_book_purchase(Sender, Menu)
     
@@ -362,374 +350,149 @@ def OnClick(args):
             say = handle_special_title_remove(Sender)			
 			
 	elif (Menu == 111):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 1000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-					
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 1000):
-			say = """你的道具数量不足，请继续努力。			
-		
+		if (Sender.GetItemCount("遗物") < 1000):
+			say = """你的遗物数量不足，请继续努力。
+			
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 1000)
 			Sender.TakeItem("遗物",1000)
 			Sender.GiveItem("十方斩（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 112):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 2000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 2000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 2000)
 			Sender.TakeItem("遗物",2000)
 			Sender.GiveItem("乾坤大挪移（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 113):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 3000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 3000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 3000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 3000)
 			Sender.TakeItem("遗物",3000)
 			Sender.GiveItem("铁布衫（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 114):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 4000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 4000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("魔光片") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 4000)
-			Sender.TakeItem("魔光片",2000)
+			Sender.TakeItem("遗物",4000)
 			Sender.GiveItem("破血狂杀（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
-			[离开:0]"""
-
-	elif (Menu == 115):
-#判断需要的金币	
-		if (Sender.Gold < 100000000):
-			say= """你没有足够的金币。
-			当你拥有足够的金币时再来。
-
-			[离开:0]"""
-#判断是否有要求的道具			
-		elif(Sender.GetItemCount("魔光片") < 4000):
-			say ="""你没有足够的材料。
-
-			[离开:0]"""
-		else:
-#上面条件都达成，扣除费用和道具，给予道具
-			SubGold(Sender,100000000)
-			Sender.TakeItem("魔光片",4000)
-			Sender.GiveItem("君临步（秘籍）",1)
-			say = """恭喜你兑换成功。
-
 			[离开:0]"""
 
 	elif (Menu == 211):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 1000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 1000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 1000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 1000)
 			Sender.TakeItem("遗物",1000)
 			Sender.GiveItem("魄冰刺（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 212):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 2000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 2000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 2000)
 			Sender.TakeItem("遗物",2000)
 			Sender.GiveItem("怒神霹雳（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 213):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 3000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 3000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 3000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 3000)
 			Sender.TakeItem("遗物",3000)
 			Sender.GiveItem("焰天火雨（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 214):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 4000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 4000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("魔光片") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 4000)
-			Sender.TakeItem("魔光片",2000)
+			Sender.TakeItem("遗物",4000)
 			Sender.GiveItem("凝血离魂（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
-			[离开:0]"""
-	elif (Menu == 215):
-#判断需要的金币	
-		if (Sender.Gold < 100000000):
-			say= """你没有足够的金币。
-			当你拥有足够的金币时再来。
-
-			[离开:0]"""
-#判断是否有要求的道具			
-		elif(Sender.GetItemCount("魔光片") < 4000):
-			say ="""你没有足够的材料。
-
-			[离开:0]"""
-		else:
-#上面条件都达成，扣除费用和道具，给予道具
-			SubGold(Sender,100000000)
-			Sender.TakeItem("魔光片",4000)
-			Sender.GiveItem("旋风墙",1)
-			say = """恭喜你兑换成功。
-
 			[离开:0]"""
 
 	elif (Menu == 311):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 1000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 1000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 1000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 1000)
 			Sender.TakeItem("遗物",1000)
 			Sender.GiveItem("灵魂分裂（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
+
 	elif (Menu == 312):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 2000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 2000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 2000)
 			Sender.TakeItem("遗物",2000)
 			Sender.GiveItem("移花接玉（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
-	elif (Menu == 313):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 4000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("魔光片") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 4000)
-			Sender.TakeItem("魔光片",2000)
-			Sender.GiveItem("阴阳法环（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-		
-			[离开:0]"""
+
 	elif (Menu == 314):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 3000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
+		if (Sender.GetItemCount("遗物") < 3000):
+			say = """你的遗物数量不足，请继续努力。
 			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 3000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
 			[离开:0]"""
 		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 3000)
 			Sender.TakeItem("遗物",3000)
 			Sender.GiveItem("妙影无踪（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
-		
 			[离开:0]"""
 
-
-
-	elif (Menu == 315):
-#判断需要的金币	
-		if (Sender.Gold < 100000000):
-			say= """你没有足够的金币。
-			当你拥有足够的金币时再来。
-
-			[离开:0]"""
-#判断是否有要求的道具			
-		elif(Sender.GetItemCount("魔光片") < 4000):
-			say ="""你没有足够的材料。
-
+	elif (Menu == 313):
+		if (Sender.GetItemCount("遗物") < 4000):
+			say = """你的遗物数量不足，请继续努力。
+			
 			[离开:0]"""
 		else:
-#上面条件都达成，扣除费用和道具，给予道具
-			SubGold(Sender,100000000)
-			Sender.TakeItem("魔光片",4000)
-			Sender.GiveItem("焰魔召唤术",1)
+			Sender.TakeItem("遗物",4000)
+			Sender.GiveItem("阴阳法环（秘籍）",1)
 			say = """恭喜你兑换成功。
-
+			
 			[离开:0]"""
 
-	elif (Menu == 411):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 1000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 1000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 1000)
-			Sender.TakeItem("遗物",1000)
-			Sender.GiveItem("鹰击（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-		
-			[离开:0]"""
-	elif (Menu == 412):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 2000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 2000)
-			Sender.TakeItem("遗物",2000)
-			Sender.GiveItem("风之守护（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-		
-			[离开:0]"""
-	elif (Menu == 413):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 3000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("遗物") < 3000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 3000)
-			Sender.TakeItem("遗物",3000)
-			Sender.GiveItem("狂涛涌泉（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-		
-			[离开:0]"""
-	elif (Menu == 414):
-		if (PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) < 4000):
-			say = """你杀死的诺玛怪物数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		elif (Sender.GetItemCount("魔光片") < 2000):
-			say = """你的道具数量不足，请继续努力。
-			
-		
-			[离开:0]"""
-		else:
-			PlayerSetV(Sender,GV_KILLMON_NMGWCOUNT,PlayerGetV(Sender,GV_KILLMON_NMGWCOUNT) - 4000)
-			Sender.TakeItem("魔光片",2000)
-			Sender.GiveItem("最后抵抗（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-		
-			[离开:0]"""
 	elif (Menu == 15):
 		NPCObject = ServerUtils.GetNPCObject(355)
 		if NPCObject:
@@ -1376,15 +1139,11 @@ def OnClick(args):
 			
 #主菜单
 	else:
-		say = """[碎片分解:28]              [材料换书:13]              [军衔进阶:25] 
+		say = """[碎片分解:28]      [付费鉴定:34]      [首饰熔炼:15]
 		
-		[元宝经验:2]      [付费鉴定:34]      [元宝回收:300]
- 		
-		[首饰熔炼:15]       [装备刻名:27]    [技能书兑换:4]
+		[装备刻名:27]      [技能书兑换:4]      [生锈首饰:30]
 		
-		[生锈首饰:30]        [声望称号:1]   [特色称号:5]  [每日双倍:37]  
-
-		[一键特修:29]              [马店:302]               [在线泡点:301]  """
+		[每日双倍:37]      [一键特修:29]      [马店:302]"""
 
 	Dict['Say']=say                         #定义聊天框对话内容
 	return Dict

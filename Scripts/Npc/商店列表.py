@@ -16,10 +16,13 @@ yaodiangoodslist=[
 ('金创药（小）',float(1)),
 ('金创药（中）',float(1)),
 ('金创药（大）',float(1)),
+('金创药（特）',float(1)),
 ('魔法药（小）',float(1)),
 ('魔法药（中）',float(1)),
 ('魔法药（大）',float(1)),
-('太阳水',float(1))]
+('魔法药（特）',float(1)),
+('太阳水',float(1)),
+('强效太阳水',float(1))]
 
 wuqidiangoodslist=[
 ('木剑',float(1)),
@@ -87,18 +90,9 @@ buyidiangoodslist=[
 ('魔法长袍（女）',float(1))]
 
 zahuodiangoodslist=[
-('蜡烛',float(1)),
-('亮蜡烛',float(1)),
-('火把',float(1)),
-('亮火把',float(1)),
-('回城卷',float(1)),
-('牛角',float(1)),
-('随机传送卷',float(1)),
-('黄色药粉（小）',float(1)),
-('灰色药粉（小）',float(1)),
-('护身符（小）',float(1)),
-('神圣护身符（小）',float(1)),
-('暗黑护身符（小）',float(1)),
+('大护身符',float(1)),
+('大神圣护身符',float(1)),
+('大暗黑护身符',float(1)),
 ('灵魂护身符（小）',float(1)),
 ]
 

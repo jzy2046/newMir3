@@ -1,0 +1,404 @@
+=== NPC props sample ===
+NPCProp CreatTime
+NPCProp Display
+NPCProp FinishQuests
+NPCProp Image
+NPCProp Index
+NPCProp IsTemporary
+NPCProp NPCFile
+NPCProp NPCName
+NPCProp Region
+NPCProp RegionName
+NPCProp ServerOnly
+NPCProp StartQuests
+NPCProp WarDisplay
+=== NPCs matching ===
+NPC idx=9 name=六面神石 file= display=False Image=56 loc= region=1675/六面神石 map=道馆
+NPC idx=30 name=管理员 file= display=True Image=8 loc= region=1696/管理员 map=大厅
+NPC idx=38 name=秀儿 file= display=False Image=12 loc= region=1704/首饰店-秀儿 map=道馆
+NPC idx=39 name=药神 file= display=False Image=18 loc= region=1705/药神 map=道馆
+NPC idx=40 name=药中 file= display=False Image=25 loc= region=1706/药中 map=道馆
+NPC idx=41 name=啊天 file= display=False Image=18 loc= region=1707/道馆仓库-啊天 map=道馆
+NPC idx=42 name=梁生 file= display=False Image=23 loc= region=1708/服装店-梁生 map=道馆
+NPC idx=43 name=小老板 file= display=False Image=3 loc= region=1709/杂货铺-小老板 map=道馆
+NPC idx=44 name=铁匠 file= display=False Image=15 loc= region=1710/武器店-铁匠 map=道馆
+NPC idx=45 name=书鬼 file= display=False Image=18 loc= region=1711/书店-书鬼 map=道馆
+NPC idx=46 name=华玉 file= display=False Image=5 loc= region=1712/野外药店-华玉 map=道馆
+NPC idx=47 name=钱老板 file= display=False Image=11 loc= region=1713/野外肉店-钱老板 map=道馆
+NPC idx=48 name=王铁匠 file= display=False Image=0 loc= region=1714/野外铁匠-王铁匠 map=道馆
+NPC idx=49 name=宝石合成 file= display=False Image=3 loc= region=1715/栗子商人 map=道馆
+NPC idx=50 name=万事通 file= display=False Image=2 loc= region=1716/万事通 map=道馆
+NPC idx=51 name=寄售商 file= display=False Image=8 loc= region=1717/寄售商 map=道馆
+NPC idx=52 name=宠物管理员 file= display=False Image=41 loc= region=1718/宠物管理员 map=道馆
+NPC idx=62 name=寄售商 file= display=False Image=8 loc= region=1728/寄售商 map=比奇城
+NPC idx=70 name=杂货商 file= display=False Image=3 loc= region=1736/杂货商 map=比奇城
+NPC idx=88 name=沙巴克管理员 file= display=False Image=8 loc= region=1754/沙巴克管理员 map=沙巴克
+NPC idx=122 name=寄售商 file= display=False Image=8 loc= region=1788/寄售商 map=边境城市
+NPC idx=132 name=寄售商 file= display=False Image=8 loc= region=1798/寄售商 map=银杏山谷
+NPC idx=134 name=综合管理 file= display=False Image=87 loc= region=17053/综合管理 map=本国领土
+NPC idx=173 name=杂货商老李 file= display=False Image=3 loc= region=1839/杂货商老李 map=沙漠土城
+NPC idx=203 name=寄售商 file= display=False Image=8 loc= region=1874/寄售商 map=失乐园
+NPC idx=204 name=寄售商 file= display=False Image=8 loc= region=1875/寄售商 map=潘夜岛
+NPC idx=205 name=寄售商 file= display=False Image=8 loc= region=1876/寄售商 map=盟重县
+NPC idx=206 name=寄售商 file= display=False Image=8 loc= region=1877/寄售商 map=沙漠土城
+NPC idx=207 name=寄售商 file= display=False Image=8 loc= region=1878/寄售商 map=诺玛村庄
+NPC idx=208 name=寄售商 file= display=False Image=8 loc= region=1879/寄售商 map=毒蛇山谷
+NPC idx=218 name=管理中心 file= display=False Image=12 loc= region=1890/管理中心 map=其他
+NPC idx=219 name=管理中心 file= display=False Image=12 loc= region=1891/管理中心 map=其他
+NPC idx=224 name=管理员 file= display=False Image=0 loc= region=1896/管理员 map=其他
+NPC idx=231 name=公告栏 file= display=False Image=52 loc= region=2183/公告栏 map=道馆
+NPC idx=245 name=『新手指引』 士官 file= display=False Image=16 loc= region=3808/NPC-士官 map=道馆
+NPC idx=255 name=图书管理员 file= display=False Image=2 loc= region=3818/图书管理员 map=比奇城
+NPC idx=278 name=书堂玄震 file= display=False Image=16 loc= region=3861/书堂玄震 map=道馆
+NPC idx=303 name=『杂货店』 小俊 file= display=False Image=3 loc= region=4041/杂货店 map=本国领土
+NPC idx=312 name=『寄售商』 韩迪 file= display=False Image=18 loc= region=4027/寄售 map=本国领土
+NPC idx=313 name=『宠物管理员』 file= display=False Image=41 loc= region=4026/宠物管理员 map=本国领土
+NPC idx=318 name=『杂货店』 晓钢 file= display=False Image=3 loc= region=3986/杂货店 map=雪原村落
+NPC idx=324 name=『宠物管理员』 file= display=False Image=18 loc= region=3978/宠物管理员 map=雪原村落
+NPC idx=327 name=『寄售商』 闫杰 file= display=False Image=18 loc= region=3975/寄售 map=雪原村落
+NPC idx=332 name=活动管理员 file= display=False Image=2 loc= region=4289/活动管理员 map=道馆
+NPC idx=333 name=装备回购 file= display=False Image=241 loc= region=4290/装备回购 map=道馆
+NPC idx=334 name=大神排行榜 file= display=False Image=52 loc= region=4291/大神排行榜 map=道馆
+NPC idx=335 name=综合服务 file= display=False Image=87 loc= region=4292/综合服务 map=雪原村落
+NPC idx=336 name=BOSS查询 file= display=False Image=2 loc= region=4312/BOSS查询 map=道馆
+NPC idx=353 name=『荒村』副本管理员 file= display=True Image=176 loc= region=9198/NPC荒村 map=雪原荒村
+NPC idx=354 name=财叔 file= display=False Image=2 loc= region=9199/元宝回收 map=道馆
+NPC idx=364 name=『杂货店』 嘉惠 file= display=False Image=179 loc= region=19752/杂货店 map=泰山
+NPC idx=368 name=『宠物管理员』 file= display=False Image=41 loc= region=19756/宠物管理 map=泰山
+NPC idx=369 name=『宠物管理员』 file= display=False Image=41 loc= region=9337/宠物店 map=陆家村
+NPC idx=374 name=『杂货店』 刘狩 file= display=False Image=3 loc= region=9342/杂货店 map=陆家村
+NPC idx=379 name=『活动管理员』阿珍 file= display=True Image=238 loc= region=25157/副本管理员 map=本国领土
+NPC idx=384 name=蜈蚣巢穴管理员 file= display=True Image=136 loc= region=33410/副本NPC map=万年独孤关
+NPC idx=385 name=石阁庙管理员 file= display=True Image=136 loc= region=33411/邪恶野猪王NPC map=石阁6层
+NPC idx=386 name=神舰管理员 file= display=True Image=136 loc= region=33424/神舰副本NPC map=神舰1层
+NPC idx=387 name=赤月管理员 file= display=True Image=136 loc= region=33438/赤月副本NPC map=赤月山谷5层
+NPC idx=388 name=潘夜神殿管理员 file= display=True Image=136 loc= region=33451/潘夜神殿副本NPC map=潘夜神殿8层
+NPC idx=389 name=潘夜石窟管理员 file= display=True Image=136 loc= region=33467/潘夜石窟副本NPC map=潘夜石窟4层
+NPC idx=392 name=诺玛教主管理员 file= display=True Image=136 loc= region=33503/副本NPC map=诺玛遗址5层
+NPC idx=5656 name=精炼大师 file= display=False Image=2 loc= region=62503/精炼大师 map=道馆
+=== MapRegion daoguan ===
+REG idx=7 desc=城镇地区 map=7/道馆
+REG idx=8 desc=安全区 map=7/道馆
+REG idx=29 desc=比奇-道馆入口 map=1/比奇城
+REG idx=30 desc=道馆-比奇出口 map=1/比奇城
+REG idx=51 desc=比奇-道馆出口 map=7/道馆
+REG idx=52 desc=道馆-比奇入口 map=7/道馆
+REG idx=610 desc=道馆-武器店入口 map=7/道馆
+REG idx=611 desc=武器店-道馆出口 map=7/道馆
+REG idx=612 desc=道馆-武器店出口 map=8/武器仓库
+REG idx=613 desc=武器店-道馆入口 map=8/武器仓库
+REG idx=614 desc=道馆-本馆入口 map=7/道馆
+REG idx=615 desc=本馆-道馆出口 map=7/道馆
+REG idx=616 desc=道馆-本馆出口 map=9/本馆
+REG idx=617 desc=本馆-道馆入口 map=9/本馆
+REG idx=618 desc=道馆-布店入口 map=7/道馆
+REG idx=619 desc=布店-道馆出口 map=7/道馆
+REG idx=620 desc=道馆-布店出口 map=10/布店
+REG idx=621 desc=布店-道馆入口 map=10/布店
+REG idx=622 desc=道馆-书店入口 map=7/道馆
+REG idx=623 desc=书店-道馆出口 map=7/道馆
+REG idx=624 desc=道馆-书店出口 map=11/书房
+REG idx=625 desc=书店-道馆入口 map=11/书房
+REG idx=626 desc=道馆-首饰店入口 map=7/道馆
+REG idx=627 desc=首饰店-道馆出口 map=7/道馆
+REG idx=628 desc=道馆-首饰店出口 map=12/首饰店
+REG idx=629 desc=首饰店-道馆入口 map=12/首饰店
+REG idx=630 desc=道馆-药店入口 map=7/道馆
+REG idx=631 desc=药店-道馆出口 map=7/道馆
+REG idx=632 desc=道馆-药店出口 map=13/药剂师住居
+REG idx=633 desc=药店-道馆入口 map=13/药剂师住居
+REG idx=634 desc=道馆-杂货店入口 map=7/道馆
+REG idx=635 desc=杂货-道馆出口 map=7/道馆
+REG idx=636 desc=道馆-杂货出口 map=14/仓库
+REG idx=637 desc=杂货-道馆入口 map=14/仓库
+REG idx=638 desc=道馆-灌木林入口 map=7/道馆
+REG idx=639 desc=灌木林-道馆出口 map=7/道馆
+REG idx=640 desc=道馆-灌木林出口 map=18/灌木林
+REG idx=641 desc=灌木林-道馆入口 map=18/灌木林
+REG idx=778 desc=怪物刷新区1 map=7/道馆
+REG idx=779 desc=怪物刷新区2 map=7/道馆
+REG idx=808 desc=道馆-沃玛入口 map=7/道馆
+REG idx=809 desc=沃玛-道馆出口 map=7/道馆
+REG idx=810 desc=道馆-沃玛出口 map=77/沃玛神殿入口
+REG idx=811 desc=沃玛-道馆入口 map=77/沃玛神殿入口
+REG idx=856 desc=道馆-失乐园入口 map=7/道馆
+REG idx=857 desc=失乐园-道馆出口 map=7/道馆
+REG idx=858 desc=道馆-失乐园出口 map=57/失乐园
+REG idx=859 desc=失乐园-道馆入口 map=57/失乐园
+REG idx=1675 desc=六面神石 map=7/道馆
+REG idx=1704 desc=首饰店-秀儿 map=7/道馆
+REG idx=1705 desc=药神 map=7/道馆
+REG idx=1706 desc=药中 map=7/道馆
+REG idx=1707 desc=道馆仓库-啊天 map=7/道馆
+REG idx=1708 desc=服装店-梁生 map=7/道馆
+REG idx=1709 desc=杂货铺-小老板 map=7/道馆
+REG idx=1710 desc=武器店-铁匠 map=7/道馆
+REG idx=1711 desc=书店-书鬼 map=7/道馆
+REG idx=1712 desc=野外药店-华玉 map=7/道馆
+REG idx=1713 desc=野外肉店-钱老板 map=7/道馆
+REG idx=1714 desc=野外铁匠-王铁匠 map=7/道馆
+REG idx=1715 desc=栗子商人 map=7/道馆
+REG idx=1716 desc=万事通 map=7/道馆
+REG idx=1717 desc=寄售商 map=7/道馆
+REG idx=1718 desc=宠物管理员 map=7/道馆
+REG idx=2183 desc=公告栏 map=7/道馆
+REG idx=3808 desc=NPC-士官 map=7/道馆
+REG idx=3861 desc=书堂玄震 map=7/道馆
+REG idx=3879 desc=入无名老人隐居地 map=7/道馆
+REG idx=3880 desc=无名老人隐居地出 map=7/道馆
+REG idx=3881 desc=入道馆 map=16/无名老人隐居地
+REG idx=3882 desc=道馆出 map=16/无名老人隐居地
+REG idx=4284 desc=道馆钓鱼区 map=7/道馆
+REG idx=4285 desc=『钓鱼礼品』 秀贤 map=7/道馆
+REG idx=4289 desc=活动管理员 map=7/道馆
+REG idx=4290 desc=装备回购 map=7/道馆
+REG idx=4291 desc=大神排行榜 map=7/道馆
+REG idx=4312 desc=BOSS查询 map=7/道馆
+REG idx=9199 desc=元宝回收 map=7/道馆
+REG idx=62503 desc=精炼大师 map=7/道馆
+=== Items ===
+ITEM idx=3 name=魔法药（小） type=Consumable effect=None image=15 price=40 dur=2000 stack=1000
+ITEM idx=60 name=牛角戒指 type=Ring effect=None image=470 price=1200 dur=6000 stack=1
+ITEM idx=98 name=魔法药（中） type=Consumable effect=None image=16 price=100 dur=2000 stack=1000
+ITEM idx=166 name=无极棍 type=Weapon effect=None image=1103 price=40000 dur=24000 stack=1
+ITEM idx=168 name=裁决之杖 type=Weapon effect=None image=1069 price=40000 dur=34000 stack=1
+ITEM idx=181 name=魔法药（大） type=Consumable effect=None image=17 price=200 dur=2000 stack=1000
+ITEM idx=196 name=强效太阳水 type=Consumable effect=None image=21 price=1000 dur=1500 stack=9999
+ITEM idx=207 name=骨玉权杖 type=Weapon effect=None image=1084 price=40000 dur=17000 stack=1
+ITEM idx=243 name=万年雪霜 type=Consumable effect=None image=70 price=8000 dur=1000 stack=9999
+ITEM idx=585 name=金色栗子 type=Material effect=None image=1411 price=200000 dur=0 stack=1000
+ITEM idx=753 name=祖玛裁决之杖 type=Weapon effect=None image=1302 price=23000 dur=32000 stack=1
+ITEM idx=754 name=祖玛无极棍 type=Weapon effect=None image=1260 price=23000 dur=24000 stack=1
+ITEM idx=755 name=祖玛骨玉权杖 type=Weapon effect=None image=1193 price=23000 dur=15000 stack=1
+ITEM idx=788 name=魔法药（特） type=Consumable effect=None image=18 price=800 dur=2000 stack=1000
+ITEM idx=812 name=灵魂护身符（小） type=Amulet effect=None image=1150 price=3300 dur=0 stack=50000
+ITEM idx=813 name=灵魂护身符（中） type=Amulet effect=None image=1150 price=60000 dur=200 stack=1
+ITEM idx=822 name=石榴石 type=Ore effect=None image=218 price=20000 dur=10000 stack=999
+ITEM idx=830 name=潘夜无极棍 type=Weapon effect=None image=1263 price=25000 dur=24000 stack=1
+ITEM idx=904 name=遗物 type=Material effect=None image=1449 price=1800 dur=0 stack=1000
+ITEM idx=912 name=诺玛遗物 type=Material effect=None image=1449 price=100 dur=0 stack=1000
+ITEM idx=1111 name=牛角 type=Material effect=None image=1422 price=50 dur=0 stack=1000
+ITEM idx=122585 name=地煞石 type=Consumable effect=None image=4002 price=10000 dur=0 stack=20000
+ITEM idx=122586 name=天罡石 type=Consumable effect=None image=4025 price=10000 dur=0 stack=20000
+=== ItemInfo props ===
+ItemProp BuffIcon
+ItemProp CanAutoPot
+ItemProp CanDeathDrop
+ItemProp CanDrop
+ItemProp CanRepair
+ItemProp CanSell
+ItemProp CanStore
+ItemProp CanTrade
+ItemProp CanTreasure
+ItemProp CreatTime
+ItemProp Description
+ItemProp Drops
+ItemProp Durability
+ItemProp Duration
+ItemProp Effect
+ItemProp EffectName
+ItemProp Image
+ItemProp Index
+ItemProp IsTemporary
+ItemProp ItemDisplayEffects
+ItemProp ItemName
+ItemProp ItemStats
+ItemProp ItemType
+ItemProp ItemTypeName
+ItemProp NoMake
+ItemProp PartCount
+ItemProp Price
+ItemProp Rarity
+ItemProp RequiredAmount
+ItemProp RequiredClass
+ItemProp RequiredClassName
+ItemProp RequiredGender
+ItemProp RequiredGenderName
+ItemProp RequiredType
+ItemProp RequiredTypeName
+ItemProp SellRate
+ItemProp ServerOnly
+ItemProp Shape
+ItemProp ShouldLinkInfo
+ItemProp StackSize
+ItemProp StartItem
+ItemProp WeaponType
+ItemProp Weight
+=== Monsters ===
+MON idx=20022 name=诺玛突击队长
+  BodyShape=185
+  File=None
+  Image=NumaRoyalGuard
+  Index=20022
+  MonsterName=诺玛突击队长
+MON idx=40020 name=超强骷髅
+  BodyShape=254
+  File=None
+  Image=DiyMonsMon
+  Index=40020
+  MonsterName=超强骷髅
+=== Drops ===
+DROP mon=诺玛突击队长 item=金币 Chance=1 Amount=10000
+DROP mon=诺玛突击队长 item=万年雪霜 Chance=2 Amount=1
+DROP mon=诺玛突击队长 item=万年雪霜 Chance=2 Amount=1
+DROP mon=诺玛突击队长 item=万年雪霜 Chance=2 Amount=1
+DROP mon=诺玛突击队长 item=万年雪霜 Chance=2 Amount=1
+DROP mon=诺玛突击队长 item=万年雪霜 Chance=5 Amount=1
+DROP mon=诺玛突击队长 item=黑皮手套 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=震天项链 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=遗魂项链 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=银镜项链 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=五彩项链 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=勇士项链 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=天藤头盔 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=战神盔甲（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=幸运降妖除魔戒指 Chance=20 Amount=1
+DROP mon=诺玛突击队长 item=龙鳞战甲（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=师承戒指 Chance=500 Amount=1
+DROP mon=诺玛突击队长 item=生锈师承戒指 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈龙马戒指 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=血花落照（血） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=血花落照（花） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=血花落照（落） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=血花落照（照） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=黑天暗云（黑） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=黑天暗云（天） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=黑天暗云（暗） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=黑天暗云（云） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=九宫云雾（九） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=九宫云雾（宫） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=九宫云雾（云） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=九宫云雾（雾） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=万里碧海（万） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=万里碧海（里） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=万里碧海（碧） Chance=2500 Amount=1
+DROP mon=诺玛突击队长 item=万里碧海（海） Chance=2500 Amount=1
+DROP mon=霸王守卫 item=骨玉权杖 Chance=500 Amount=1
+DROP mon=黑度首将 item=骨玉权杖 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=麒麟宝铠（男） Chance=5000 Amount=1
+DROP mon=诺玛突击队长 item=战神盔甲（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=恶魔长袍（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=恶魔长袍（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=幽灵战衣（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=幽灵战衣（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=龙鳞战甲（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=袁灵法衣（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=袁灵法衣（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=天极道衣（男） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=天极道衣（女） Chance=200 Amount=1
+DROP mon=诺玛突击队长 item=麒麟宝铠（女） Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=仙风神袍（男） Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=仙风神袍（女） Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=阴阳圣衣（男） Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=阴阳圣衣（女） Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=龙马戒指 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=青云戒指 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=破荒项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=魔云项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=定心项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=金棱手镯 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=思过手镯 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=世尊手镯 Chance=1000 Amount=1
+DROP mon=霸王守卫 item=裁决之杖 Chance=500 Amount=1
+DROP mon=黑度首将 item=裁决之杖 Chance=1000 Amount=1
+DROP mon=霸王守卫 item=无极棍 Chance=500 Amount=1
+DROP mon=黑度首将 item=无极棍 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=骷髅头盔 Chance=10 Amount=1
+DROP mon=诺玛突击队长 item=生锈青云戒指 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈破荒项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈魔云项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈定心项链 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈金棱手镯 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈思过手镯 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=生锈世尊手镯 Chance=1000 Amount=1
+DROP mon=诺玛突击队长 item=地煞石 Chance=1 Amount=5
+DROP mon=诺玛突击队长 item=天罡石 Chance=1 Amount=1
+=== Magics ===
+MAGIC idx=109 name=君临步
+MAGIC idx=114 name=旋风墙
+MAGIC idx=124 name=灵魂分裂
+MAGIC idx=125 name=施毒大法
+MAGIC idx=127 name=陨冰杀
+MAGIC idx=128 name=金刚之躯
+MAGIC idx=129 name=养生术
+MAGIC idx=130 name=天雷锤
+MAGIC idx=131 name=快刀斩马
+MAGIC idx=132 name=运气术
+MAGIC idx=134 name=电闪雷鸣
+MAGIC idx=135 name=新传染
+MAGIC idx=136 name=吸星大法
+MAGIC idx=137 name=暗鬼阵
+MAGIC idx=153 name=焰魔召唤术
+MAGIC idx=154 name=魔焰强解术
+MAGIC idx=192 name=护身法盾
+MAGIC idx=194 name=挑衅
+MAGIC idx=196 name=分身术
+MAGIC idx=200 name=破空斩
+MAGIC idx=206 name=屠龙斩
+=== MagicInfo props ===
+MagicProp Action
+MagicProp BaseCost
+MagicProp Class
+MagicProp CreatTime
+MagicProp Delay
+MagicProp Description
+MagicProp Experience1
+MagicProp Experience2
+MagicProp Experience3
+MagicProp Icon
+MagicProp Index
+MagicProp IsTemporary
+MagicProp LevelCost
+MagicProp Magic
+MagicProp MaxBasePower
+MagicProp MaxLevelPower
+MagicProp MinBasePower
+MagicProp MinLevelPower
+MagicProp Name
+MagicProp NeedLevel1
+MagicProp NeedLevel2
+MagicProp NeedLevel3
+MagicProp School
+MagicProp ServerOnly
+MagicProp X
+MagicProp Y
+=== SystemModels interesting ===
+Library.SystemModels.CraftExpInfo
+Library.SystemModels.CraftItemInfo
+Library.SystemModels.NPCAction
+Library.SystemModels.NPCActionType
+Library.SystemModels.NPCButton
+Library.SystemModels.NPCCheck
+Library.SystemModels.NPCCheckType
+Library.SystemModels.NPCGood
+Library.SystemModels.NPCInfo
+Library.SystemModels.NPCType
+Library.SystemModels.SafeZoneInfo
+Library.SystemModels.StoreInfo
+Library.SystemModels.WeaponCraftStatInfo
+TYPE Library.SystemModels.StoreInfo count=4
+  prop Available
+  prop CreatTime
+  prop Duration
+  prop Filter
+  prop HuntGoldPrice
+  prop Index
+  prop IsTemporary
+  prop Item
+  prop Price
+  prop Recommend
+  prop ServerOnly
+MISSING Library.SystemModels.ShopInfo
+TYPE Library.SystemModels.SafeZoneInfo count=19
+  prop BindRegion
+  prop CreatTime
+  prop Index
+  prop IsTemporary
+  prop RedZone
+  prop Region
+  prop ServerOnly
+  prop StartClass
+  prop StartPointX
+  prop StartPointY
+SAFE Region=Library.SystemModels.MapRegion;BindRegion=Library.SystemModels.MapRegion;StartPointX=0;StartPointY=0;StartClass=Taoist;RedZone=False;Index=4;ServerOnly=False;CreatTime=1/1/0001 上午 12:00:00;IsTemporary=False
+MISSING Library.SystemModels.NPCPage

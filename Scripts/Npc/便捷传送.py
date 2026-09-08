@@ -265,28 +265,28 @@ def OnClick(args):
 
 
 	elif(Menu == 63):
-		say = """我这里可以用元宝兑换金币，
+		say = """我这里可以用赞助币兑换金币，
 		
 		<font color=\"0xffff0000\">你是否需要兑换？</font>
 		
-		[1元宝兑换50000金币:631]
+		[1赞助币兑换50000金币:631]
 			
-		[5元宝兑换250000金币:632]
+		[5赞助币兑换250000金币:632]
 			
-		[15元宝兑换750000金币:633]
+		[15赞助币兑换750000金币:633]
 			
-		[20元宝兑换1000000金币:634]
+		[20赞助币兑换1000000金币:634]
 			
-		[25元宝兑换1250000金币:635]
+		[25赞助币兑换1250000金币:635]
 			
-		[30元宝兑换1500000金币:636]
+		[30赞助币兑换1500000金币:636]
 			
-		[50元宝兑换2500000金币:637]
+		[50赞助币兑换2500000金币:637]
 			
-		[100元宝兑换5000000金币:638]"""
+		[100赞助币兑换5000000金币:638]"""
 	elif(Menu == 631):
 		if (Sender.GameGold < 1):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -298,7 +298,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 632):
 		if (Sender.GameGold < 5):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -313,7 +313,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 633):
 		if (Sender.GameGold < 15):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -328,7 +328,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 634):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -343,7 +343,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 635):
 		if (Sender.GameGold < 25):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -358,7 +358,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 636):
 		if (Sender.GameGold < 30):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -373,7 +373,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 637):
 		if (Sender.GameGold < 50):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -388,7 +388,7 @@ def OnClick(args):
 			[离开:0]"""
 	elif(Menu == 638):
 		if (Sender.GameGold < 100):
-			say = """你没有足够的元宝，无法兑换。
+			say = """你没有足够的赞助币，无法兑换。
 				
 				[关闭:0]"""
 		else:
@@ -436,7 +436,7 @@ def OnClick(args):
 #危险地图传送
 	elif(Menu == 515):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -445,7 +445,7 @@ def OnClick(args):
 			return
 	elif(Menu == 516):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""	
 		else:
@@ -454,7 +454,7 @@ def OnClick(args):
 			return
 	elif(Menu == 517):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""	
 		else:
@@ -463,7 +463,7 @@ def OnClick(args):
 			return
 	elif(Menu == 518):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""	
 		else:
@@ -472,7 +472,7 @@ def OnClick(args):
 			return
 	elif(Menu == 519):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""	
 		else:
@@ -481,7 +481,7 @@ def OnClick(args):
 			return
 	elif(Menu == 520):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""	
 		else:
@@ -510,7 +510,7 @@ def OnClick(args):
 		str = say
 	elif(Menu == 525):
 		if (Sender.GameGold < 10):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -552,7 +552,7 @@ def OnClick(args):
 		str = say
 	elif(Menu == 5181):
 		if (Sender.GameGold < 15):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -561,7 +561,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5251):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -570,7 +570,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5201):
 		if (Sender.GameGold < 12):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -579,7 +579,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5202):
 		if (Sender.GameGold < 14):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -588,7 +588,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5203):
 		if (Sender.GameGold < 16):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -597,7 +597,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5204):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -606,7 +606,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5191):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -615,7 +615,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5151):
 		if (Sender.GameGold < 15):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -624,7 +624,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5171):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -633,7 +633,7 @@ def OnClick(args):
 			return
 	elif(Menu == 5161):
 		if (Sender.GameGold < 20):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -642,7 +642,7 @@ def OnClick(args):
 			return
 	elif(Menu == 527):
 		if (Sender.GameGold < 2):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -651,7 +651,7 @@ def OnClick(args):
 			return
 	elif(Menu == 528):
 		if (Sender.GameGold < 2):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -660,7 +660,7 @@ def OnClick(args):
 			return
 	elif(Menu == 529):
 		if (Sender.GameGold < 2):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -669,7 +669,7 @@ def OnClick(args):
 			return
 	elif(Menu == 530):
 		if (Sender.GameGold < 2):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -678,7 +678,7 @@ def OnClick(args):
 			return
 	elif(Menu == 531):
 		if (Sender.GameGold < 2):
-			say = """你没有足够的元宝，无法传送。
+			say = """你没有足够的赞助币，无法传送。
 				
 				[关闭:0]"""
 		else:
@@ -786,7 +786,7 @@ def OnClick(args):
 			[关闭:0]"""
 		str = say
 	elif(Menu == 50):
-		say = """<font color=\"0xffff0000\">危险传送：费用10元宝起</font>
+		say = """<font color=\"0xffff0000\">危险传送：费用10赞助币起</font>
 
 		<font color=\"0xff00ff00\">移动至矿洞　　:</font>[毒蛇矿洞:527] [比奇矿洞:528]
 		<font color=\"0xff00ff00\">移动至半兽洞穴:</font>[半兽洞穴入口:529] [天然洞穴:531]
@@ -804,7 +804,7 @@ def OnClick(args):
 	else:
 		say = """           欢迎来到  <font color=\"0xff00ff00\">盛世传奇3</font>  玛法大陆
 		
-		[随身任务进度查询:26]      [元宝换金币:63]      [一键出售:65]
+		[随身任务进度查询:26]      [赞助币换金币:63]      [一键出售:65]
 
 		[江湖事迹任务流程:66]      [主线任务全攻略参考:67]
 	
@@ -819,12 +819,7 @@ def OnClick(args):
 		[沃玛神殿:15]    [石阁寺庙:16]     [万年峡谷:17]     [赤月峡谷:18]
 
 		[潘夜石窟:19]    [祖玛神殿:25]     [潘夜神殿:27]     [沙巴克:20]
-
-		<font color=\"0xffff0000\">元宝地图传送</font>
-
-		[元宝传送:50]
-
-		[不传送:0]
+[不传送:0]
 		
 		"""	
 	Dict['Say']=say                         #定义聊天框对话内容
