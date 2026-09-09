@@ -1095,14 +1095,6 @@ def OnClick(args):
 			return Npc.新手首饰冶炼石.OnClick(newArgs)
 		else:
 			say = """未找到指定的NPC"""
-	elif (Menu == 37):            
-		NPCObject = ServerUtils.GetNPCObject(352)
-		if NPCObject:
-			Sender.NPC = NPCObject
-			newArgs = [Self, Sender, 0]
-			return Npc.双倍.OnClick(newArgs)
-		else:
-			say = """未找到指定的NPC"""
 	elif (Menu == 30):
 		NPCObject = ServerUtils.GetNPCObject(219)
 		if NPCObject:
@@ -1141,7 +1133,7 @@ def OnClick(args):
 	else:
 		say = """[付费鉴定:34]      [装备刻名:27]      [技能书兑换:4]
 		
-		[生锈首饰:30]      [每日双倍:37]      [一键特修:29]
+		[生锈首饰:30]      [一键特修:29]
 		
 		[马店:302]"""
 
