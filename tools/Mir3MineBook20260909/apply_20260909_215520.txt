@@ -1,0 +1,701 @@
+mode=apply stamp=20260909_215520
+Chance convention: Random.Next(Chance)==0 => 1/N; double rate => Chance/=2
+Mining: Random.Next(MineInfo.Chance)<=0 with MiningSuccessRate; Chance=1 => 100%
+backup=D:\newMir3\Database\Backup_minebook_20260909_215520
+=== 比奇矿洞 maps (from 比奇城->废矿矿山 D401*) ===
+BIRE Map#85 File=D401 Desc=废矿矿山入口 CanMine=True
+BIRE Map#86 File=D411 Desc=地下1层第一间房 CanMine=True
+BIRE Map#87 File=D413 Desc=地下1层第二间房 CanMine=True
+BIRE Map#88 File=D402 Desc=废矿东部洞穴 CanMine=False
+BIRE Map#89 File=D414 Desc=地下1层第三间房 CanMine=False
+BIRE Map#90 File=D403 Desc=地下1层采矿所 CanMine=False
+BIRE Map#91 File=D412 Desc=天桥2 CanMine=False
+BIRE Map#92 File=D404 Desc=地下2层采矿所 CanMine=False
+BIRE Map#93 File=D416 Desc=天桥3 CanMine=False
+BIRE Map#94 File=D405 Desc=矿石储藏所 CanMine=False
+BIRE Map#95 File=D415 Desc=天桥1  CanMine=False
+BIRE Map#96 File=D406 Desc=废矿南部洞穴 CanMine=False
+BIRE Map#97 File=D401_001 Desc=尸王房 CanMine=False
+BIRE Map#98 File=D402_001 Desc=尸王房 CanMine=False
+BIRE Map#99 File=D403_001 Desc=尸王房 CanMine=False
+BIRE Map#100 File=D404_001 Desc=尸王房 CanMine=False
+BIRE Map#101 File=D405_001 Desc=尸王房 CanMine=False
+=== 毒蛇矿洞 maps (from 毒蛇山谷->矿山 D42*/D43*/D45*) ===
+SNAKE Map#103 File=D421 Desc=矿山1层 CanMine=True
+SNAKE Map#104 File=D422 Desc=矿山2层 CanMine=True
+SNAKE Map#105 File=D421_001 Desc=尸王房 CanMine=False
+SNAKE Map#106 File=D422_001 Desc=尸王房 CanMine=False
+SNAKE Map#107 File=D422_002 Desc=矿山2层 CanMine=False
+SNAKE Map#108 File=D431 Desc=北部矿山 CanMine=True
+SNAKE Map#109 File=D441 Desc=北部地下1层第一间房 CanMine=True
+SNAKE Map#110 File=D443 Desc=北部地下1层第二间房 CanMine=True
+SNAKE Map#111 File=D432 Desc=北部矿山东面洞穴 CanMine=False
+SNAKE Map#112 File=D444 Desc=北部地下1层第三间房 CanMine=False
+SNAKE Map#113 File=D433 Desc=北部地下1层采矿所 CanMine=False
+SNAKE Map#114 File=D442 Desc=北部天桥2 CanMine=False
+SNAKE Map#115 File=D434 Desc=北部地下2层采矿所 CanMine=False
+SNAKE Map#119 File=D436 Desc=北部废矿南面洞穴 CanMine=False
+SNAKE Map#120 File=D431_001 Desc=尸王房 CanMine=False
+SNAKE Map#121 File=D432_001 Desc=尸王房 CanMine=False
+SNAKE Map#122 File=D433_001 Desc=尸王房 CanMine=False
+SNAKE Map#124 File=D435_001 Desc=尸王房 CanMine=False
+SNAKE Map#125 File=D436_001 Desc=尸王房 CanMine=False
+SNAKE Map#126 File=D451 Desc=南部矿山1层 CanMine=True
+SNAKE Map#127 File=D452 Desc=南部矿山2层 CanMine=True
+SNAKE Map#128 File=D451_001 Desc=尸王房 CanMine=False
+SNAKE Map#129 File=D452_001 Desc=尸王房 CanMine=False
+=== MONSTERS on target mines: 10 ===
+Mon#10030 洞蛆 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所
+Mon#10034 僵尸2 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#86 地下1层第一间房; BIRE Map#87 地下1层第二间房; BIRE Map#89 地下1层第三间房; BIRE Map#91 天桥2; BIRE Map#93 天桥3; BIRE Map#95 天桥1 ; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#109 北部地下1层第一间房; SNAKE Map#110 北部地下1层第二间房; SNAKE Map#112 北部地下1层第三间房; SNAKE Map#114 北部天桥2; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层
+Mon#10035 僵尸3 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#86 地下1层第一间房; BIRE Map#87 地下1层第二间房; BIRE Map#89 地下1层第三间房; BIRE Map#91 天桥2; BIRE Map#93 天桥3; BIRE Map#95 天桥1 ; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#109 北部地下1层第一间房; SNAKE Map#110 北部地下1层第二间房; SNAKE Map#112 北部地下1层第三间房; SNAKE Map#114 北部天桥2; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层
+Mon#10036 僵尸4 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#86 地下1层第一间房; BIRE Map#87 地下1层第二间房; BIRE Map#89 地下1层第三间房; BIRE Map#91 天桥2; BIRE Map#93 天桥3; BIRE Map#95 天桥1 ; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#109 北部地下1层第一间房; SNAKE Map#110 北部地下1层第二间房; SNAKE Map#112 北部地下1层第三间房; SNAKE Map#114 北部天桥2; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层
+Mon#10032 老道僵尸 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#86 地下1层第一间房; BIRE Map#87 地下1层第二间房; BIRE Map#89 地下1层第三间房; BIRE Map#91 天桥2; BIRE Map#93 天桥3; BIRE Map#95 天桥1 ; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#109 北部地下1层第一间房; SNAKE Map#110 北部地下1层第二间房; SNAKE Map#112 北部地下1层第三间房; SNAKE Map#114 北部天桥2; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层
+Mon#100030 雷电僵尸 @ SNAKE Map#103 矿山1层
+Mon#10033 僧侣僵尸 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#86 地下1层第一间房; BIRE Map#87 地下1层第二间房; BIRE Map#89 地下1层第三间房; BIRE Map#91 天桥2; BIRE Map#93 天桥3; BIRE Map#95 天桥1 ; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#109 北部地下1层第一间房; SNAKE Map#110 北部地下1层第二间房; SNAKE Map#112 北部地下1层第三间房; SNAKE Map#114 北部天桥2; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层; SNAKE Map#103 矿山1层
+Mon#100004 僧侣僵尸0 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; SNAKE Map#103 矿山1层; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层; SNAKE Map#115 北部地下2层采矿所
+Mon#20004 尸王 @ BIRE Map#85 废矿矿山入口; BIRE Map#88 废矿东部洞穴; BIRE Map#90 地下1层采矿所; BIRE Map#92 地下2层采矿所; BIRE Map#94 矿石储藏所; BIRE Map#96 废矿南部洞穴; BIRE Map#97 尸王房; BIRE Map#98 尸王房; BIRE Map#99 尸王房; BIRE Map#100 尸王房; BIRE Map#101 尸王房; SNAKE Map#120 尸王房; SNAKE Map#121 尸王房; SNAKE Map#122 尸王房; SNAKE Map#124 尸王房; SNAKE Map#128 尸王房; SNAKE Map#129 尸王房; SNAKE Map#105 尸王房; SNAKE Map#106 尸王房; SNAKE Map#103 矿山1层; SNAKE Map#104 矿山2层; SNAKE Map#108 北部矿山; SNAKE Map#111 北部矿山东面洞穴; SNAKE Map#113 北部地下1层采矿所; SNAKE Map#115 北部地下2层采矿所; SNAKE Map#119 北部废矿南面洞穴; SNAKE Map#126 南部矿山1层; SNAKE Map#127 南部矿山2层; SNAKE Map#125 尸王房
+Mon#100005 尸王0 @ BIRE Map#97 尸王房; BIRE Map#98 尸王房; BIRE Map#99 尸王房; BIRE Map#100 尸王房; BIRE Map#101 尸王房; SNAKE Map#120 尸王房; SNAKE Map#121 尸王房; SNAKE Map#122 尸王房; SNAKE Map#124 尸王房; SNAKE Map#128 尸王房; SNAKE Map#129 尸王房; SNAKE Map#105 尸王房; SNAKE Map#106 尸王房; SNAKE Map#125 尸王房
+=== BOOK/秘籍 DROPS (Chance=1/N) ===
+Drop#766 Mon=老道僵尸 Item=火球术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#4567 Mon=尸王 Item=烈火剑法 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4570 Mon=尸王 Item=圣言术 Type=14 Chance=200 Amount=1 DropSet=0
+Drop#4572 Mon=尸王 Item=魔法盾 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4574 Mon=尸王 Item=地狱雷光 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4575 Mon=尸王 Item=冰咆哮 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4579 Mon=尸王 Item=强魔震法 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4580 Mon=尸王 Item=召唤神兽 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4582 Mon=尸王 Item=猛虎强势 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#4598 Mon=尸王 Item=超强召唤骷髅 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#6265 Mon=尸王0 Item=烈火剑法 Type=14 Chance=1500 Amount=1 DropSet=0
+Drop#6268 Mon=尸王0 Item=圣言术 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#6270 Mon=尸王0 Item=魔法盾 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#6272 Mon=尸王0 Item=地狱雷光 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#6273 Mon=尸王0 Item=冰咆哮 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#6277 Mon=尸王0 Item=强魔震法 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#6278 Mon=尸王0 Item=召唤神兽 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#6280 Mon=尸王0 Item=猛虎强势 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#6296 Mon=尸王0 Item=超强召唤骷髅 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#46102 Mon=雷电僵尸 Item=火球术 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#46273 Mon=僧侣僵尸 Item=火球术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#46304 Mon=僵尸2 Item=火球术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#46335 Mon=僵尸3 Item=火球术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#46366 Mon=僵尸4 Item=火球术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229435 Mon=老道僵尸 Item=治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229436 Mon=雷电僵尸 Item=治愈术 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229437 Mon=僧侣僵尸 Item=治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229438 Mon=僵尸2 Item=治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229439 Mon=僵尸3 Item=治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229440 Mon=僵尸4 Item=治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229441 Mon=老道僵尸 Item=基本剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229442 Mon=雷电僵尸 Item=基本剑术 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229443 Mon=僧侣僵尸 Item=基本剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229444 Mon=僵尸2 Item=基本剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229445 Mon=僵尸3 Item=基本剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229446 Mon=僵尸4 Item=基本剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229453 Mon=老道僵尸 Item=精神力战法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229454 Mon=雷电僵尸 Item=精神力战法 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229455 Mon=僧侣僵尸 Item=精神力战法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229456 Mon=僵尸2 Item=精神力战法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229457 Mon=僵尸3 Item=精神力战法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229458 Mon=僵尸4 Item=精神力战法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229459 Mon=老道僵尸 Item=霹雳掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229460 Mon=雷电僵尸 Item=霹雳掌 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229461 Mon=僧侣僵尸 Item=霹雳掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229462 Mon=僵尸2 Item=霹雳掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229463 Mon=僵尸3 Item=霹雳掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229464 Mon=僵尸4 Item=霹雳掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229465 Mon=老道僵尸 Item=冰月神掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229466 Mon=雷电僵尸 Item=冰月神掌 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229467 Mon=僧侣僵尸 Item=冰月神掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229468 Mon=僵尸2 Item=冰月神掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229469 Mon=僵尸3 Item=冰月神掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229470 Mon=僵尸4 Item=冰月神掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229471 Mon=老道僵尸 Item=风掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229472 Mon=雷电僵尸 Item=风掌 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229473 Mon=僧侣僵尸 Item=风掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229474 Mon=僵尸2 Item=风掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229475 Mon=僵尸3 Item=风掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229476 Mon=僵尸4 Item=风掌 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229483 Mon=老道僵尸 Item=施毒术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229484 Mon=雷电僵尸 Item=施毒术 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229485 Mon=僧侣僵尸 Item=施毒术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229486 Mon=僵尸2 Item=施毒术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229487 Mon=僵尸3 Item=施毒术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229488 Mon=僵尸4 Item=施毒术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229489 Mon=老道僵尸 Item=抗拒火环 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229490 Mon=雷电僵尸 Item=抗拒火环 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229491 Mon=僧侣僵尸 Item=抗拒火环 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229492 Mon=僵尸2 Item=抗拒火环 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229493 Mon=僵尸3 Item=抗拒火环 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229494 Mon=僵尸4 Item=抗拒火环 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229501 Mon=老道僵尸 Item=灵魂火符 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229502 Mon=雷电僵尸 Item=灵魂火符 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229503 Mon=僧侣僵尸 Item=灵魂火符 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229504 Mon=僵尸2 Item=灵魂火符 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229505 Mon=僵尸3 Item=灵魂火符 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229506 Mon=僵尸4 Item=灵魂火符 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229507 Mon=老道僵尸 Item=诱惑之光 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229508 Mon=雷电僵尸 Item=诱惑之光 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229509 Mon=僧侣僵尸 Item=诱惑之光 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229510 Mon=僵尸2 Item=诱惑之光 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229511 Mon=僵尸3 Item=诱惑之光 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229512 Mon=僵尸4 Item=诱惑之光 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229513 Mon=老道僵尸 Item=攻杀剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229514 Mon=雷电僵尸 Item=攻杀剑术 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229515 Mon=僧侣僵尸 Item=攻杀剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229516 Mon=僵尸2 Item=攻杀剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229517 Mon=僵尸3 Item=攻杀剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229518 Mon=僵尸4 Item=攻杀剑术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229519 Mon=老道僵尸 Item=瞬息移动 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229520 Mon=雷电僵尸 Item=瞬息移动 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229521 Mon=僧侣僵尸 Item=瞬息移动 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229522 Mon=僵尸2 Item=瞬息移动 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229523 Mon=僵尸3 Item=瞬息移动 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229524 Mon=僵尸4 Item=瞬息移动 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229525 Mon=老道僵尸 Item=月魂断玉 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229526 Mon=雷电僵尸 Item=月魂断玉 Type=14 Chance=2000 Amount=1 DropSet=0
+Drop#229527 Mon=僧侣僵尸 Item=月魂断玉 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229528 Mon=僵尸2 Item=月魂断玉 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229529 Mon=僵尸3 Item=月魂断玉 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229530 Mon=僵尸4 Item=月魂断玉 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229537 Mon=老道僵尸 Item=大火球 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229538 Mon=雷电僵尸 Item=大火球 Type=14 Chance=2200 Amount=1 DropSet=0
+Drop#229539 Mon=僧侣僵尸 Item=大火球 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229540 Mon=僵尸2 Item=大火球 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229541 Mon=僵尸3 Item=大火球 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229542 Mon=僵尸4 Item=大火球 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229543 Mon=老道僵尸 Item=雷电术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229544 Mon=雷电僵尸 Item=雷电术 Type=14 Chance=2200 Amount=1 DropSet=0
+Drop#229545 Mon=僧侣僵尸 Item=雷电术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229546 Mon=僵尸2 Item=雷电术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229547 Mon=僵尸3 Item=雷电术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229548 Mon=僵尸4 Item=雷电术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229549 Mon=老道僵尸 Item=召唤骷髅 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229550 Mon=雷电僵尸 Item=召唤骷髅 Type=14 Chance=2200 Amount=1 DropSet=0
+Drop#229551 Mon=僧侣僵尸 Item=召唤骷髅 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229552 Mon=僵尸2 Item=召唤骷髅 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229553 Mon=僵尸3 Item=召唤骷髅 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229554 Mon=僵尸4 Item=召唤骷髅 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229555 Mon=老道僵尸 Item=冰月震天 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229556 Mon=雷电僵尸 Item=冰月震天 Type=14 Chance=2200 Amount=1 DropSet=0
+Drop#229557 Mon=僧侣僵尸 Item=冰月震天 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229558 Mon=僵尸2 Item=冰月震天 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229559 Mon=僵尸3 Item=冰月震天 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229560 Mon=僵尸4 Item=冰月震天 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229561 Mon=老道僵尸 Item=击风 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229562 Mon=雷电僵尸 Item=击风 Type=14 Chance=3200 Amount=1 DropSet=0
+Drop#229563 Mon=僧侣僵尸 Item=击风 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229564 Mon=僵尸2 Item=击风 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229565 Mon=僵尸3 Item=击风 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229566 Mon=僵尸4 Item=击风 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229567 Mon=老道僵尸 Item=刺杀剑术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229568 Mon=雷电僵尸 Item=刺杀剑术 Type=14 Chance=5000 Amount=1 DropSet=0
+Drop#229569 Mon=僧侣僵尸 Item=刺杀剑术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229570 Mon=僵尸2 Item=刺杀剑术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229571 Mon=僵尸3 Item=刺杀剑术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229572 Mon=僵尸4 Item=刺杀剑术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229579 Mon=老道僵尸 Item=地狱火 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229580 Mon=雷电僵尸 Item=地狱火 Type=14 Chance=5000 Amount=1 DropSet=0
+Drop#229581 Mon=僧侣僵尸 Item=地狱火 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229582 Mon=僵尸2 Item=地狱火 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229583 Mon=僵尸3 Item=地狱火 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229584 Mon=僵尸4 Item=地狱火 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229585 Mon=老道僵尸 Item=隐身术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229586 Mon=雷电僵尸 Item=隐身术 Type=14 Chance=5000 Amount=1 DropSet=0
+Drop#229587 Mon=僧侣僵尸 Item=隐身术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229588 Mon=僵尸2 Item=隐身术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229589 Mon=僵尸3 Item=隐身术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229590 Mon=僵尸4 Item=隐身术 Type=14 Chance=600 Amount=1 DropSet=0
+Drop#229597 Mon=老道僵尸 Item=疾光电影 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229598 Mon=雷电僵尸 Item=疾光电影 Type=14 Chance=6000 Amount=1 DropSet=0
+Drop#229599 Mon=僧侣僵尸 Item=疾光电影 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229600 Mon=僵尸2 Item=疾光电影 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229601 Mon=僵尸3 Item=疾光电影 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229602 Mon=僵尸4 Item=疾光电影 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229603 Mon=老道僵尸 Item=幽灵盾 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229604 Mon=雷电僵尸 Item=幽灵盾 Type=14 Chance=6000 Amount=1 DropSet=0
+Drop#229605 Mon=僧侣僵尸 Item=幽灵盾 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229606 Mon=僵尸2 Item=幽灵盾 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229607 Mon=僵尸3 Item=幽灵盾 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229608 Mon=僵尸4 Item=幽灵盾 Type=14 Chance=700 Amount=1 DropSet=0
+Drop#229609 Mon=老道僵尸 Item=冰沙掌 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229610 Mon=雷电僵尸 Item=冰沙掌 Type=14 Chance=8000 Amount=1 DropSet=0
+Drop#229611 Mon=僧侣僵尸 Item=冰沙掌 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229612 Mon=僵尸2 Item=冰沙掌 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229613 Mon=僵尸3 Item=冰沙掌 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229614 Mon=僵尸4 Item=冰沙掌 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229627 Mon=老道僵尸 Item=集体隐身术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229628 Mon=雷电僵尸 Item=集体隐身术 Type=14 Chance=8000 Amount=1 DropSet=0
+Drop#229629 Mon=僧侣僵尸 Item=集体隐身术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229630 Mon=僵尸2 Item=集体隐身术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229631 Mon=僵尸3 Item=集体隐身术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229632 Mon=僵尸4 Item=集体隐身术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229633 Mon=老道僵尸 Item=风震天 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229634 Mon=雷电僵尸 Item=风震天 Type=14 Chance=8000 Amount=1 DropSet=0
+Drop#229635 Mon=僧侣僵尸 Item=风震天 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229636 Mon=僵尸2 Item=风震天 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229637 Mon=僵尸3 Item=风震天 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229638 Mon=僵尸4 Item=风震天 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229639 Mon=老道僵尸 Item=火墙 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229640 Mon=雷电僵尸 Item=火墙 Type=14 Chance=8000 Amount=1 DropSet=0
+Drop#229641 Mon=僧侣僵尸 Item=火墙 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229642 Mon=僵尸2 Item=火墙 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229643 Mon=僵尸3 Item=火墙 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229644 Mon=僵尸4 Item=火墙 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229645 Mon=老道僵尸 Item=半月弯刀 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#229646 Mon=雷电僵尸 Item=半月弯刀 Type=14 Chance=10000 Amount=1 DropSet=0
+Drop#229647 Mon=僧侣僵尸 Item=半月弯刀 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#229648 Mon=僵尸2 Item=半月弯刀 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#229649 Mon=僵尸3 Item=半月弯刀 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#229650 Mon=僵尸4 Item=半月弯刀 Type=14 Chance=1200 Amount=1 DropSet=0
+Drop#229651 Mon=老道僵尸 Item=月魂灵波 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229652 Mon=雷电僵尸 Item=月魂灵波 Type=14 Chance=8000 Amount=1 DropSet=0
+Drop#229653 Mon=僧侣僵尸 Item=月魂灵波 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229654 Mon=僵尸2 Item=月魂灵波 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229655 Mon=僵尸3 Item=月魂灵波 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229656 Mon=僵尸4 Item=月魂灵波 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229669 Mon=老道僵尸 Item=神圣战甲术 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229670 Mon=雷电僵尸 Item=神圣战甲术 Type=14 Chance=10000 Amount=1 DropSet=0
+Drop#229671 Mon=僧侣僵尸 Item=神圣战甲术 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229672 Mon=僵尸2 Item=神圣战甲术 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229673 Mon=僵尸3 Item=神圣战甲术 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229674 Mon=僵尸4 Item=神圣战甲术 Type=14 Chance=1000 Amount=1 DropSet=0
+Drop#229689 Mon=尸王 Item=困魔咒 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#229690 Mon=尸王0 Item=困魔咒 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229691 Mon=尸王 Item=野蛮冲撞 Type=14 Chance=400 Amount=1 DropSet=0
+Drop#229692 Mon=尸王0 Item=野蛮冲撞 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229695 Mon=尸王 Item=空拳刀法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229696 Mon=尸王0 Item=空拳刀法 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229703 Mon=尸王 Item=群体治愈术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229704 Mon=尸王0 Item=群体治愈术 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229705 Mon=尸王 Item=爆裂火焰 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229706 Mon=尸王0 Item=爆裂火焰 Type=14 Chance=800 Amount=1 DropSet=0
+Drop#229713 Mon=尸王 Item=翔空剑法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229714 Mon=尸王0 Item=翔空剑法 Type=14 Chance=1500 Amount=1 DropSet=0
+Drop#229715 Mon=尸王 Item=龙卷风 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229716 Mon=尸王0 Item=龙卷风 Type=14 Chance=1500 Amount=1 DropSet=0
+Drop#229717 Mon=尸王 Item=回生术 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229718 Mon=尸王0 Item=回生术 Type=14 Chance=1500 Amount=1 DropSet=0
+Drop#229721 Mon=尸王 Item=莲月剑法 Type=14 Chance=500 Amount=1 DropSet=0
+Drop#229722 Mon=尸王0 Item=莲月剑法 Type=14 Chance=1500 Amount=1 DropSet=0
+=== MINE INFO ore rows (ItemType Ore=13) count check ===
+total MineInfo=182; ore-typed=173; non1=182
+  Chance=60 count=1 examples=冰月震天（秘籍）
+  Chance=100 count=1 examples=黑铁
+  Chance=120 count=1 examples=霹雳掌（秘籍）
+  Chance=240 count=2 examples=施毒术（秘籍）,精神力战法（秘籍）
+  Chance=400 count=16 examples=铜矿,铜矿,铜矿
+  Chance=480 count=1 examples=治愈术（秘籍）
+  Chance=500 count=23 examples=铜矿,铜矿,铜矿
+  Chance=600 count=7 examples=铁矿,铁矿,铁矿
+  Chance=800 count=22 examples=银矿,银矿,银矿
+  Chance=1000 count=1 examples=银矿
+  Chance=1200 count=6 examples=黑铁,黑铁,黑铁
+  Chance=1500 count=4 examples=黑铁,黑铁,黑铁
+  Chance=2000 count=13 examples=黑铁,黑铁,黑铁
+  Chance=2500 count=23 examples=金矿,金矿,金矿
+  Chance=7000 count=34 examples=钢玉石,魔晶石,钢玉石
+  Chance=8000 count=17 examples=石榴石,石榴石,石榴石
+  Chance=10000 count=6 examples=钢玉石,钢玉石,钢玉石
+  Chance=100000 count=4 examples=遗址雕像,大族长角笛,万里碧海（海）
+=== APPLY BOOK CHANCE HALVE (target mine maps only) ===
+SET Drop#766 老道僵尸/火球术 Chance 500 -> 250
+SET Drop#4567 尸王/烈火剑法 Chance 400 -> 200
+SET Drop#4570 尸王/圣言术 Chance 200 -> 100
+SET Drop#4572 尸王/魔法盾 Chance 400 -> 200
+SET Drop#4574 尸王/地狱雷光 Chance 400 -> 200
+SET Drop#4575 尸王/冰咆哮 Chance 400 -> 200
+SET Drop#4579 尸王/强魔震法 Chance 400 -> 200
+SET Drop#4580 尸王/召唤神兽 Chance 400 -> 200
+SET Drop#4582 尸王/猛虎强势 Chance 400 -> 200
+SET Drop#4598 尸王/超强召唤骷髅 Chance 400 -> 200
+SET Drop#6265 尸王0/烈火剑法 Chance 1500 -> 750
+SET Drop#6268 尸王0/圣言术 Chance 400 -> 200
+SET Drop#6270 尸王0/魔法盾 Chance 1000 -> 500
+SET Drop#6272 尸王0/地狱雷光 Chance 800 -> 400
+SET Drop#6273 尸王0/冰咆哮 Chance 800 -> 400
+SET Drop#6277 尸王0/强魔震法 Chance 800 -> 400
+SET Drop#6278 尸王0/召唤神兽 Chance 800 -> 400
+SET Drop#6280 尸王0/猛虎强势 Chance 1200 -> 600
+SET Drop#6296 尸王0/超强召唤骷髅 Chance 1200 -> 600
+SET Drop#46102 雷电僵尸/火球术 Chance 2000 -> 1000
+SET Drop#46273 僧侣僵尸/火球术 Chance 500 -> 250
+SET Drop#46304 僵尸2/火球术 Chance 500 -> 250
+SET Drop#46335 僵尸3/火球术 Chance 500 -> 250
+SET Drop#46366 僵尸4/火球术 Chance 500 -> 250
+SET Drop#229435 老道僵尸/治愈术 Chance 500 -> 250
+SET Drop#229436 雷电僵尸/治愈术 Chance 2000 -> 1000
+SET Drop#229437 僧侣僵尸/治愈术 Chance 500 -> 250
+SET Drop#229438 僵尸2/治愈术 Chance 500 -> 250
+SET Drop#229439 僵尸3/治愈术 Chance 500 -> 250
+SET Drop#229440 僵尸4/治愈术 Chance 500 -> 250
+SET Drop#229441 老道僵尸/基本剑术 Chance 500 -> 250
+SET Drop#229442 雷电僵尸/基本剑术 Chance 2000 -> 1000
+SET Drop#229443 僧侣僵尸/基本剑术 Chance 500 -> 250
+SET Drop#229444 僵尸2/基本剑术 Chance 500 -> 250
+SET Drop#229445 僵尸3/基本剑术 Chance 500 -> 250
+SET Drop#229446 僵尸4/基本剑术 Chance 500 -> 250
+SET Drop#229453 老道僵尸/精神力战法 Chance 500 -> 250
+SET Drop#229454 雷电僵尸/精神力战法 Chance 2000 -> 1000
+SET Drop#229455 僧侣僵尸/精神力战法 Chance 500 -> 250
+SET Drop#229456 僵尸2/精神力战法 Chance 500 -> 250
+SET Drop#229457 僵尸3/精神力战法 Chance 500 -> 250
+SET Drop#229458 僵尸4/精神力战法 Chance 500 -> 250
+SET Drop#229459 老道僵尸/霹雳掌 Chance 500 -> 250
+SET Drop#229460 雷电僵尸/霹雳掌 Chance 2000 -> 1000
+SET Drop#229461 僧侣僵尸/霹雳掌 Chance 500 -> 250
+SET Drop#229462 僵尸2/霹雳掌 Chance 500 -> 250
+SET Drop#229463 僵尸3/霹雳掌 Chance 500 -> 250
+SET Drop#229464 僵尸4/霹雳掌 Chance 500 -> 250
+SET Drop#229465 老道僵尸/冰月神掌 Chance 500 -> 250
+SET Drop#229466 雷电僵尸/冰月神掌 Chance 2000 -> 1000
+SET Drop#229467 僧侣僵尸/冰月神掌 Chance 500 -> 250
+SET Drop#229468 僵尸2/冰月神掌 Chance 500 -> 250
+SET Drop#229469 僵尸3/冰月神掌 Chance 500 -> 250
+SET Drop#229470 僵尸4/冰月神掌 Chance 500 -> 250
+SET Drop#229471 老道僵尸/风掌 Chance 500 -> 250
+SET Drop#229472 雷电僵尸/风掌 Chance 2000 -> 1000
+SET Drop#229473 僧侣僵尸/风掌 Chance 500 -> 250
+SET Drop#229474 僵尸2/风掌 Chance 500 -> 250
+SET Drop#229475 僵尸3/风掌 Chance 500 -> 250
+SET Drop#229476 僵尸4/风掌 Chance 500 -> 250
+SET Drop#229483 老道僵尸/施毒术 Chance 500 -> 250
+SET Drop#229484 雷电僵尸/施毒术 Chance 2000 -> 1000
+SET Drop#229485 僧侣僵尸/施毒术 Chance 500 -> 250
+SET Drop#229486 僵尸2/施毒术 Chance 500 -> 250
+SET Drop#229487 僵尸3/施毒术 Chance 500 -> 250
+SET Drop#229488 僵尸4/施毒术 Chance 500 -> 250
+SET Drop#229489 老道僵尸/抗拒火环 Chance 500 -> 250
+SET Drop#229490 雷电僵尸/抗拒火环 Chance 2000 -> 1000
+SET Drop#229491 僧侣僵尸/抗拒火环 Chance 500 -> 250
+SET Drop#229492 僵尸2/抗拒火环 Chance 500 -> 250
+SET Drop#229493 僵尸3/抗拒火环 Chance 500 -> 250
+SET Drop#229494 僵尸4/抗拒火环 Chance 500 -> 250
+SET Drop#229501 老道僵尸/灵魂火符 Chance 500 -> 250
+SET Drop#229502 雷电僵尸/灵魂火符 Chance 2000 -> 1000
+SET Drop#229503 僧侣僵尸/灵魂火符 Chance 500 -> 250
+SET Drop#229504 僵尸2/灵魂火符 Chance 500 -> 250
+SET Drop#229505 僵尸3/灵魂火符 Chance 500 -> 250
+SET Drop#229506 僵尸4/灵魂火符 Chance 500 -> 250
+SET Drop#229507 老道僵尸/诱惑之光 Chance 500 -> 250
+SET Drop#229508 雷电僵尸/诱惑之光 Chance 2000 -> 1000
+SET Drop#229509 僧侣僵尸/诱惑之光 Chance 500 -> 250
+SET Drop#229510 僵尸2/诱惑之光 Chance 500 -> 250
+SET Drop#229511 僵尸3/诱惑之光 Chance 500 -> 250
+SET Drop#229512 僵尸4/诱惑之光 Chance 500 -> 250
+SET Drop#229513 老道僵尸/攻杀剑术 Chance 500 -> 250
+SET Drop#229514 雷电僵尸/攻杀剑术 Chance 2000 -> 1000
+SET Drop#229515 僧侣僵尸/攻杀剑术 Chance 500 -> 250
+SET Drop#229516 僵尸2/攻杀剑术 Chance 500 -> 250
+SET Drop#229517 僵尸3/攻杀剑术 Chance 500 -> 250
+SET Drop#229518 僵尸4/攻杀剑术 Chance 500 -> 250
+SET Drop#229519 老道僵尸/瞬息移动 Chance 500 -> 250
+SET Drop#229520 雷电僵尸/瞬息移动 Chance 2000 -> 1000
+SET Drop#229521 僧侣僵尸/瞬息移动 Chance 500 -> 250
+SET Drop#229522 僵尸2/瞬息移动 Chance 500 -> 250
+SET Drop#229523 僵尸3/瞬息移动 Chance 500 -> 250
+SET Drop#229524 僵尸4/瞬息移动 Chance 500 -> 250
+SET Drop#229525 老道僵尸/月魂断玉 Chance 500 -> 250
+SET Drop#229526 雷电僵尸/月魂断玉 Chance 2000 -> 1000
+SET Drop#229527 僧侣僵尸/月魂断玉 Chance 500 -> 250
+SET Drop#229528 僵尸2/月魂断玉 Chance 500 -> 250
+SET Drop#229529 僵尸3/月魂断玉 Chance 500 -> 250
+SET Drop#229530 僵尸4/月魂断玉 Chance 500 -> 250
+SET Drop#229537 老道僵尸/大火球 Chance 600 -> 300
+SET Drop#229538 雷电僵尸/大火球 Chance 2200 -> 1100
+SET Drop#229539 僧侣僵尸/大火球 Chance 600 -> 300
+SET Drop#229540 僵尸2/大火球 Chance 600 -> 300
+SET Drop#229541 僵尸3/大火球 Chance 600 -> 300
+SET Drop#229542 僵尸4/大火球 Chance 600 -> 300
+SET Drop#229543 老道僵尸/雷电术 Chance 600 -> 300
+SET Drop#229544 雷电僵尸/雷电术 Chance 2200 -> 1100
+SET Drop#229545 僧侣僵尸/雷电术 Chance 600 -> 300
+SET Drop#229546 僵尸2/雷电术 Chance 600 -> 300
+SET Drop#229547 僵尸3/雷电术 Chance 600 -> 300
+SET Drop#229548 僵尸4/雷电术 Chance 600 -> 300
+SET Drop#229549 老道僵尸/召唤骷髅 Chance 600 -> 300
+SET Drop#229550 雷电僵尸/召唤骷髅 Chance 2200 -> 1100
+SET Drop#229551 僧侣僵尸/召唤骷髅 Chance 600 -> 300
+SET Drop#229552 僵尸2/召唤骷髅 Chance 600 -> 300
+SET Drop#229553 僵尸3/召唤骷髅 Chance 600 -> 300
+SET Drop#229554 僵尸4/召唤骷髅 Chance 600 -> 300
+SET Drop#229555 老道僵尸/冰月震天 Chance 600 -> 300
+SET Drop#229556 雷电僵尸/冰月震天 Chance 2200 -> 1100
+SET Drop#229557 僧侣僵尸/冰月震天 Chance 600 -> 300
+SET Drop#229558 僵尸2/冰月震天 Chance 600 -> 300
+SET Drop#229559 僵尸3/冰月震天 Chance 600 -> 300
+SET Drop#229560 僵尸4/冰月震天 Chance 600 -> 300
+SET Drop#229561 老道僵尸/击风 Chance 600 -> 300
+SET Drop#229562 雷电僵尸/击风 Chance 3200 -> 1600
+SET Drop#229563 僧侣僵尸/击风 Chance 600 -> 300
+SET Drop#229564 僵尸2/击风 Chance 600 -> 300
+SET Drop#229565 僵尸3/击风 Chance 600 -> 300
+SET Drop#229566 僵尸4/击风 Chance 600 -> 300
+SET Drop#229567 老道僵尸/刺杀剑术 Chance 600 -> 300
+SET Drop#229568 雷电僵尸/刺杀剑术 Chance 5000 -> 2500
+SET Drop#229569 僧侣僵尸/刺杀剑术 Chance 600 -> 300
+SET Drop#229570 僵尸2/刺杀剑术 Chance 600 -> 300
+SET Drop#229571 僵尸3/刺杀剑术 Chance 600 -> 300
+SET Drop#229572 僵尸4/刺杀剑术 Chance 600 -> 300
+SET Drop#229579 老道僵尸/地狱火 Chance 600 -> 300
+SET Drop#229580 雷电僵尸/地狱火 Chance 5000 -> 2500
+SET Drop#229581 僧侣僵尸/地狱火 Chance 600 -> 300
+SET Drop#229582 僵尸2/地狱火 Chance 600 -> 300
+SET Drop#229583 僵尸3/地狱火 Chance 600 -> 300
+SET Drop#229584 僵尸4/地狱火 Chance 600 -> 300
+SET Drop#229585 老道僵尸/隐身术 Chance 600 -> 300
+SET Drop#229586 雷电僵尸/隐身术 Chance 5000 -> 2500
+SET Drop#229587 僧侣僵尸/隐身术 Chance 600 -> 300
+SET Drop#229588 僵尸2/隐身术 Chance 600 -> 300
+SET Drop#229589 僵尸3/隐身术 Chance 600 -> 300
+SET Drop#229590 僵尸4/隐身术 Chance 600 -> 300
+SET Drop#229597 老道僵尸/疾光电影 Chance 700 -> 350
+SET Drop#229598 雷电僵尸/疾光电影 Chance 6000 -> 3000
+SET Drop#229599 僧侣僵尸/疾光电影 Chance 700 -> 350
+SET Drop#229600 僵尸2/疾光电影 Chance 700 -> 350
+SET Drop#229601 僵尸3/疾光电影 Chance 700 -> 350
+SET Drop#229602 僵尸4/疾光电影 Chance 700 -> 350
+SET Drop#229603 老道僵尸/幽灵盾 Chance 700 -> 350
+SET Drop#229604 雷电僵尸/幽灵盾 Chance 6000 -> 3000
+SET Drop#229605 僧侣僵尸/幽灵盾 Chance 700 -> 350
+SET Drop#229606 僵尸2/幽灵盾 Chance 700 -> 350
+SET Drop#229607 僵尸3/幽灵盾 Chance 700 -> 350
+SET Drop#229608 僵尸4/幽灵盾 Chance 700 -> 350
+SET Drop#229609 老道僵尸/冰沙掌 Chance 800 -> 400
+SET Drop#229610 雷电僵尸/冰沙掌 Chance 8000 -> 4000
+SET Drop#229611 僧侣僵尸/冰沙掌 Chance 800 -> 400
+SET Drop#229612 僵尸2/冰沙掌 Chance 800 -> 400
+SET Drop#229613 僵尸3/冰沙掌 Chance 800 -> 400
+SET Drop#229614 僵尸4/冰沙掌 Chance 800 -> 400
+SET Drop#229627 老道僵尸/集体隐身术 Chance 800 -> 400
+SET Drop#229628 雷电僵尸/集体隐身术 Chance 8000 -> 4000
+SET Drop#229629 僧侣僵尸/集体隐身术 Chance 800 -> 400
+SET Drop#229630 僵尸2/集体隐身术 Chance 800 -> 400
+SET Drop#229631 僵尸3/集体隐身术 Chance 800 -> 400
+SET Drop#229632 僵尸4/集体隐身术 Chance 800 -> 400
+SET Drop#229633 老道僵尸/风震天 Chance 800 -> 400
+SET Drop#229634 雷电僵尸/风震天 Chance 8000 -> 4000
+SET Drop#229635 僧侣僵尸/风震天 Chance 800 -> 400
+SET Drop#229636 僵尸2/风震天 Chance 800 -> 400
+SET Drop#229637 僵尸3/风震天 Chance 800 -> 400
+SET Drop#229638 僵尸4/风震天 Chance 800 -> 400
+SET Drop#229639 老道僵尸/火墙 Chance 800 -> 400
+SET Drop#229640 雷电僵尸/火墙 Chance 8000 -> 4000
+SET Drop#229641 僧侣僵尸/火墙 Chance 800 -> 400
+SET Drop#229642 僵尸2/火墙 Chance 800 -> 400
+SET Drop#229643 僵尸3/火墙 Chance 800 -> 400
+SET Drop#229644 僵尸4/火墙 Chance 800 -> 400
+SET Drop#229645 老道僵尸/半月弯刀 Chance 1200 -> 600
+SET Drop#229646 雷电僵尸/半月弯刀 Chance 10000 -> 5000
+SET Drop#229647 僧侣僵尸/半月弯刀 Chance 1200 -> 600
+SET Drop#229648 僵尸2/半月弯刀 Chance 1200 -> 600
+SET Drop#229649 僵尸3/半月弯刀 Chance 1200 -> 600
+SET Drop#229650 僵尸4/半月弯刀 Chance 1200 -> 600
+SET Drop#229651 老道僵尸/月魂灵波 Chance 1000 -> 500
+SET Drop#229652 雷电僵尸/月魂灵波 Chance 8000 -> 4000
+SET Drop#229653 僧侣僵尸/月魂灵波 Chance 1000 -> 500
+SET Drop#229654 僵尸2/月魂灵波 Chance 1000 -> 500
+SET Drop#229655 僵尸3/月魂灵波 Chance 1000 -> 500
+SET Drop#229656 僵尸4/月魂灵波 Chance 1000 -> 500
+SET Drop#229669 老道僵尸/神圣战甲术 Chance 1000 -> 500
+SET Drop#229670 雷电僵尸/神圣战甲术 Chance 10000 -> 5000
+SET Drop#229671 僧侣僵尸/神圣战甲术 Chance 1000 -> 500
+SET Drop#229672 僵尸2/神圣战甲术 Chance 1000 -> 500
+SET Drop#229673 僵尸3/神圣战甲术 Chance 1000 -> 500
+SET Drop#229674 僵尸4/神圣战甲术 Chance 1000 -> 500
+SET Drop#229689 尸王/困魔咒 Chance 400 -> 200
+SET Drop#229690 尸王0/困魔咒 Chance 800 -> 400
+SET Drop#229691 尸王/野蛮冲撞 Chance 400 -> 200
+SET Drop#229692 尸王0/野蛮冲撞 Chance 800 -> 400
+SET Drop#229695 尸王/空拳刀法 Chance 500 -> 250
+SET Drop#229696 尸王0/空拳刀法 Chance 800 -> 400
+SET Drop#229703 尸王/群体治愈术 Chance 500 -> 250
+SET Drop#229704 尸王0/群体治愈术 Chance 800 -> 400
+SET Drop#229705 尸王/爆裂火焰 Chance 500 -> 250
+SET Drop#229706 尸王0/爆裂火焰 Chance 800 -> 400
+SET Drop#229713 尸王/翔空剑法 Chance 500 -> 250
+SET Drop#229714 尸王0/翔空剑法 Chance 1500 -> 750
+SET Drop#229715 尸王/龙卷风 Chance 500 -> 250
+SET Drop#229716 尸王0/龙卷风 Chance 1500 -> 750
+SET Drop#229717 尸王/回生术 Chance 500 -> 250
+SET Drop#229718 尸王0/回生术 Chance 1500 -> 750
+SET Drop#229721 尸王/莲月剑法 Chance 500 -> 250
+SET Drop#229722 尸王0/莲月剑法 Chance 1500 -> 750
+book_drops_changed=222
+=== APPLY MINE CHANCE=1 for Ore ItemType only ===
+SET Mine#10 Map#85 废矿矿山入口 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#11 Map#85 废矿矿山入口 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#12 Map#85 废矿矿山入口 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#13 Map#85 废矿矿山入口 Item=银矿 Type=13 Chance 1000 -> 1
+SET Mine#14 Map#85 废矿矿山入口 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#170 Map#85 废矿矿山入口 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#171 Map#335 西部石矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#172 Map#335 西部石矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#173 Map#335 西部石矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#174 Map#335 西部石矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#175 Map#335 西部石矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#176 Map#335 西部石矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#177 Map#330 北部石矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#178 Map#330 北部石矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#179 Map#330 北部石矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#180 Map#330 北部石矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#181 Map#330 北部石矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#182 Map#330 北部石矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#183 Map#325 东部石矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#184 Map#325 东部石矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#185 Map#325 东部石矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#186 Map#325 东部石矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#187 Map#325 东部石矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#188 Map#325 东部石矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#189 Map#320 西部银杏废矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#190 Map#320 西部银杏废矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#191 Map#320 西部银杏废矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#192 Map#320 西部银杏废矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#193 Map#320 西部银杏废矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#194 Map#320 西部银杏废矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#195 Map#315 北部银杏废矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#196 Map#315 北部银杏废矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#197 Map#315 北部银杏废矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#198 Map#315 北部银杏废矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#199 Map#315 北部银杏废矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#200 Map#315 北部银杏废矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#201 Map#310 东部银杏废矿1层 Item=铜矿 Type=13 Chance 500 -> 1
+SET Mine#202 Map#310 东部银杏废矿1层 Item=铁矿 Type=13 Chance 600 -> 1
+SET Mine#203 Map#310 东部银杏废矿1层 Item=黑铁 Type=13 Chance 1200 -> 1
+SET Mine#204 Map#310 东部银杏废矿1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#205 Map#310 东部银杏废矿1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#206 Map#310 东部银杏废矿1层 Item=钢玉石 Type=13 Chance 10000 -> 1
+SET Mine#261 Map#459 门派庄园(花香园) Item=黑铁 Type=13 Chance 100 -> 1
+SET Mine#494 Map#85 废矿矿山入口 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#509 Map#85 废矿矿山入口 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2489 Map#86 地下1层第一间房 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2490 Map#86 地下1层第一间房 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2491 Map#86 地下1层第一间房 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2492 Map#86 地下1层第一间房 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2493 Map#86 地下1层第一间房 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2494 Map#86 地下1层第一间房 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2495 Map#86 地下1层第一间房 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2496 Map#86 地下1层第一间房 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2497 Map#87 地下1层第二间房 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2498 Map#87 地下1层第二间房 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2499 Map#87 地下1层第二间房 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2500 Map#87 地下1层第二间房 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2501 Map#87 地下1层第二间房 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2502 Map#87 地下1层第二间房 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2503 Map#87 地下1层第二间房 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2504 Map#87 地下1层第二间房 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2505 Map#88 废矿东部洞穴 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2506 Map#88 废矿东部洞穴 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2507 Map#88 废矿东部洞穴 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2508 Map#88 废矿东部洞穴 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2509 Map#88 废矿东部洞穴 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2510 Map#88 废矿东部洞穴 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2511 Map#88 废矿东部洞穴 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2512 Map#88 废矿东部洞穴 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2513 Map#89 地下1层第三间房 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2514 Map#89 地下1层第三间房 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2515 Map#89 地下1层第三间房 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2516 Map#89 地下1层第三间房 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2517 Map#89 地下1层第三间房 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2518 Map#89 地下1层第三间房 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2519 Map#89 地下1层第三间房 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2520 Map#89 地下1层第三间房 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2521 Map#90 地下1层采矿所 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2522 Map#90 地下1层采矿所 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2523 Map#90 地下1层采矿所 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2524 Map#90 地下1层采矿所 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2525 Map#90 地下1层采矿所 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2526 Map#90 地下1层采矿所 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2527 Map#90 地下1层采矿所 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2528 Map#90 地下1层采矿所 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2529 Map#94 矿石储藏所 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2530 Map#94 矿石储藏所 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2531 Map#94 矿石储藏所 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2532 Map#94 矿石储藏所 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2533 Map#94 矿石储藏所 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2534 Map#94 矿石储藏所 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2535 Map#94 矿石储藏所 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2536 Map#94 矿石储藏所 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2537 Map#96 废矿南部洞穴 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2538 Map#96 废矿南部洞穴 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2539 Map#96 废矿南部洞穴 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2540 Map#96 废矿南部洞穴 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2541 Map#96 废矿南部洞穴 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2542 Map#96 废矿南部洞穴 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2543 Map#96 废矿南部洞穴 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2544 Map#96 废矿南部洞穴 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2545 Map#103 矿山1层 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2546 Map#103 矿山1层 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2547 Map#103 矿山1层 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2548 Map#103 矿山1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2549 Map#103 矿山1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2550 Map#103 矿山1层 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2551 Map#103 矿山1层 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2552 Map#103 矿山1层 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2553 Map#104 矿山2层 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2554 Map#104 矿山2层 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2555 Map#104 矿山2层 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2556 Map#104 矿山2层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2557 Map#104 矿山2层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2558 Map#104 矿山2层 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2559 Map#104 矿山2层 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2560 Map#104 矿山2层 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2561 Map#107 矿山2层 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2562 Map#107 矿山2层 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2563 Map#107 矿山2层 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2564 Map#107 矿山2层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2565 Map#107 矿山2层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2566 Map#107 矿山2层 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2567 Map#107 矿山2层 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2568 Map#107 矿山2层 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2569 Map#108 北部矿山 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2570 Map#108 北部矿山 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2571 Map#108 北部矿山 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2572 Map#108 北部矿山 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2573 Map#108 北部矿山 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2574 Map#108 北部矿山 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2575 Map#108 北部矿山 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2576 Map#108 北部矿山 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2577 Map#109 北部地下1层第一间房 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2578 Map#109 北部地下1层第一间房 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2579 Map#109 北部地下1层第一间房 Item=黑铁 Type=13 Chance 1500 -> 1
+SET Mine#2580 Map#109 北部地下1层第一间房 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2581 Map#109 北部地下1层第一间房 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2582 Map#109 北部地下1层第一间房 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2583 Map#109 北部地下1层第一间房 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2584 Map#109 北部地下1层第一间房 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2585 Map#110 北部地下1层第二间房 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2586 Map#110 北部地下1层第二间房 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2587 Map#110 北部地下1层第二间房 Item=黑铁 Type=13 Chance 1500 -> 1
+SET Mine#2588 Map#110 北部地下1层第二间房 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2589 Map#110 北部地下1层第二间房 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2590 Map#110 北部地下1层第二间房 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2591 Map#110 北部地下1层第二间房 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2592 Map#110 北部地下1层第二间房 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2593 Map#126 南部矿山1层 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2594 Map#126 南部矿山1层 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2595 Map#126 南部矿山1层 Item=黑铁 Type=13 Chance 2000 -> 1
+SET Mine#2596 Map#126 南部矿山1层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2597 Map#126 南部矿山1层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2598 Map#126 南部矿山1层 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2599 Map#126 南部矿山1层 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2600 Map#126 南部矿山1层 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2601 Map#127 南部矿山2层 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2602 Map#127 南部矿山2层 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2603 Map#127 南部矿山2层 Item=黑铁 Type=13 Chance 1500 -> 1
+SET Mine#2604 Map#127 南部矿山2层 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2605 Map#127 南部矿山2层 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2606 Map#127 南部矿山2层 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2607 Map#127 南部矿山2层 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2608 Map#127 南部矿山2层 Item=石榴石 Type=13 Chance 8000 -> 1
+SET Mine#2609 Map#119 北部废矿南面洞穴 Item=铜矿 Type=13 Chance 400 -> 1
+SET Mine#2610 Map#119 北部废矿南面洞穴 Item=铁矿 Type=13 Chance 500 -> 1
+SET Mine#2611 Map#119 北部废矿南面洞穴 Item=黑铁 Type=13 Chance 1500 -> 1
+SET Mine#2612 Map#119 北部废矿南面洞穴 Item=银矿 Type=13 Chance 800 -> 1
+SET Mine#2613 Map#119 北部废矿南面洞穴 Item=金矿 Type=13 Chance 2500 -> 1
+SET Mine#2614 Map#119 北部废矿南面洞穴 Item=钢玉石 Type=13 Chance 7000 -> 1
+SET Mine#2615 Map#119 北部废矿南面洞穴 Item=魔晶石 Type=13 Chance 7000 -> 1
+SET Mine#2616 Map#119 北部废矿南面洞穴 Item=石榴石 Type=13 Chance 8000 -> 1
+mine_ore_rows_changed=173 skipped_non_ore=9
+NOTE: DropInfo is per-Monster; zombie/shiwang also in stone mines D14* so books there also double.
+saved System.db + ClientSystem.db (+ Data sync if present)
