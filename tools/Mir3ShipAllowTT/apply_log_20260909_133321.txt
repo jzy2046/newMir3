@@ -1,0 +1,42 @@
+﻿Mir3ShipAllowTT 20260909_133321
+backupDir=D:\newMir3\Database\Backup_shipAllowTT_20260909_133321
+dataBakDir=D:\newMir3\Data\Backup_shipAllowTT_20260909_133321
+mapsTotal=621
+HIT [246] Desc=神舰入口 File=D900 AllowTT=True
+  -> AllowTT=false
+HIT [247] Desc=神舰3层 File=D901 AllowTT=True
+  -> AllowTT=false
+HIT [248] Desc=神舰2层 File=D9021 AllowTT=True
+  -> AllowTT=false
+HIT [249] Desc=神舰2层 File=D9022 AllowTT=True
+  -> AllowTT=false
+HIT [250] Desc=神舰1层 File=D903 AllowTT=True
+  -> AllowTT=false
+HIT [529] Desc=异界神舰3层 File=DE1402 AllowTT=True
+  -> AllowTT=false
+HIT [530] Desc=异界神舰2-1层 File=DE1403 AllowTT=True
+  -> AllowTT=false
+HIT [531] Desc=异界神舰2-2层 File=DE1404 AllowTT=True
+  -> AllowTT=false
+HIT [532] Desc=异界神舰1层 File=DE1405 AllowTT=True
+  -> AllowTT=false
+HIT [533] Desc=异界神舰 File=ED1405 AllowTT=True
+  -> AllowTT=false
+HIT [534] Desc=异界神舰操控室 File=DE1406 AllowTT=True
+  -> AllowTT=false
+scannedShip=11 changed=11 alreadyFalse=0
+saved work=C:\Users\jzy20\AppData\Local\Temp\ship-tt-49270f11
+synced Database\System.db + Data\System.db
+System.db sha16=1A36EAE9C1A8B8D2
+VPS path D:\Mir3service not present on this PC — skip
+VERIFY [246] 神舰入口 AllowTT=False
+VERIFY [247] 神舰3层 AllowTT=False
+VERIFY [248] 神舰2层 AllowTT=False
+VERIFY [249] 神舰2层 AllowTT=False
+VERIFY [250] 神舰1层 AllowTT=False
+VERIFY [529] 异界神舰3层 AllowTT=False
+VERIFY [530] 异界神舰2-1层 AllowTT=False
+VERIFY [531] 异界神舰2-2层 AllowTT=False
+VERIFY [532] 异界神舰1层 AllowTT=False
+VERIFY [533] 异界神舰 AllowTT=False
+VERIFY [534] 异界神舰操控室 AllowTT=False
