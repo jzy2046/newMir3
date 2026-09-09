@@ -7,3 +7,7 @@ _export_snap/
 _audit_docs/
 _whitelist/verify_export/
 _whitelist/build_verify_xlsx.py
+
+# Hotfix packs: local only, do not commit (manual VPS overwrite)
+patches_ready_*/
+patches_ready_*
