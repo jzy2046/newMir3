@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #载入模块SYS
 import sys
 
@@ -16,7 +16,7 @@ yaodiangoodslist=[
 ('金创药（小）',float(1)),
 ('金创药（中）',float(1)),
 ('金创药（大）',float(1)),
-('金创药（特）',float(1)),
+('金疮药（特）',float(1)),
 ('魔法药（小）',float(1)),
 ('魔法药（中）',float(1)),
 ('魔法药（大）',float(1)),

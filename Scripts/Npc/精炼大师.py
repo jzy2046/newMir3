@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # 精炼大师：穿戴装备 + 背包地煞石/天罡石（消耗按冲刺等级）
 from Globals import *
 import clr, random
@@ -99,7 +99,7 @@ def OnClick(args):
 		# keep dialog open: fall through to re-show menu
 	say = (
 		'精炼大师\n\n'
-		'穿戴装备，背包放材料。成功率1%。最高6级。\n'
+		'穿戴装备，背包放材料。最高6级。\n'
 		'消耗按「冲刺等级」强制扣除（先扣石再掷骰）：\n'
 		'冲+1：地煞1\n'
 		'冲+2：地煞2\n'
