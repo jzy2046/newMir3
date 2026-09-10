@@ -222,7 +222,6 @@ def OnClick(args):
 			
 			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
 			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
@@ -246,7 +245,6 @@ def OnClick(args):
 			
 			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
 			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
@@ -261,7 +259,7 @@ def OnClick(args):
 			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
 
-			[［灵魂分裂］:311] [［移花接玉］:312] [［妙影无踪］:314] [［阴阳法环］:313]
+			[［移花接玉］:312] [［妙影无踪］:314] [［阴阳法环］:313]
 			"""
 		elif Sender.Class == Sender.Class.Assassin:
 			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
@@ -270,7 +268,6 @@ def OnClick(args):
 			
 			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
 			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
@@ -294,7 +291,6 @@ def OnClick(args):
 			
 			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
-			<font color=\"0xff00ff00\">「十方斩」</font>   <font color=\"0xff00ff00\">「魄冰刺」</font>   <font color=\"0xff00ff00\">「灵魂分裂」</font>
 			
 			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
 
@@ -445,18 +441,7 @@ def OnClick(args):
 			
 			[离开:0]"""
 
-	elif (Menu == 311):
-		if (Sender.GetItemCount("遗物") < 1000):
-			say = """你的遗物数量不足，请继续努力。
-			
-			[离开:0]"""
-		else:
-			Sender.TakeItem("遗物",1000)
-			Sender.GiveItem("灵魂分裂（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-			[离开:0]"""
-
+    # REMOVED Menu 311 灵魂分裂（秘籍）兑换 20260910
 	elif (Menu == 312):
 		if (Sender.GetItemCount("遗物") < 2000):
 			say = """你的遗物数量不足，请继续努力。
@@ -844,7 +829,9 @@ def OnClick(args):
 
 			[离开:0]"""
 		else:
-			if (Sender.GiveItem("灵魂分裂（秘籍）",1)):
+            # REMOVED 灵魂分裂: # REMOVED 灵魂分裂: if (Sender.GiveItem("灵魂分裂（秘籍）",1)):
+            # REMOVED 灵魂分裂 line
+            # REMOVED 灵魂分裂 line
 				SubGold(Sender,100000)
 				Sender.TakeItem("遗物",50)
 				say ="""兑换秘籍成功。

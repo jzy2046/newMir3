@@ -2755,36 +2755,7 @@ def OnClick(args):
 				
 				[结束:0]
 				"""
-	elif (Menu == 336):
-		#判断需要的金币	
-		if (Sender.Gold < 200000):
-			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
-			
-			[结束:0]
-			"""
-		#判断是否有要求的道具
-		elif(Sender.GetItemCount("灵魂分裂") < 1):
-			str ="""请首先找到武功书......，不拿武功书来，却让我解释，真让人生气！
-			
-			[结束:0]
-			"""
-		else:
-		#上面条件都达成，扣除费用和道具
-			SubGold(Sender,200000)
-			Sender.TakeItem("灵魂分裂",1)
-			select = random.randint(0,100)
-			#设置获得书的几率
-			if select < 60:
-				str ="""书太陈旧破碎了......，下次请拿像样的书来。
-				
-				[结束:0]
-				"""
-			else:
-				Sender.GiveItem("灵魂分裂（秘籍）",1)
-				str = """还好成功了，下次请拿保存状态稍好的书来解释。
-				
-				[结束:0]
-				"""
+	# REMOVED Menu == 336 灵魂分裂 block 20260910
 	elif (Menu == 337):
 		#判断需要的金币	
 		if (Sender.Gold < 200000):
@@ -3265,36 +3236,7 @@ def OnClick(args):
 				
 				[结束:0]
 				"""
-	elif (Menu == 353):
-		#判断需要的金币	
-		if (Sender.Gold < 200000):
-			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
-			
-			[结束:0]
-			"""
-		#判断是否有要求的道具
-		elif(Sender.GetItemCount("灵魂分裂") < 1):
-			str ="""请首先找到武功书......，不拿武功书来，却让我解释，真让人生气！
-			
-			[结束:0]
-			"""
-		else:
-		#上面条件都达成，扣除费用和道具
-			SubGold(Sender,200000)
-			Sender.TakeItem("灵魂分裂",1)
-			select = random.randint(0,100)
-			#设置获得书的几率
-			if select < 60:
-				str ="""书太陈旧破碎了......，下次请拿像样的书来。
-				
-				[结束:0]
-				"""
-			else:
-				Sender.GiveItem("灵魂分裂（秘籍）",1)
-				str = """还好成功了，下次请拿保存状态稍好的书来解释。
-				
-				[结束:0]
-				"""
+	# REMOVED Menu == 353 灵魂分裂 block 20260910
 	elif (Menu == 411):
 		#判断需要的金币	
 		if (Sender.Gold < 50000):
@@ -4614,8 +4556,7 @@ def OnClick(args):
 		 [困魔咒:2322]   [空拳刀法:2323]   [强魔震法:2324]   [召唤神兽:2325]
 		 [群体治愈术:2326] [超强召唤骷髅:2327]   [猛虎强势:2328]   [回生术:2329]
 		 [云寂术:2330]   [妙影无踪:2332]   [阴阳法环:2333]
-		 [灵魂分裂:2336] 100赞助币
-
+		 
 	 <font color=\"0xff00FF33\">稀世技能</font> 待添加
 
 		（刺客魔法）
@@ -4634,7 +4575,7 @@ def OnClick(args):
     
 		"""
 	elif (Menu == 2111):
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -4656,7 +4597,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2112):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -4678,7 +4619,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2113):
 		#判断需要的金币
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -4700,7 +4641,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2114):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -4722,7 +4663,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2115):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4744,7 +4685,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2116):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4766,7 +4707,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2117):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4788,7 +4729,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2118):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4810,7 +4751,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2119):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4832,7 +4773,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2120):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4854,7 +4795,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2121):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4876,7 +4817,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2122):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4898,7 +4839,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2123):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4920,7 +4861,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2124):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -4986,7 +4927,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2127):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5030,7 +4971,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2129):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5052,7 +4993,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2130):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5096,7 +5037,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2132):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5118,7 +5059,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2133):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5140,7 +5081,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2134):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5162,7 +5103,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2135):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5184,7 +5125,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2136):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5206,7 +5147,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2137):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5228,7 +5169,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2211):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5250,7 +5191,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2212):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5272,7 +5213,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2213):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5294,7 +5235,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2214):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5316,7 +5257,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2215):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5338,7 +5279,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2216):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5360,7 +5301,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2217):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5382,7 +5323,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2218):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5404,7 +5345,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2219):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5426,7 +5367,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2220):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5448,7 +5389,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2221):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """修炼武功需要支付费用，这部分费用将用于法术研究会的日常花销。
 			
 			[结束:0]
@@ -5470,7 +5411,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2222):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -5492,7 +5433,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2223):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5514,7 +5455,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2224):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5536,7 +5477,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2225):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """修炼武功需要支付费用，这部分费用将用于法术研究会的日常花销。
 			
 			[结束:0]
@@ -5558,7 +5499,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2226):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5580,7 +5521,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2227):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5602,7 +5543,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2228):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5624,7 +5565,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2229):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5646,7 +5587,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2230):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5668,7 +5609,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2231):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5690,7 +5631,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2232):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5712,7 +5653,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2233):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5734,7 +5675,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2234):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5756,7 +5697,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2235):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5778,7 +5719,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2236):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5800,7 +5741,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2237):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5844,7 +5785,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2239):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5888,7 +5829,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2241):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5910,7 +5851,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2242):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5932,7 +5873,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2243):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5954,7 +5895,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2244):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -5976,7 +5917,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2245):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6020,7 +5961,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2248):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6042,7 +5983,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2249):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6064,7 +6005,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2250):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6086,7 +6027,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2251):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6108,7 +6049,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2252):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6130,7 +6071,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2253):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6152,7 +6093,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2311):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6174,7 +6115,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2312):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6196,7 +6137,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2313):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6218,7 +6159,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2314):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6240,7 +6181,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2315):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6262,7 +6203,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2316):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6284,7 +6225,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2317):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6306,7 +6247,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2318):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6328,7 +6269,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2319):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6350,7 +6291,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2320):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6372,7 +6313,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2321):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6394,7 +6335,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2322):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -6416,7 +6357,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2323):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6438,7 +6379,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2324):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6460,7 +6401,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2325):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6482,7 +6423,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2326):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6504,7 +6445,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2327):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6526,7 +6467,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2328):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6548,7 +6489,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2329):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6570,7 +6511,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2330):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6592,7 +6533,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2332):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6614,7 +6555,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2333):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6636,7 +6577,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2334):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6658,7 +6599,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2335):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6678,31 +6619,10 @@ def OnClick(args):
 			
 			[结束:0]
 			"""
-	elif (Menu == 2336):
-		#判断需要的金币	
-		if (Sender.GameGold < 100):
-			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
-			
-			[结束:0]
-			"""
-		#判断是否有要求的道具
-		elif(Sender.GetItemCount("灵魂分裂") < 1):
-			str ="""请首先找到武功书......，不拿武功书来，却让我解释，真让人生气！
-			
-			[结束:0]
-			"""
-		else:
-		#上面条件都达成，扣除费用和道具
-			SubGameGold(Sender,100)
-			Sender.TakeItem("灵魂分裂",1)
-			Sender.GiveItem("灵魂分裂（秘籍）",1)
-			str = """还好成功了，下次请拿保存状态稍好的书来解释。
-			
-			[结束:0]
-			"""
+	# REMOVED Menu == 2336 灵魂分裂 block 20260910
 	elif (Menu == 2337):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6724,7 +6644,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2338):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6746,7 +6666,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2339):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6768,7 +6688,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2340):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6790,7 +6710,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2341):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6812,7 +6732,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2342):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6834,7 +6754,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2343):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6856,7 +6776,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2344):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6944,7 +6864,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2348):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6966,7 +6886,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2349):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -6988,7 +6908,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2350):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7010,7 +6930,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2351):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7032,7 +6952,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2352):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7054,7 +6974,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2353):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7076,7 +6996,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2411):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7098,7 +7018,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2412):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7120,7 +7040,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2413):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7142,7 +7062,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2414):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7164,7 +7084,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2415):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7186,7 +7106,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2416):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7208,7 +7128,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2417):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7230,7 +7150,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2418):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7252,7 +7172,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2419):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7274,7 +7194,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2420):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7296,7 +7216,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2421):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7318,7 +7238,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2422):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """世界上的事情没有免费的，修炼武功也是同样的，下次不要忘了带修炼费来。
 			
 			[结束:0]
@@ -7340,7 +7260,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2423):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7362,7 +7282,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2424):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7384,7 +7304,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2425):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7406,7 +7326,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2426):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7428,7 +7348,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2427):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7450,7 +7370,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2428):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7472,7 +7392,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2429):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7494,7 +7414,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2430):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7516,7 +7436,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2431):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7538,7 +7458,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2432):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7560,7 +7480,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2433):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7582,7 +7502,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2434):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7604,7 +7524,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2435):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7626,7 +7546,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2436):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7648,7 +7568,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2437):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7670,7 +7590,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2438):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7692,7 +7612,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2439):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7714,7 +7634,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2440):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7736,7 +7656,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2441):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7758,7 +7678,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2442):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7780,7 +7700,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2443):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7802,7 +7722,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2444):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7824,7 +7744,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2445):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7846,7 +7766,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2446):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7868,7 +7788,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2447):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7890,7 +7810,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2448):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7912,7 +7832,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2449):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7934,7 +7854,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2450):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7956,7 +7876,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2451):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -7978,7 +7898,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2452):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
@@ -8000,7 +7920,7 @@ def OnClick(args):
 			"""
 	elif (Menu == 2453):
 		#判断需要的金币	
-		if (Sender.GameGold < 100):
+		if (Sender.GameGold < 10000):
 			str= """喂！我没有说我不能免费传授武功吗？难道让我吃沙子活着吗？快点拿学费来！
 			
 			[结束:0]
