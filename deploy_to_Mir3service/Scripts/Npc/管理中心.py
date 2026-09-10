@@ -308,13 +308,13 @@ def OnClick(args):
 			[［十方斩］:111] [［乾坤大挪移］:112] [［铁布衫］:113] [［破血狂杀］:114]
 			"""
 	elif Menu in []:
-           say = handle_nuoma_book_purchase(Sender, Menu)
+		say = handle_nuoma_book_purchase(Sender, Menu)
     
     # =============================================================================
     # 特色称号系统
     # =============================================================================		
 	elif (Menu == 5):
-           say = """这里有各类特色称号，需要288万金币购买一个，
+		say = """这里有各类特色称号，需要288万金币购买一个，
 单BUFF只能单玩家获得，时效一星期。
 
 <font color="0xff00ff00">称号属性介绍：</font>
@@ -339,11 +339,11 @@ def OnClick(args):
 
 [删除特色称号:805]"""
 			
-        elif Menu in MERCHANT_CONFIG['special_titles']:
-            say = handle_special_title_purchase(Sender, Menu)
+	elif Menu in MERCHANT_CONFIG['special_titles']:
+		say = handle_special_title_purchase(Sender, Menu)
     
-        elif Menu == 805:
-            say = handle_special_title_remove(Sender)			
+	elif Menu == 805:
+		say = handle_special_title_remove(Sender)
 			
 	elif (Menu == 111):
 		if (Sender.GetItemCount("遗物") < 1000):
@@ -820,27 +820,9 @@ def OnClick(args):
 
 				[离开:0]"""
 	elif (Menu == 140):
-		if (Sender.Gold < 100000):
-			say = """你没有足够的金币，无法兑换
+		say = """「灵魂分裂」已下架，无法兑换。
 
-			[离开:0]"""
-		elif(Sender.GetItemCount("遗物") < 50):
-			say ="""你的材料不足，请准备好足够的材料在来。
-
-			[离开:0]"""
-		else:
-            # REMOVED 灵魂分裂: # REMOVED 灵魂分裂: if (Sender.GiveItem("灵魂分裂（秘籍）",1)):
-            # REMOVED 灵魂分裂 line
-            # REMOVED 灵魂分裂 line
-				SubGold(Sender,100000)
-				Sender.TakeItem("遗物",50)
-				say ="""兑换秘籍成功。
-			
-				[离开:0]"""
-			else:
-				say ="""你的包裹没有空格。
-
-				[离开:0]"""
+		[离开:0]"""
 	elif (Menu == 141):
 		if (Sender.Gold < 100000):
 			say = """你没有足够的金币，无法兑换
