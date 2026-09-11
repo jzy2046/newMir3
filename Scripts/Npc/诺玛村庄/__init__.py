@@ -7,5 +7,5 @@ import Npc.诺玛村庄.图木勒
 import Npc.诺玛村庄.儒帕
 import Npc.诺玛村庄.羽霞
 import Npc.诺玛村庄.啊勒
-import Npc.诺玛村庄.沃尔阁
+# import Npc.诺玛村庄.沃尔阁  # NPC 351 deleted batch_final; leftover script not loaded
 
