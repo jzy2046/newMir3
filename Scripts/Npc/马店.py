@@ -223,7 +223,7 @@ def OnClick(args):
 			[返回:99]
 			[离开:0]"""
 		elif (horse == HorseType.Brown):
-			GiveGold(Sender,250000)	
+			GiveGold(Sender,100)	
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.White):
 			GiveGold(Sender,10000000)

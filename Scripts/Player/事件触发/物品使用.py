@@ -539,6 +539,17 @@ def OnUseItem(args):  #双击使用的道具
 			GiveExperience(Sender,10000000)   #增加经验
 			Sender.Connection.ReceiveChat('增加10000000经验',MessageType.System)
 			return True
+		elif(Item.Info.Shape == 67): #道具数据库Shape值     推广礼包 batch11
+			# 赤兔马 + BOSS查询卷
+			if (Sender.Character.Horse == HorseType.None):
+				Sender.Character.Horse = HorseType.Red
+				Sender.Connection.ReceiveChat('获得赤兔马', MessageType.System)
+			else:
+				Sender.GiveItem("马牌（赤兔马）", 1)
+				Sender.Connection.ReceiveChat('已有坐骑，改为发放马牌（赤兔马）', MessageType.System)
+			Sender.GiveItem("boss查询卷", 1)
+			Sender.Connection.ReceiveChat('获得boss查询卷 x1', MessageType.System)
+			return True
 		elif Item.Info.Shape == 66: #道具数据库Shape值       声望贡献盲盒
 			# 带权重的抽取物品
 			# (物品名，数量，是否绑定，权重)
