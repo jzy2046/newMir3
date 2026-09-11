@@ -1,0 +1,62 @@
+mode=apply stamp=20260911_221130
+backup=D:\newMir3\Database\Backup_final_20260911_221130
+BUFF before idx=143 name=挂机中，请勿吻我！ props dump:
+  BuffType=CustomBuff
+  BuffLV=0
+  BuffName=挂机中，请勿吻我！
+  BuffGroup=
+  SmallBuffIcon=148
+  BigBuffIcon=0
+  GetRate=0
+  GetRate2=0
+  Duration=00:00:00
+  PauseInSafeZone=False
+  OfflineTicking=False
+  DeleteAtMidnight=False
+  OverheadTitle=0
+  frameCount=0
+  offSetX=0
+  offSetY=0
+  BuffStats=MirDB.DBBindingList`1[Library.SystemModels.CustomBuffInfoStat]
+  Index=143
+  ServerOnly=False
+  CreatTime=1/1/0001 上午 12:00:00
+  IsTemporary=False
+万事通 count=7
+  before idx=50 name=万事通 Display=False
+  after Display=True
+  before idx=75 name=万事通 Display=False
+  after Display=True
+  before idx=79 name=万事通 Display=False
+  after Display=True
+  before idx=123 name=万事通 Display=False
+  after Display=True
+  before idx=130 name=万事通 Display=False
+  after Display=True
+  before idx=294 name=万事通江湖任务 Display=False
+  after Display=True
+  before idx=295 name=万事通随机每日任务 Display=False
+  after Display=True
+沃尔阁 count=1
+  before idx=351 name=沃尔阁 Display=False
+  DELETED
+西部沙漠 maps=1
+  MAP idx=460 desc=西部沙漠 file=XS01
+west movements=4
+  MOVE idx=550 dest=西部沙漠|XS01 src=诺玛村庄|41
+  MOVE idx=551 dest=诺玛村庄|41 src=西部沙漠|XS01
+  MOVE idx=600 dest=西沙漠地洞|D2001 src=西部沙漠|XS01
+  MOVE idx=601 dest=西部沙漠|XS01 src=西沙漠地洞|D2001
+west spawns=0
+west npcs=0
+type Library.SystemModels.SafeZoneInfo => Library.SystemModels.SafeZoneInfo
+type Library.SystemModels.MiniMapRegion => null
+type Library.SystemModels.MapRegion => Library.SystemModels.MapRegion
+type Library.SystemModels.QuestInfo => Library.SystemModels.QuestInfo
+type Library.SystemModels.NPCPage => null
+DEL MOVE 550
+DEL MOVE 551
+DEL MOVE 600
+DEL MOVE 601
+DEL MAP 460
+DEL BUFF 143 挂机中，请勿吻我！

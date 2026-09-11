@@ -1,0 +1,151 @@
+﻿NPC total=389
+NPC idx=50 name=涓囦簨閫?Display=False map=閬撻|1 region=1716
+NPC idx=75 name=涓囦簨閫?Display=False map=姣斿鍩巪0 region=1741
+NPC idx=79 name=涓囦簨閫?Display=False map=姣掕泧灞辫胺|2 region=1745
+NPC idx=123 name=涓囦簨閫?Display=False map=杈瑰鍩庡競|01 region=1789
+NPC idx=130 name=涓囦簨閫?Display=False map=閾舵潖灞辫胺|02 region=1796
+NPC idx=294 name=涓囦簨閫氭睙婀栦换鍔?Display=False map=鍏朵粬|GM region=3916
+NPC idx=295 name=涓囦簨閫氶殢鏈烘瘡鏃ヤ换鍔?Display=False map=鍏朵粬|GM region=3917
+NPC idx=351 name=娌冨皵闃?Display=False map=璇虹帥鏉戝簞|41 region=9167
+MAP total=621
+MAP idx=34 desc=娌欐紶 file=42
+MAP idx=35 desc=娌欐紶 file=43
+MAP idx=36 desc=娌欐紶 file=44
+MAP idx=37 desc=娌欐紶鍦熷煄 file=5
+MAP idx=46 desc=娌欐紶 file=6
+MAP idx=47 desc=娌欐紶 file=71
+MAP idx=48 desc=娌欐紶 file=72
+MAP idx=49 desc=娌欐紶 file=73
+MAP idx=52 desc=娌欐紶 file=76
+MAP idx=53 desc=娌欐紶 file=77
+MAP idx=54 desc=娌欐紶 file=78
+MAP idx=375 desc=瑗挎矙婕犲湴娲?file=D2001
+MAP idx=376 desc=娌欐紶鍦版礊1灞?file=D20011
+MAP idx=377 desc=娌欐紶鍦版礊2灞?file=D20012
+MAP idx=378 desc=娌欐紶鍩庡競 file=D2002
+MAP idx=379 desc=娌欐紶鍦颁笅1灞?file=D20021
+MAP idx=380 desc=娌欐紶鍦颁笅2灞?file=D20022
+MAP idx=381 desc=娌欐紶鍦颁笅3灞?file=D20023
+MAP idx=387 desc=娌欐紶鍦扮洃 file=D2006
+MAP idx=460 desc=瑗块儴娌欐紶 file=XS01
+MAP idx=1569 desc=姘存櫠娌欐紶 file=18
+MAP idx=1578 desc=鐩愭矙婕?file=16
+MAP idx=1579 desc=缁挎床娌欐紶 file=17
+MAP idx=1581 desc=娌欐紶娴锋花 file=D4002
+type Library.SystemModels.BuffInfo => null
+type Library.SystemModels.CustomBuffInfo => Library.SystemModels.CustomBuffInfo
+  HIT Library.SystemModels.CustomBuffInfo idx=143 n=鎸傛満涓紝璇峰嬁鍚绘垜锛亅||
+type Library.SystemModels.MagicInfo => Library.SystemModels.MagicInfo
+Movement props=SourceRegion,DestinationRegion,Icon,NeedItem,NeedSpawn,Effect,RequiredClass,ExtraInfo,CanLinkTips,SpanTime,Index,ServerOnly,CreatTime,IsTemporary
+MOVE idx=399 dest=娌欐紶|71 src=杈瑰鍩庡競|01
+MOVE idx=400 dest=杈瑰鍩庡競|01 src=娌欐紶|71
+MOVE idx=401 dest=娌欐紶|72 src=娌欐紶|71
+MOVE idx=402 dest=娌欐紶|71 src=娌欐紶|72
+MOVE idx=403 dest=娌欐紶|73 src=娌欐紶|72
+MOVE idx=404 dest=娌欐紶|72 src=娌欐紶|73
+MOVE idx=405 dest=鐩熼噸鍘縷74 src=娌欐紶|73
+MOVE idx=406 dest=娌欐紶|73 src=鐩熼噸鍘縷74
+MOVE idx=488 dest=娌欐紶|76 src=鐭抽榿搴檤75
+MOVE idx=489 dest=鐭抽榿搴檤75 src=娌欐紶|76
+MOVE idx=490 dest=娌欐紶|77 src=娌欐紶|76
+MOVE idx=491 dest=娌欐紶|76 src=娌欐紶|77
+MOVE idx=492 dest=娌欐紶|78 src=娌欐紶|77
+MOVE idx=493 dest=娌欐紶|77 src=娌欐紶|78
+MOVE idx=494 dest=娌欐紶|6 src=娌欐紶|78
+MOVE idx=495 dest=娌欐紶|78 src=娌欐紶|6
+MOVE idx=496 dest=鍗楅儴铓傝殎娲炵┐1灞?|D8002 src=娌欐紶|6
+MOVE idx=497 dest=娌欐紶|6 src=鍗楅儴铓傝殎娲炵┐1灞?|D8002
+MOVE idx=498 dest=缁挎床|4 src=娌欐紶|6
+MOVE idx=499 dest=娌欐紶|6 src=缁挎床|4
+MOVE idx=500 dest=缁挎床|4 src=娌欐紶|6
+MOVE idx=501 dest=娌欐紶|6 src=缁挎床|4
+MOVE idx=502 dest=缁挎床|4 src=娌欐紶|6
+MOVE idx=503 dest=娌欐紶|6 src=缁挎床|4
+MOVE idx=504 dest=缁挎床|4 src=娌欐紶|6
+MOVE idx=505 dest=娌欐紶|6 src=缁挎床|4
+MOVE idx=506 dest=娌欐紶鍦熷煄|5 src=缁挎床|4
+MOVE idx=507 dest=缁挎床|4 src=娌欐紶鍦熷煄|5
+MOVE idx=550 dest=瑗块儴娌欐紶|XS01 src=璇虹帥鏉戝簞|41
+MOVE idx=551 dest=璇虹帥鏉戝簞|41 src=瑗块儴娌欐紶|XS01
+MOVE idx=600 dest=瑗挎矙婕犲湴娲瀨D2001 src=瑗块儴娌欐紶|XS01
+MOVE idx=601 dest=瑗块儴娌欐紶|XS01 src=瑗挎矙婕犲湴娲瀨D2001
+MOVE idx=602 dest=娌欐紶鍦版礊1灞倈D20011 src=瑗挎矙婕犲湴娲瀨D2001
+MOVE idx=603 dest=瑗挎矙婕犲湴娲瀨D2001 src=娌欐紶鍦版礊1灞倈D20011
+MOVE idx=604 dest=娌欐紶鍦版礊2灞倈D20012 src=娌欐紶鍦版礊1灞倈D20011
+MOVE idx=605 dest=娌欐紶鍦版礊1灞倈D20011 src=娌欐紶鍦版礊2灞倈D20012
+MOVE idx=606 dest=娌欐紶鍩庡競|D2002 src=娌欐紶鍦版礊2灞倈D20012
+MOVE idx=607 dest=娌欐紶鍦版礊2灞倈D20012 src=娌欐紶鍩庡競|D2002
+MOVE idx=608 dest=娌欐紶鍦颁笅1灞倈D20021 src=娌欐紶鍩庡競|D2002
+MOVE idx=609 dest=娌欐紶鍩庡競|D2002 src=娌欐紶鍦颁笅1灞倈D20021
+MOVE idx=610 dest=娌欐紶鍦颁笅2灞倈D20022 src=娌欐紶鍦颁笅1灞倈D20021
+MOVE idx=611 dest=鍦颁笅鐭垮北|D2003 src=娌欐紶鍦颁笅1灞倈D20021
+MOVE idx=612 dest=娌欐紶鍦颁笅1灞倈D20021 src=娌欐紶鍦颁笅2灞倈D20022
+MOVE idx=613 dest=娌欐紶鍦颁笅3灞倈D20023 src=娌欐紶鍦颁笅2灞倈D20022
+MOVE idx=614 dest=娌欐紶鍦颁笅2灞倈D20022 src=娌欐紶鍦颁笅2灞倈D20022
+MOVE idx=615 dest=鍦颁笅榄斿|D2004 src=娌欐紶鍦颁笅3灞倈D20023
+MOVE idx=616 dest=娌欐紶鍦颁笅1灞倈D20021 src=鍦颁笅鐭垮北|D2003
+MOVE idx=919 dest=姘存櫠鐭垮北鍏ュ彛|ID7_000 src=姘存櫠娌欐紶|18
+MOVE idx=920 dest=姘存櫠娌欐紶|18 src=姘存櫠鐭垮北鍏ュ彛|ID7_000
+MOVE idx=4421 dest=闄嗗鏉憒19 src=缁挎床娌欐紶|17
+MOVE idx=4422 dest=缁挎床娌欐紶|17 src=闄嗗鏉憒19
+MOVE idx=4423 dest=姘存櫠娌欐紶|18 src=缁挎床娌欐紶|17
+MOVE idx=4424 dest=缁挎床娌欐紶|17 src=姘存櫠娌欐紶|18
+MOVE idx=4427 dest=娌欐紶娴锋花|D4002 src=缁挎床娌欐紶|17
+MOVE idx=4428 dest=缁挎床娌欐紶|17 src=娌欐紶娴锋花|D4002
+movement_hits=55
+Respawn props=Monster,Region,MapID,MapX,MapY,Range,EventSpawn,Delay,Count,RandomTime,DropSet,Announce,Punctual,EasterEventChance,RegionName,MonsterName,StrMapFileName,StrMapRegionDescition,Index,ServerOnly,CreatTime,IsTemporary
+SPAWN idx=423 map=娌欐紶 mon=璇虹帥
+SPAWN idx=426 map=娌欐紶 mon=璇虹帥娉曡€?
+SPAWN idx=429 map=娌欐紶 mon=璇虹帥灏嗗＋
+SPAWN idx=432 map=娌欐紶 mon=娌欐紶楸奸瓟
+SPAWN idx=435 map=娌欐紶 mon=娌欐紶鐭充汉
+SPAWN idx=438 map=娌欐紶 mon=娌欐紶椋庨瓟
+SPAWN idx=441 map=娌欐紶 mon=娌欐紶鏍戦瓟
+SPAWN idx=853 map=娌欐紶 mon=寮傜晫涔嬮棬
+SPAWN idx=955 map=瑗挎矙婕犲湴娲?mon=鍙樺紓鍒洪铚?
+SPAWN idx=956 map=娌欐紶鍦版礊1灞?mon=鍙樺紓鍒洪铚?
+SPAWN idx=957 map=娌欐紶鍦版礊2灞?mon=鍙樺紓鍒洪铚?
+SPAWN idx=958 map=娌欐紶鍩庡競 mon=鍙樺紓鍒洪铚?
+SPAWN idx=959 map=娌欐紶鍦颁笅1灞?mon=鍙樺紓鍒洪铚?
+SPAWN idx=960 map=娌欐紶鍦颁笅2灞?mon=鍙樺紓鍒洪铚?
+SPAWN idx=961 map=娌欐紶鍦颁笅3灞?mon=鍙樺紓鍒洪铚?
+SPAWN idx=963 map=瑗挎矙婕犲湴娲?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=964 map=娌欐紶鍦版礊1灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=965 map=娌欐紶鍦版礊2灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=966 map=娌欐紶鍩庡競 mon=鍙樺紓杩呯寷铚?
+SPAWN idx=967 map=娌欐紶鍦颁笅1灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=968 map=娌欐紶鍦颁笅2灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=969 map=娌欐紶鍦颁笅3灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=973 map=娌欐紶鍦颁笅1灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=974 map=娌欐紶鍦颁笅3灞?mon=鍙樺紓杩呯寷铚?
+SPAWN idx=977 map=瑗挎矙婕犲湴娲?mon=鍙樺紓涓戣湧
+SPAWN idx=978 map=瑗挎矙婕犲湴娲?mon=鍙樺紓涓戣湧
+SPAWN idx=979 map=瑗挎矙婕犲湴娲?mon=鍙樺紓涓戣湧
+SPAWN idx=980 map=娌欐紶鍦版礊1灞?mon=鍙樺紓涓戣湧
+SPAWN idx=981 map=娌欐紶鍦版礊1灞?mon=鍙樺紓涓戣湧
+SPAWN idx=982 map=娌欐紶鍦版礊1灞?mon=鍙樺紓涓戣湧
+SPAWN idx=983 map=娌欐紶鍩庡競 mon=鍙樺紓涓戣湧
+SPAWN idx=984 map=娌欐紶鍦颁笅1灞?mon=鍙樺紓涓戣湧
+SPAWN idx=985 map=娌欐紶鍦颁笅2灞?mon=鍙樺紓涓戣湧
+SPAWN idx=986 map=娌欐紶鍦颁笅3灞?mon=鍙樺紓涓戣湧
+SPAWN idx=991 map=娌欐紶鍩庡競 mon=鍙樺紓姣掕湧
+SPAWN idx=992 map=娌欐紶鍦颁笅1灞?mon=鍙樺紓姣掕湧
+SPAWN idx=993 map=娌欐紶鍦颁笅2灞?mon=鍙樺紓姣掕湧
+SPAWN idx=994 map=娌欐紶鍦颁笅3灞?mon=鍙樺紓姣掕湧
+SPAWN idx=999 map=娌欐紶鍦版礊2灞?mon=榄旂煶鍜嗗摦鑰?
+SPAWN idx=1000 map=娌欐紶鍦版礊2灞?mon=榄旂煶鍜嗗摦鑰?
+spawn_hits=66
+NPC-DESERT idx=25 name=鍏潰绁炵煶 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=26 name=鍏潰绁炵煶 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=166 name=娌欐紶浠撳簱灏忕瀹?map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=167 name=鍠滃効 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=168 name=閾佹眽 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=169 name=榛勮€佹澘 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=170 name=鍊╁効 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=171 name=鑽儙 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=172 name=鍟婂畫 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=173 name=鏉傝揣鍟嗚€佹潕 map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=206 name=瀵勫敭鍟?map=娌欐紶鍦熷煄 Display=False
+NPC-DESERT idx=300 name=鍏潰绁炵煶 map=娌欐紶 Display=False
+NPC-DESERT idx=377 name=銆庣宀涗娇鑰呫€?闃垮 map=娌欐紶娴锋花 Display=False
+npc_on_desert=13

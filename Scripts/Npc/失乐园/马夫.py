@@ -36,7 +36,7 @@ def OnClick(args):
             
 			赤兔马：舒适+5、负重+300，攻魔道：0-5
 					
-			[买:1] 非常稀有的赤兔马（9000万金币）
+			[买:1] 非常稀有的赤兔马（5000万金币）
 		
 			[卖马:5]
 			[关闭:0]"""
@@ -76,7 +76,7 @@ def OnClick(args):
 		say = """看到一匹马将要被主人抛弃，我很难过。
 		我的报价如下：
 		
-		赤兔马 - 45,000,000 金币
+		赤兔马 - 50,000,000 金币
 		
 		[返回:99]
 		[卖马:51]
@@ -178,7 +178,7 @@ def OnClick(args):
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Red):
 			if(PlayerGetV(Sender,GV_PLAYER_REDHORSE)==0):        #判断是否金币或者元宝购买，通过变量判断 
-				GiveGold(Sender,45000000)
+				GiveGold(Sender,100)
 				GiveHose(Sender,HorseType.None)
 			else:
 				PlayerSetV(Sender,GV_PLAYER_REDHORSE,0)   #卖马时将变量归0

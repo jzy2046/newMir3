@@ -39,11 +39,9 @@ def OnProcess(args):
 	if(starttime1 == 0 or starttime1 < SEnvir.Now): #如果时间小于系统时间
 		PlayerSetTempV(Sender,TK_GJ_VALUE,SEnvir.Now.AddSeconds(3)) #按秒判断循环
 
-		if (Sender.setConfArr[17] ):   #判断是否挂机状态
-			if (not Sender.HasCustomBuff(143)):
-				Sender.CustomBuffAdd(143)  #增加挂机BUFF状态
-		else:
-			Sender.CustomBuffRemove(143)  #移除挂机BUFF状态
+		# batch_final: 删除挂机爆率BUFF — never grant CustomBuff 143; strip if present
+		if (Sender.HasCustomBuff(143)):
+			Sender.CustomBuffRemove(143)  # 移除残留挂机BUFF
 def OnWeekChange(args):
 	Sender=args[0]
 	PlayerSetV(Sender, GV_PLAYER_YXSM, 0)

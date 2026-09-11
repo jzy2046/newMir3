@@ -50,7 +50,7 @@ def OnClick(args):
 		say = """马匹购买信息：
 		
 			类型：红马
-			金额：100,000,000 金币
+			金额：50,000,000 金币
 		
 			如果你想买这匹马，请 [在这里签字:31]
 		
@@ -120,7 +120,7 @@ def OnClick(args):
 			[返回:99]
 			[离开:0]"""
 		else:
-			SubGold(Sender,100000000)			
+			SubGold(Sender,50000000)			
 			GiveHose(Sender,HorseType.Red)				
 			say = """恭喜你买了一匹新马。
 			请好好照顾它。
@@ -229,7 +229,7 @@ def OnClick(args):
 			GiveGold(Sender,10000000)
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Red):
-			GiveGold(Sender,50000000)
+			GiveGold(Sender,100)
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Black):
 			GiveGold(Sender,300000000)

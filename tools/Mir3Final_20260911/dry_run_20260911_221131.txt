@@ -1,0 +1,20 @@
+mode=dry-run stamp=20260911_221131
+backup=D:\newMir3\Database\Backup_final_20260911_221131
+万事通 count=7
+  before idx=50 name=万事通 Display=True
+  before idx=75 name=万事通 Display=True
+  before idx=79 name=万事通 Display=True
+  before idx=123 name=万事通 Display=True
+  before idx=130 name=万事通 Display=True
+  before idx=294 name=万事通江湖任务 Display=True
+  before idx=295 name=万事通随机每日任务 Display=True
+沃尔阁 count=0
+西部沙漠 maps=0
+west movements=0
+west spawns=0
+west npcs=0
+type Library.SystemModels.SafeZoneInfo => Library.SystemModels.SafeZoneInfo
+type Library.SystemModels.MiniMapRegion => null
+type Library.SystemModels.MapRegion => Library.SystemModels.MapRegion
+type Library.SystemModels.QuestInfo => Library.SystemModels.QuestInfo
+type Library.SystemModels.NPCPage => null
