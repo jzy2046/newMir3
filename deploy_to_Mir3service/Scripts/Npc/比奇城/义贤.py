@@ -173,7 +173,7 @@ def OnClick(args):
 		
 		黄骠马- 250,000 金币
 		的卢 - 2,500,000 金币
-		赤兔 - 25,000,000 金币
+		赤兔 - 100 金币
 		绝影马 - 100,000,000 金币
 		
 		[返回:99]
@@ -213,7 +213,7 @@ def OnClick(args):
 				say = """马匹出售信息：
 				
 				类型：赤兔
-				金额：10,000,000 金币
+				金额：100 金币
 				
 				如果你想卖这匹马，请 [在这里签字:511]
 				
@@ -223,7 +223,7 @@ def OnClick(args):
 				say = """马匹出售信息：
 				
 				类型：赤兔
-				金额：5,000 元宝
+				金额：100 金币
 				
 				如果你想卖这匹马，请 [在这里签字:511]
 				
@@ -269,18 +269,18 @@ def OnClick(args):
 			[返回:99]
 			[关闭:0]"""
 		elif (horse == HorseType.Brown):
-			GiveGold(Sender,250000)	
+			GiveGold(Sender,100)	
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.White):
 			GiveGold(Sender,2500000)
 			GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Red):
 			if(PlayerGetV(Sender,GV_PLAYER_REDHORSE)==0):        #判断是否金币或者元宝购买，通过变量判断 
-				GiveGold(Sender,25000000)
+				GiveGold(Sender,100)
 				GiveHose(Sender,HorseType.None)
 			else:
 				PlayerSetV(Sender,GV_PLAYER_REDHORSE,0)   #卖马时将变量归0
-				GiveGameGold(Sender,5000)
+				GiveGold(Sender,100)
 				GiveHose(Sender,HorseType.None)
 		elif(horse == HorseType.Black):
 			if(PlayerGetV(Sender,GV_PLAYER_BLACKHORSE)==0):        #判断是否金币或者元宝购买，通过变量判断
