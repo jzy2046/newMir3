@@ -1,0 +1,111 @@
+﻿=== MonsterInfoStat props ===
+  Amount
+  CreatTime
+  Index
+  IsTemporary
+  Monster
+  ServerOnly
+  Stat
+=== Stat enum Health-ish ===
+  BaseHealth=0
+  Health=2
+  MinAC=4
+  MaxAC=5
+  MinDC=8
+  MaxDC=9
+  LifeSteal=35
+  HealthPercent=54
+  RenounceHPLost=72
+  MonsterHealth=100
+  MaxMonsterHealth=114
+  LvConvertHPMP=138
+  BHealth=143
+  LifeExtraDamage=148
+  HPRegenRate=154
+  MedicamentsHealth=70001
+
+闇哥帇瀹堝崼 idx=20020
+via assoc:
+  Stat=Health Amount=2500
+  Stat=MaxAC Amount=0
+  Stat=FireResistance Amount=-2
+  Stat=IceResistance Amount=4
+  Stat=LightningResistance Amount=-5
+  Stat=MinAC Amount=0
+  Stat=MaxMR Amount=0
+  Stat=Accuracy Amount=25
+  Stat=WindResistance Amount=5
+  Stat=HolyResistance Amount=-3
+  Stat=DarkResistance Amount=5
+  Stat=PhantomResistance Amount=5
+  Stat=MinDC Amount=120
+  Stat=MaxDC Amount=180
+  Stat=PhantomAffinity Amount=1
+  Stat=MinMC Amount=180
+  Stat=MaxMC Amount=253
+via collection match=17
+  Stat=Health Amount=2500
+  Stat=MaxAC Amount=0
+  Stat=FireResistance Amount=-2
+  Stat=IceResistance Amount=4
+  Stat=LightningResistance Amount=-5
+  Stat=MinAC Amount=0
+  Stat=MaxMR Amount=0
+  Stat=Accuracy Amount=25
+  Stat=WindResistance Amount=5
+  Stat=HolyResistance Amount=-3
+  Stat=DarkResistance Amount=5
+  Stat=PhantomResistance Amount=5
+  Stat=MinDC Amount=120
+  Stat=MaxDC Amount=180
+  Stat=PhantomAffinity Amount=1
+  Stat=MinMC Amount=180
+  Stat=MaxMC Amount=253
+
+=== SellRate / Price samples ===
+idx=1 name=閲戝竵 Price=0 SellRate=0 CanSell=True
+idx=80010 name=娓告垙甯?Price=0 SellRate=0 CanSell=True
+idx=80011 name=澹版湜 Price=0 SellRate=0.5 CanSell=True
+idx=80012 name=璐＄尞 Price=0 SellRate=0.5 CanSell=True
+idx=122584 name=boss鏌ヨ鍗?Price=100000000 SellRate=0.5 CanSell=True
+idx=122585 name=鍦扮厼鐭?Price=10000 SellRate=0.5 CanSell=True
+idx=122586 name=澶╃健鐭?Price=10000 SellRate=0.5 CanSell=True
+TARGET idx=122584 name=boss鏌ヨ鍗?Price=100000000 SellRate=0.5 CanSell=True type=Consumable
+TARGET idx=122585 name=鍦扮厼鐭?Price=10000 SellRate=0.5 CanSell=True type=Material
+TARGET idx=122586 name=澶╃健鐭?Price=10000 SellRate=0.5 CanSell=True type=Material
+TARGET idx=122636 name=鎺ㄥ箍绀煎寘 Price=0 SellRate=0.5 CanSell=True type=Consumable
+
+=== QuestType=None not 鏂版墜 ===
+Q idx=482 name=琛屾斂瀹樼殑鎸囨淳 PT1 start=娌欏反鍏嬬鐞嗗憳
+Q idx=483 name=琛屾斂瀹樼殑鎸囨淳 PT2 start=娌欏反鍏嬬鐞嗗憳
+Q idx=484 name=琛屾斂瀹樼殑鎸囨淳 PT3 start=娌欏反鍏嬬鐞嗗憳
+Q idx=485 name=琛屾斂瀹樼殑鎸囨淳 PT4 start=娌欏反鍏嬬鐞嗗憳
+Q idx=486 name=琛屾斂瀹樼殑鎸囨淳 PT5 start=娌欏反鍏嬬鐞嗗憳
+Q idx=487 name=琛屾斂瀹樼殑鎸囨淳 PT6 start=娌欏反鍏嬬鐞嗗憳
+Q idx=488 name=琛屾斂瀹樼殑鎸囨淳 PT7 start=娌欏反鍏嬬鐞嗗憳
+Q idx=489 name=琛屾斂瀹樼殑鎸囨淳 PT8 start=娌欏反鍏嬬鐞嗗憳
+Q idx=490 name=琛屾斂瀹樼殑鎸囨淳 PT9 start=娌欏反鍏嬬鐞嗗憳
+Q idx=491 name=琛屾斂瀹樼殑鎸囨淳 PT10 start=娌欏反鍏嬬鐞嗗憳
+
+newbieIds count=68
+NPC idx=38 name=绉€鍎?=> Start:448:鏂版墜浠诲姟 PT1-39; Start:449:鏂版墜浠诲姟 PT1-40; Start:450:鏂版墜浠诲姟 PT1-41; Start:451:鏂版墜浠诲姟 PT1-42; Finish:448:鏂版墜浠诲姟 PT1-39; Finish:449:鏂版墜浠诲姟 PT1-40; Finish:450:鏂版墜浠诲姟 PT1-41; Finish:451:鏂版墜浠诲姟 PT1-42
+NPC idx=39 name=鑽 => Start:452:鏂版墜浠诲姟 PT1-43; Start:453:鏂版墜浠诲姟 PT1-44; Start:454:鏂版墜浠诲姟 PT1-45; Start:455:鏂版墜浠诲姟 PT1-46; Finish:452:鏂版墜浠诲姟 PT1-43; Finish:453:鏂版墜浠诲姟 PT1-44; Finish:454:鏂版墜浠诲姟 PT1-45; Finish:455:鏂版墜浠诲姟 PT1-46; Finish:456:鏂版墜浠诲姟 PT1-47
+NPC idx=40 name=鑽腑 => Start:456:鏂版墜浠诲姟 PT1-47; Start:457:鏂版墜浠诲姟 PT1-48; Start:458:鏂版墜浠诲姟 PT1-49; Finish:457:鏂版墜浠诲姟 PT1-48; Finish:458:鏂版墜浠诲姟 PT1-49
+NPC idx=42 name=姊佺敓 => Start:459:鏂版墜浠诲姟 PT1-50; Start:460:鏂版墜浠诲姟 PT1-51; Start:461:鏂版墜浠诲姟 PT1-52; Start:462:鏂版墜浠诲姟 PT1-53; Finish:459:鏂版墜浠诲姟 PT1-50; Finish:460:鏂版墜浠诲姟 PT1-51; Finish:461:鏂版墜浠诲姟 PT1-52; Finish:462:鏂版墜浠诲姟 PT1-53
+NPC idx=51 name=瀵勫敭鍟?=> Start:434:鏂版墜浠诲姟 PT1-25; Start:435:鏂版墜浠诲姟 PT1-26; Start:436:鏂版墜浠诲姟 PT1-27; Start:437:鏂版墜浠诲姟 PT1-28; Finish:434:鏂版墜浠诲姟 PT1-25; Finish:435:鏂版墜浠诲姟 PT1-26; Finish:436:鏂版墜浠诲姟 PT1-27; Finish:437:鏂版墜浠诲姟 PT1-28
+NPC idx=175 name=钀ц壇浣?=> Start:465:鏂版墜浠诲姟 PT1-56; Start:466:鏂版墜浠诲姟 PT1-57; Start:467:鏂版墜浠诲姟 PT1-58; Start:468:鏂版墜浠诲姟 PT1-59; Start:469:鏂版墜浠诲姟 PT1-60; Start:470:鏂版墜浠诲姟 PT1-61; Start:471:鏂版墜浠诲姟 PT1-62; Start:472:鏂版墜浠诲姟 PT1-63; Start:473:鏂版墜浠诲姟 PT1-64; Start:474:鏂版墜浠诲姟 PT1-65; Start:475:鏂版墜浠诲姟 PT1-66; Start:476:鏂版墜浠诲姟 PT1-67; Start:477:鏂版墜浠诲姟 PT1-68; Start:478:鏂版墜浠诲姟 PT1-69; Start:479:鏂版墜浠诲姟 PT1-70; Start:480:鏂版墜浠诲姟 PT1-71; Start:481:鏂版墜浠诲姟 PT1-72; Finish:465:鏂版墜浠诲姟 PT1-56; Finish:466:鏂版墜浠诲姟 PT1-57; Finish:467:鏂版墜浠诲姟 PT1-58; Finish:468:鏂版墜浠诲姟 PT1-59; Finish:469:鏂版墜浠诲姟 PT1-60; Finish:470:鏂版墜浠诲姟 PT1-61; Finish:471:鏂版墜浠诲姟 PT1-62; Finish:472:鏂版墜浠诲姟 PT1-63; Finish:473:鏂版墜浠诲姟 PT1-64; Finish:474:鏂版墜浠诲姟 PT1-65; Finish:475:鏂版墜浠诲姟 PT1-66; Finish:476:鏂版墜浠诲姟 PT1-67; Finish:477:鏂版墜浠诲姟 PT1-68; Finish:478:鏂版墜浠诲姟 PT1-69; Finish:479:鏂版墜浠诲姟 PT1-70; Finish:480:鏂版墜浠诲姟 PT1-71; Finish:481:鏂版墜浠诲姟 PT1-72
+NPC idx=231 name=鍏憡鏍?=> Start:443:鏂版墜浠诲姟 PT1-34; Start:444:鏂版墜浠诲姟 PT1-35; Start:445:鏂版墜浠诲姟 PT1-36; Start:446:鏂版墜浠诲姟 PT1-37; Start:447:鏂版墜浠诲姟 PT1-38; Start:463:鏂版墜浠诲姟 PT1-54; Start:464:鏂版墜浠诲姟 PT1-55; Finish:443:鏂版墜浠诲姟 PT1-34; Finish:444:鏂版墜浠诲姟 PT1-35; Finish:445:鏂版墜浠诲姟 PT1-36; Finish:446:鏂版墜浠诲姟 PT1-37; Finish:447:鏂版墜浠诲姟 PT1-38; Finish:463:鏂版墜浠诲姟 PT1-54; Finish:464:鏂版墜浠诲姟 PT1-55
+NPC idx=245 name=銆庢柊鎵嬫寚寮曘€?澹畼 => Start:410:鏂版墜浠诲姟 PT1-1; Start:411:鏂版墜浠诲姟 PT1-2; Start:412:鏂版墜浠诲姟 PT1-3; Start:413:鏂版墜浠诲姟 PT1-4; Start:442:鏂版墜浠诲姟 PT1-33; Finish:410:鏂版墜浠诲姟 PT1-1; Finish:411:鏂版墜浠诲姟 PT1-2; Finish:412:鏂版墜浠诲姟 PT1-3; Finish:413:鏂版墜浠诲姟 PT1-4; Finish:442:鏂版墜浠诲姟 PT1-33
+NPC idx=332 name=娲诲姩绠＄悊鍛?=> Start:430:鏂版墜浠诲姟 PT1-21; Start:431:鏂版墜浠诲姟 PT1-22; Start:432:鏂版墜浠诲姟 PT1-23; Start:433:鏂版墜浠诲姟 PT1-24; Finish:430:鏂版墜浠诲姟 PT1-21; Finish:431:鏂版墜浠诲姟 PT1-22; Finish:432:鏂版墜浠诲姟 PT1-23; Finish:433:鏂版墜浠诲姟 PT1-24
+NPC idx=333 name=瑁呭鍥炶喘 => Start:418:鏂版墜浠诲姟 PT1-9; Start:419:鏂版墜浠诲姟 PT1-10; Start:420:鏂版墜浠诲姟 PT1-11; Start:421:鏂版墜浠诲姟 PT1-12; Finish:418:鏂版墜浠诲姟 PT1-9; Finish:419:鏂版墜浠诲姟 PT1-10; Finish:420:鏂版墜浠诲姟 PT1-11; Finish:421:鏂版墜浠诲姟 PT1-12
+NPC idx=334 name=澶х鎺掕姒?=> Start:438:鏂版墜浠诲姟 PT1-29; Start:439:鏂版墜浠诲姟 PT1-30; Start:440:鏂版墜浠诲姟 PT1-31; Start:441:鏂版墜浠诲姟 PT1-32; Finish:438:鏂版墜浠诲姟 PT1-29; Finish:439:鏂版墜浠诲姟 PT1-30; Finish:440:鏂版墜浠诲姟 PT1-31; Finish:441:鏂版墜浠诲姟 PT1-32
+NPC idx=335 name=缁煎悎鏈嶅姟 => Start:422:鏂版墜浠诲姟 PT1-13; Start:423:鏂版墜浠诲姟 PT1-14; Start:424:鏂版墜浠诲姟 PT1-15; Start:425:鏂版墜浠诲姟 PT1-16; Finish:422:鏂版墜浠诲姟 PT1-13; Finish:423:鏂版墜浠诲姟 PT1-14; Finish:424:鏂版墜浠诲姟 PT1-15; Finish:425:鏂版墜浠诲姟 PT1-16
+NPC idx=336 name=BOSS鏌ヨ => Start:426:鏂版墜浠诲姟 PT1-17; Start:427:鏂版墜浠诲姟 PT1-18; Start:428:鏂版墜浠诲姟 PT1-19; Start:429:鏂版墜浠诲姟 PT1-20; Finish:426:鏂版墜浠诲姟 PT1-17; Finish:427:鏂版墜浠诲姟 PT1-18; Finish:428:鏂版墜浠诲姟 PT1-19; Finish:429:鏂版墜浠诲姟 PT1-20
+
+=== Quests with StartItem ===
+
+=== Items with StartItem=true ===
+ITEM 5 甯冭。锛堢敺锛?
+ITEM 6 甯冭。锛堝コ锛?
+ITEM 7 鏈ㄥ墤
+ITEM 18 铚＄儧

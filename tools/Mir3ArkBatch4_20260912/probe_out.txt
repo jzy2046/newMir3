@@ -1,0 +1,251 @@
+﻿D:\newMir3\tools\Mir3ArkBatch4_20260912\Program.cs(57,8): warning CS0219: 鍙橀噺鈥渂ossJuan鈥濆凡琚祴鍊硷紝浣嗕粠鏈娇鐢ㄨ繃瀹冪殑鍊?[D:\newMir3\tools\Mir3ArkBatch4_20260912\t.csproj]
+=== ItemInfo props sample ===
+  BuffIcon
+  CanAutoPot
+  CanDeathDrop
+  CanDrop
+  CanRepair
+  CanSell
+  CanStore
+  CanTrade
+  CanTreasure
+  CreatTime
+  Description
+  Drops
+  Durability
+  Duration
+  Effect
+  EffectName
+  Image
+  Index
+  IsTemporary
+  ItemDisplayEffects
+  ItemName
+  ItemStats
+  ItemType
+  ItemTypeName
+  NoMake
+  PartCount
+  Price
+  Rarity
+  RequiredAmount
+  RequiredClass
+  RequiredClassName
+  RequiredGender
+  RequiredGenderName
+  RequiredType
+  RequiredTypeName
+  SellRate
+  ServerOnly
+  Shape
+  ShouldLinkInfo
+  StackSize
+  StartItem
+  WeaponType
+  Weight
+=== MonsterInfo props ===
+  AI
+  AttackDelay
+  AttackSound
+  BodyShape
+  CallFightPet
+  CallMapSummoning
+  CanPush
+  CanTame
+  CoolEye
+  CreatTime
+  DieSound
+  DiyMoveMode
+  Drops
+  Events
+  Experience
+  File
+  Flag
+  Image
+  Index
+  IsBoss
+  IsSlow
+  IsTemporary
+  Level
+  MonAnimationFrames
+  MonDiyAiActions
+  MonsterInfoStats
+  MonsterName
+  MoveDelay
+  Portrait
+  QuestDetails
+  Respawns
+  ServerOnly
+  StruckSound
+  Undead
+  ViewRange
+=== QuestInfo props ===
+  AcceptText
+  ArchiveText
+  CompletedText
+  CreatTime
+  FinishNPC
+  Index
+  IsTemporary
+  ProgressText
+  QuestName
+  QuestType
+  Requirements
+  Rewards
+  ServerOnly
+  StartItem
+  StartNPC
+  Tasks
+=== NPCInfo quest-ish props ===
+  StartQuests
+  FinishQuests
+
+=== ITEMS match boss/鏌ヨ/鎺ㄥ箍 ===
+ITEM idx=122584 name=boss鏌ヨ鍗?Price=100000000 type=Consumable shape=1 stack=9999
+ITEM idx=122585 name=鍦扮厼鐭?Price=10000 type=Material shape=0 stack=20000
+ITEM idx=122586 name=澶╃健鐭?Price=10000 type=Material shape=0 stack=20000
+ITEM idx=122636 name=鎺ㄥ箍绀煎寘 Price=0 type=Consumable shape=67 stack=1
+
+=== MONSTERS 闇哥帇瀹堝崼 ===
+MON idx=20020 name=闇哥帇瀹堝崼 Health= Level=90 Experience=68000 AI=60
+  Health=
+  HP=
+  MaxHP=
+  MaxHealth=
+  Life=
+  ViewRange=11
+MON idx=30009 name=闇哥帇鏁欎富 Health= Level=180 Experience=1520000 AI=61
+  Health=
+  HP=
+  MaxHP=
+  MaxHealth=
+  Life=
+  ViewRange=12
+MON idx=100570 name=鍓湰-闇哥帇鏁欎富1 Health= Level=170 Experience=410000 AI=61
+  Health=
+  HP=
+  MaxHP=
+  MaxHealth=
+  Life=
+  ViewRange=12
+
+=== QUEST types summary ===
+  type=Daily count=363
+  type=None count=78
+
+=== NEWBIE-ish quests ===
+matched=68
+Q idx=410 name=鏂版墜浠诲姟 PT1-1 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼 finish=銆庢柊鎵嬫寚寮曘€?澹畼
+Q idx=411 name=鏂版墜浠诲姟 PT1-2 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼 finish=銆庢柊鎵嬫寚寮曘€?澹畼
+Q idx=412 name=鏂版墜浠诲姟 PT1-3 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼 finish=銆庢柊鎵嬫寚寮曘€?澹畼
+Q idx=413 name=鏂版墜浠诲姟 PT1-4 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼 finish=銆庢柊鎵嬫寚寮曘€?澹畼
+Q idx=418 name=鏂版墜浠诲姟 PT1-9 type=None start=瑁呭鍥炶喘 finish=瑁呭鍥炶喘
+Q idx=419 name=鏂版墜浠诲姟 PT1-10 type=None start=瑁呭鍥炶喘 finish=瑁呭鍥炶喘
+Q idx=420 name=鏂版墜浠诲姟 PT1-11 type=None start=瑁呭鍥炶喘 finish=瑁呭鍥炶喘
+Q idx=421 name=鏂版墜浠诲姟 PT1-12 type=None start=瑁呭鍥炶喘 finish=瑁呭鍥炶喘
+Q idx=422 name=鏂版墜浠诲姟 PT1-13 type=None start=缁煎悎鏈嶅姟 finish=缁煎悎鏈嶅姟
+Q idx=423 name=鏂版墜浠诲姟 PT1-14 type=None start=缁煎悎鏈嶅姟 finish=缁煎悎鏈嶅姟
+Q idx=424 name=鏂版墜浠诲姟 PT1-15 type=None start=缁煎悎鏈嶅姟 finish=缁煎悎鏈嶅姟
+Q idx=425 name=鏂版墜浠诲姟 PT1-16 type=None start=缁煎悎鏈嶅姟 finish=缁煎悎鏈嶅姟
+Q idx=426 name=鏂版墜浠诲姟 PT1-17 type=None start=BOSS鏌ヨ finish=BOSS鏌ヨ
+Q idx=427 name=鏂版墜浠诲姟 PT1-18 type=None start=BOSS鏌ヨ finish=BOSS鏌ヨ
+Q idx=428 name=鏂版墜浠诲姟 PT1-19 type=None start=BOSS鏌ヨ finish=BOSS鏌ヨ
+Q idx=429 name=鏂版墜浠诲姟 PT1-20 type=None start=BOSS鏌ヨ finish=BOSS鏌ヨ
+Q idx=430 name=鏂版墜浠诲姟 PT1-21 type=None start=娲诲姩绠＄悊鍛?finish=娲诲姩绠＄悊鍛?
+Q idx=431 name=鏂版墜浠诲姟 PT1-22 type=None start=娲诲姩绠＄悊鍛?finish=娲诲姩绠＄悊鍛?
+Q idx=432 name=鏂版墜浠诲姟 PT1-23 type=None start=娲诲姩绠＄悊鍛?finish=娲诲姩绠＄悊鍛?
+Q idx=433 name=鏂版墜浠诲姟 PT1-24 type=None start=娲诲姩绠＄悊鍛?finish=娲诲姩绠＄悊鍛?
+Q idx=434 name=鏂版墜浠诲姟 PT1-25 type=None start=瀵勫敭鍟?finish=瀵勫敭鍟?
+Q idx=435 name=鏂版墜浠诲姟 PT1-26 type=None start=瀵勫敭鍟?finish=瀵勫敭鍟?
+Q idx=436 name=鏂版墜浠诲姟 PT1-27 type=None start=瀵勫敭鍟?finish=瀵勫敭鍟?
+Q idx=437 name=鏂版墜浠诲姟 PT1-28 type=None start=瀵勫敭鍟?finish=瀵勫敭鍟?
+Q idx=438 name=鏂版墜浠诲姟 PT1-29 type=None start=澶х鎺掕姒?finish=澶х鎺掕姒?
+Q idx=439 name=鏂版墜浠诲姟 PT1-30 type=None start=澶х鎺掕姒?finish=澶х鎺掕姒?
+Q idx=440 name=鏂版墜浠诲姟 PT1-31 type=None start=澶х鎺掕姒?finish=澶х鎺掕姒?
+Q idx=441 name=鏂版墜浠诲姟 PT1-32 type=None start=澶х鎺掕姒?finish=澶х鎺掕姒?
+Q idx=442 name=鏂版墜浠诲姟 PT1-33 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼 finish=銆庢柊鎵嬫寚寮曘€?澹畼
+Q idx=443 name=鏂版墜浠诲姟 PT1-34 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=444 name=鏂版墜浠诲姟 PT1-35 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=445 name=鏂版墜浠诲姟 PT1-36 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=446 name=鏂版墜浠诲姟 PT1-37 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=447 name=鏂版墜浠诲姟 PT1-38 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=448 name=鏂版墜浠诲姟 PT1-39 type=None start=绉€鍎?finish=绉€鍎?
+Q idx=449 name=鏂版墜浠诲姟 PT1-40 type=None start=绉€鍎?finish=绉€鍎?
+Q idx=450 name=鏂版墜浠诲姟 PT1-41 type=None start=绉€鍎?finish=绉€鍎?
+Q idx=451 name=鏂版墜浠诲姟 PT1-42 type=None start=绉€鍎?finish=绉€鍎?
+Q idx=452 name=鏂版墜浠诲姟 PT1-43 type=None start=鑽 finish=鑽
+Q idx=453 name=鏂版墜浠诲姟 PT1-44 type=None start=鑽 finish=鑽
+Q idx=454 name=鏂版墜浠诲姟 PT1-45 type=None start=鑽 finish=鑽
+Q idx=455 name=鏂版墜浠诲姟 PT1-46 type=None start=鑽 finish=鑽
+Q idx=456 name=鏂版墜浠诲姟 PT1-47 type=None start=鑽腑 finish=鑽
+Q idx=457 name=鏂版墜浠诲姟 PT1-48 type=None start=鑽腑 finish=鑽腑
+Q idx=458 name=鏂版墜浠诲姟 PT1-49 type=None start=鑽腑 finish=鑽腑
+Q idx=459 name=鏂版墜浠诲姟 PT1-50 type=None start=姊佺敓 finish=姊佺敓
+Q idx=460 name=鏂版墜浠诲姟 PT1-51 type=None start=姊佺敓 finish=姊佺敓
+Q idx=461 name=鏂版墜浠诲姟 PT1-52 type=None start=姊佺敓 finish=姊佺敓
+Q idx=462 name=鏂版墜浠诲姟 PT1-53 type=None start=姊佺敓 finish=姊佺敓
+Q idx=463 name=鏂版墜浠诲姟 PT1-54 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=464 name=鏂版墜浠诲姟 PT1-55 type=None start=鍏憡鏍?finish=鍏憡鏍?
+Q idx=465 name=鏂版墜浠诲姟 PT1-56 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=466 name=鏂版墜浠诲姟 PT1-57 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=467 name=鏂版墜浠诲姟 PT1-58 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=468 name=鏂版墜浠诲姟 PT1-59 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=469 name=鏂版墜浠诲姟 PT1-60 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=470 name=鏂版墜浠诲姟 PT1-61 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=471 name=鏂版墜浠诲姟 PT1-62 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=472 name=鏂版墜浠诲姟 PT1-63 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=473 name=鏂版墜浠诲姟 PT1-64 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=474 name=鏂版墜浠诲姟 PT1-65 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=475 name=鏂版墜浠诲姟 PT1-66 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=476 name=鏂版墜浠诲姟 PT1-67 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=477 name=鏂版墜浠诲姟 PT1-68 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=478 name=鏂版墜浠诲姟 PT1-69 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=479 name=鏂版墜浠诲姟 PT1-70 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=480 name=鏂版墜浠诲姟 PT1-71 type=None start=钀ц壇浣?finish=钀ц壇浣?
+Q idx=481 name=鏂版墜浠诲姟 PT1-72 type=None start=钀ц壇浣?finish=钀ц壇浣?
+
+=== ALL QuestType=None or Primary sample first 40 by index ===
+Q idx=1 name=闅忔満浠诲姟1 type=Daily start=涓囦簨閫?
+Q idx=2 name=闅忔満浠诲姟2 type=Daily start=涓囦簨閫?
+Q idx=3 name=闅忔満浠诲姟3 type=Daily start=涓囦簨閫?
+Q idx=4 name=闅忔満浠诲姟4 type=Daily start=涓囦簨閫?
+Q idx=6 name=闅忔満浠诲姟6 type=Daily start=涓囦簨閫?
+Q idx=8 name=闅忔満浠诲姟8 type=Daily start=涓囦簨閫?
+Q idx=9 name=闅忔満浠诲姟9 type=Daily start=涓囦簨閫?
+Q idx=10 name=闅忔満浠诲姟10 type=Daily start=涓囦簨閫?
+Q idx=11 name=闅忔満浠诲姟11 type=Daily start=涓囦簨閫?
+Q idx=12 name=闅忔満浠诲姟12 type=Daily start=涓囦簨閫?
+Q idx=13 name=闅忔満浠诲姟13 type=Daily start=涓囦簨閫?
+Q idx=14 name=闅忔満浠诲姟14 type=Daily start=涓囦簨閫?
+Q idx=15 name=闅忔満浠诲姟15 type=Daily start=涓囦簨閫?
+Q idx=16 name=闅忔満浠诲姟16 type=Daily start=涓囦簨閫?
+Q idx=17 name=闅忔満浠诲姟17 type=Daily start=涓囦簨閫?
+Q idx=18 name=闅忔満浠诲姟18 type=Daily start=涓囦簨閫?
+Q idx=19 name=闅忔満浠诲姟19 type=Daily start=涓囦簨閫?
+Q idx=20 name=闅忔満浠诲姟20 type=Daily start=涓囦簨閫?
+Q idx=21 name=闅忔満浠诲姟21 type=Daily start=涓囦簨閫?
+Q idx=22 name=闅忔満浠诲姟22 type=Daily start=涓囦簨閫?
+Q idx=23 name=闅忔満浠诲姟23 type=Daily start=涓囦簨閫?
+Q idx=24 name=闅忔満浠诲姟24 type=Daily start=涓囦簨閫?
+Q idx=25 name=闅忔満浠诲姟25 type=Daily start=涓囦簨閫?
+Q idx=26 name=闅忔満浠诲姟26 type=Daily start=涓囦簨閫?
+Q idx=27 name=闅忔満浠诲姟27 type=Daily start=涓囦簨閫?
+Q idx=28 name=闅忔満浠诲姟28 type=Daily start=涓囦簨閫?
+Q idx=29 name=闅忔満浠诲姟29 type=Daily start=涓囦簨閫?
+Q idx=30 name=闅忔満浠诲姟30 type=Daily start=涓囦簨閫?
+Q idx=31 name=闅忔満浠诲姟31 type=Daily start=涓囦簨閫?
+Q idx=33 name=闅忔満浠诲姟33 type=Daily start=涓囦簨閫?
+Q idx=36 name=闅忔満浠诲姟36 type=Daily start=涓囦簨閫?
+Q idx=37 name=闅忔満浠诲姟37 type=Daily start=涓囦簨閫?
+Q idx=38 name=闅忔満浠诲姟38 type=Daily start=涓囦簨閫?
+Q idx=39 name=闅忔満浠诲姟39 type=Daily start=涓囦簨閫?
+Q idx=40 name=闅忔満浠诲姟40 type=Daily start=涓囦簨閫?
+Q idx=41 name=闅忔満浠诲姟41 type=Daily start=涓囦簨閫?
+Q idx=42 name=闅忔満浠诲姟42 type=Daily start=涓囦簨閫?
+Q idx=43 name=闅忔満浠诲姟43 type=Daily start=涓囦簨閫?
+Q idx=44 name=闅忔満浠诲姟44 type=Daily start=涓囦簨閫?
+Q idx=45 name=闅忔満浠诲姟45 type=Daily start=涓囦簨閫?
+
+=== Rewards containing 鎺ㄥ箍 or boss鏌ヨ ===
+
+=== NPCs with quest links to newbie ===

@@ -1,0 +1,241 @@
+﻿mode=apply stamp=20260912_144120
+backup=D:\newMir3\Database\Backup_arkbatch4_20260912_144120
+loaded items=1041 mons=228 quests=441 tasks=569
+
+=== 1 boss鏌ヨ鍗?Price ===
+bossItems=1
+BEFORE idx=122584 name=boss鏌ヨ鍗?Price=100000000 SellRate=0.5 Durability=0 CanSell=True sellGold~=50000000
+AFTER  idx=122584 Price=500 SellRate=1 sellGold~=500
+鎺ㄥ箍绀煎寘 grants same item name boss鏌ヨ鍗?via Shape=67 script 鈥?no separate item copy.
+
+=== 2 闇哥帇瀹堝崼 HP ===
+guards=1
+MON idx=20020 name=闇哥帇瀹堝崼 Level=90
+  Health BEFORE Amount=2500
+  Health AFTER  Amount=5000
+
+=== 3 鍦扮厼鐭?澶╃健鐭?Price ===
+stones=2
+BEFORE idx=122585 name=鍦扮厼鐭?Price=10000 SellRate=0.5 sellGold~=5000
+AFTER  idx=122585 Price=1 SellRate=1 sellGold~=1
+BEFORE idx=122586 name=澶╃健鐭?Price=10000 SellRate=0.5 sellGold~=5000
+AFTER  idx=122586 Price=1 SellRate=1 sellGold~=1
+
+=== 4 Delete newbie quests ===
+newbieQuests=68
+DEL_QUEST [410] 鏂版墜浠诲姟 PT1-1 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼
+DEL_QUEST [411] 鏂版墜浠诲姟 PT1-2 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼
+DEL_QUEST [412] 鏂版墜浠诲姟 PT1-3 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼
+DEL_QUEST [413] 鏂版墜浠诲姟 PT1-4 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼
+DEL_QUEST [418] 鏂版墜浠诲姟 PT1-9 type=None start=瑁呭鍥炶喘
+DEL_QUEST [419] 鏂版墜浠诲姟 PT1-10 type=None start=瑁呭鍥炶喘
+DEL_QUEST [420] 鏂版墜浠诲姟 PT1-11 type=None start=瑁呭鍥炶喘
+DEL_QUEST [421] 鏂版墜浠诲姟 PT1-12 type=None start=瑁呭鍥炶喘
+DEL_QUEST [422] 鏂版墜浠诲姟 PT1-13 type=None start=缁煎悎鏈嶅姟
+DEL_QUEST [423] 鏂版墜浠诲姟 PT1-14 type=None start=缁煎悎鏈嶅姟
+DEL_QUEST [424] 鏂版墜浠诲姟 PT1-15 type=None start=缁煎悎鏈嶅姟
+DEL_QUEST [425] 鏂版墜浠诲姟 PT1-16 type=None start=缁煎悎鏈嶅姟
+DEL_QUEST [426] 鏂版墜浠诲姟 PT1-17 type=None start=BOSS鏌ヨ
+DEL_QUEST [427] 鏂版墜浠诲姟 PT1-18 type=None start=BOSS鏌ヨ
+DEL_QUEST [428] 鏂版墜浠诲姟 PT1-19 type=None start=BOSS鏌ヨ
+DEL_QUEST [429] 鏂版墜浠诲姟 PT1-20 type=None start=BOSS鏌ヨ
+DEL_QUEST [430] 鏂版墜浠诲姟 PT1-21 type=None start=娲诲姩绠＄悊鍛?
+DEL_QUEST [431] 鏂版墜浠诲姟 PT1-22 type=None start=娲诲姩绠＄悊鍛?
+DEL_QUEST [432] 鏂版墜浠诲姟 PT1-23 type=None start=娲诲姩绠＄悊鍛?
+DEL_QUEST [433] 鏂版墜浠诲姟 PT1-24 type=None start=娲诲姩绠＄悊鍛?
+DEL_QUEST [434] 鏂版墜浠诲姟 PT1-25 type=None start=瀵勫敭鍟?
+DEL_QUEST [435] 鏂版墜浠诲姟 PT1-26 type=None start=瀵勫敭鍟?
+DEL_QUEST [436] 鏂版墜浠诲姟 PT1-27 type=None start=瀵勫敭鍟?
+DEL_QUEST [437] 鏂版墜浠诲姟 PT1-28 type=None start=瀵勫敭鍟?
+DEL_QUEST [438] 鏂版墜浠诲姟 PT1-29 type=None start=澶х鎺掕姒?
+DEL_QUEST [439] 鏂版墜浠诲姟 PT1-30 type=None start=澶х鎺掕姒?
+DEL_QUEST [440] 鏂版墜浠诲姟 PT1-31 type=None start=澶х鎺掕姒?
+DEL_QUEST [441] 鏂版墜浠诲姟 PT1-32 type=None start=澶х鎺掕姒?
+DEL_QUEST [442] 鏂版墜浠诲姟 PT1-33 type=None start=銆庢柊鎵嬫寚寮曘€?澹畼
+DEL_QUEST [443] 鏂版墜浠诲姟 PT1-34 type=None start=鍏憡鏍?
+DEL_QUEST [444] 鏂版墜浠诲姟 PT1-35 type=None start=鍏憡鏍?
+DEL_QUEST [445] 鏂版墜浠诲姟 PT1-36 type=None start=鍏憡鏍?
+DEL_QUEST [446] 鏂版墜浠诲姟 PT1-37 type=None start=鍏憡鏍?
+DEL_QUEST [447] 鏂版墜浠诲姟 PT1-38 type=None start=鍏憡鏍?
+DEL_QUEST [448] 鏂版墜浠诲姟 PT1-39 type=None start=绉€鍎?
+DEL_QUEST [449] 鏂版墜浠诲姟 PT1-40 type=None start=绉€鍎?
+DEL_QUEST [450] 鏂版墜浠诲姟 PT1-41 type=None start=绉€鍎?
+DEL_QUEST [451] 鏂版墜浠诲姟 PT1-42 type=None start=绉€鍎?
+DEL_QUEST [452] 鏂版墜浠诲姟 PT1-43 type=None start=鑽
+DEL_QUEST [453] 鏂版墜浠诲姟 PT1-44 type=None start=鑽
+DEL_QUEST [454] 鏂版墜浠诲姟 PT1-45 type=None start=鑽
+DEL_QUEST [455] 鏂版墜浠诲姟 PT1-46 type=None start=鑽
+DEL_QUEST [456] 鏂版墜浠诲姟 PT1-47 type=None start=鑽腑
+DEL_QUEST [457] 鏂版墜浠诲姟 PT1-48 type=None start=鑽腑
+DEL_QUEST [458] 鏂版墜浠诲姟 PT1-49 type=None start=鑽腑
+DEL_QUEST [459] 鏂版墜浠诲姟 PT1-50 type=None start=姊佺敓
+DEL_QUEST [460] 鏂版墜浠诲姟 PT1-51 type=None start=姊佺敓
+DEL_QUEST [461] 鏂版墜浠诲姟 PT1-52 type=None start=姊佺敓
+DEL_QUEST [462] 鏂版墜浠诲姟 PT1-53 type=None start=姊佺敓
+DEL_QUEST [463] 鏂版墜浠诲姟 PT1-54 type=None start=鍏憡鏍?
+DEL_QUEST [464] 鏂版墜浠诲姟 PT1-55 type=None start=鍏憡鏍?
+DEL_QUEST [465] 鏂版墜浠诲姟 PT1-56 type=None start=钀ц壇浣?
+DEL_QUEST [466] 鏂版墜浠诲姟 PT1-57 type=None start=钀ц壇浣?
+DEL_QUEST [467] 鏂版墜浠诲姟 PT1-58 type=None start=钀ц壇浣?
+DEL_QUEST [468] 鏂版墜浠诲姟 PT1-59 type=None start=钀ц壇浣?
+DEL_QUEST [469] 鏂版墜浠诲姟 PT1-60 type=None start=钀ц壇浣?
+DEL_QUEST [470] 鏂版墜浠诲姟 PT1-61 type=None start=钀ц壇浣?
+DEL_QUEST [471] 鏂版墜浠诲姟 PT1-62 type=None start=钀ц壇浣?
+DEL_QUEST [472] 鏂版墜浠诲姟 PT1-63 type=None start=钀ц壇浣?
+DEL_QUEST [473] 鏂版墜浠诲姟 PT1-64 type=None start=钀ц壇浣?
+DEL_QUEST [474] 鏂版墜浠诲姟 PT1-65 type=None start=钀ц壇浣?
+DEL_QUEST [475] 鏂版墜浠诲姟 PT1-66 type=None start=钀ц壇浣?
+DEL_QUEST [476] 鏂版墜浠诲姟 PT1-67 type=None start=钀ц壇浣?
+DEL_QUEST [477] 鏂版墜浠诲姟 PT1-68 type=None start=钀ц壇浣?
+DEL_QUEST [478] 鏂版墜浠诲姟 PT1-69 type=None start=钀ц壇浣?
+DEL_QUEST [479] 鏂版墜浠诲姟 PT1-70 type=None start=钀ц壇浣?
+DEL_QUEST [480] 鏂版墜浠诲姟 PT1-71 type=None start=钀ц壇浣?
+DEL_QUEST [481] 鏂版墜浠诲姟 PT1-72 type=None start=钀ц壇浣?
+related monDets=94 tasks=94 rewards=79 reqs=136
+NPC clear 绉€鍎?38 StartQuests quest#448
+NPC clear 绉€鍎?38 StartQuests quest#449
+NPC clear 绉€鍎?38 StartQuests quest#450
+NPC clear 绉€鍎?38 StartQuests quest#451
+NPC clear 绉€鍎?38 FinishQuests quest#448
+NPC clear 绉€鍎?38 FinishQuests quest#449
+NPC clear 绉€鍎?38 FinishQuests quest#450
+NPC clear 绉€鍎?38 FinishQuests quest#451
+NPC clear 鑽#39 StartQuests quest#452
+NPC clear 鑽#39 StartQuests quest#453
+NPC clear 鑽#39 StartQuests quest#454
+NPC clear 鑽#39 StartQuests quest#455
+NPC clear 鑽#39 FinishQuests quest#452
+NPC clear 鑽#39 FinishQuests quest#453
+NPC clear 鑽#39 FinishQuests quest#454
+NPC clear 鑽#39 FinishQuests quest#455
+NPC clear 鑽#39 FinishQuests quest#456
+NPC clear 鑽腑#40 StartQuests quest#456
+NPC clear 鑽腑#40 StartQuests quest#457
+NPC clear 鑽腑#40 StartQuests quest#458
+NPC clear 鑽腑#40 FinishQuests quest#457
+NPC clear 鑽腑#40 FinishQuests quest#458
+NPC clear 姊佺敓#42 StartQuests quest#459
+NPC clear 姊佺敓#42 StartQuests quest#460
+NPC clear 姊佺敓#42 StartQuests quest#461
+NPC clear 姊佺敓#42 StartQuests quest#462
+NPC clear 姊佺敓#42 FinishQuests quest#459
+NPC clear 姊佺敓#42 FinishQuests quest#460
+NPC clear 姊佺敓#42 FinishQuests quest#461
+NPC clear 姊佺敓#42 FinishQuests quest#462
+NPC clear 瀵勫敭鍟?51 StartQuests quest#434
+NPC clear 瀵勫敭鍟?51 StartQuests quest#435
+NPC clear 瀵勫敭鍟?51 StartQuests quest#436
+NPC clear 瀵勫敭鍟?51 StartQuests quest#437
+NPC clear 瀵勫敭鍟?51 FinishQuests quest#434
+NPC clear 瀵勫敭鍟?51 FinishQuests quest#435
+NPC clear 瀵勫敭鍟?51 FinishQuests quest#436
+NPC clear 瀵勫敭鍟?51 FinishQuests quest#437
+NPC clear 钀ц壇浣?175 StartQuests quest#465
+NPC clear 钀ц壇浣?175 StartQuests quest#466
+NPC clear 钀ц壇浣?175 StartQuests quest#467
+NPC clear 钀ц壇浣?175 StartQuests quest#468
+NPC clear 钀ц壇浣?175 StartQuests quest#469
+NPC clear 钀ц壇浣?175 StartQuests quest#470
+NPC clear 钀ц壇浣?175 StartQuests quest#471
+NPC clear 钀ц壇浣?175 StartQuests quest#472
+NPC clear 钀ц壇浣?175 StartQuests quest#473
+NPC clear 钀ц壇浣?175 StartQuests quest#474
+NPC clear 钀ц壇浣?175 StartQuests quest#475
+NPC clear 钀ц壇浣?175 StartQuests quest#476
+NPC clear 钀ц壇浣?175 StartQuests quest#477
+NPC clear 钀ц壇浣?175 StartQuests quest#478
+NPC clear 钀ц壇浣?175 StartQuests quest#479
+NPC clear 钀ц壇浣?175 StartQuests quest#480
+NPC clear 钀ц壇浣?175 StartQuests quest#481
+NPC clear 钀ц壇浣?175 FinishQuests quest#465
+NPC clear 钀ц壇浣?175 FinishQuests quest#466
+NPC clear 钀ц壇浣?175 FinishQuests quest#467
+NPC clear 钀ц壇浣?175 FinishQuests quest#468
+NPC clear 钀ц壇浣?175 FinishQuests quest#469
+NPC clear 钀ц壇浣?175 FinishQuests quest#470
+NPC clear 钀ц壇浣?175 FinishQuests quest#471
+NPC clear 钀ц壇浣?175 FinishQuests quest#472
+NPC clear 钀ц壇浣?175 FinishQuests quest#473
+NPC clear 钀ц壇浣?175 FinishQuests quest#474
+NPC clear 钀ц壇浣?175 FinishQuests quest#475
+NPC clear 钀ц壇浣?175 FinishQuests quest#476
+NPC clear 钀ц壇浣?175 FinishQuests quest#477
+NPC clear 钀ц壇浣?175 FinishQuests quest#478
+NPC clear 钀ц壇浣?175 FinishQuests quest#479
+NPC clear 钀ц壇浣?175 FinishQuests quest#480
+NPC clear 钀ц壇浣?175 FinishQuests quest#481
+NPC clear 鍏憡鏍?231 StartQuests quest#443
+NPC clear 鍏憡鏍?231 StartQuests quest#444
+NPC clear 鍏憡鏍?231 StartQuests quest#445
+NPC clear 鍏憡鏍?231 StartQuests quest#446
+NPC clear 鍏憡鏍?231 StartQuests quest#447
+NPC clear 鍏憡鏍?231 StartQuests quest#463
+NPC clear 鍏憡鏍?231 StartQuests quest#464
+NPC clear 鍏憡鏍?231 FinishQuests quest#443
+NPC clear 鍏憡鏍?231 FinishQuests quest#444
+NPC clear 鍏憡鏍?231 FinishQuests quest#445
+NPC clear 鍏憡鏍?231 FinishQuests quest#446
+NPC clear 鍏憡鏍?231 FinishQuests quest#447
+NPC clear 鍏憡鏍?231 FinishQuests quest#463
+NPC clear 鍏憡鏍?231 FinishQuests quest#464
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 StartQuests quest#410
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 StartQuests quest#411
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 StartQuests quest#412
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 StartQuests quest#413
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 StartQuests quest#442
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 FinishQuests quest#410
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 FinishQuests quest#411
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 FinishQuests quest#412
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 FinishQuests quest#413
+NPC clear 銆庢柊鎵嬫寚寮曘€?澹畼#245 FinishQuests quest#442
+NPC clear 娲诲姩绠＄悊鍛?332 StartQuests quest#430
+NPC clear 娲诲姩绠＄悊鍛?332 StartQuests quest#431
+NPC clear 娲诲姩绠＄悊鍛?332 StartQuests quest#432
+NPC clear 娲诲姩绠＄悊鍛?332 StartQuests quest#433
+NPC clear 娲诲姩绠＄悊鍛?332 FinishQuests quest#430
+NPC clear 娲诲姩绠＄悊鍛?332 FinishQuests quest#431
+NPC clear 娲诲姩绠＄悊鍛?332 FinishQuests quest#432
+NPC clear 娲诲姩绠＄悊鍛?332 FinishQuests quest#433
+NPC clear 瑁呭鍥炶喘#333 StartQuests quest#418
+NPC clear 瑁呭鍥炶喘#333 StartQuests quest#419
+NPC clear 瑁呭鍥炶喘#333 StartQuests quest#420
+NPC clear 瑁呭鍥炶喘#333 StartQuests quest#421
+NPC clear 瑁呭鍥炶喘#333 FinishQuests quest#418
+NPC clear 瑁呭鍥炶喘#333 FinishQuests quest#419
+NPC clear 瑁呭鍥炶喘#333 FinishQuests quest#420
+NPC clear 瑁呭鍥炶喘#333 FinishQuests quest#421
+NPC clear 澶х鎺掕姒?334 StartQuests quest#438
+NPC clear 澶х鎺掕姒?334 StartQuests quest#439
+NPC clear 澶х鎺掕姒?334 StartQuests quest#440
+NPC clear 澶х鎺掕姒?334 StartQuests quest#441
+NPC clear 澶х鎺掕姒?334 FinishQuests quest#438
+NPC clear 澶х鎺掕姒?334 FinishQuests quest#439
+NPC clear 澶х鎺掕姒?334 FinishQuests quest#440
+NPC clear 澶х鎺掕姒?334 FinishQuests quest#441
+NPC clear 缁煎悎鏈嶅姟#335 StartQuests quest#422
+NPC clear 缁煎悎鏈嶅姟#335 StartQuests quest#423
+NPC clear 缁煎悎鏈嶅姟#335 StartQuests quest#424
+NPC clear 缁煎悎鏈嶅姟#335 StartQuests quest#425
+NPC clear 缁煎悎鏈嶅姟#335 FinishQuests quest#422
+NPC clear 缁煎悎鏈嶅姟#335 FinishQuests quest#423
+NPC clear 缁煎悎鏈嶅姟#335 FinishQuests quest#424
+NPC clear 缁煎悎鏈嶅姟#335 FinishQuests quest#425
+NPC clear BOSS鏌ヨ#336 StartQuests quest#426
+NPC clear BOSS鏌ヨ#336 StartQuests quest#427
+NPC clear BOSS鏌ヨ#336 StartQuests quest#428
+NPC clear BOSS鏌ヨ#336 StartQuests quest#429
+NPC clear BOSS鏌ヨ#336 FinishQuests quest#426
+NPC clear BOSS鏌ヨ#336 FinishQuests quest#427
+NPC clear BOSS鏌ヨ#336 FinishQuests quest#428
+NPC clear BOSS鏌ヨ#336 FinishQuests quest#429
+npcClearedCalls=136
+deleted quests + related rows
+saved
+VERIFY ITEM 122584 boss鏌ヨ鍗?Price=500 SellRate=1 sell=500 expectPrice=500 expectSell=500
+VERIFY ITEM 122585 鍦扮厼鐭?Price=1 SellRate=1 sell=1 expectPrice=1 expectSell=1
+VERIFY ITEM 122586 澶╃健鐭?Price=1 SellRate=1 sell=1 expectPrice=1 expectSell=1
+VERIFY MON Health=5000
+VERIFY remainNewbie=0 totalQuests=373
+VERIFY brokenNpcQuestLinks=0
+copied to Database (+ Data/deploy if present)
+REPORT=D:\newMir3\tools\Mir3ArkBatch4_20260912\apply_20260912_144120.txt

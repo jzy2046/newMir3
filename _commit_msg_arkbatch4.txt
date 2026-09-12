@@ -1,0 +1,8 @@
+﻿arkbatch4: boss查询卷 sell 500金; 霸王守卫 HP 5000; 地煞石/天罡石 sell 1金; 删除68个新手任务
+
+- Item#122584 Price 1e8/SellRate0.5 (~50M) -> Price500/SellRate1 (NPC sell=500)
+- 推广礼包 Shape67 still GiveItem(boss查询卷) same row
+- Monster 霸王守卫#20020 Health 2500 -> 5000 (System+Client)
+- Item 地煞石#122585 / 天罡石#122586 Price10000/0.5 -> Price1/SellRate1
+- Deleted Quest 新手任务 PT1-1..PT1-72 (68), cleared NPC Start/FinishQuests; remainNewbie=0 brokenLinks=0
+- No Library rebuild. Hot packs: PC_7091 + Mobile thin ClientSystem updated locally (not committed).

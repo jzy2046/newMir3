@@ -1,0 +1,6 @@
+﻿srv D:\Mir3鐑洿琛ヤ竵\Server_overwrite_latest
+System.db targets ['Database\\System.db']
+copied D:\Mir3鐑洿琛ヤ竵\Server_overwrite_latest\Database\System.db
+ClientSystem.db targets ['Database\\ClientSystem.db']
+copied D:\Mir3鐑洿琛ヤ竵\Server_overwrite_latest\Database\ClientSystem.db
+DONE 20260912_144152

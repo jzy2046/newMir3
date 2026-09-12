@@ -1,0 +1,231 @@
+﻿mode=dry-run stamp=20260912_144106
+backup=D:\newMir3\Database\Backup_arkbatch4_20260912_144106
+loaded items=1041 mons=228 quests=441 tasks=569
+
+=== 1 boss查询卷 Price ===
+bossItems=1
+BEFORE idx=122584 name=boss查询卷 Price=100000000 SellRate=0.5 Durability=0 CanSell=True sellGold~=50000000
+AFTER  idx=122584 Price=100000000 SellRate=0.5 sellGold~=50000000
+推广礼包 grants same item name boss查询卷 via Shape=67 script — no separate item copy.
+
+=== 2 霸王守卫 HP ===
+guards=1
+MON idx=20020 name=霸王守卫 Level=90
+  Health BEFORE Amount=2500
+  Health AFTER  Amount=2500
+
+=== 3 地煞石/天罡石 Price ===
+stones=2
+BEFORE idx=122585 name=地煞石 Price=10000 SellRate=0.5 sellGold~=5000
+AFTER  idx=122585 Price=10000 SellRate=0.5 sellGold~=5000
+BEFORE idx=122586 name=天罡石 Price=10000 SellRate=0.5 sellGold~=5000
+AFTER  idx=122586 Price=10000 SellRate=0.5 sellGold~=5000
+
+=== 4 Delete newbie quests ===
+newbieQuests=68
+DEL_QUEST [410] 新手任务 PT1-1 type=None start=『新手指引』 士官
+DEL_QUEST [411] 新手任务 PT1-2 type=None start=『新手指引』 士官
+DEL_QUEST [412] 新手任务 PT1-3 type=None start=『新手指引』 士官
+DEL_QUEST [413] 新手任务 PT1-4 type=None start=『新手指引』 士官
+DEL_QUEST [418] 新手任务 PT1-9 type=None start=装备回购
+DEL_QUEST [419] 新手任务 PT1-10 type=None start=装备回购
+DEL_QUEST [420] 新手任务 PT1-11 type=None start=装备回购
+DEL_QUEST [421] 新手任务 PT1-12 type=None start=装备回购
+DEL_QUEST [422] 新手任务 PT1-13 type=None start=综合服务
+DEL_QUEST [423] 新手任务 PT1-14 type=None start=综合服务
+DEL_QUEST [424] 新手任务 PT1-15 type=None start=综合服务
+DEL_QUEST [425] 新手任务 PT1-16 type=None start=综合服务
+DEL_QUEST [426] 新手任务 PT1-17 type=None start=BOSS查询
+DEL_QUEST [427] 新手任务 PT1-18 type=None start=BOSS查询
+DEL_QUEST [428] 新手任务 PT1-19 type=None start=BOSS查询
+DEL_QUEST [429] 新手任务 PT1-20 type=None start=BOSS查询
+DEL_QUEST [430] 新手任务 PT1-21 type=None start=活动管理员
+DEL_QUEST [431] 新手任务 PT1-22 type=None start=活动管理员
+DEL_QUEST [432] 新手任务 PT1-23 type=None start=活动管理员
+DEL_QUEST [433] 新手任务 PT1-24 type=None start=活动管理员
+DEL_QUEST [434] 新手任务 PT1-25 type=None start=寄售商
+DEL_QUEST [435] 新手任务 PT1-26 type=None start=寄售商
+DEL_QUEST [436] 新手任务 PT1-27 type=None start=寄售商
+DEL_QUEST [437] 新手任务 PT1-28 type=None start=寄售商
+DEL_QUEST [438] 新手任务 PT1-29 type=None start=大神排行榜
+DEL_QUEST [439] 新手任务 PT1-30 type=None start=大神排行榜
+DEL_QUEST [440] 新手任务 PT1-31 type=None start=大神排行榜
+DEL_QUEST [441] 新手任务 PT1-32 type=None start=大神排行榜
+DEL_QUEST [442] 新手任务 PT1-33 type=None start=『新手指引』 士官
+DEL_QUEST [443] 新手任务 PT1-34 type=None start=公告栏
+DEL_QUEST [444] 新手任务 PT1-35 type=None start=公告栏
+DEL_QUEST [445] 新手任务 PT1-36 type=None start=公告栏
+DEL_QUEST [446] 新手任务 PT1-37 type=None start=公告栏
+DEL_QUEST [447] 新手任务 PT1-38 type=None start=公告栏
+DEL_QUEST [448] 新手任务 PT1-39 type=None start=秀儿
+DEL_QUEST [449] 新手任务 PT1-40 type=None start=秀儿
+DEL_QUEST [450] 新手任务 PT1-41 type=None start=秀儿
+DEL_QUEST [451] 新手任务 PT1-42 type=None start=秀儿
+DEL_QUEST [452] 新手任务 PT1-43 type=None start=药神
+DEL_QUEST [453] 新手任务 PT1-44 type=None start=药神
+DEL_QUEST [454] 新手任务 PT1-45 type=None start=药神
+DEL_QUEST [455] 新手任务 PT1-46 type=None start=药神
+DEL_QUEST [456] 新手任务 PT1-47 type=None start=药中
+DEL_QUEST [457] 新手任务 PT1-48 type=None start=药中
+DEL_QUEST [458] 新手任务 PT1-49 type=None start=药中
+DEL_QUEST [459] 新手任务 PT1-50 type=None start=梁生
+DEL_QUEST [460] 新手任务 PT1-51 type=None start=梁生
+DEL_QUEST [461] 新手任务 PT1-52 type=None start=梁生
+DEL_QUEST [462] 新手任务 PT1-53 type=None start=梁生
+DEL_QUEST [463] 新手任务 PT1-54 type=None start=公告栏
+DEL_QUEST [464] 新手任务 PT1-55 type=None start=公告栏
+DEL_QUEST [465] 新手任务 PT1-56 type=None start=萧良佳
+DEL_QUEST [466] 新手任务 PT1-57 type=None start=萧良佳
+DEL_QUEST [467] 新手任务 PT1-58 type=None start=萧良佳
+DEL_QUEST [468] 新手任务 PT1-59 type=None start=萧良佳
+DEL_QUEST [469] 新手任务 PT1-60 type=None start=萧良佳
+DEL_QUEST [470] 新手任务 PT1-61 type=None start=萧良佳
+DEL_QUEST [471] 新手任务 PT1-62 type=None start=萧良佳
+DEL_QUEST [472] 新手任务 PT1-63 type=None start=萧良佳
+DEL_QUEST [473] 新手任务 PT1-64 type=None start=萧良佳
+DEL_QUEST [474] 新手任务 PT1-65 type=None start=萧良佳
+DEL_QUEST [475] 新手任务 PT1-66 type=None start=萧良佳
+DEL_QUEST [476] 新手任务 PT1-67 type=None start=萧良佳
+DEL_QUEST [477] 新手任务 PT1-68 type=None start=萧良佳
+DEL_QUEST [478] 新手任务 PT1-69 type=None start=萧良佳
+DEL_QUEST [479] 新手任务 PT1-70 type=None start=萧良佳
+DEL_QUEST [480] 新手任务 PT1-71 type=None start=萧良佳
+DEL_QUEST [481] 新手任务 PT1-72 type=None start=萧良佳
+related monDets=94 tasks=94 rewards=79 reqs=136
+NPC clear 秀儿#38 StartQuests quest#448
+NPC clear 秀儿#38 StartQuests quest#449
+NPC clear 秀儿#38 StartQuests quest#450
+NPC clear 秀儿#38 StartQuests quest#451
+NPC clear 秀儿#38 FinishQuests quest#448
+NPC clear 秀儿#38 FinishQuests quest#449
+NPC clear 秀儿#38 FinishQuests quest#450
+NPC clear 秀儿#38 FinishQuests quest#451
+NPC clear 药神#39 StartQuests quest#452
+NPC clear 药神#39 StartQuests quest#453
+NPC clear 药神#39 StartQuests quest#454
+NPC clear 药神#39 StartQuests quest#455
+NPC clear 药神#39 FinishQuests quest#452
+NPC clear 药神#39 FinishQuests quest#453
+NPC clear 药神#39 FinishQuests quest#454
+NPC clear 药神#39 FinishQuests quest#455
+NPC clear 药神#39 FinishQuests quest#456
+NPC clear 药中#40 StartQuests quest#456
+NPC clear 药中#40 StartQuests quest#457
+NPC clear 药中#40 StartQuests quest#458
+NPC clear 药中#40 FinishQuests quest#457
+NPC clear 药中#40 FinishQuests quest#458
+NPC clear 梁生#42 StartQuests quest#459
+NPC clear 梁生#42 StartQuests quest#460
+NPC clear 梁生#42 StartQuests quest#461
+NPC clear 梁生#42 StartQuests quest#462
+NPC clear 梁生#42 FinishQuests quest#459
+NPC clear 梁生#42 FinishQuests quest#460
+NPC clear 梁生#42 FinishQuests quest#461
+NPC clear 梁生#42 FinishQuests quest#462
+NPC clear 寄售商#51 StartQuests quest#434
+NPC clear 寄售商#51 StartQuests quest#435
+NPC clear 寄售商#51 StartQuests quest#436
+NPC clear 寄售商#51 StartQuests quest#437
+NPC clear 寄售商#51 FinishQuests quest#434
+NPC clear 寄售商#51 FinishQuests quest#435
+NPC clear 寄售商#51 FinishQuests quest#436
+NPC clear 寄售商#51 FinishQuests quest#437
+NPC clear 萧良佳#175 StartQuests quest#465
+NPC clear 萧良佳#175 StartQuests quest#466
+NPC clear 萧良佳#175 StartQuests quest#467
+NPC clear 萧良佳#175 StartQuests quest#468
+NPC clear 萧良佳#175 StartQuests quest#469
+NPC clear 萧良佳#175 StartQuests quest#470
+NPC clear 萧良佳#175 StartQuests quest#471
+NPC clear 萧良佳#175 StartQuests quest#472
+NPC clear 萧良佳#175 StartQuests quest#473
+NPC clear 萧良佳#175 StartQuests quest#474
+NPC clear 萧良佳#175 StartQuests quest#475
+NPC clear 萧良佳#175 StartQuests quest#476
+NPC clear 萧良佳#175 StartQuests quest#477
+NPC clear 萧良佳#175 StartQuests quest#478
+NPC clear 萧良佳#175 StartQuests quest#479
+NPC clear 萧良佳#175 StartQuests quest#480
+NPC clear 萧良佳#175 StartQuests quest#481
+NPC clear 萧良佳#175 FinishQuests quest#465
+NPC clear 萧良佳#175 FinishQuests quest#466
+NPC clear 萧良佳#175 FinishQuests quest#467
+NPC clear 萧良佳#175 FinishQuests quest#468
+NPC clear 萧良佳#175 FinishQuests quest#469
+NPC clear 萧良佳#175 FinishQuests quest#470
+NPC clear 萧良佳#175 FinishQuests quest#471
+NPC clear 萧良佳#175 FinishQuests quest#472
+NPC clear 萧良佳#175 FinishQuests quest#473
+NPC clear 萧良佳#175 FinishQuests quest#474
+NPC clear 萧良佳#175 FinishQuests quest#475
+NPC clear 萧良佳#175 FinishQuests quest#476
+NPC clear 萧良佳#175 FinishQuests quest#477
+NPC clear 萧良佳#175 FinishQuests quest#478
+NPC clear 萧良佳#175 FinishQuests quest#479
+NPC clear 萧良佳#175 FinishQuests quest#480
+NPC clear 萧良佳#175 FinishQuests quest#481
+NPC clear 公告栏#231 StartQuests quest#443
+NPC clear 公告栏#231 StartQuests quest#444
+NPC clear 公告栏#231 StartQuests quest#445
+NPC clear 公告栏#231 StartQuests quest#446
+NPC clear 公告栏#231 StartQuests quest#447
+NPC clear 公告栏#231 StartQuests quest#463
+NPC clear 公告栏#231 StartQuests quest#464
+NPC clear 公告栏#231 FinishQuests quest#443
+NPC clear 公告栏#231 FinishQuests quest#444
+NPC clear 公告栏#231 FinishQuests quest#445
+NPC clear 公告栏#231 FinishQuests quest#446
+NPC clear 公告栏#231 FinishQuests quest#447
+NPC clear 公告栏#231 FinishQuests quest#463
+NPC clear 公告栏#231 FinishQuests quest#464
+NPC clear 『新手指引』 士官#245 StartQuests quest#410
+NPC clear 『新手指引』 士官#245 StartQuests quest#411
+NPC clear 『新手指引』 士官#245 StartQuests quest#412
+NPC clear 『新手指引』 士官#245 StartQuests quest#413
+NPC clear 『新手指引』 士官#245 StartQuests quest#442
+NPC clear 『新手指引』 士官#245 FinishQuests quest#410
+NPC clear 『新手指引』 士官#245 FinishQuests quest#411
+NPC clear 『新手指引』 士官#245 FinishQuests quest#412
+NPC clear 『新手指引』 士官#245 FinishQuests quest#413
+NPC clear 『新手指引』 士官#245 FinishQuests quest#442
+NPC clear 活动管理员#332 StartQuests quest#430
+NPC clear 活动管理员#332 StartQuests quest#431
+NPC clear 活动管理员#332 StartQuests quest#432
+NPC clear 活动管理员#332 StartQuests quest#433
+NPC clear 活动管理员#332 FinishQuests quest#430
+NPC clear 活动管理员#332 FinishQuests quest#431
+NPC clear 活动管理员#332 FinishQuests quest#432
+NPC clear 活动管理员#332 FinishQuests quest#433
+NPC clear 装备回购#333 StartQuests quest#418
+NPC clear 装备回购#333 StartQuests quest#419
+NPC clear 装备回购#333 StartQuests quest#420
+NPC clear 装备回购#333 StartQuests quest#421
+NPC clear 装备回购#333 FinishQuests quest#418
+NPC clear 装备回购#333 FinishQuests quest#419
+NPC clear 装备回购#333 FinishQuests quest#420
+NPC clear 装备回购#333 FinishQuests quest#421
+NPC clear 大神排行榜#334 StartQuests quest#438
+NPC clear 大神排行榜#334 StartQuests quest#439
+NPC clear 大神排行榜#334 StartQuests quest#440
+NPC clear 大神排行榜#334 StartQuests quest#441
+NPC clear 大神排行榜#334 FinishQuests quest#438
+NPC clear 大神排行榜#334 FinishQuests quest#439
+NPC clear 大神排行榜#334 FinishQuests quest#440
+NPC clear 大神排行榜#334 FinishQuests quest#441
+NPC clear 综合服务#335 StartQuests quest#422
+NPC clear 综合服务#335 StartQuests quest#423
+NPC clear 综合服务#335 StartQuests quest#424
+NPC clear 综合服务#335 StartQuests quest#425
+NPC clear 综合服务#335 FinishQuests quest#422
+NPC clear 综合服务#335 FinishQuests quest#423
+NPC clear 综合服务#335 FinishQuests quest#424
+NPC clear 综合服务#335 FinishQuests quest#425
+NPC clear BOSS查询#336 StartQuests quest#426
+NPC clear BOSS查询#336 StartQuests quest#427
+NPC clear BOSS查询#336 StartQuests quest#428
+NPC clear BOSS查询#336 StartQuests quest#429
+NPC clear BOSS查询#336 FinishQuests quest#426
+NPC clear BOSS查询#336 FinishQuests quest#427
+NPC clear BOSS查询#336 FinishQuests quest#428
+NPC clear BOSS查询#336 FinishQuests quest#429
+npcClearedCalls=136
