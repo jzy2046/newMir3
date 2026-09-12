@@ -1,0 +1,7 @@
+restore: 恢复68个新手任务 PT1（ArkBatch4删除）；保留查询卷/石头价格与霸王守卫HP
+
+- From Backup_arkbatch4_20260912_144120 restore Quest#410-413,418-481 + 136 NPC Start/Finish links
+- Keep Item#122584 boss查询卷 Price=500/SellRate=1; 地煞石/天罡石 Price=1; 霸王守卫 Health=5000
+- System.db+ClientSystem.db -> Database/Data/deploy; VERIFY 68/68 quests, npcLinks=136, broken=0
+- Hot packs rebuilt locally: PC_7091_overwrite_latest + Mobile thin ClientSystem (not committed)
+- No VPS login; Server_overwrite_latest Database covered locally for ops
