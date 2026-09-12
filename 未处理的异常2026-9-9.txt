@@ -1,0 +1,8 @@
+未将对象引用设置到对象的实例。   在 Server.Models.PlayerObject.StopGame()
+   在 Server.Envir.SConnection.CleanUp()
+   在 Server.Envir.SEnvir.EnvirLoop()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+

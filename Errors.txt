@@ -1,0 +1,5 @@
+未将对象引用设置到对象的实例。
+   在 Server.Models.PlayerObject.ProcessDetectionDay()
+   在 Server.Models.PlayerObject.Process()
+   在 Server.Models.MapObject.StartProcess()
+   在 Server.Envir.SEnvir.EnvirLoop()
