@@ -56,7 +56,7 @@ def OnClick(args):
                                  [关闭:0]"""
                     else:
                         PlayerSetV(Sender, GV_NEW_PLAYER_EXP_BUFF_COUNT, PlayerGetV(Sender, GV_NEW_PLAYER_EXP_BUFF_COUNT) + 1)
-                        Sender.CustomBuffAdd(NEW_PLAYER_EXP_BUFF_INDEX)
+# dropbuff_20260915 disabled:                         Sender.CustomBuffAdd(NEW_PLAYER_EXP_BUFF_INDEX)
                         say = """领取成功！
 
                                  [关闭:0]"""

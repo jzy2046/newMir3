@@ -232,7 +232,7 @@ def OnKillMon(args):
         			Sender.Connection.ReceiveChat("别杀我，给你50点声望", MessageType.System)
 
         	else:
-        			Sender.CustomBuffAdd(NEW_PLAYER_EXP_BUFF_INDEX)      #给自定义BUFF
+# dropbuff_20260915 disabled:         			Sender.CustomBuffAdd(NEW_PLAYER_EXP_BUFF_INDEX)      #给自定义BUFF
         			Sender.Connection.ReceiveChat("怪物的祝福BUFF", MessageType.System)
 
 	# PKS副本怪计数

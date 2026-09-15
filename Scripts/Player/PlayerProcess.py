@@ -39,9 +39,10 @@ def OnProcess(args):
 	if(starttime1 == 0 or starttime1 < SEnvir.Now): #如果时间小于系统时间
 		PlayerSetTempV(Sender,TK_GJ_VALUE,SEnvir.Now.AddSeconds(3)) #按秒判断循环
 
-		# batch_final: 删除挂机爆率BUFF — never grant CustomBuff 143; strip if present
-		if (Sender.HasCustomBuff(143)):
-			Sender.CustomBuffRemove(143)  # 移除残留挂机BUFF
+		# batch_final + dropbuff_20260915: strip residual drop-rate custom buffs
+		for _drop_buff_idx in (143, 146, 147, 148, 149, 150):
+			if (Sender.HasCustomBuff(_drop_buff_idx)):
+				Sender.CustomBuffRemove(_drop_buff_idx)
 def OnWeekChange(args):
 	Sender=args[0]
 	PlayerSetV(Sender, GV_PLAYER_YXSM, 0)
