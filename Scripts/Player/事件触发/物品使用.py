@@ -539,7 +539,15 @@ def OnUseItem(args):  #双击使用的道具
 			GiveExperience(Sender,10000000)   #增加经验
 			Sender.Connection.ReceiveChat('增加10000000经验',MessageType.System)
 			return True
-		elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
+		elif(Item.Info.Shape == 68): #绝影战马礼包 -> 绝影战马 HorseType.Black
+		# ALWAYS give 绝影战马 (replace any existing horse)
+		Sender.Character.Horse = HorseType.Black
+		Sender.RemoveMount()
+		Sender.RefreshStats()
+		Sender.Mount()
+		Sender.Connection.ReceiveChat('获得绝影战马（已替换原坐骑）', MessageType.System)
+		return True
+	elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
 			# ALWAYS live 赤兔马 (replace any existing horse); NEVER 马牌; + boss查询卷
 			Sender.Character.Horse = HorseType.Red
 			Sender.RemoveMount()
