@@ -514,15 +514,15 @@ def OnUseItem(args):  #双击使用的道具
 				Sender.GiveItem("灵魂火符（秘籍）",1)
 			return True
 #		elif(Item.Info.Shape == 62): #道具数据库Shape值     推广礼包
-			Sender.GiveItem("攻击神水（新手）",1)
-			Sender.GiveItem("自然神水（新手）",1)
-			Sender.GiveItem("灵魂神水（新手）",1)
-			Sender.GiveItem("体力强效神水（新手）",1)
-			GiveGold(Sender,20000)    #增加金币
-			Sender.Connection.ReceiveChat('增加20000金币',MessageType.System)
-			GiveGameGold(Sender,10)   #增加元宝
-			Sender.Connection.ReceiveChat('增加10个元宝',MessageType.System)
-			return True
+# Sender.GiveItem("攻击神水（新手）",1)
+# Sender.GiveItem("自然神水（新手）",1)
+# Sender.GiveItem("灵魂神水（新手）",1)
+# Sender.GiveItem("体力强效神水（新手）",1)
+# GiveGold(Sender,20000)    #增加金币
+# Sender.Connection.ReceiveChat('增加20000金币',MessageType.System)
+# GiveGameGold(Sender,10)   #增加元宝
+# Sender.Connection.ReceiveChat('增加10个元宝',MessageType.System)
+# return True
 		elif(Item.Info.Shape == 62): #道具数据库Shape值     50W经验
 			GiveExperience(Sender,500000)   #增加经验
 			Sender.Connection.ReceiveChat('增加500000经验',MessageType.System)
@@ -540,14 +540,14 @@ def OnUseItem(args):  #双击使用的道具
 			Sender.Connection.ReceiveChat('增加10000000经验',MessageType.System)
 			return True
 		elif(Item.Info.Shape == 68): #绝影战马礼包 -> 绝影战马 HorseType.Black
-		# ALWAYS give 绝影战马 (replace any existing horse)
-		Sender.Character.Horse = HorseType.Black
-		Sender.RemoveMount()
-		Sender.RefreshStats()
-		Sender.Mount()
-		Sender.Connection.ReceiveChat('获得绝影战马（已替换原坐骑）', MessageType.System)
-		return True
-	elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
+			# ALWAYS give 绝影战马 (replace any existing horse)
+			Sender.Character.Horse = HorseType.Black
+			Sender.RemoveMount()
+			Sender.RefreshStats()
+			Sender.Mount()
+			Sender.Connection.ReceiveChat('获得绝影战马（已替换原坐骑）', MessageType.System)
+			return True
+		elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
 			# ALWAYS live 赤兔马 (replace any existing horse); NEVER 马牌; + boss查询卷
 			Sender.Character.Horse = HorseType.Red
 			Sender.RemoveMount()
