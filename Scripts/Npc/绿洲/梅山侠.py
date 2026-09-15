@@ -5,6 +5,7 @@ import sys
 from Globals import *
 import clr
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 clr.AddReference("Library")
 from Library import *
 import collections
@@ -136,6 +137,8 @@ def OnClick(args):
 			[谢谢你！:25]"""
 	elif (Menu == 25):
 		MainQuestRewards(Sender,BV_NQ_SJKILL)
+		if Sender.GetItemCount('魔灵牌') < 1:
+			Sender.GiveItem('魔灵牌',1)
 		Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
 		say = """还有这个 魔灵牌 也给你吧，这是以前我的一个朋友在从神舰回来后交给我的。
 			他后来没有听从我的劝告，执意要一个人去消灭霸王教主，结果再也没有回来。
@@ -196,6 +199,7 @@ def OnClick(args):
 			else:
 				Sender.TakeItem('航海日志',1)
 				PlayerSetV(Sender,BV_NQ_SJKILL,5006)
+				SyncSJQuestTracker(Sender)
 				say = """居然被你找到了这本东西，霸王教主的 航海日志 ！
 					嗯？最后一页上的这几句话似乎是我朋友的笔迹，他想告诉我们什么呢……啊，不好，这似乎是一句诅咒！
 					

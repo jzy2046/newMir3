@@ -1,3 +1,4 @@
+from SJQuestTracker import SyncSJQuestTracker
 ﻿# -*- coding: utf-8 -*-
 #载入模块SYS
 import sys
@@ -30,6 +31,8 @@ def MainQuestRewards(Sender,QuestType = BV_NQ_MAIN ):
 	sw = MainQuestList[6]
 	nq += 1
 	PlayerSetV(Sender,QuestType,nq)
+	if QuestType == BV_NQ_SJKILL:
+		SyncSJQuestTracker(Sender)
 	converted_reward = []
 	if exp:
 		exp1 = exp * Local_ExpRewards_Rate

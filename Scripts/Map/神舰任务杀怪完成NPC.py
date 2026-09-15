@@ -10,6 +10,7 @@ import collections
 import NpcEvent
 import random
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import Server.Envir.SEnvir as SEnvir
 import Utils.ServerUtils as ServerUtils
 from 主线任务奖励 import *
@@ -32,12 +33,14 @@ def OnClick(args):
 	
 	if(PlayerGetV(Sender,BV_NQ_SJKILL)==5003):
 		PlayerSetV(Sender,BV_NQ_SJKILL,5004)
+		SyncSJQuestTracker(Sender)
 		Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
 		SEnvir.DelayCall("Map.Teleport.DelayTeleport",10,(Sender,map))
 		Sender.Connection.ReceiveChat(" 10 秒后将退出地图。",MessageType.System)
 		say = """总算解决了，回去找霸王幽灵吧。"""
 	elif(PlayerGetV(Sender,BV_NQ_SJKILL)==5008):
 		PlayerSetV(Sender,BV_NQ_SJKILL,5009)
+		SyncSJQuestTracker(Sender)
 		if (GetInventoryCount(Sender) >= 1):
 			Sender.GiveItem('遗骸',1)
 		else:
@@ -48,6 +51,7 @@ def OnClick(args):
 		咦，这是什么东西？遗骸？）"""
 	elif(PlayerGetV(Sender,BV_NQ_SJKILL)==5012):
 		PlayerSetV(Sender,BV_NQ_SJKILL,5013)
+		SyncSJQuestTracker(Sender)
 		Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
 		say = ''
 	else:

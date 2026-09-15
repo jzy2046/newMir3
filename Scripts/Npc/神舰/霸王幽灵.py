@@ -10,6 +10,7 @@ s1 = clr.Reference[System.Object]()
 clr.AddReference("Library")
 from Library import *
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import Server
 import collections
 import MapEvent
@@ -51,6 +52,7 @@ def OnClick(args):
 			Sender.Teleport(map,16,8)                        #传送进副本
 			map.CreateMon(12,15,5,10102,2)
 			PlayerSetV(Sender,BV_NQ_SJKILL,5003)
+			SyncSJQuestTracker(Sender)
 			PlayerSetV(Sender,BV_NQ_SJKILLMON,1)
 			PlayerSetV(Sender,BV_NQ_SJKILLNUM,0)
 			Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
@@ -66,6 +68,7 @@ def OnClick(args):
 				[结束:0]"""
 		else:
 			PlayerSetV(Sender,BV_NQ_SJKILL,5005)
+			SyncSJQuestTracker(Sender)
 			Sender.TakeItem('魔灵牌',1)
 			Sender.GiveItem('航海日志',1)
 			Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
@@ -108,6 +111,7 @@ def OnClick(args):
 				[结束。:0]"""
 		else:
 			PlayerSetV(Sender,BV_NQ_SJKILL,5012)
+			SyncSJQuestTracker(Sender)
 			PlayerSetV(Sender,BV_NQ_SJKILLMON,1)
 			PlayerSetV(Sender,BV_NQ_SJKILLNUM,0)
 			Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
@@ -170,6 +174,7 @@ def OnClick(args):
 					[上一个进入神舰的勇士？难道，你认识梅山侠的朋友？:4]"""
 		elif(PlayerGetV(Sender,BV_NQ_SJKILL)==5007):
 			PlayerSetV(Sender,BV_NQ_SJKILL,5008)
+			SyncSJQuestTracker(Sender)
 			PlayerSetV(Sender,BV_NQ_SJKILLMON,1)
 			PlayerSetV(Sender,BV_NQ_SJKILLNUM,0)
 			Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
@@ -184,6 +189,7 @@ def OnClick(args):
 				[结束:0]"""
 		elif(PlayerGetV(Sender,BV_NQ_SJKILL)==5009):
 			PlayerSetV(Sender,BV_NQ_SJKILL,5010)
+			SyncSJQuestTracker(Sender)
 			Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
 			say = """你终于将霸王守卫打败了，也令以前那个帮助过我的勇士能够得到解脱，希望你能够继承他的遗志，完成他未完成的事业阿！
 				

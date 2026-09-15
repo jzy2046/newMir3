@@ -5,6 +5,7 @@ import sys
 from Globals import *
 import collections
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import PlayerEvent
 import Server
 import clr

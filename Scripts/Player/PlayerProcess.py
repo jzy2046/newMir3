@@ -5,6 +5,7 @@ import sys
 from Globals import *
 import collections
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import PlayerEvent
 import Server
 import clr
@@ -265,6 +266,9 @@ def OnStartGame(args):   #开启游戏
 		UpdateNPCLook(Sender, 243, QuestIcon.NewQuest)
 	if (Sender.Class == Sender.Class.Taoist) and (PlayerGetV(Sender,BV_NQ_MAIN)==0):  #道士 任务还没开始
 		UpdateNPCLook(Sender, 245, QuestIcon.NewQuest)
+	# 神舰线：登录时把当前阶段刷进任务栏
+	if PlayerGetV(Sender,BV_NQ_SJKILL) >= 5001:
+		SyncSJQuestTracker(Sender)
 	
 	if Sender.Character.Account.TempAdmin:  # 判断是否为管理员
 		return True

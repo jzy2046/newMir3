@@ -11,6 +11,7 @@ import NpcEvent
 import MapEvent
 import random
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import Server.Envir.SEnvir as SEnvir
 import Utils.ServerUtils as ServerUtils
 from Map.进门条件列表 import *
@@ -44,6 +45,7 @@ def OnClick(args):
 	if(Menu == 1):
 		if(PlayerGetV(Sender,BV_NQ_SJKILL)< 5000):
 			PlayerSetV(Sender,BV_NQ_SJKILL,5001)
+			SyncSJQuestTracker(Sender)
 			Sender.TeleportByMapIndex(27,435,79)
 			return
 		else:

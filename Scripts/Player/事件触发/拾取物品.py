@@ -5,6 +5,7 @@ import sys
 from Globals import *
 import collections
 from Defines import *
+from SJQuestTracker import SyncSJQuestTracker
 import PlayerEvent
 import Server
 import clr
@@ -27,6 +28,7 @@ def OnPickUpItem(args):
 		if UserItem.Info.ItemName == '霸王教主雕像':
 			if(PlayerGetV(Sender,BV_NQ_SJKILL)==5013):
 				PlayerSetV(Sender,BV_NQ_SJKILL,5014)
+				SyncSJQuestTracker(Sender)
 				Sender.Connection.ReceiveChat("任务日志更新！", MessageType.System)
 				say = """（得到了雕像。。。去找霸王幽灵吧。。）"""
 
