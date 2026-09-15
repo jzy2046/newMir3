@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 from SJQuestTracker import SyncSJQuestTracker
-﻿# -*- coding: utf-8 -*-
 #载入模块SYS
 import sys
 #引用模块的地址
