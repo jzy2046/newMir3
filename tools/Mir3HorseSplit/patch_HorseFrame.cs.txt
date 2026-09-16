@@ -1,19 +1,19 @@
-// Apply in Mir3Source client: Client.Models.PlayerObject
-// Find: public int HorseFrame => base.DrawFrame + (int)(Horse - 1) * 5000;
-// Replace with:
+﻿// Apply in Mir3Source client: Client.Models.PlayerObject (PC + Mobile)
+// This server: 绝影 = Red bank, 赤兔马 = Black bank (names reversed vs enum color)
+// DiyHorse1 绝影战马 → Red (same as 绝影)
+// DiyHorse3 给亲友的红马/给宝贝的马 → Black (same as 赤兔马)
 
 public int HorseFrame
 {
     get
     {
         HorseType visual = Horse;
-        // Gift mounts: same look as classic black/red, independent stats via DiyHorse MonsterInfo
         if (visual == HorseType.DiyHorse1)
-            visual = HorseType.Black; // 绝影战马 → 黑马外观
+            visual = HorseType.Red;
+        else if (visual == HorseType.DiyHorse3)
+            visual = HorseType.Black;
         else if (visual == HorseType.DiyHorse2)
-            visual = HorseType.Red;   // 给宝贝的马 → 红马外观
-        return base.DrawFrame + (int)(visual - 1) * 5000;
+            visual = HorseType.Black;
+        return DrawFrame + ((int)visual - 1) * 5000;
     }
 }
-
-// Also patch Mobile Client.Models.PlayerObject the same way if present.
