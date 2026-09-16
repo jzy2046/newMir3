@@ -548,9 +548,9 @@ def OnUseItem(args):  #双击使用的道具
 			Sender.Mount()
 			Sender.Connection.ReceiveChat('获得绝影战马（已替换原坐骑）', MessageType.System)
 			return True
-		elif(Item.Info.Shape == 69): #给宝贝的马礼包 -> DiyHorse2 (独立于给亲友的红马/Red)
-			# ALWAYS give 给宝贝的马 (replace any existing horse); stats from MonsterFlag.DiyHorse2
-			Sender.Character.Horse = HorseType.DiyHorse2
+		elif(Item.Info.Shape == 69): #给宝贝的马礼包 -> DiyHorse3 (与给亲友的红马同一匹/同属性)
+			# ALWAYS give 给宝贝的马=给亲友的红马 (same DiyHorse3 stats)
+			Sender.Character.Horse = HorseType.DiyHorse3
 			Sender.RemoveMount()
 			Sender.RefreshStats()
 			Sender.Mount()
@@ -558,7 +558,7 @@ def OnUseItem(args):  #双击使用的道具
 			return True
 		elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
 			# ALWAYS live 赤兔马 (replace any existing horse); NEVER 马牌; + boss查询卷
-			Sender.Character.Horse = HorseType.DiyHorse3
+			Sender.Character.Horse = HorseType.Red
 			Sender.RemoveMount()
 			Sender.RefreshStats()
 			Sender.Mount()
