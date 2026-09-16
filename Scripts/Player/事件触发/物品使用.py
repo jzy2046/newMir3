@@ -558,7 +558,7 @@ def OnUseItem(args):  #双击使用的道具
 			return True
 		elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
 			# ALWAYS live 赤兔马 (replace any existing horse); NEVER 马牌; + boss查询卷
-			Sender.Character.Horse = HorseType.Red
+			Sender.Character.Horse = HorseType.DiyHorse3
 			Sender.RemoveMount()
 			Sender.RefreshStats()
 			Sender.Mount()
