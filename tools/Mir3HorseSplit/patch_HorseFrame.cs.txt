@@ -1,0 +1,19 @@
+// Apply in Mir3Source client: Client.Models.PlayerObject
+// Find: public int HorseFrame => base.DrawFrame + (int)(Horse - 1) * 5000;
+// Replace with:
+
+public int HorseFrame
+{
+    get
+    {
+        HorseType visual = Horse;
+        // Gift mounts: same look as classic black/red, independent stats via DiyHorse MonsterInfo
+        if (visual == HorseType.DiyHorse1)
+            visual = HorseType.Black; // 绝影战马 → 黑马外观
+        else if (visual == HorseType.DiyHorse2)
+            visual = HorseType.Red;   // 给宝贝的马 → 红马外观
+        return base.DrawFrame + (int)(visual - 1) * 5000;
+    }
+}
+
+// Also patch Mobile Client.Models.PlayerObject the same way if present.
