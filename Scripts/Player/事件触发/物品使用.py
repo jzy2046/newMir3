@@ -556,6 +556,13 @@ def OnUseItem(args):  #双击使用的道具
 			Sender.Mount()
 			Sender.Connection.ReceiveChat('获得给宝贝的马（已替换原坐骑）', MessageType.System)
 			return True
+		elif(Item.Info.Shape == 70): #传送马礼包 -> DiyHorse4 (同2亿绝影属性+传送1分钟CD，黑马外观)
+			Sender.Character.Horse = HorseType.DiyHorse4
+			Sender.RemoveMount()
+			Sender.RefreshStats()
+			Sender.Mount()
+			Sender.Connection.ReceiveChat('获得传送马（已替换原坐骑）', MessageType.System)
+			return True
 		elif(Item.Info.Shape == 67): #读取数据库Shape值     推广礼包 batch_final
 			# ALWAYS live 赤兔马 (replace any existing horse); NEVER 马牌; + boss查询卷
 			Sender.Character.Horse = HorseType.Red
