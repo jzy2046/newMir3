@@ -1047,3 +1047,95 @@ NameError: global name 'ResetVariable' is not defined"
 [2026年9月15日 23:12:43]: 玩家 牛来 成功为奖金池添加 200
 [2026年9月15日 23:19:52]: 玩家 财叔带你飞 成功为奖金池添加 10
 [2026年9月15日 23:26:05]: 玩家 希曼 成功为奖金池添加 2
+[2026年9月15日 23:31:37]: [连接] IP地址:14.107.178.133 尝试连接！！！
+[2026年9月15日 23:31:37]: [连接] IP地址:14.107.178.133
+[2026年9月15日 23:31:39]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 14.107.178.133, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月15日 23:39:22]: 开始加载PY脚本
+[2026年9月15日 23:39:22]: 正在加载脚本...
+[2026年9月15日 23:39:23]: 加载脚本语法错误 : "  File "D:\Mir3service\Scripts\Player\事件触发\物品使用.py", line 543
+    # ALWAYS give 绝影战马 (replace any existing horse)
+                                                   ^
+IndentationError: expected an indented block"
+[2026年9月15日 23:39:36]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:39:36]: Ser.系统公告.SendMsg
+[2026年9月15日 23:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:41:34]: [连接] IP地址:14.107.178.133 尝试连接！！！
+[2026年9月15日 23:41:34]: [连接] IP地址:14.107.178.133
+[2026年9月15日 23:41:36]: [在使用账号] 账号: 249345779@qq.com, 当前IP: 14.107.178.133, 新IP: 14.107.178.133, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月15日 23:41:37]: [在使用账号] 账号: 249345779@qq.com, 当前IP: 14.107.178.133, 新IP: 14.107.178.133, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月15日 23:41:39]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 14.107.178.133, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月15日 23:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:48:44]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月15日 23:48:44]: Mon.桃园活动.RefreshMonster
+[2026年9月15日 23:48:48]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:48:48]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月15日 23:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:53:24]: [连接] IP地址:14.107.178.133 尝试连接！！！
+[2026年9月15日 23:53:24]: [连接] IP地址:14.107.178.133
+[2026年9月15日 23:53:24]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 14.107.178.133, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月15日 23:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:54:48]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月15日 23:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:55:04]: 玩家 鬼夜哭 成功为奖金池添加 10
+[2026年9月15日 23:55:07]: 玩家 鬼夜哭 成功为奖金池添加 10
+[2026年9月15日 23:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月15日 23:58:48]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:58:48]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月15日 23:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月15日 23:59:01]: Ser.定时活动.AutoRecycleWeapons

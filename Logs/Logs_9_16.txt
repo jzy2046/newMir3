@@ -1,0 +1,2688 @@
+[2026年9月15日 23:59:59]: 隔天调用成功
+[2026年9月16日 0:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:01:48]: [连接] IP地址:222.84.53.15 尝试连接！！！
+[2026年9月16日 0:01:48]: [连接] IP地址:222.84.53.15
+[2026年9月16日 0:01:52]: [账号登录] 管理员: False, 账号: 63776950@163.com, IP地址: 222.84.53.15, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 0:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:08:49]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:08:49]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:12:08]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 0:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:14:16]: 开始加载PY脚本
+[2026年9月16日 0:14:16]: 正在加载脚本...
+[2026年9月16日 0:14:17]: 加载脚本语法错误 : "  File "D:\Mir3service\Scripts\主线任务奖励.py", line 2
+SyntaxError: Non-ASCII character '\xef' in file D:\Mir3service\Scripts\主线任务奖励.py on line 2, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details"
+[2026年9月16日 0:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:18:49]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:18:49]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:20:17]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 0:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:22:08]: 玩家 财叔带你飞 成功为奖金池添加 400
+[2026年9月16日 0:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:27:31]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 0:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:28:50]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:28:50]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:38:50]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:38:50]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:41:13]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 0:41:13]: [连接] IP地址:39.172.136.43
+[2026年9月16日 0:41:18]: [账号登录] 管理员: False, 账号: 103250462@qq.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 0:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:48:44]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 0:48:44]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 0:48:50]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:48:50]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:52:58]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 0:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:57:33]: 玩家 鬼夜哭 成功为奖金池添加 400
+[2026年9月16日 0:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 0:58:47]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 0:58:51]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:58:51]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 0:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 0:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:01:54]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 1:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:08:48]: [创建角色] 角色名: 雷火剑, IP地址: 122.247.59.106, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 1:08:51]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:08:51]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:10:54]: [连接] IP地址:124.130.143.169 尝试连接！！！
+[2026年9月16日 1:10:54]: [连接] IP地址:124.130.143.169
+[2026年9月16日 1:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:11:09]: [账号登录] 管理员: False, 账号: leeozo1@163.com, IP地址: 124.130.143.169, 安全码: x304hJViETuesSfXTysm
+[2026年9月16日 1:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:15:25]: 玩家 乌拉拉 成功为奖金池添加 62
+[2026年9月16日 1:15:30]: 玩家 乌拉拉 成功为奖金池添加 62
+[2026年9月16日 1:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:17:42]: 玩家 威震天 成功为奖金池添加 210
+[2026年9月16日 1:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:18:51]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:18:51]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:20:27]: 玩家 希曼 成功为奖金池添加 110
+[2026年9月16日 1:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:21:53]: 玩家 威震天 成功为奖金池添加 210
+[2026年9月16日 1:21:56]: 玩家 威震天 成功为奖金池添加 210
+[2026年9月16日 1:21:58]: 玩家 威震天 成功为奖金池添加 210
+[2026年9月16日 1:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:22:45]: 玩家 希曼 成功为奖金池添加 110
+[2026年9月16日 1:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:28:51]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:28:51]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:38:52]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:38:52]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:43:13]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 1:43:21]: 玩家 财叔带你飞 成功为奖金池添加 10
+[2026年9月16日 1:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:48:45]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 1:48:45]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 1:48:52]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:48:52]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:52:18]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 1:52:18]: [连接] IP地址:115.53.187.186
+[2026年9月16日 1:52:20]: [在使用账号] 账号: zhaodi@126.com, 当前IP: 115.53.187.186, 新IP: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 1:52:23]: [在使用账号] 账号: zhaodi@126.com, 当前IP: 115.53.187.186, 新IP: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 1:52:37]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 1:52:37]: [连接] IP地址:115.53.187.186
+[2026年9月16日 1:52:39]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 1:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:53:51]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 1:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:54:35]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 1:54:35]: [连接] IP地址:114.222.252.15
+[2026年9月16日 1:54:38]: [账号登录] 管理员: False, 账号: 106128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 1:55:01]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 1:55:01]: [连接] IP地址:114.222.252.15
+[2026年9月16日 1:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:55:13]: [账号登录] 管理员: False, 账号: 206128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 1:55:18]: 玩家 威震天 成功为奖金池添加 22
+[2026年9月16日 1:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:56:39]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 1:56:39]: [连接] IP地址:114.222.252.15
+[2026年9月16日 1:56:44]: [账号登录] 管理员: False, 账号: 206128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 1:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 1:58:52]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:58:52]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 1:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 1:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:08:52]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:08:52]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:18:53]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:18:53]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:19:12]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 2:19:12]: [连接] IP地址:122.247.62.212
+[2026年9月16日 2:19:14]: [账号登录] 管理员: False, 账号: titancn2000@163.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 2:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:28:53]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:28:53]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:36:47]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 2:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:38:53]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:38:53]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:42:59]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 2:42:59]: [连接] IP地址:122.247.62.212
+[2026年9月16日 2:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:43:10]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 2:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:48:45]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 2:48:45]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 2:48:53]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:48:53]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:49:31]: 玩家 鬼夜哭 成功为奖金池添加 10
+[2026年9月16日 2:49:36]: 玩家 鬼夜哭 成功为奖金池添加 10
+[2026年9月16日 2:49:44]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 2:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:52:17]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 2:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:57:29]: 玩家 鬼夜哭 成功为奖金池添加 400
+[2026年9月16日 2:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 2:58:54]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:58:54]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 2:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 2:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:00:19]: 玩家 财叔带你飞 成功为奖金池添加 1
+[2026年9月16日 3:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:08:54]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:08:54]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:18:29]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 3:18:34]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 3:18:34]: [连接] IP地址:114.222.252.15
+[2026年9月16日 3:18:54]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:18:54]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:21:31]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 3:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:23:18]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 3:23:19]: [连接] IP地址:114.222.252.15
+[2026年9月16日 3:23:25]: [超出同IP连接限制] 账号: 106128323@qq.com, IP地址: 114.222.252.15
+[2026年9月16日 3:23:50]: [账号登录] 管理员: False, 账号: 106128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 3:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:28:55]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:28:55]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:38:55]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:38:55]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:48:46]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 3:48:46]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 3:48:55]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:48:55]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 3:58:56]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:58:56]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 3:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 3:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:06:36]: 封包发生错误： CompanionGridRefresh
+[2026年9月16日 4:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:08:27]: 预警：雷火剑 ，金币值变化 10000000 
+[2026年9月16日 4:08:27]: 预警：财叔带你飞 ，金币值变化 -10000000 
+[2026年9月16日 4:08:56]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:08:56]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:18:56]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:18:56]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:28:57]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:28:57]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:38:57]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:38:57]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:48:46]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 4:48:46]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 4:48:57]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:48:57]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 4:58:58]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:58:58]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 4:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 4:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:01:00]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 5:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:08:58]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:08:58]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:12:02]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 5:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:18:58]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:18:58]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:22:47]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 5:23:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:23:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:28:59]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:28:59]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:33:03]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 5:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:38:59]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:38:59]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:48:47]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 5:48:47]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 5:48:59]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:48:59]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 5:59:00]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:59:00]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 5:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 5:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:05:50]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 6:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:09:00]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:09:00]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 6:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:13:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:13:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:14:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:14:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:15:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:15:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:16:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:16:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:17:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:17:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:18:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:18:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:19:00]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:19:00]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 6:19:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:19:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:20:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:20:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:21:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:21:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:22:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:22:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:23:02]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:23:02]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:24:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:24:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:25:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:25:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:25:29]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 6:26:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:26:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:27:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:27:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:28:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:28:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:29:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:29:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:29:01]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 6:30:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:30:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:31:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:31:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:32:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:32:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:33:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:33:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:34:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:34:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:34:57]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 6:35:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:35:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:36:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:36:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:37:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:37:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:38:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:38:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:39:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:39:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:39:01]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 6:40:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:40:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:41:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:41:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:42:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:42:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:42:31]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 6:43:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:43:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:44:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:44:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:45:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:45:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:46:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:46:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:47:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:47:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:48:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:48:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:48:47]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Mon'"
+[2026年9月16日 6:48:47]: Mon.桃园活动.RefreshMonster
+[2026年9月16日 6:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:49:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:49:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:49:01]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 6:50:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:50:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:51:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:51:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:52:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:52:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:53:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:53:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:54:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:54:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:55:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:55:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:56:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:56:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:57:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:57:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:57:45]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 6:58:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:58:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:59:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:59:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 6:59:02]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 6:59:02]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 7:00:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:00:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:01:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:01:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:02:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:02:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:03:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:03:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:04:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:04:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:05:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:05:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:06:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:06:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:07:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:07:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:07:38]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:07:38]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:07:42]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:07:53]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 7:08:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:08:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:08:23]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:08:23]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:08:25]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:09:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:09:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:09:02]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:09:02]: Ser.发送攻城战通知.SendMsgBeforeConquestWar
+[2026年9月16日 7:10:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:10:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:11:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:11:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:12:01]: DelayCall Error loading plugin : "Traceback (most recent call last):
+AttributeError: 'ScopeStorage' object has no attribute 'Ser'"
+[2026年9月16日 7:12:01]: Ser.定时活动.AutoRecycleWeapons
+[2026年9月16日 7:13:27]: 授权位置=./授权.license
+[2026年9月16日 7:13:27]: 授权状态=无效
+[2026年9月16日 7:13:27]: 可以启动=False
+[2026年9月16日 7:13:30]: 加载数据库
+[2026年9月16日 7:13:34]: 加载地图
+[2026年9月16日 7:13:40]: 已加载3条反挂特征码
+[2026年9月16日 7:13:40]: 加载安全区
+[2026年9月16日 7:13:40]: 加载钓鱼区
+[2026年9月16日 7:13:40]: 加载地图链接
+[2026年9月16日 7:13:40]: 加载NPC
+[2026年9月16日 7:13:40]: 加载复活点
+[2026年9月16日 7:13:40]: 加载城堡税收
+[2026年9月16日 7:13:40]: 加载数据库成功
+[2026年9月16日 7:13:40]: 服务器启动成功
+[2026年9月16日 7:13:40]: 开始加载PY脚本
+[2026年9月16日 7:13:41]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:13:41]: 正在加载脚本...
+[2026年9月16日 7:13:43]: 加载脚本语法错误 : "  File "D:\Mir3service\Scripts\主线任务奖励.py", line 2
+SyntaxError: Non-ASCII character '\xef' in file D:\Mir3service\Scripts\主线任务奖励.py on line 2, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details"
+[2026年9月16日 7:13:43]: 开始加载规则引擎
+[2026年9月16日 7:13:43]: 找到4条规则
+[2026年9月16日 7:13:44]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年9月16日 7:13:44]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年9月16日 7:13:44]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年9月16日 7:13:44]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年9月16日 7:13:44]: 奖金池功能已启用
+[2026年9月16日 7:13:44]: 加载完毕
+[2026年9月16日 7:13:50]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:14:02]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:14:04]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:14:04]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:14:21]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:14:58]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:14:58]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:15:03]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:15:36]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:15:36]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:15:44]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:15:48]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 7:15:48]: [连接] IP地址:39.172.136.43
+[2026年9月16日 7:15:56]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:15:56]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:15:58]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 7:16:17]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:18]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:16:20]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:21]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:25]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:26]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:26]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:29]: [连接] IP地址:223.90.255.179 尝试连接！！！
+[2026年9月16日 7:16:29]: [连接] IP地址:223.90.255.179
+[2026年9月16日 7:16:29]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:30]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:31]: [账号登录] 管理员: False, 账号: netfei@qq.com, IP地址: 223.90.255.179, 安全码: sdfLktY2QEkAk0jGpls1
+[2026年9月16日 7:16:31]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:32]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:32]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:33]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:33]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:34]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:36]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:39]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:40]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:44]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:16:44]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:16:46]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:16:49]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:16:56]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:16:56]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:16:58]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:17:00]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:02]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:03]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:04]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:07]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:08]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:09]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:13]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:15]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:16]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:17]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:18]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:20]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:21]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:29]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:17:29]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:17:31]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:17:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:41]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 7:17:41]: [连接] IP地址:180.165.36.153
+[2026年9月16日 7:17:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:42]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:44]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:44]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:48]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:48]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:17:49]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:04]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:05]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:32]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:33]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:33]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:35]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:35]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:37]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:37]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:40]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:55]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:57]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:57]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:58]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:18:59]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:01]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:04]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:20]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 7:19:20]: [连接] IP地址:39.172.136.43
+[2026年9月16日 7:19:23]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 7:19:29]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:37]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:38]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:42]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:43]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:44]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:45]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:45]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:45]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:45]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:45]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:47]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:52]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:19:52]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:19:54]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:55]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:55]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:19:55]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:19:58]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:19:58]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:00]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:00]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:01]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:05]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:20:09]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:20:17]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:18]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:18]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:27]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:27]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:27]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:27]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:27]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:28]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:28]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:29]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:29]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:39]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:40]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:40]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:40]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:40]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:20:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:41]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:20:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:42]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:42]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:43]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:47]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:53]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:54]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:20:55]: [账号登录] 管理员: False, 账号: titancn2000@163.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:21:14]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:21:30]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:21:34]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:21:34]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:21:36]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:21:41]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:21:49]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:21:51]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:02]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:03]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:04]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:04]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:04]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:04]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:05]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:06]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:06]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:07]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:22]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:23]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:48]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:49]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:50]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:53]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:56]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:58]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:22:58]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:22:58]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:22:59]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:12]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:15]: [账号登录] 管理员: False, 账号: fhqi2002@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:23:16]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:38]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:42]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:44]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:46]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:48]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:23:48]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:24:17]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:24:17]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:24:20]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:24:21]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:24:32]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:25:11]: 授权位置=./授权.license
+[2026年9月16日 7:25:11]: 授权状态=无效
+[2026年9月16日 7:25:11]: 可以启动=False
+[2026年9月16日 7:25:14]: 加载数据库
+[2026年9月16日 7:25:17]: 加载地图
+[2026年9月16日 7:25:20]: 已加载3条反挂特征码
+[2026年9月16日 7:25:20]: 加载安全区
+[2026年9月16日 7:25:20]: 加载钓鱼区
+[2026年9月16日 7:25:20]: 加载地图链接
+[2026年9月16日 7:25:20]: 加载NPC
+[2026年9月16日 7:25:20]: 加载复活点
+[2026年9月16日 7:25:20]: 加载城堡税收
+[2026年9月16日 7:25:20]: 加载数据库成功
+[2026年9月16日 7:25:20]: 服务器启动成功
+[2026年9月16日 7:25:20]: 开始加载PY脚本
+[2026年9月16日 7:25:21]: 正在加载脚本...
+[2026年9月16日 7:25:24]: 加载脚本语法错误 : "  File "D:\Mir3service\Scripts\Player\事件触发\物品使用.py", line 543
+    # ALWAYS give 绝影战马 (replace any existing horse)
+                                                   ^
+IndentationError: expected an indented block"
+[2026年9月16日 7:25:24]: 开始加载规则引擎
+[2026年9月16日 7:25:24]: 找到4条规则
+[2026年9月16日 7:25:25]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年9月16日 7:25:25]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年9月16日 7:25:25]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年9月16日 7:25:25]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年9月16日 7:25:25]: 奖金池功能已启用
+[2026年9月16日 7:25:25]: 加载完毕
+[2026年9月16日 7:25:45]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 7:25:45]: [连接] IP地址:39.172.136.43
+[2026年9月16日 7:25:56]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 7:26:02]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:26:02]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:26:04]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:26:07]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:08]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:09]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:09]: D键菜单加载插件出现延迟调用错误 : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:09]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:10]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:19]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:19]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:20]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:21]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:26:27]: NpcEvent Error loading plugin : "Traceback (most recent call last):
+KeyError: 给定关键字不在字典中。"
+[2026年9月16日 7:27:54]: 授权位置=./授权.license
+[2026年9月16日 7:27:54]: 授权状态=无效
+[2026年9月16日 7:27:54]: 可以启动=False
+[2026年9月16日 7:27:57]: 加载数据库
+[2026年9月16日 7:28:01]: 加载地图
+[2026年9月16日 7:28:03]: 已加载3条反挂特征码
+[2026年9月16日 7:28:03]: 加载安全区
+[2026年9月16日 7:28:04]: 加载钓鱼区
+[2026年9月16日 7:28:04]: 加载地图链接
+[2026年9月16日 7:28:04]: 加载NPC
+[2026年9月16日 7:28:04]: 加载复活点
+[2026年9月16日 7:28:04]: 加载城堡税收
+[2026年9月16日 7:28:04]: 加载数据库成功
+[2026年9月16日 7:28:04]: 服务器启动成功
+[2026年9月16日 7:28:04]: 开始加载PY脚本
+[2026年9月16日 7:28:05]: 正在加载脚本...
+[2026年9月16日 7:28:08]: 加载脚本成功
+[2026年9月16日 7:28:08]: 开始注册定时脚本函数...
+[2026年9月16日 7:28:08]: 注册定时脚本函数完成
+[2026年9月16日 7:28:08]: 开始执行服务器启动触发脚本...
+[2026年9月16日 7:28:08]: 服务器启动触发脚本执行完毕
+[2026年9月16日 7:28:08]: 加载PY脚本用时:3901.8816毫秒
+[2026年9月16日 7:28:08]: 开始加载规则引擎
+[2026年9月16日 7:28:08]: 找到4条规则
+[2026年9月16日 7:28:08]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年9月16日 7:28:08]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年9月16日 7:28:08]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年9月16日 7:28:08]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年9月16日 7:28:08]: 奖金池功能已启用
+[2026年9月16日 7:28:09]: 加载完毕
+[2026年9月16日 7:29:08]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:29:08]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:29:17]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:29:55]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 7:29:55]: [连接] IP地址:39.172.136.43
+[2026年9月16日 7:30:37]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 7:30:44]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 7:30:44]: [连接] IP地址:115.206.238.198
+[2026年9月16日 7:30:56]: [账号登录] 管理员: False, 账号: 81216801@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 7:31:15]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 7:31:16]: [连接] IP地址:115.206.238.198
+[2026年9月16日 7:31:17]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 7:34:39]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:34:40]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:34:46]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 7:34:46]: [连接] IP地址:180.165.36.153
+[2026年9月16日 7:34:55]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 7:34:55]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:35:25]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:35:25]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:35:27]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 7:35:27]: [连接] IP地址:180.165.36.153
+[2026年9月16日 7:35:28]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 7:35:44]: [账号登录] 管理员: False, 账号: fhqi2002@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:36:00]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:36:00]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:36:02]: [账号登录] 管理员: False, 账号: fhqi2002@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:37:14]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 7:37:14]: [连接] IP地址:117.63.154.218
+[2026年9月16日 7:37:25]: [账号登录] 管理员: False, 账号: fhqi2003@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 7:39:03]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 7:39:03]: [连接] IP地址:122.247.62.212
+[2026年9月16日 7:39:24]: [账号登录] 管理员: False, 账号: titancn2000@163.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 7:39:41]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 7:40:07]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:40:07]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:40:09]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:40:41]: [连接] IP地址:221.14.235.248 尝试连接！！！
+[2026年9月16日 7:40:41]: [连接] IP地址:221.14.235.248
+[2026年9月16日 7:40:43]: [账号登录] 管理员: False, 账号: cao001@123.com, IP地址: 221.14.235.248, 安全码: tg5EKvhsL72tL54fkAs8
+[2026年9月16日 7:47:55]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 7:51:59]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 8:06:40]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 8:10:59]: [连接] IP地址:39.186.117.183 尝试连接！！！
+[2026年9月16日 8:10:59]: [连接] IP地址:39.186.117.183
+[2026年9月16日 8:12:44]: [连接] IP地址:39.186.117.183 尝试连接！！！
+[2026年9月16日 8:12:44]: [连接] IP地址:39.186.117.183
+[2026年9月16日 8:12:46]: [账号登录] 管理员: False, 账号: 26525978@qq.com, IP地址: 39.186.117.183, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 8:30:33]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 8:30:33]: [连接] IP地址:115.206.238.198
+[2026年9月16日 8:30:37]: [账号登录] 管理员: False, 账号: 81216801@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 8:31:58]: 玩家 财叔带你飞 成功为奖金池添加 5
+[2026年9月16日 8:41:21]: 玩家 雷火剑 成功为奖金池添加 80
+[2026年9月16日 8:46:00]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 8:46:00]: [连接] IP地址:115.206.238.198
+[2026年9月16日 8:46:10]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 8:46:29]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 8:46:29]: [连接] IP地址:115.206.238.198
+[2026年9月16日 8:46:40]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 8:48:01]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 8:48:01]: [连接] IP地址:115.206.238.198
+[2026年9月16日 8:48:09]: [账号登录] 管理员: False, 账号: jzx2@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 8:48:18]: [账号登录] 管理员: False, 账号: 81216802@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 8:49:00]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:49:00]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:49:05]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:49:29]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:49:29]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:49:47]: [账号登录] 管理员: False, 账号: pcm2@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:06]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:50:06]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:50:17]: [在使用账号] 账号: pcm2@163.com, 当前IP: 171.214.40.140, 新IP: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:26]: [在使用账号] 账号: pcm1@163.com, 当前IP: 171.214.40.140, 新IP: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:27]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:50:27]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:50:31]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:36]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:50:36]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:50:43]: [在使用账号] 账号: pcm1@163.com, 当前IP: 171.214.40.140, 新IP: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:45]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:50:45]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:50:49]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:50:53]: [账号登录] 管理员: False, 账号: pcm2@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:51:17]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:51:17]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:51:19]: [账号登录] 管理员: False, 账号: pcm2@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:51:34]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 8:51:34]: [连接] IP地址:171.214.40.140
+[2026年9月16日 8:51:39]: [账号登录] 管理员: False, 账号: pcm3@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 8:58:29]: [连接] IP地址:112.26.5.137 尝试连接！！！
+[2026年9月16日 8:58:29]: [连接] IP地址:112.26.5.137
+[2026年9月16日 9:03:19]: [连接] IP地址:112.26.5.137 尝试连接！！！
+[2026年9月16日 9:03:19]: [连接] IP地址:112.26.5.137
+[2026年9月16日 9:03:38]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 112.26.5.137, 安全码: tAbgdDe1vJzDEntI90Wz
+[2026年9月16日 9:04:57]: [连接] IP地址:112.26.5.137 尝试连接！！！
+[2026年9月16日 9:04:57]: [连接] IP地址:112.26.5.137
+[2026年9月16日 9:05:00]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 112.26.5.137, 安全码: tAbgdDe1vJzDEntI90Wz
+[2026年9月16日 9:10:43]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 9:10:43]: [连接] IP地址:115.53.187.186
+[2026年9月16日 9:10:46]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 9:11:18]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 9:11:18]: [连接] IP地址:115.53.187.186
+[2026年9月16日 9:11:23]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 9:11:59]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 9:11:59]: [连接] IP地址:125.109.12.159
+[2026年9月16日 9:12:01]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 9:12:01]: [连接] IP地址:60.182.138.194
+[2026年9月16日 9:12:02]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 9:12:13]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.12.159, 安全码: GjP7dBQahGiykyUARALF
+[2026年9月16日 9:20:07]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 9:20:30]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 9:20:30]: [连接] IP地址:115.206.238.198
+[2026年9月16日 9:20:33]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 9:27:34]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 9:36:38]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 9:36:38]: [连接] IP地址:60.182.138.194
+[2026年9月16日 9:36:47]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 9:38:29]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 9:38:29]: [连接] IP地址:60.182.138.194
+[2026年9月16日 9:38:32]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 9:46:49]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 9:46:49]: [连接] IP地址:117.63.154.218
+[2026年9月16日 9:47:08]: [账号登录] 管理员: False, 账号: fhqi2004@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 9:51:17]: 玩家 娇爻爻 成功为奖金池添加 200
+[2026年9月16日 9:52:03]: 玩家 娇爻爻 成功为奖金池添加 2000
+[2026年9月16日 9:52:24]: 玩家 娇爻爻 成功为奖金池添加 2000
+[2026年9月16日 10:05:06]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:05:06]: [连接] IP地址:125.109.12.159
+[2026年9月16日 10:05:17]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.12.159, 安全码: GjP7dBQahGiykyUARALF
+[2026年9月16日 10:14:25]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 10:14:25]: [连接] IP地址:115.206.238.198
+[2026年9月16日 10:14:59]: [账号登录] 管理员: False, 账号: jzx2@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:15:39]: [账号登录] 管理员: False, 账号: jzx1@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:17:05]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:26:38]: 授权位置=./授权.license
+[2026年9月16日 10:26:38]: 授权状态=无效
+[2026年9月16日 10:26:38]: 可以启动=False
+[2026年9月16日 10:26:43]: 加载数据库
+[2026年9月16日 10:26:47]: 加载地图
+[2026年9月16日 10:26:54]: 已加载3条反挂特征码
+[2026年9月16日 10:26:54]: 加载安全区
+[2026年9月16日 10:26:54]: 加载钓鱼区
+[2026年9月16日 10:26:54]: 加载地图链接
+[2026年9月16日 10:26:54]: 加载NPC
+[2026年9月16日 10:26:54]: 加载复活点
+[2026年9月16日 10:26:54]: 加载城堡税收
+[2026年9月16日 10:26:54]: 加载数据库成功
+[2026年9月16日 10:26:54]: 服务器启动成功
+[2026年9月16日 10:26:54]: 开始加载PY脚本
+[2026年9月16日 10:26:55]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:26:55]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 10:26:55]: 正在加载脚本...
+[2026年9月16日 10:26:59]: 加载脚本成功
+[2026年9月16日 10:26:59]: 开始注册定时脚本函数...
+[2026年9月16日 10:26:59]: 注册定时脚本函数完成
+[2026年9月16日 10:26:59]: 开始执行服务器启动触发脚本...
+[2026年9月16日 10:26:59]: 服务器启动触发脚本执行完毕
+[2026年9月16日 10:26:59]: 加载PY脚本用时:4390.5782毫秒
+[2026年9月16日 10:26:59]: 开始加载规则引擎
+[2026年9月16日 10:26:59]: 找到4条规则
+[2026年9月16日 10:26:59]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年9月16日 10:26:59]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年9月16日 10:26:59]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年9月16日 10:26:59]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年9月16日 10:26:59]: 奖金池功能已启用
+[2026年9月16日 10:27:00]: 加载完毕
+[2026年9月16日 10:27:00]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:27:02]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 10:27:05]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:27:10]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:27:15]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:27:16]: [连接] IP地址:125.109.12.159
+[2026年9月16日 10:27:16]: [连接] IP地址:125.109.12.159
+[2026年9月16日 10:27:16]: [连接] IP地址:115.206.238.198
+[2026年9月16日 10:27:33]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 10:27:33]: [连接] IP地址:171.214.40.140
+[2026年9月16日 10:27:33]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 10:27:33]: [连接] IP地址:60.182.138.194
+[2026年9月16日 10:27:35]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 10:27:35]: [连接] IP地址:122.247.62.212
+[2026年9月16日 10:27:35]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 10:27:39]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 10:27:43]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:28:00]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 10:28:00]: [连接] IP地址:171.214.40.140
+[2026年9月16日 10:28:02]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 10:28:04]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 10:28:04]: [连接] IP地址:60.182.138.194
+[2026年9月16日 10:28:05]: [账号登录] 管理员: False, 账号: titancn2000@163.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 10:28:05]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 10:28:12]: [连接] IP地址:125.109.12.159 尝试连接！！！
+[2026年9月16日 10:28:12]: [连接] IP地址:125.109.12.159
+[2026年9月16日 10:28:13]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 10:28:13]: [连接] IP地址:115.206.238.198
+[2026年9月16日 10:28:14]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.12.159, 安全码: GjP7dBQahGiykyUARALF
+[2026年9月16日 10:28:24]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.12.159, 安全码: GjP7dBQahGiykyUARALF
+[2026年9月16日 10:28:24]: [账号登录] 管理员: False, 账号: 81216801@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:28:38]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 10:28:38]: [连接] IP地址:122.247.62.212
+[2026年9月16日 10:28:52]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 10:29:13]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 10:29:13]: [连接] IP地址:60.182.138.194
+[2026年9月16日 10:29:18]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 10:29:18]: [连接] IP地址:171.214.40.140
+[2026年9月16日 10:29:23]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 10:29:25]: [连接] IP地址:122.247.62.212 尝试连接！！！
+[2026年9月16日 10:29:25]: [连接] IP地址:122.247.62.212
+[2026年9月16日 10:29:27]: [账号登录] 管理员: False, 账号: 40370493@qq.com, IP地址: 122.247.62.212, 安全码: qpvC3Tqwg7Hr3cpmc8T9
+[2026年9月16日 10:29:31]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 10:29:32]: [连接] IP地址:171.214.40.140
+[2026年9月16日 10:29:36]: [账号登录] 管理员: False, 账号: pcm3@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 10:32:45]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 10:32:45]: [连接] IP地址:117.63.154.218
+[2026年9月16日 10:33:03]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 10:36:24]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 10:40:25]: [连接] IP地址:171.214.40.140 尝试连接！！！
+[2026年9月16日 10:40:25]: [连接] IP地址:171.214.40.140
+[2026年9月16日 10:40:31]: [账号登录] 管理员: False, 账号: pcm2@163.com, IP地址: 171.214.40.140, 安全码: 641LdbrI8DKJQvHA6IgZ
+[2026年9月16日 10:43:44]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 10:43:44]: [连接] IP地址:117.63.154.218
+[2026年9月16日 10:44:05]: [账号登录] 管理员: False, 账号: fhqi2002@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 10:44:23]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 10:44:23]: [连接] IP地址:117.63.154.218
+[2026年9月16日 10:44:25]: [账号登录] 管理员: False, 账号: fhqi2002@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 10:46:29]: 玩家 威震天 成功为奖金池添加 22
+[2026年9月16日 10:55:28]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 10:55:28]: [连接] IP地址:115.206.238.198
+[2026年9月16日 10:55:31]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 10:55:48]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 10:55:48]: [连接] IP地址:115.206.238.198
+[2026年9月16日 10:55:50]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 11:12:24]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 11:12:24]: [连接] IP地址:60.182.138.194
+[2026年9月16日 11:12:30]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 11:14:52]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 11:14:52]: [连接] IP地址:39.172.136.43
+[2026年9月16日 11:14:57]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 11:17:36]: 玩家 雷火剑 成功为奖金池添加 10
+[2026年9月16日 11:17:42]: 玩家 雷火剑 成功为奖金池添加 110
+[2026年9月16日 11:19:43]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 11:19:43]: [连接] IP地址:115.53.187.186
+[2026年9月16日 11:19:46]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 11:20:25]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 11:20:25]: [连接] IP地址:115.53.187.186
+[2026年9月16日 11:20:28]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 11:29:50]: 玩家 财叔带你飞 成功为奖金池添加 1
+[2026年9月16日 11:35:50]: 玩家 财叔带你飞 成功为奖金池添加 1
+[2026年9月16日 11:46:07]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 11:46:07]: [连接] IP地址:180.165.36.153
+[2026年9月16日 11:46:19]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 11:46:45]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 11:46:45]: [连接] IP地址:180.165.36.153
+[2026年9月16日 11:46:48]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 11:48:00]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 11:48:00]: [连接] IP地址:115.53.187.186
+[2026年9月16日 11:48:06]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 11:48:52]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 11:48:53]: [连接] IP地址:115.53.187.186
+[2026年9月16日 11:48:55]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 11:51:29]: [连接] IP地址:221.12.47.174 尝试连接！！！
+[2026年9月16日 11:51:29]: [连接] IP地址:221.12.47.174
+[2026年9月16日 11:51:31]: [账号登录] 管理员: False, 账号: 26525978@qq.com, IP地址: 221.12.47.174, 安全码: vFhF7Ukh4U0BQx4QGTbq
+[2026年9月16日 12:03:08]: [连接] IP地址:117.63.154.218 尝试连接！！！
+[2026年9月16日 12:03:08]: [连接] IP地址:117.63.154.218
+[2026年9月16日 12:03:20]: [账号登录] 管理员: False, 账号: fhqi2003@163.com, IP地址: 117.63.154.218, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年9月16日 12:04:08]: [连接] IP地址:223.90.255.179 尝试连接！！！
+[2026年9月16日 12:04:08]: [连接] IP地址:223.90.255.179
+[2026年9月16日 12:04:14]: [账号登录] 管理员: False, 账号: netfei@qq.com, IP地址: 223.90.255.179, 安全码: sdfLktY2QEkAk0jGpls1
+[2026年9月16日 12:29:30]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 12:35:25]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 12:35:25]: [连接] IP地址:180.165.36.153
+[2026年9月16日 12:35:39]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 12:35:57]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 12:35:57]: [连接] IP地址:180.165.36.153
+[2026年9月16日 12:35:59]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 12:37:59]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 12:37:59]: [连接] IP地址:180.165.36.153
+[2026年9月16日 12:38:05]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 12:38:26]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 12:38:26]: [连接] IP地址:180.165.36.153
+[2026年9月16日 12:38:28]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 12:45:50]: 玩家 牛来 成功为奖金池添加 2
+[2026年9月16日 12:45:50]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:45:50]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:45:57]: [账号登录] 管理员: False, 账号: 506128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 12:46:38]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:46:38]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:46:49]: [账号登录] 管理员: False, 账号: 106128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 12:49:00]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:49:00]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:49:06]: [账号登录] 管理员: False, 账号: 206128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 12:50:03]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:50:03]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:50:06]: [账号登录] 管理员: False, 账号: 206128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 12:52:24]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:52:24]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:52:41]: [账号登录] 管理员: False, 账号: 306128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 12:54:14]: [连接] IP地址:114.222.252.15 尝试连接！！！
+[2026年9月16日 12:54:14]: [连接] IP地址:114.222.252.15
+[2026年9月16日 12:54:20]: [账号登录] 管理员: False, 账号: 406128323@qq.com, IP地址: 114.222.252.15, 安全码: gXCNHs0zEcm1YWFxt3UL
+[2026年9月16日 13:11:59]: [连接] IP地址:39.163.212.77 尝试连接！！！
+[2026年9月16日 13:11:59]: [连接] IP地址:39.163.212.77
+[2026年9月16日 13:12:09]: [账号登录] 管理员: False, 账号: rishengda@163.com, IP地址: 39.163.212.77, 安全码: 8I0u7dUoswTD0XuKjA01
+[2026年9月16日 13:12:30]: 玩家 鬼夜哭 成功为奖金池添加 20
+[2026年9月16日 13:12:35]: 玩家 鬼夜哭 成功为奖金池添加 20
+[2026年9月16日 13:14:35]: [连接] IP地址:39.163.212.77 尝试连接！！！
+[2026年9月16日 13:14:35]: [连接] IP地址:39.163.212.77
+[2026年9月16日 13:14:38]: [账号登录] 管理员: False, 账号: ribaoxue@163.com, IP地址: 39.163.212.77, 安全码: 8I0u7dUoswTD0XuKjA01
+[2026年9月16日 13:25:36]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 13:25:36]: [连接] IP地址:60.182.138.194
+[2026年9月16日 13:25:37]: [在使用账号] 账号: yuxiao945@163.com, 当前IP: 60.182.138.194, 新IP: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 13:25:41]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 13:27:48]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 13:27:48]: [连接] IP地址:120.239.24.104
+[2026年9月16日 13:28:14]: [账号登录] 管理员: False, 账号: tiangsa01@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 13:28:48]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 13:28:48]: [连接] IP地址:60.182.138.194
+[2026年9月16日 13:28:49]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 13:33:30]: [连接] IP地址:182.130.254.93 尝试连接！！！
+[2026年9月16日 13:33:30]: [连接] IP地址:182.130.254.93
+[2026年9月16日 13:33:59]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 182.130.254.93, 安全码: fyNk2me2fBPloPcvQtjN
+[2026年9月16日 13:34:22]: [连接] IP地址:182.130.254.93 尝试连接！！！
+[2026年9月16日 13:34:22]: [连接] IP地址:182.130.254.93
+[2026年9月16日 13:34:24]: [账号登录] 管理员: False, 账号: pcm1@163.com, IP地址: 182.130.254.93, 安全码: fyNk2me2fBPloPcvQtjN
+[2026年9月16日 13:34:48]: [连接] IP地址:182.130.254.93 尝试连接！！！
+[2026年9月16日 13:34:48]: [连接] IP地址:182.130.254.93
+[2026年9月16日 13:34:51]: [账号登录] 管理员: False, 账号: pcm2@163.com, IP地址: 182.130.254.93, 安全码: fyNk2me2fBPloPcvQtjN
+[2026年9月16日 13:35:13]: [连接] IP地址:182.130.254.93 尝试连接！！！
+[2026年9月16日 13:35:13]: [连接] IP地址:182.130.254.93
+[2026年9月16日 13:35:18]: [账号登录] 管理员: False, 账号: pcm3@163.com, IP地址: 182.130.254.93, 安全码: fyNk2me2fBPloPcvQtjN
+[2026年9月16日 13:55:25]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 13:55:26]: [连接] IP地址:120.239.24.104
+[2026年9月16日 13:55:46]: [账号登录] 管理员: False, 账号: tiangsa03@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 13:57:02]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 13:57:03]: [连接] IP地址:120.239.24.104
+[2026年9月16日 13:57:25]: [账号登录] 管理员: False, 账号: cks002@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 14:06:25]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 14:06:25]: [连接] IP地址:115.206.238.198
+[2026年9月16日 14:07:20]: [创建账号] 账号: dly@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 14:07:22]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 14:10:16]: [创建角色] 角色名: aaa, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 14:13:28]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 14:13:28]: [连接] IP地址:115.206.238.198
+[2026年9月16日 14:13:35]: [账号登录] 管理员: False, 账号: 81216801@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 14:26:30]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 14:26:30]: [连接] IP地址:60.182.138.194
+[2026年9月16日 14:26:32]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 14:29:43]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 14:29:43]: [连接] IP地址:115.206.238.198
+[2026年9月16日 14:29:45]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 14:59:46]: 玩家 鬼夜哭 成功为奖金池添加 300
+[2026年9月16日 15:08:15]: [连接] IP地址:60.182.138.194 尝试连接！！！
+[2026年9月16日 15:08:15]: [连接] IP地址:60.182.138.194
+[2026年9月16日 15:08:16]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 60.182.138.194, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年9月16日 15:10:44]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 15:10:44]: [连接] IP地址:115.53.187.186
+[2026年9月16日 15:11:08]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 15:11:08]: [连接] IP地址:115.53.187.186
+[2026年9月16日 15:11:22]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 15:11:49]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 15:11:50]: [连接] IP地址:115.53.187.186
+[2026年9月16日 15:11:54]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 15:20:13]: [连接] IP地址:112.26.5.137 尝试连接！！！
+[2026年9月16日 15:20:13]: [连接] IP地址:112.26.5.137
+[2026年9月16日 15:20:16]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 112.26.5.137, 安全码: tAbgdDe1vJzDEntI90Wz
+[2026年9月16日 15:22:33]: [连接] IP地址:112.26.5.137 尝试连接！！！
+[2026年9月16日 15:22:33]: [连接] IP地址:112.26.5.137
+[2026年9月16日 15:22:37]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 112.26.5.137, 安全码: tAbgdDe1vJzDEntI90Wz
+[2026年9月16日 15:31:39]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:31:41]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:14]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:16]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:17]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:19]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:38]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:39]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:40]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:42]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:32:43]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:33:12]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:33:13]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:33:15]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:33:17]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:33:19]: 玩家 娇爻爻 成功为奖金池添加 2
+[2026年9月16日 15:38:28]: 玩家 鬼夜哭 成功为奖金池添加 300
+[2026年9月16日 16:17:56]: [连接] IP地址:39.186.117.190 尝试连接！！！
+[2026年9月16日 16:17:56]: [连接] IP地址:39.186.117.190
+[2026年9月16日 16:18:17]: [在使用账号] 账号: 26525978@qq.com, 当前IP: 221.12.47.174, 新IP: 39.186.117.190, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 16:18:20]: [在使用账号] 账号: 26525978@qq.com, 当前IP: 221.12.47.174, 新IP: 39.186.117.190, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 16:18:23]: [在使用账号] 账号: 26525978@qq.com, 当前IP: 221.12.47.174, 新IP: 39.186.117.190, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 16:18:33]: [账号登录] 管理员: False, 账号: 26525978@qq.com, IP地址: 39.186.117.190, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 16:24:10]: 玩家 希曼 成功为奖金池添加 42
+[2026年9月16日 16:37:46]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 16:37:46]: [连接] IP地址:120.239.24.104
+[2026年9月16日 16:39:27]: [账号登录] 管理员: False, 账号: cks002@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 16:42:38]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 16:42:38]: [连接] IP地址:115.206.238.198
+[2026年9月16日 16:43:02]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 16:43:02]: [连接] IP地址:120.239.24.104
+[2026年9月16日 16:43:08]: [账号登录] 管理员: False, 账号: cks003@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 16:43:24]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 16:43:43]: [连接] IP地址:115.206.238.198 尝试连接！！！
+[2026年9月16日 16:43:43]: [连接] IP地址:115.206.238.198
+[2026年9月16日 16:43:44]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 115.206.238.198, 安全码: SizmTlFfKZHW8myaBA5F
+[2026年9月16日 16:44:31]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 16:44:31]: [连接] IP地址:120.239.24.104
+[2026年9月16日 16:44:40]: [账号登录] 管理员: False, 账号: cks004@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 16:46:15]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 16:46:15]: [连接] IP地址:120.239.24.104
+[2026年9月16日 16:46:26]: [账号登录] 管理员: False, 账号: hts004@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 16:49:33]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 16:49:33]: [连接] IP地址:39.172.136.43
+[2026年9月16日 16:49:41]: [账号登录] 管理员: False, 账号: rocky1003@163.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 16:51:26]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 16:56:25]: [连接] IP地址:39.172.136.43 尝试连接！！！
+[2026年9月16日 16:56:25]: [连接] IP地址:39.172.136.43
+[2026年9月16日 16:56:31]: [账号登录] 管理员: False, 账号: 103250462@qq.com, IP地址: 39.172.136.43, 安全码: rGtIglrqhimUP83CnSiQ
+[2026年9月16日 16:57:44]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 16:57:44]: [连接] IP地址:120.239.24.104
+[2026年9月16日 16:57:49]: [账号登录] 管理员: False, 账号: hts003@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 17:03:39]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 17:03:39]: [连接] IP地址:120.239.24.104
+[2026年9月16日 17:03:47]: [账号登录] 管理员: False, 账号: hts002@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 17:07:45]: 玩家 鬼夜哭 成功为奖金池添加 300
+[2026年9月16日 17:09:33]: [连接] IP地址:221.12.47.174 尝试连接！！！
+[2026年9月16日 17:09:33]: [连接] IP地址:221.12.47.174
+[2026年9月16日 17:26:53]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 17:26:53]: [连接] IP地址:180.165.36.153
+[2026年9月16日 17:26:55]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 17:27:31]: [连接] IP地址:180.165.36.153 尝试连接！！！
+[2026年9月16日 17:27:31]: [连接] IP地址:180.165.36.153
+[2026年9月16日 17:27:33]: [账号登录] 管理员: False, 账号: jzy20451@gmail.com, IP地址: 180.165.36.153, 安全码: ML2aBKWW3UoDWHeStXB1
+[2026年9月16日 17:50:40]: [连接] IP地址:120.242.54.186 尝试连接！！！
+[2026年9月16日 17:50:40]: [连接] IP地址:120.242.54.186
+[2026年9月16日 17:51:09]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 120.242.54.186, 安全码: NTueH6QCMst1TxVXO9w7
+[2026年9月16日 17:51:28]: [连接] IP地址:120.242.54.186 尝试连接！！！
+[2026年9月16日 17:51:28]: [连接] IP地址:120.242.54.186
+[2026年9月16日 17:51:30]: [账号登录] 管理员: False, 账号: 253595629@qq.com, IP地址: 120.242.54.186, 安全码: NTueH6QCMst1TxVXO9w7
+[2026年9月16日 17:56:13]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 17:57:28]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 17:57:28]: [连接] IP地址:125.121.20.119
+[2026年9月16日 17:57:31]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 17:58:19]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 17:58:19]: [连接] IP地址:125.121.20.119
+[2026年9月16日 17:58:34]: [密码错误] IP地址: 125.121.20.119, 账号: dly@qq.com, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 17:58:41]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 18:02:35]: 玩家 鬼夜哭 成功为奖金池添加 300
+[2026年9月16日 18:03:02]: [连接] IP地址:218.90.47.58 尝试连接！！！
+[2026年9月16日 18:03:02]: [连接] IP地址:218.90.47.58
+[2026年9月16日 18:03:04]: [账号登录] 管理员: False, 账号: xuqu@qq.com, IP地址: 218.90.47.58, 安全码: BWPBS7ZklD2Ybrtx1J4b
+[2026年9月16日 18:14:17]: [连接] IP地址:39.186.117.190 尝试连接！！！
+[2026年9月16日 18:14:17]: [连接] IP地址:39.186.117.190
+[2026年9月16日 18:14:23]: [账号登录] 管理员: False, 账号: 26525978@qq.com, IP地址: 39.186.117.190, 安全码: X0x5SvrNjzOBoF6EYZhb
+[2026年9月16日 18:16:04]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 18:16:05]: [连接] IP地址:125.121.20.119
+[2026年9月16日 18:16:12]: [账号登录] 管理员: False, 账号: 81216801@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 18:19:02]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 18:19:02]: [连接] IP地址:125.121.20.119
+[2026年9月16日 18:19:27]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 18:19:50]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 18:19:50]: [连接] IP地址:125.121.20.119
+[2026年9月16日 18:19:52]: [账号登录] 管理员: False, 账号: 8121680@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 18:33:33]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 18:33:33]: [连接] IP地址:125.121.20.119
+[2026年9月16日 18:33:36]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 18:43:34]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:43:34]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:43:44]: [账号登录] 管理员: False, 账号: cks002@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:45:36]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:45:36]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:46:00]: [账号登录] 管理员: False, 账号: cks003@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:47:10]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:47:10]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:47:13]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:47:13]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:47:18]: [账号登录] 管理员: False, 账号: cks004@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:47:23]: [账号登录] 管理员: False, 账号: tiangsa03@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:47:34]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:47:34]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:47:38]: [账号登录] 管理员: False, 账号: tiangsa01@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:50:26]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 18:50:26]: [连接] IP地址:120.239.24.104
+[2026年9月16日 18:51:06]: [账号登录] 管理员: False, 账号: cks002@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 18:51:58]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 18:58:33]: [连接] IP地址:120.242.54.186 尝试连接！！！
+[2026年9月16日 18:58:33]: [连接] IP地址:120.242.54.186
+[2026年9月16日 18:58:43]: [账号登录] 管理员: False, 账号: 287590753@qq.com, IP地址: 120.242.54.186, 安全码: NTueH6QCMst1TxVXO9w7
+[2026年9月16日 18:59:58]: 预警：鬼夜哭 ，金币值变化 7200000 
+[2026年9月16日 19:34:04]: [连接] IP地址:222.93.86.120 尝试连接！！！
+[2026年9月16日 19:34:04]: [连接] IP地址:222.93.86.120
+[2026年9月16日 19:34:06]: [账号登录] 管理员: False, 账号: qqlq2222@qq.com, IP地址: 222.93.86.120, 安全码: VEM5IAW0QMUPLhCnLhRQ
+[2026年9月16日 19:36:28]: [连接] IP地址:222.93.86.120 尝试连接！！！
+[2026年9月16日 19:36:28]: [连接] IP地址:222.93.86.120
+[2026年9月16日 19:38:53]: [账号登录] 管理员: False, 账号: qqlq2222@qq.com, IP地址: 222.93.86.120, 安全码: VEM5IAW0QMUPLhCnLhRQ
+[2026年9月16日 19:40:58]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 19:41:11]: 玩家 财叔带你飞 成功为奖金池添加 2
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:00:00]: 找不到活动buff: 150
+[2026年9月16日 20:09:34]: 玩家 看看 成功为奖金池添加 5
+[2026年9月16日 20:18:44]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 20:18:44]: [连接] IP地址:115.53.187.186
+[2026年9月16日 20:18:48]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 20:18:56]: 找不到活动buff: 150
+[2026年9月16日 20:22:54]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 20:22:54]: [连接] IP地址:115.53.187.186
+[2026年9月16日 20:22:59]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 20:23:02]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 20:24:09]: [连接] IP地址:222.93.86.120 尝试连接！！！
+[2026年9月16日 20:24:09]: [连接] IP地址:222.93.86.120
+[2026年9月16日 20:26:04]: 找不到活动buff: 150
+[2026年9月16日 20:27:31]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 20:27:31]: [连接] IP地址:125.121.20.119
+[2026年9月16日 20:27:33]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 20:27:39]: 找不到活动buff: 150
+[2026年9月16日 20:27:49]: [账号登录] 管理员: False, 账号: qqlq2222@qq.com, IP地址: 222.93.86.120, 安全码: VEM5IAW0QMUPLhCnLhRQ
+[2026年9月16日 20:27:54]: 找不到活动buff: 150
+[2026年9月16日 20:27:58]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 20:27:58]: [连接] IP地址:125.121.20.119
+[2026年9月16日 20:28:00]: [账号登录] 管理员: False, 账号: jzx@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 20:28:05]: 找不到活动buff: 150
+[2026年9月16日 20:29:18]: [连接] IP地址:115.53.187.186 尝试连接！！！
+[2026年9月16日 20:29:18]: [连接] IP地址:115.53.187.186
+[2026年9月16日 20:29:26]: 玩家 法法法 成功为奖金池添加 2
+[2026年9月16日 20:29:27]: 玩家 法法法 成功为奖金池添加 2
+[2026年9月16日 20:29:34]: 玩家 法法法 成功为奖金池添加 2
+[2026年9月16日 20:29:36]: 玩家 法法法 成功为奖金池添加 2
+[2026年9月16日 20:29:37]: 玩家 法法法 成功为奖金池添加 2
+[2026年9月16日 20:29:57]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 115.53.187.186, 安全码: 9si3LxyAMCM02qqnB55W
+[2026年9月16日 20:30:26]: 找不到活动buff: 150
+[2026年9月16日 20:31:15]: 玩家 俺是火车王 成功为奖金池添加 2
+[2026年9月16日 20:31:17]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 20:31:17]: [连接] IP地址:125.121.20.119
+[2026年9月16日 20:31:17]: 玩家 俺是火车王 成功为奖金池添加 2
+[2026年9月16日 20:31:18]: 玩家 俺是火车王 成功为奖金池添加 2
+[2026年9月16日 20:31:40]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 20:31:45]: 找不到活动buff: 150
+[2026年9月16日 20:37:13]: 找不到活动buff: 150
+[2026年9月16日 20:37:32]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 20:37:32]: [连接] IP地址:125.121.20.119
+[2026年9月16日 20:37:34]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 20:37:39]: 找不到活动buff: 150
+[2026年9月16日 20:38:09]: 玩家 羊仔咩咩 成功为奖金池添加 2
+[2026年9月16日 20:38:15]: 玩家 羊仔咩咩 成功为奖金池添加 2
+[2026年9月16日 20:44:52]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 20:58:47]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 21:20:47]: [连接] IP地址:121.233.221.155 尝试连接！！！
+[2026年9月16日 21:20:47]: [连接] IP地址:121.233.221.155
+[2026年9月16日 21:21:15]: [创建账号] 账号: 5469785@qq.com, IP地址: 121.233.221.155, 安全码: 6CRG0GWhS1SaEJNaKSV2
+[2026年9月16日 21:21:17]: [账号登录] 管理员: False, 账号: 5469785@qq.com, IP地址: 121.233.221.155, 安全码: 6CRG0GWhS1SaEJNaKSV2
+[2026年9月16日 21:21:54]: [创建角色] 角色名: 不想出来, IP地址: 121.233.221.155, 安全码: 6CRG0GWhS1SaEJNaKSV2
+[2026年9月16日 21:22:06]: 找不到活动buff: 150
+[2026年9月16日 21:22:30]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 21:22:30]: [连接] IP地址:120.239.24.104
+[2026年9月16日 21:22:45]: [账号登录] 管理员: False, 账号: tiangsa01@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 21:22:52]: 找不到活动buff: 150
+[2026年9月16日 21:23:49]: [连接] IP地址:222.84.53.15 尝试连接！！！
+[2026年9月16日 21:23:49]: [连接] IP地址:222.84.53.15
+[2026年9月16日 21:24:42]: [密码错误] IP地址: 222.84.53.15, 账号: 63776950@163.com, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:43]: [密码错误] IP地址: 222.84.53.15, 账号: 63776950@163.com, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:45]: [密码错误] IP地址: 222.84.53.15, 账号: 63776950@163.com, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:46]: [密码错误] IP地址: 222.84.53.15, 账号: 63776950@163.com, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:46]: [密码错误] IP地址: 222.84.53.15, 账号: 63776950@163.com, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:52]: [账号登录] 管理员: False, 账号: 63776950@163.com, IP地址: 222.84.53.15, 安全码: abf02Tz8CeLyEjJldmMB
+[2026年9月16日 21:24:57]: 找不到活动buff: 150
+[2026年9月16日 21:37:40]: [连接] IP地址:223.90.255.179 尝试连接！！！
+[2026年9月16日 21:37:40]: [连接] IP地址:223.90.255.179
+[2026年9月16日 21:37:42]: [账号登录] 管理员: False, 账号: netfei@qq.com, IP地址: 223.90.255.179, 安全码: sdfLktY2QEkAk0jGpls1
+[2026年9月16日 21:37:48]: 找不到活动buff: 150
+[2026年9月16日 21:43:13]: 玩家 看看 成功为奖金池添加 5
+[2026年9月16日 21:46:51]: [连接] IP地址:221.228.141.33 尝试连接！！！
+[2026年9月16日 21:46:51]: [连接] IP地址:221.228.141.33
+[2026年9月16日 21:47:06]: [账号登录] 管理员: False, 账号: 313870797@qq.com, IP地址: 221.228.141.33, 安全码: DVVzcWUkAEVOSbcm7IjZ
+[2026年9月16日 21:47:12]: 找不到活动buff: 150
+[2026年9月16日 21:47:30]: [连接] IP地址:221.228.141.33 尝试连接！！！
+[2026年9月16日 21:47:30]: [连接] IP地址:221.228.141.33
+[2026年9月16日 21:47:32]: [账号登录] 管理员: False, 账号: 313870797@qq.com, IP地址: 221.228.141.33, 安全码: DVVzcWUkAEVOSbcm7IjZ
+[2026年9月16日 21:47:37]: 找不到活动buff: 150
+[2026年9月16日 21:49:13]: 找不到活动buff: 150
+[2026年9月16日 21:50:45]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 21:50:45]: [连接] IP地址:125.121.20.119
+[2026年9月16日 21:50:48]: [账号登录] 管理员: False, 账号: dly@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 21:50:56]: 找不到活动buff: 150
+[2026年9月16日 21:53:48]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 21:57:31]: 玩家 俺是火车王 成功为奖金池添加 11
+[2026年9月16日 21:59:58]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 22:08:11]: 玩家 看看 成功为奖金池添加 5
+[2026年9月16日 22:18:05]: [连接] IP地址:221.228.141.33 尝试连接！！！
+[2026年9月16日 22:18:05]: [连接] IP地址:221.228.141.33
+[2026年9月16日 22:18:07]: [账号登录] 管理员: False, 账号: 313870797@qq.com, IP地址: 221.228.141.33, 安全码: DVVzcWUkAEVOSbcm7IjZ
+[2026年9月16日 22:18:13]: 找不到活动buff: 150
+[2026年9月16日 22:18:27]: [连接] IP地址:221.228.141.33 尝试连接！！！
+[2026年9月16日 22:18:27]: [连接] IP地址:221.228.141.33
+[2026年9月16日 22:18:28]: [账号登录] 管理员: False, 账号: 313870797@qq.com, IP地址: 221.228.141.33, 安全码: DVVzcWUkAEVOSbcm7IjZ
+[2026年9月16日 22:18:34]: 找不到活动buff: 150
+[2026年9月16日 22:19:53]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 22:19:53]: [连接] IP地址:120.239.24.104
+[2026年9月16日 22:20:20]: [连接] IP地址:120.239.24.104 尝试连接！！！
+[2026年9月16日 22:20:21]: [连接] IP地址:120.239.24.104
+[2026年9月16日 22:20:24]: [账号登录] 管理员: False, 账号: tiangsa03@qq.com, IP地址: 120.239.24.104, 安全码: 2oigadyNuvHJFD6Ar7kB
+[2026年9月16日 22:20:38]: 找不到活动buff: 150
+[2026年9月16日 22:21:13]: 找不到活动buff: 150
+[2026年9月16日 22:24:27]: 玩家 羊仔咩咩 成功为奖金池添加 2
+[2026年9月16日 22:31:36]: 找不到活动buff: 150
+[2026年9月16日 22:35:01]: 找不到活动buff: 150
+[2026年9月16日 22:37:26]: [连接] IP地址:125.121.20.119 尝试连接！！！
+[2026年9月16日 22:37:26]: [连接] IP地址:125.121.20.119
+[2026年9月16日 22:37:37]: [账号登录] 管理员: False, 账号: jzx2@qq.com, IP地址: 125.121.20.119, 安全码: RauMcmSctf8eyJlZN3jn
+[2026年9月16日 22:37:43]: 找不到活动buff: 150
+[2026年9月16日 22:40:55]: 找不到活动buff: 150
+[2026年9月16日 22:41:09]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 22:54:16]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 22:54:16]: [连接] IP地址:113.248.208.49
+[2026年9月16日 22:54:27]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 22:54:34]: 找不到活动buff: 150
+[2026年9月16日 23:01:14]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:01:14]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:01:15]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:16:22]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:16:22]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:16:23]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:18:17]: 玩家 看看 成功为奖金池添加 5
+[2026年9月16日 23:18:30]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 23:18:32]: 玩家 鬼夜哭 成功为奖金池添加 200
+[2026年9月16日 23:21:09]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:21:09]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:21:10]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:25:35]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:25:35]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:25:35]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:38:25]: 玩家 鬼夜哭 成功为奖金池添加 12
+[2026年9月16日 23:38:30]: 玩家 鬼夜哭 成功为奖金池添加 12
+[2026年9月16日 23:43:46]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:43:47]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:43:48]: [账号登录] 管理员: False, 账号: 249345779@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:49:32]: 玩家 看看 成功为奖金池添加 999
+[2026年9月16日 23:57:05]: [连接] IP地址:113.248.208.49 尝试连接！！！
+[2026年9月16日 23:57:05]: [连接] IP地址:113.248.208.49
+[2026年9月16日 23:57:19]: [创建账号] 账号: wc67871195@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:57:23]: [账号登录] 管理员: False, 账号: wc67871195@qq.com, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
+[2026年9月16日 23:58:10]: [创建角色] 角色名: 紫袍, IP地址: 113.248.208.49, 安全码: OhiTaJvF4tAnZpjh7ivJ
