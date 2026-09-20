@@ -220,18 +220,19 @@ def OnClick(args):
 			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
 			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
-
+			<font color=\"0xff00ccff\">500个遗物 兑换:</font>
 			
-			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
+			<font color=\"0xff00ff00\">「魄冰刺」</font>  <font color=\"0xff00ff00\">「十方斩」</font> <font color=\"0xff00ff00\">「云寂术」</font>
+			
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1500个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
+			<font color=\"0xffFF00CC\">2000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
@@ -243,41 +244,43 @@ def OnClick(args):
 			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
 			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
-
+			<font color=\"0xff00ccff\">500个遗物 兑换:</font>
 			
-			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
+			<font color=\"0xff00ff00\">「魄冰刺」</font>  <font color=\"0xff00ff00\">「十方斩」</font> <font color=\"0xff00ff00\">「云寂术」</font>
+			
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1500个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
+			<font color=\"0xffFF00CC\">2000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
 
-			[［移花接玉］:312] [［妙影无踪］:314] [［阴阳法环］:313]
+			[［移花接玉］:312] [［妙影无踪］:314] [［阴阳法环］:313] [［云寂术］:311]
 			"""
 		elif Sender.Class == Sender.Class.Assassin:
 			say = """<font color=\"0xffffff00\">1、</font>技能书兑换仅消耗遗物，无需击杀数量
 			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
 			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
-
+			<font color=\"0xff00ccff\">500个遗物 兑换:</font>
 			
-			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
+			<font color=\"0xff00ff00\">「魄冰刺」</font>  <font color=\"0xff00ff00\">「十方斩」</font> <font color=\"0xff00ff00\">「云寂术」</font>
+			
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1500个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
+			<font color=\"0xffFF00CC\">2000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
@@ -289,18 +292,19 @@ def OnClick(args):
 			<font color=\"0xffffff00\">2、</font>兑换后扣除对应遗物
 			<font color=\"0xffffff00\">3、</font>您可以兑换以下高级技能书籍（秘籍）：
 			
-			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
-
+			<font color=\"0xff00ccff\">500个遗物 兑换:</font>
 			
-			<font color=\"0xff00ccff\">2000个遗物 兑换:</font>
+			<font color=\"0xff00ff00\">「魄冰刺」</font>  <font color=\"0xff00ff00\">「十方斩」</font> <font color=\"0xff00ff00\">「云寂术」</font>
+			
+			<font color=\"0xff00ccff\">1000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「乾坤大挪移」</font> <font color=\"0xff00ff00\">「怒神霹雳」</font> <font color=\"0xff00ff00\">「移花接玉」</font>
 			
-			<font color=\"0xff00ccff\">3000个遗物 兑换:</font>
+			<font color=\"0xff00ccff\">1500个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「铁布衫」</font>  <font color=\"0xff00ff00\">「焰天火雨」</font>  <font color=\"0xff00ff00\">「妙影无踪」</font>
 			
-			<font color=\"0xffFF00CC\">4000个遗物 兑换:</font>
+			<font color=\"0xffFF00CC\">2000个遗物 兑换:</font>
 
 			<font color=\"0xff00ff00\">「破血狂杀」</font>  <font color=\"0xff00ff00\">「凝血离魂」</font> <font color=\"0xff00ff00\">「阴阳法环」</font>
 
@@ -346,133 +350,145 @@ def OnClick(args):
 		say = handle_special_title_remove(Sender)
 			
 	elif (Menu == 111):
-		if (Sender.GetItemCount("遗物") < 1000):
+		if (Sender.GetItemCount("遗物") < 500):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
-			Sender.TakeItem("遗物",1000)
+			Sender.TakeItem("遗物",500)
 			Sender.GiveItem("十方斩（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 112):
-		if (Sender.GetItemCount("遗物") < 2000):
-			say = """你的遗物数量不足，请继续努力。
-			
-			[离开:0]"""
-		else:
-			Sender.TakeItem("遗物",2000)
-			Sender.GiveItem("乾坤大挪移（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-			[离开:0]"""
-
-	elif (Menu == 113):
-		if (Sender.GetItemCount("遗物") < 3000):
-			say = """你的遗物数量不足，请继续努力。
-			
-			[离开:0]"""
-		else:
-			Sender.TakeItem("遗物",3000)
-			Sender.GiveItem("铁布衫（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-			[离开:0]"""
-
-	elif (Menu == 114):
-		if (Sender.GetItemCount("遗物") < 4000):
-			say = """你的遗物数量不足，请继续努力。
-			
-			[离开:0]"""
-		else:
-			Sender.TakeItem("遗物",4000)
-			Sender.GiveItem("破血狂杀（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-			[离开:0]"""
-
-	elif (Menu == 211):
 		if (Sender.GetItemCount("遗物") < 1000):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
 			Sender.TakeItem("遗物",1000)
+			Sender.GiveItem("乾坤大挪移（秘籍）",1)
+			say = """恭喜你兑换成功。
+			
+			[离开:0]"""
+
+	elif (Menu == 113):
+		if (Sender.GetItemCount("遗物") < 1500):
+			say = """你的遗物数量不足，请继续努力。
+			
+			[离开:0]"""
+		else:
+			Sender.TakeItem("遗物",1500)
+			Sender.GiveItem("铁布衫（秘籍）",1)
+			say = """恭喜你兑换成功。
+			
+			[离开:0]"""
+
+	elif (Menu == 114):
+		if (Sender.GetItemCount("遗物") < 2000):
+			say = """你的遗物数量不足，请继续努力。
+			
+			[离开:0]"""
+		else:
+			Sender.TakeItem("遗物",2000)
+			Sender.GiveItem("破血狂杀（秘籍）",1)
+			say = """恭喜你兑换成功。
+			
+			[离开:0]"""
+
+	elif (Menu == 211):
+		if (Sender.GetItemCount("遗物") < 500):
+			say = """你的遗物数量不足，请继续努力。
+			
+			[离开:0]"""
+		else:
+			Sender.TakeItem("遗物",500)
 			Sender.GiveItem("魄冰刺（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 212):
-		if (Sender.GetItemCount("遗物") < 2000):
+		if (Sender.GetItemCount("遗物") < 1000):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
-			Sender.TakeItem("遗物",2000)
+			Sender.TakeItem("遗物",1000)
 			Sender.GiveItem("怒神霹雳（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 213):
-		if (Sender.GetItemCount("遗物") < 3000):
+		if (Sender.GetItemCount("遗物") < 1500):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
-			Sender.TakeItem("遗物",3000)
+			Sender.TakeItem("遗物",1500)
 			Sender.GiveItem("焰天火雨（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 214):
-		if (Sender.GetItemCount("遗物") < 4000):
-			say = """你的遗物数量不足，请继续努力。
-			
-			[离开:0]"""
-		else:
-			Sender.TakeItem("遗物",4000)
-			Sender.GiveItem("凝血离魂（秘籍）",1)
-			say = """恭喜你兑换成功。
-			
-			[离开:0]"""
-
-    # REMOVED Menu 311 灵魂分裂（秘籍）兑换 20260910
-	elif (Menu == 312):
 		if (Sender.GetItemCount("遗物") < 2000):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
 			Sender.TakeItem("遗物",2000)
+			Sender.GiveItem("凝血离魂（秘籍）",1)
+			say = """恭喜你兑换成功。
+			
+			[离开:0]"""
+
+    # REMOVED Menu 311 云寂术（秘籍）兑换 20260910
+	elif (Menu == 311):
+		if (Sender.GetItemCount("遗物") < 500):
+			say = """你的遗物数量不足，请继续努力。
+			
+			[离开:0]"""
+		else:
+			Sender.TakeItem("遗物",500)
+			Sender.GiveItem("云寂术（秘籍）",1)
+			say = """恭喜你兑换成功。
+			
+			[离开:0]"""
+
+	elif (Menu == 312):
+		if (Sender.GetItemCount("遗物") < 2000):
+			say = """你的遗物数量不足，请继续努力。
+			
+			[离开:0]"""
+		else:
+			Sender.TakeItem("遗物",1000)
 			Sender.GiveItem("移花接玉（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 314):
-		if (Sender.GetItemCount("遗物") < 3000):
+		if (Sender.GetItemCount("遗物") < 1500):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
-			Sender.TakeItem("遗物",3000)
+			Sender.TakeItem("遗物",1500)
 			Sender.GiveItem("妙影无踪（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
 			[离开:0]"""
 
 	elif (Menu == 313):
-		if (Sender.GetItemCount("遗物") < 4000):
+		if (Sender.GetItemCount("遗物") < 2000):
 			say = """你的遗物数量不足，请继续努力。
 			
 			[离开:0]"""
 		else:
-			Sender.TakeItem("遗物",4000)
+			Sender.TakeItem("遗物",2000)
 			Sender.GiveItem("阴阳法环（秘籍）",1)
 			say = """恭喜你兑换成功。
 			
