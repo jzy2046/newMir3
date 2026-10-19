@@ -1,0 +1,7 @@
+[2026年10月19日 23:59:59]: 隔天调用成功
+[2026年10月19日 23:59:59]: 加载插件时出现延迟调用错误 : "Traceback (most recent call last):
+  File "D:\Mir3service\Scripts\ServerEvent.py", line 12, in trig_server
+  File "D:\Mir3service\Scripts\Ser\定时活动.py", line 232, in OnDayChange
+  File "D:\Mir3service\Scripts\Ser\定时活动.py", line 238, in OnWeekChange
+NameError: global name 'ResetVariable' is not defined"
+[2026年10月20日 0:26:39]: 玩家 九五至尊 成功为奖金池添加 2
