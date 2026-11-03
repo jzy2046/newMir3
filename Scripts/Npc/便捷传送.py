@@ -216,25 +216,41 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(25,222,157)
 			return
 	elif(Menu == 21):
-		say = """该地图传送已关闭。
-
-			[关闭:0]"""
-		str = say
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[离开:0]"""
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(375,283,278)
+			return
 	elif(Menu == 22):
-		say = """该地图传送已关闭。
-
-			[关闭:0]"""
-		str = say
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[离开:0]"""
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(340,17,47)
+			return
 	elif(Menu == 23):
-		say = """该地图传送已关闭。
-
-			[关闭:0]"""
-		str = say
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[离开:0]"""
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(356,21,36)
+			return
 	elif(Menu == 24):
-		say = """该地图传送已关闭。
-
-			[关闭:0]"""
-		str = say
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[离开:0]"""
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(362,210,198)
+			return
 	elif(Menu == 25):
 		if (Sender.Gold < 50000):
 			say = """你没有足够的金币，无法传送。
@@ -260,6 +276,132 @@ def OnClick(args):
 		else:
 			SubGold(Sender,20000)
 			Sender.TeleportByMapIndex(285,135,180)
+			return
+	elif(Menu == 28):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(103,31,372)
+			return
+	elif(Menu == 29):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(85,27,180)
+			return
+	elif(Menu == 30):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(6,280,75)
+			return
+	elif(Menu == 31):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(5,354,68)
+			return
+	elif(Menu == 32):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(58,162,362)
+			return
+	elif(Menu == 33):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(6,482,324)
+			return
+	elif(Menu == 34):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(178,41,174)
+			return
+	elif(Menu == 35):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(143,208,237)
+			return
+	elif(Menu == 36):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(6,249,241)
+			return
+	elif(Menu == 37):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(25,200,179)
+			return
+	elif(Menu == 38):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(1,391,292)
+			return
+	elif(Menu == 39):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(5,424,264)
+			return
+	elif(Menu == 40):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(32,11,26)
+			return
+	elif(Menu == 41):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(7,390,167)
 			return
 
 
@@ -294,6 +436,14 @@ def OnClick(args):
 			Sender.NPC = NPCObject
 			newArgs = [Self, Sender, 0]
 			return Npc.主线任务全攻略.OnClick(newArgs)
+		else:
+			say = """未找到指定的NPC"""
+	elif (Menu == 68):
+		NPCObject = ServerUtils.GetNPCObject(199)
+		if NPCObject:
+			Sender.NPC = NPCObject
+			newArgs = [Self, Sender, 0]
+			return Npc.一键特修.OnClick(newArgs)
 		else:
 			say = """未找到指定的NPC"""
 #危险地图传送
@@ -667,9 +817,9 @@ def OnClick(args):
 	else:
 		say = """           欢迎来到  <font color=\"0xff00ff00\">盛世传奇3</font>  玛法大陆
 		
-		[随身任务进度查询:26]      [一键出售:65]
+		[银杏加点:36]     [比齐结婚:38]     [跑船任务:40]     [一键出售:65]
 
-		[江湖事迹任务流程:66]      [主线任务全攻略参考:67]
+		[升级武器:37]     [首饰合成:39]     [购买毒符:41]     [一键特修:68]
 	
 		<font color=\"0xff00ff00\">城镇传送：部分免费</font>
 
@@ -679,10 +829,17 @@ def OnClick(args):
                      
 		<font color=\"0xff00ccff\">危险地图传送：费用20000金币</font>
 
+		[毒蛇矿区:28]    [比齐矿洞:29]     [银杏矿洞:30]     [边境矿洞:31]
+
+		[半兽洞穴:32]    [天然洞穴:33]     [蚂蚁洞穴:34]     [绝命峡谷:35]
+
 		[沃玛神殿:15]    [石阁寺庙:16]     [万年峡谷:17]     [赤月峡谷:18]
 
-		[潘夜石窟:19]    [祖玛神殿:25]     [潘夜神殿:27]     [沙巴克:20]
-[不传送:0]
+		[潘夜石窟:19]    [祖玛神殿:25]     [潘夜神殿:27]     [沙巴克城:20]
+
+		[真天一层:22]    [黑度一层:23]     [诺玛一层:24]     [西沙地洞:21]
+
+		[不传送:0]
 		
 		"""	
 	Dict['Say']=say                         #定义聊天框对话内容
