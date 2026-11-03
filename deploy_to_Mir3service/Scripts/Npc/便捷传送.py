@@ -216,10 +216,14 @@ def OnClick(args):
 			Sender.TeleportByMapIndex(25,222,157)
 			return
 	elif(Menu == 21):
-		say = """该地图传送已关闭。
-
-			[关闭:0]"""
-		str = say
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[离开:0]"""
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(375,283,278)
+			return
 	elif(Menu == 22):
 		say = """该地图传送已关闭。
 
@@ -682,7 +686,8 @@ def OnClick(args):
 		[沃玛神殿:15]    [石阁寺庙:16]     [万年峡谷:17]     [赤月峡谷:18]
 
 		[潘夜石窟:19]    [祖玛神殿:25]     [潘夜神殿:27]     [沙巴克:20]
-[不传送:0]
+
+		[西沙地洞:21]    [不传送:0]
 		
 		"""	
 	Dict['Say']=say                         #定义聊天框对话内容
