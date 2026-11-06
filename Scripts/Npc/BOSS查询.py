@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 # 载入模块SYS
 import sys
 # 引用模块的地址
@@ -30,11 +30,11 @@ LEVEL_RANGE_3 = 90
 LEVEL_RANGE_4 = 100
 LEVEL_RANGE_5 = 120
 LEVEL_RANGE_6 = 150
-LEVEL_RANGE_7 = 200
+LEVEL_RANGE_7 = 190
 LEVEL_RANGE_8 = 300
 
 # 过滤名字结尾是数字的怪
-EXCLUDE_BOSS_NAMES = set(['地天灭亡','地天灭王'])
+EXCLUDE_BOSS_NAMES = set(['',''])
 allInfo = [x for x in SEnvir.BossTrackerList if not (x.BossName)[-1].isdigit() and x.BossName not in EXCLUDE_BOSS_NAMES]
 # 按等级升序
 sortByLevel = sorted(allInfo, cmp=None, key=lambda x: x.BossInfo.Level, reverse=False)

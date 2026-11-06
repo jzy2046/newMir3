@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 #载入模块SYS
 import sys
 #引用模块的地址
@@ -74,12 +74,21 @@ types =[ItemType.Nothing]
 #商品列表  '商品名称'  商品价格比例,固定格式为float(1.5)比例倍数			
 goodslist=[
 ('金创药（小）',float(1)),
-('魔法药（小）',float(1)),
 ('金创药（中）',float(1)),
-('魔法药（中）',float(1)),
 ('金创药（大）',float(1)),
+('金创药（特）',float(1)),
+('魔法药（小）',float(1)),
+('魔法药（中）',float(1)),
 ('魔法药（大）',float(1)),
-('太阳水',float(1)),]
+('魔法药（特）',float(1)),
+('攻击神水（中）',float(1)),
+('自然神水（中）',float(1)),
+('灵魂神水（中）',float(1)),
+('疾风神水（中）',float(1)),
+('体力强效神水（中）',float(1)),
+('魔力强效神水（中）',float(1)),
+('太阳水',float(1)),
+('强效太阳水',float(1))]
 
 goods = collections.OrderedDict(goodslist)
 
