@@ -403,6 +403,15 @@ def OnClick(args):
 			SubGold(Sender,20000)
 			Sender.TeleportByMapIndex(7,390,167)
 			return
+	elif(Menu == 42):
+		if (Sender.Gold < 20000):
+			say = """你没有足够的金币，无法传送。
+				
+				[关闭:0]"""	
+		else:
+			SubGold(Sender,20000)
+			Sender.TeleportByMapIndex(374,182,112)
+			return
 
 
 
@@ -839,7 +848,7 @@ def OnClick(args):
 
 		[真天一层:22]    [黑度一层:23]     [诺玛一层:24]     [西沙地洞:21]
 
-		[不传送:0]
+		[诺玛城市:42]    [不传送:0]
 		
 		"""	
 	Dict['Say']=say                         #定义聊天框对话内容
