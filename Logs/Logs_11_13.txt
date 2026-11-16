@@ -1,0 +1,566 @@
+[2026年11月12日 23:59:59]: 隔天调用成功
+[2026年11月13日 0:23:29]: 开始加载PY脚本
+[2026年11月13日 0:23:29]: 正在加载脚本...
+[2026年11月13日 0:23:31]: 加载脚本成功
+[2026年11月13日 0:23:31]: 开始注册定时脚本函数...
+[2026年11月13日 0:23:31]: 注册定时脚本函数完成
+[2026年11月13日 0:23:31]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:23:31]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:23:31]: 加载PY脚本用时:1419.9074毫秒
+[2026年11月13日 0:41:34]: 开始加载PY脚本
+[2026年11月13日 0:41:34]: 正在加载脚本...
+[2026年11月13日 0:41:36]: 加载脚本成功
+[2026年11月13日 0:41:36]: 开始注册定时脚本函数...
+[2026年11月13日 0:41:36]: 注册定时脚本函数完成
+[2026年11月13日 0:41:36]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:41:36]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:41:36]: 加载PY脚本用时:1314.59毫秒
+[2026年11月13日 0:53:15]: 开始加载PY脚本
+[2026年11月13日 0:53:15]: 正在加载脚本...
+[2026年11月13日 0:53:17]: 加载脚本成功
+[2026年11月13日 0:53:17]: 开始注册定时脚本函数...
+[2026年11月13日 0:53:17]: 注册定时脚本函数完成
+[2026年11月13日 0:53:17]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:53:17]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:53:17]: 加载PY脚本用时:1322.691毫秒
+[2026年11月13日 0:53:41]: 开始加载PY脚本
+[2026年11月13日 0:53:41]: 正在加载脚本...
+[2026年11月13日 0:53:42]: 加载脚本成功
+[2026年11月13日 0:53:42]: 开始注册定时脚本函数...
+[2026年11月13日 0:53:42]: 注册定时脚本函数完成
+[2026年11月13日 0:53:42]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:53:42]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:53:42]: 加载PY脚本用时:1283.0653毫秒
+[2026年11月13日 0:56:46]: 开始加载PY脚本
+[2026年11月13日 0:56:46]: 正在加载脚本...
+[2026年11月13日 0:56:48]: 加载脚本成功
+[2026年11月13日 0:56:48]: 开始注册定时脚本函数...
+[2026年11月13日 0:56:48]: 注册定时脚本函数完成
+[2026年11月13日 0:56:48]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:56:48]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:56:48]: 加载PY脚本用时:1332.371毫秒
+[2026年11月13日 0:57:37]: 开始加载PY脚本
+[2026年11月13日 0:57:37]: 正在加载脚本...
+[2026年11月13日 0:57:38]: 加载脚本成功
+[2026年11月13日 0:57:38]: 开始注册定时脚本函数...
+[2026年11月13日 0:57:38]: 注册定时脚本函数完成
+[2026年11月13日 0:57:38]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:57:38]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:57:38]: 加载PY脚本用时:1247.6437毫秒
+[2026年11月13日 0:57:45]: 开始加载PY脚本
+[2026年11月13日 0:57:45]: 正在加载脚本...
+[2026年11月13日 0:57:46]: 加载脚本成功
+[2026年11月13日 0:57:46]: 开始注册定时脚本函数...
+[2026年11月13日 0:57:46]: 注册定时脚本函数完成
+[2026年11月13日 0:57:46]: 开始执行服务器启动触发脚本...
+[2026年11月13日 0:57:46]: 服务器启动触发脚本执行完毕
+[2026年11月13日 0:57:46]: 加载PY脚本用时:1305.4025毫秒
+[2026年11月13日 1:26:41]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月13日 5:01:21]: [连接] IP地址:195.184.76.75 尝试连接！！！
+[2026年11月13日 5:01:24]: [连接] IP地址:195.184.76.158 尝试连接！！！
+[2026年11月13日 7:44:38]: [连接] IP地址:125.109.41.36 尝试连接！！！
+[2026年11月13日 7:44:38]: [连接] IP地址:125.109.41.36
+[2026年11月13日 7:44:40]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.41.36, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月13日 7:44:58]: [连接] IP地址:125.109.41.36 尝试连接！！！
+[2026年11月13日 7:44:58]: [连接] IP地址:125.109.41.36
+[2026年11月13日 7:44:59]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.41.36, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月13日 7:53:25]: [连接] IP地址:125.109.41.36 尝试连接！！！
+[2026年11月13日 7:53:25]: [连接] IP地址:125.109.41.36
+[2026年11月13日 7:55:31]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.41.36, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月13日 7:55:48]: [连接] IP地址:125.109.41.36 尝试连接！！！
+[2026年11月13日 7:55:48]: [连接] IP地址:125.109.41.36
+[2026年11月13日 7:55:49]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.41.36, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月13日 9:00:30]: [连接] IP地址:204.76.203.221 尝试连接！！！
+[2026年11月13日 9:00:30]: [连接] IP地址:204.76.203.212 尝试连接！！！
+[2026年11月13日 10:06:13]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:24]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:29]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:34]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:39]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:44]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:49]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:54]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:06:59]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:07]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:12]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:17]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:22]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:27]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:32]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:37]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:42]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:47]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:52]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:07:57]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:05]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:10]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:15]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:20]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:25]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:30]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:35]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:40]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:45]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:08:59]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:09:19]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:09:33]: [连接] IP地址:47.97.113.83 尝试连接！！！
+[2026年11月13日 10:51:36]: [连接] IP地址:85.217.149.25 尝试连接！！！
+[2026年11月13日 10:57:14]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月13日 11:14:49]: [连接] IP地址:39.148.135.211 尝试连接！！！
+[2026年11月13日 11:14:49]: [连接] IP地址:39.148.135.211
+[2026年11月13日 11:14:53]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.211, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月13日 11:57:52]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:52]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:52]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:53]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:53]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:53]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:54]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:54]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:54]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:55]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:55]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:55]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:57]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:57]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:57]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:58]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:58]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:58]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:57:59]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:57:59]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:57:59]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:00]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:00]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:00]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:01]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:01]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:01]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:02]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:02]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:02]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:03]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:03]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:03]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:04]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:04]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:04]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:05]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:05]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:05]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:07]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:07]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:07]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:08]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:08]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:08]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:09]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:09]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:09]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:10]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:10]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:10]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:11]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:11]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:11]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:12]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:12]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:12]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:13]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:13]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:13]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:15]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:15]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:15]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:16]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:16]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:16]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:42]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 11:58:42]: [连接] IP地址:115.210.4.236
+[2026年11月13日 11:58:44]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 11:58:55]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:55]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:55]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:56]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:56]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:56]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:57]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:57]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:57]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:58]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:58]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:58]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:58:59]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:58:59]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:58:59]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:59:00]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:59:00]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:59:00]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:59:01]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:59:01]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:59:01]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:59:02]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：乌拉拉  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月13日 11:59:02]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月13日 11:59:02]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月13日 11:59:05]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 11:59:05]: [连接] IP地址:115.210.4.236
+[2026年11月13日 11:59:11]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 11:59:34]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 11:59:35]: [连接] IP地址:115.210.4.236
+[2026年11月13日 11:59:39]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 11:59:58]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 11:59:58]: [连接] IP地址:115.210.4.236
+[2026年11月13日 11:59:59]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:28:29]: 玩家 信三哥永生 成功为奖金池添加 20
+[2026年11月13日 12:28:32]: 玩家 信三哥永生 成功为奖金池添加 20
+[2026年11月13日 12:31:53]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:31:53]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:31:54]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:32:36]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:32:36]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:32:36]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:33:38]: [连接] IP地址:66.132.172.212 尝试连接！！！
+[2026年11月13日 12:33:39]: [连接] IP地址:66.132.172.212 尝试连接！！！
+[2026年11月13日 12:33:41]: [连接] IP地址:66.132.172.212 尝试连接！！！
+[2026年11月13日 12:33:48]: [连接] IP地址:66.132.172.212 尝试连接！！！
+[2026年11月13日 12:37:47]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:37:47]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:37:48]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:39:27]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:39:27]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:39:28]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:47:09]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:47:09]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:47:10]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:47:27]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:47:27]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:47:28]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 12:48:08]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 12:48:08]: [连接] IP地址:115.210.4.236
+[2026年11月13日 12:48:09]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:00:53]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:00:53]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:00:55]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:20:19]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:20]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:20]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:21]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:21]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:25]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:28]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:20:28]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:20:29]: [在使用账号] 账号: 36705638@qq.com, 当前IP: 115.210.4.236, 新IP: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:20:30]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:20:36]: 封包发生错误： AccessoryCombineRequest
+[2026年11月13日 13:20:39]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:20:39]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:20:41]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:20:41]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:20:42]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:20:50]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:21:11]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:21:11]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:21:12]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:23:35]: 玩家 少年在日羊 成功为奖金池添加 20
+[2026年11月13日 13:24:52]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:24:52]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:24:53]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 13:51:36]: 玩家 牛来 成功为奖金池添加 5
+[2026年11月13日 13:51:46]: 玩家 牛来 成功为奖金池添加 50
+[2026年11月13日 13:53:51]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 13:53:51]: [连接] IP地址:115.210.4.236
+[2026年11月13日 13:53:52]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:13:32]: [连接] IP地址:86.38.187.36 尝试连接！！！
+[2026年11月13日 14:32:53]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:32:53]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:32:54]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:33:00]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:33:00]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:33:01]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:33:08]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:33:08]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:33:09]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:36:52]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:36:52]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:36:53]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:57:44]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:57:44]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:57:45]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 14:57:54]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 14:57:54]: [连接] IP地址:115.210.4.236
+[2026年11月13日 14:57:55]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:20:48]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:20:49]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:21:00]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:21:00]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:21:01]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:21:18]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:21:18]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:21:20]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:23:32]: [连接] IP地址:112.1.183.176 尝试连接！！！
+[2026年11月13日 15:23:32]: [连接] IP地址:112.1.183.176
+[2026年11月13日 15:23:33]: [账号登录] 管理员: False, 账号: 6135666@qq.com, IP地址: 112.1.183.176, 安全码: Gps8eKIOVScn54em8AvO
+[2026年11月13日 15:27:21]: 玩家 法神 成功为奖金池添加 2
+[2026年11月13日 15:29:00]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:29:00]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:29:01]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:38:33]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:38:34]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:38:34]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:38:50]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:38:50]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:39:30]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:44:29]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:44:29]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:44:30]: [在使用账号] 账号: 36705638@qq.com, 当前IP: 115.210.4.236, 新IP: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:44:32]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:44:37]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:44:37]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:44:38]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:44:48]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:44:48]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:44:48]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:45:02]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:45:02]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:45:03]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 15:45:06]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 15:45:06]: [连接] IP地址:115.210.4.236
+[2026年11月13日 15:45:10]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 16:00:00]: [连接] IP地址:115.210.4.236 尝试连接！！！
+[2026年11月13日 16:00:00]: [连接] IP地址:115.210.4.236
+[2026年11月13日 16:00:01]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.210.4.236, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月13日 16:02:17]: [连接] IP地址:112.1.183.176 尝试连接！！！
+[2026年11月13日 16:02:17]: [连接] IP地址:112.1.183.176
+[2026年11月13日 16:02:19]: [账号登录] 管理员: False, 账号: 6135666@qq.com, IP地址: 112.1.183.176, 安全码: Gps8eKIOVScn54em8AvO
+[2026年11月13日 16:25:25]: [连接] IP地址:39.148.135.211 尝试连接！！！
+[2026年11月13日 16:25:25]: [连接] IP地址:39.148.135.211
+[2026年11月13日 16:25:27]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.211, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月13日 16:31:43]: 玩家 法神 成功为奖金池添加 2
+[2026年11月13日 17:30:35]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月13日 17:57:13]: [连接] IP地址:121.231.21.157 尝试连接！！！
+[2026年11月13日 17:57:13]: [连接] IP地址:121.231.21.157
+[2026年11月13日 17:57:22]: [账号登录] 管理员: False, 账号: fhqi2001@163.com, IP地址: 121.231.21.157, 安全码: vTQj02kckQxpsA8C8xcn
+[2026年11月13日 17:58:16]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:17]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:22]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:27]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:28]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:28]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:29]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:37]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:38]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:38]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:39]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:39]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:45]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:45]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:46]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:46]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:47]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:47]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:48]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:49]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:49]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:50]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:50]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:51]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:52]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:53]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:55]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:56]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:56]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:57]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:57]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 17:58:58]: [连接] IP地址:35.210.189.219 尝试连接！！！
+[2026年11月13日 18:28:41]: 玩家 法神 成功为奖金池添加 2
+[2026年11月13日 20:00:00]: 找不到活动buff: 150
+[2026年11月13日 20:00:00]: 找不到活动buff: 150
+[2026年11月13日 20:00:00]: 找不到活动buff: 150
+[2026年11月13日 20:00:00]: 找不到活动buff: 150
+[2026年11月13日 20:17:10]: [连接] IP地址:112.1.183.176 尝试连接！！！
+[2026年11月13日 20:17:10]: [连接] IP地址:112.1.183.176
+[2026年11月13日 20:17:12]: [账号登录] 管理员: False, 账号: 6135666@qq.com, IP地址: 112.1.183.176, 安全码: Gps8eKIOVScn54em8AvO
+[2026年11月13日 20:17:18]: 找不到活动buff: 150
+[2026年11月13日 20:17:26]: 玩家 法神 成功为奖金池添加 2
+[2026年11月13日 20:28:00]: [连接] IP地址:112.1.183.176 尝试连接！！！
+[2026年11月13日 20:28:00]: [连接] IP地址:112.1.183.176
+[2026年11月13日 20:28:02]: [账号登录] 管理员: False, 账号: 6135666@qq.com, IP地址: 112.1.183.176, 安全码: Gps8eKIOVScn54em8AvO
+[2026年11月13日 20:28:07]: 找不到活动buff: 150
+[2026年11月13日 20:44:42]: [连接] IP地址:79.124.49.134 尝试连接！！！
+[2026年11月13日 20:47:41]: [连接] IP地址:79.124.49.134 尝试连接！！！
+[2026年11月13日 22:26:40]: [连接] IP地址:39.148.135.211 尝试连接！！！
+[2026年11月13日 22:26:40]: [连接] IP地址:39.148.135.211
+[2026年11月13日 22:26:43]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.211, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月13日 22:26:51]: 找不到活动buff: 150
+[2026年11月13日 22:27:02]: 找不到活动buff: 150
+[2026年11月13日 22:27:32]: 玩家 法神 成功为奖金池添加 5
+[2026年11月13日 22:27:39]: 玩家 法神 成功为奖金池添加 5
+[2026年11月13日 22:40:10]: [连接] IP地址:125.109.41.36 尝试连接！！！
+[2026年11月13日 22:40:10]: [连接] IP地址:125.109.41.36
+[2026年11月13日 22:40:12]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.41.36, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月13日 22:40:20]: 找不到活动buff: 150
+[2026年11月13日 22:50:45]: [连接] IP地址:43.248.108.83 尝试连接！！！
+[2026年11月13日 22:50:53]: [连接] IP地址:123.178.210.230 尝试连接！！！
+[2026年11月13日 22:50:53]: [连接] IP地址:1.83.125.5 尝试连接！！！
+[2026年11月13日 22:50:56]: [连接] IP地址:117.29.104.149 尝试连接！！！
+[2026年11月13日 22:50:56]: [连接] IP地址:182.242.168.15 尝试连接！！！
+[2026年11月13日 23:00:17]: [连接] IP地址:35.206.171.144 尝试连接！！！
+[2026年11月13日 23:00:31]: [连接] IP地址:35.206.171.144 尝试连接！！！
+[2026年11月13日 23:00:36]: [连接] IP地址:35.206.171.144 尝试连接！！！
+[2026年11月13日 23:24:56]: [连接] IP地址:195.96.139.39 尝试连接！！！
+[2026年11月13日 23:37:41]: [连接] IP地址:39.148.135.211 尝试连接！！！
+[2026年11月13日 23:37:41]: [连接] IP地址:39.148.135.211
+[2026年11月13日 23:37:47]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.211, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月13日 23:38:18]: [连接] IP地址:39.148.135.211 尝试连接！！！
+[2026年11月13日 23:38:18]: [连接] IP地址:39.148.135.211
+[2026年11月13日 23:38:25]: [账号登录] 管理员: False, 账号: zhaodi1@126.com, IP地址: 39.148.135.211, 安全码: ZD9zuDdBQheWikotPIbY
