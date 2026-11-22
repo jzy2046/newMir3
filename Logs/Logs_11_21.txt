@@ -1,0 +1,1206 @@
+[2026年11月20日 23:59:59]: 隔天调用成功
+[2026年11月21日 0:13:25]: [连接] IP地址:183.204.62.101 尝试连接！！！
+[2026年11月21日 0:13:38]: [连接] IP地址:183.204.62.105 尝试连接！！！
+[2026年11月21日 0:13:51]: [连接] IP地址:183.204.62.104 尝试连接！！！
+[2026年11月21日 0:31:03]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:31:03]: [连接] IP地址:39.148.135.49
+[2026年11月21日 0:31:05]: [账号登录] 管理员: False, 账号: zhaodi1@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 0:34:09]: [连接] IP地址:66.132.195.114 尝试连接！！！
+[2026年11月21日 0:34:16]: [连接] IP地址:66.132.195.114 尝试连接！！！
+[2026年11月21日 0:37:03]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:37:04]: [连接] IP地址:39.148.135.49
+[2026年11月21日 0:37:16]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 0:46:23]: 授权位置=./授权.license
+[2026年11月21日 0:46:23]: 授权状态=无效
+[2026年11月21日 0:46:23]: 可以启动=False
+[2026年11月21日 0:46:53]: 加载数据库
+[2026年11月21日 0:47:08]: 加载地图
+[2026年11月21日 0:47:15]: 已加载3条反挂特征码
+[2026年11月21日 0:47:15]: 加载安全区
+[2026年11月21日 0:47:17]: 加载钓鱼区
+[2026年11月21日 0:47:17]: 加载地图链接
+[2026年11月21日 0:47:17]: 加载NPC
+[2026年11月21日 0:47:17]: 加载复活点
+[2026年11月21日 0:47:17]: 加载城堡税收
+[2026年11月21日 0:47:17]: 加载数据库成功
+[2026年11月21日 0:47:17]: 服务器启动成功
+[2026年11月21日 0:47:17]: 开始加载PY脚本
+[2026年11月21日 0:47:19]: 正在加载脚本...
+[2026年11月21日 0:47:22]: 加载脚本成功
+[2026年11月21日 0:47:22]: 开始注册定时脚本函数...
+[2026年11月21日 0:47:22]: 注册定时脚本函数完成
+[2026年11月21日 0:47:22]: 开始执行服务器启动触发脚本...
+[2026年11月21日 0:47:22]: 服务器启动触发脚本执行完毕
+[2026年11月21日 0:47:22]: 加载PY脚本用时:4579.7301毫秒
+[2026年11月21日 0:47:22]: 开始加载规则引擎
+[2026年11月21日 0:47:22]: 找到4条规则
+[2026年11月21日 0:47:22]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年11月21日 0:47:22]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年11月21日 0:47:22]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年11月21日 0:47:22]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年11月21日 0:47:22]: 奖金池功能已启用
+[2026年11月21日 0:47:23]: 加载完毕
+[2026年11月21日 0:47:35]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:47:38]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:47:40]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:47:41]: [连接] IP地址:39.148.135.49
+[2026年11月21日 0:47:42]: [连接] IP地址:39.148.135.49
+[2026年11月21日 0:47:43]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 0:48:53]: [账号登录] 管理员: False, 账号: zhaodi1@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 0:49:16]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 0:49:16]: [连接] IP地址:39.148.135.49
+[2026年11月21日 0:49:18]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 7:37:39]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:37:39]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:37:42]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:37:58]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:37:58]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:38:00]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:38:04]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:38:05]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:38:10]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:40:06]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:40:06]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:40:15]: [账号登录] 管理员: False, 账号: 312726815@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:40:29]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:40:29]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:40:31]: [账号登录] 管理员: False, 账号: 312726815@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:43:18]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:43:18]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:43:30]: [账号登录] 管理员: False, 账号: 312726812@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:45:54]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:45:54]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:45:56]: [账号登录] 管理员: False, 账号: 312726812@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:59:10]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:59:10]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:59:15]: [账号登录] 管理员: False, 账号: 312726813@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 7:59:31]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 7:59:31]: [连接] IP地址:125.109.49.223
+[2026年11月21日 7:59:32]: [账号登录] 管理员: False, 账号: 312726813@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 10:34:16]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月21日 10:34:25]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月21日 15:29:52]: [连接] IP地址:5.231.242.12 尝试连接！！！
+[2026年11月21日 15:30:01]: [连接] IP地址:5.231.242.12 尝试连接！！！
+[2026年11月21日 15:30:09]: [连接] IP地址:5.231.242.12 尝试连接！！！
+[2026年11月21日 15:35:01]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 15:35:01]: [连接] IP地址:115.212.209.147
+[2026年11月21日 15:35:02]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 15:35:20]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 15:35:20]: [连接] IP地址:115.212.209.147
+[2026年11月21日 15:35:21]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 15:35:42]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 15:35:42]: [连接] IP地址:115.212.209.147
+[2026年11月21日 15:35:47]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 15:36:06]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 15:36:06]: [连接] IP地址:115.212.209.147
+[2026年11月21日 15:36:11]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 16:07:44]: 玩家 信三哥永生 成功为奖金池添加 800
+[2026年11月21日 16:12:20]: 玩家 信三哥永生 成功为奖金池添加 800
+[2026年11月21日 16:14:08]: [连接] IP地址:85.217.140.44 尝试连接！！！
+[2026年11月21日 16:22:02]: [连接] IP地址:69.5.169.75 尝试连接！！！
+[2026年11月21日 16:23:06]: [连接] IP地址:77.67.26.110 尝试连接！！！
+[2026年11月21日 16:24:45]: 玩家 信三哥永生 成功为奖金池添加 7520
+[2026年11月21日 16:24:48]: 预警：信三哥永生 ，金币值变化 500000000 
+[2026年11月21日 16:32:01]: 玩家 信三哥永生 成功为奖金池添加 6000
+[2026年11月21日 16:32:20]: 玩家 信三哥永生 成功为奖金池添加 6000
+[2026年11月21日 16:32:34]: 玩家 信三哥永生 成功为奖金池添加 6000
+[2026年11月21日 16:32:51]: 玩家 信三哥永生 成功为奖金池添加 6000
+[2026年11月21日 16:45:39]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 16:45:39]: [连接] IP地址:115.212.209.147
+[2026年11月21日 16:45:40]: [账号登录] 管理员: False, 账号: 36705638@qq.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 16:45:47]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 16:45:47]: [连接] IP地址:115.212.209.147
+[2026年11月21日 16:45:48]: [账号登录] 管理员: False, 账号: yuxiao945@163.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 16:45:57]: [连接] IP地址:115.212.209.147 尝试连接！！！
+[2026年11月21日 16:45:57]: [连接] IP地址:115.212.209.147
+[2026年11月21日 16:45:58]: [账号登录] 管理员: False, 账号: 1234567@qq.com, IP地址: 115.212.209.147, 安全码: dHwyj0GxGeZmM6qJd3Di
+[2026年11月21日 17:45:38]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:45:38]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:45:38]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:45:39]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:45:39]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:45:39]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:45:40]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:45:40]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:45:40]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:45:41]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:45:41]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:45:41]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:45:42]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:45:42]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:45:42]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:06]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:06]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:06]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:07]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:07]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:07]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:08]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:08]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:08]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:09]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:09]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:09]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:11]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:11]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:11]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:12]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:12]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:12]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:13]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:13]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:13]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:14]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:14]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:14]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:15]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:15]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:15]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:16]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:16]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:16]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:17]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:17]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:17]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:46]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:46]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:46]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:47]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:47]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:47]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:48]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:48]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:48]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:49]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:49]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:49]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:50]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:50]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:50]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:51]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:51]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:51]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:52]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:52]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:52]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:53]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:53]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:53]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:54]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:54]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:54]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:55]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:55]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:55]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:56]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:56]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:56]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:57]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:57]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:57]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:46:59]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:46:59]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:46:59]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:01]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:01]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:01]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:02]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:02]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:02]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:03]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:03]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:03]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:04]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:04]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:04]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:05]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:05]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:05]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:06]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:06]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:06]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:08]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:08]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:08]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:12]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:12]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:12]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:13]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:13]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:13]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:19]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:19]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:19]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:20]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:20]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:20]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:21]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:21]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:21]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:28]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:28]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:28]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:29]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:29]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:29]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:30]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:30]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:30]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:37]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:37]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:37]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:38]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:38]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:38]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:39]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:39]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:39]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:40]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:40]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:40]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:41]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:41]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:41]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:58]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:58]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:58]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:47:59]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:47:59]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:47:59]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:00]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:00]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:00]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:01]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:01]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:01]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:02]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:02]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:02]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:03]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:03]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:03]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:04]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:04]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:04]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:05]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:05]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:05]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:06]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:06]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:06]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:07]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:07]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:07]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:08]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:08]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:08]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:09]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:09]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:09]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:10]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:10]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:10]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:11]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:11]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:11]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:12]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:12]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:12]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:13]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:13]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:13]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:14]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:14]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:14]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:15]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:15]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:15]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:16]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:16]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:16]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:18]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:18]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:18]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:19]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:19]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:19]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:20]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:20]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:20]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:21]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:21]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:21]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:22]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:22]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:22]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:23]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:23]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:23]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:24]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:24]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:24]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:25]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:25]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:25]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:26]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:26]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:26]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:27]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:27]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:27]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:28]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:28]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:28]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:29]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:29]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:29]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:30]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:30]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:30]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:31]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:31]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:31]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:32]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:32]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:32]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:33]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:33]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:33]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:34]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:34]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:34]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:35]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:35]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:35]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:36]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:36]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:36]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:37]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:37]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:37]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:38]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:38]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:38]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:39]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:39]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:39]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:40]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:40]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:40]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:48:41]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:48:41]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:48:41]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:53]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:53]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:53]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:54]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:54]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:54]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:55]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:55]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:55]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:56]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:56]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:56]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:57]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:57]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:57]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:58]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:58]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:58]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:57:59]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:57:59]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:57:59]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:00]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:00]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:00]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:01]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:01]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:01]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:02]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:02]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:02]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:03]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:03]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:03]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:04]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:04]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:04]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:05]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:05]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:05]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:06]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:06]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:06]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:07]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:07]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:07]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:08]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:08]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:08]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:09]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:09]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:09]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:10]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:10]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:10]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:11]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:11]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:11]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:12]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:12]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:12]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:13]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:13]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:13]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:14]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:14]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:14]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:16]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:16]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:16]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:17]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:17]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:17]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:18]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:18]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:18]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:19]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:19]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:19]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:20]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:20]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:20]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:21]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:21]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:21]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:22]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:22]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:22]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 17:58:23]: 过程操作 Server.Models.DelayedAction 未知异常: 名字：绊倒体  动作：DelayMagic  朝向：System.Collections.Generic.List`1[Server.DBModels.UserMagic]
+[2026年11月21日 17:58:23]: “maxValue”必须大于 0。
+参数名: maxValue
+[2026年11月21日 17:58:23]:    在 System.Random.Next(Int32 maxValue)
+   在 Server.Models.PlayerObject.ElectricShockEnd(UserMagic magic, MonsterObject ob)
+   在 Server.Models.PlayerObject.CompleteMagic(Object[] data)
+   在 Server.Models.PlayerObject.ProcessAction(DelayedAction action)
+   在 Server.Models.MapObject.StartProcess()
+[2026年11月21日 18:51:14]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:15]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:21]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:25]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:27]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:28]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:28]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:51:33]: [连接] IP地址:35.210.89.32 尝试连接！！！
+[2026年11月21日 18:54:59]: [连接] IP地址:35.210.35.216 尝试连接！！！
+[2026年11月21日 18:55:10]: [连接] IP地址:35.210.35.216 尝试连接！！！
+[2026年11月21日 18:55:17]: [连接] IP地址:35.210.35.216 尝试连接！！！
+[2026年11月21日 21:34:44]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 21:34:45]: [连接] IP地址:39.148.135.49
+[2026年11月21日 21:34:59]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 21:43:45]: 玩家 牛来 成功为奖金池添加 2
+[2026年11月21日 21:46:59]: 服务器停止
+[2026年11月21日 21:47:49]: 加载数据库
+[2026年11月21日 21:48:06]: 加载地图
+[2026年11月21日 21:48:41]: 已加载3条反挂特征码
+[2026年11月21日 21:48:41]: 加载安全区
+[2026年11月21日 21:48:41]: 加载钓鱼区
+[2026年11月21日 21:48:41]: 加载地图链接
+[2026年11月21日 21:48:41]: 加载NPC
+[2026年11月21日 21:48:41]: 加载复活点
+[2026年11月21日 21:48:41]: 加载城堡税收
+[2026年11月21日 21:48:41]: 加载数据库成功
+[2026年11月21日 21:48:41]: 服务器启动成功
+[2026年11月21日 21:48:41]: 开始加载PY脚本
+[2026年11月21日 21:48:42]: 正在加载脚本...
+[2026年11月21日 21:48:42]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:42]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:42]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:44]: 加载脚本成功
+[2026年11月21日 21:48:44]: 开始注册定时脚本函数...
+[2026年11月21日 21:48:44]: 注册定时脚本函数完成
+[2026年11月21日 21:48:44]: 开始执行服务器启动触发脚本...
+[2026年11月21日 21:48:44]: 服务器启动触发脚本执行完毕
+[2026年11月21日 21:48:44]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:44]: 加载PY脚本用时:2102.2184毫秒
+[2026年11月21日 21:48:44]: 开始加载规则引擎
+[2026年11月21日 21:48:44]: 找到4条规则
+[2026年11月21日 21:48:44]: 添加 Workflows\奖金池玩法-更新Buff.json 成功
+[2026年11月21日 21:48:44]: 添加 Workflows\奖金池玩法-添加奖金.json 成功
+[2026年11月21日 21:48:44]: 添加 Workflows\奖金池玩法-领取奖金.json 成功
+[2026年11月21日 21:48:44]: 添加 Workflows\奖金池玩法-领取奖金资格检查.json 成功
+[2026年11月21日 21:48:44]: 奖金池功能已启用
+[2026年11月21日 21:48:44]: 加载完毕
+[2026年11月21日 21:48:47]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:47]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:47]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:49]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:52]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:52]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:52]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:54]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:57]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:57]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:57]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:48:59]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:03]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:03]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 21:49:03]: [连接] IP地址:39.148.135.49
+[2026年11月21日 21:49:04]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 21:49:06]: [账号登录] 管理员: False, 账号: 312726815@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 21:49:24]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 21:49:24]: [连接] IP地址:125.109.49.223
+[2026年11月21日 21:49:26]: [账号登录] 管理员: False, 账号: 312726815@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 21:49:56]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 21:49:56]: [连接] IP地址:39.148.135.49
+[2026年11月21日 21:50:00]: [账号登录] 管理员: False, 账号: 312726812@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 21:50:02]: [账号登录] 管理员: False, 账号: zhaodi1@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 21:52:02]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 21:56:24]: [账号登录] 管理员: False, 账号: 312726811@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 22:20:57]: [连接] IP地址:204.76.203.44 尝试连接！！！
+[2026年11月21日 22:20:57]: [连接] IP地址:204.76.203.53 尝试连接！！！
+[2026年11月21日 22:36:09]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 22:36:09]: [连接] IP地址:125.109.49.223
+[2026年11月21日 22:36:13]: [账号登录] 管理员: False, 账号: 312726813@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 22:44:32]: 封包发生错误： CompanionGridRefresh
+[2026年11月21日 22:44:37]: 封包发生错误： CompanionGridRefresh
+[2026年11月21日 23:02:59]: [连接] IP地址:37.77.150.116 尝试连接！！！
+[2026年11月21日 23:47:32]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:47:37]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:48:09]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:48:09]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:48:11]: [账号登录] 管理员: False, 账号: 312726815@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 23:49:00]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:49:00]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:49:01]: [账号登录] 管理员: False, 账号: 312726810@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 23:49:06]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 23:49:06]: [连接] IP地址:39.148.135.49
+[2026年11月21日 23:49:08]: [连接] IP地址:39.148.135.49 尝试连接！！！
+[2026年11月21日 23:49:09]: [连接] IP地址:39.148.135.49
+[2026年11月21日 23:50:15]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:50:15]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:50:17]: [账号登录] 管理员: False, 账号: 312726813@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 23:50:44]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:50:44]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:50:46]: [账号登录] 管理员: False, 账号: 312726812@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 23:51:02]: [连接] IP地址:125.109.49.223 尝试连接！！！
+[2026年11月21日 23:51:02]: [连接] IP地址:125.109.49.223
+[2026年11月21日 23:51:04]: [账号登录] 管理员: False, 账号: 312726812@qq.com, IP地址: 125.109.49.223, 安全码: GjP7dBQahGiykyUARALF
+[2026年11月21日 23:51:23]: [账号登录] 管理员: False, 账号: zhaodi1@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
+[2026年11月21日 23:54:30]: [账号登录] 管理员: False, 账号: zhaodi@126.com, IP地址: 39.148.135.49, 安全码: ZD9zuDdBQheWikotPIbY
